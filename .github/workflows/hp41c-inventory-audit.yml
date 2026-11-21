@@ -1,0 +1,28 @@
+name: HP-41C reference-inventory audit
+
+on:
+  push:
+    paths:
+      - 'docs/de/HP-41C-FUNKTIONSKATALOG.md'
+      - 'docs/reference/hp41c-command-inventory.json'
+      - 'tools/audit_hp41c_functions.py'
+      - '.github/workflows/hp41c-inventory-audit.yml'
+  pull_request:
+    paths:
+      - 'docs/de/HP-41C-FUNKTIONSKATALOG.md'
+      - 'docs/reference/hp41c-command-inventory.json'
+      - 'tools/audit_hp41c_functions.py'
+      - '.github/workflows/hp41c-inventory-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Check source-indexed function/key/XROM presence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run HP-41C inventory audit (Python standard library)
+        run: python3 tools/audit_hp41c_functions.py --json
