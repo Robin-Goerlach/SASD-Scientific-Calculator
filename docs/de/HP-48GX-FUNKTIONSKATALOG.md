@@ -1,8 +1,10 @@
-# HP 48GX – vollständiger ROM-Befehls- und Funktionskatalog
+# HP 48GX – historischer Funktionskatalog (Arbeitsstand, Vollständigkeitsprüfung offen)
 
 **Projekt:** SASD Scientific Calculator · **Recherche:** 21.11.2026  
 **Historisches Referenzmodell:** HP 48GX der 48G-Reihe (Grundausstattung ab Werk; keine beliebig nachgerüsteten Erweiterungskarten).  
-**Status:** Historische Forschungs-/Anforderungsreferenz. **Nicht** gleichbedeutend mit vorhandener SASD-Implementierung.
+**Status:** Historische Forschungs-/Anforderungsreferenz. **Vollständigkeit ausdrücklich noch nicht abgenommen.** **Nicht** gleichbedeutend mit vorhandener SASD-Implementierung.
+
+**Verbindlicher Vollständigkeitsnachweis:** [HP-48GX-VOLLSTAENDIGKEITSAUDIT.md](HP-48GX-VOLLSTAENDIGKEITSAUDIT.md) – Abgleich mit Appendix G des Originalhandbuchs, AUR-Kommandoreferenz, ROM-Index, Tastatur, Menüs und eingebauten Datentabellen. Bis dessen Kriterien erfüllt sind, gilt dieses Dokument als **Arbeitsinventar**.
 
 > **Vollständigkeit und Grenzen:** Kapitel 2a enthält jetzt den belegten Tastatur-, Menü-, App-, Einheiten- und Equation-Library-Abgleich mit den historischen Handbüchern. Die alphabetische Tabelle in Kapitel 3 enthält **sämtliche 517 unterschiedlichen Einträge** der aus dem HP-48GX-ROM generierten *saturnus*-Befehlsnamendatei (`48gx.json`). Dazu gehören Operatoren, Konstanten und RPL-Strukturtoken; daher sind dies **nicht** 517 mathematisch unabhängige Funktionen. Die Vollständigkeit bezieht sich auf **diesen belegten ROM-Namensindex**, nicht auf sämtliche internen System-RPL-Einstiegspunkte, jede Bediensequenz oder alle Inhalte von Fremdkarten. Ergänzende interaktive Funktionen und Grenzen sind ausdrücklich dokumentiert. Alle Kurzbeschreibungen wurden neu verfasst, nicht aus Originalhandbüchern abgeschrieben.
 
