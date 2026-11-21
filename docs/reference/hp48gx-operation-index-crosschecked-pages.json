@@ -1,0 +1,1126 @@
+{
+  "schema": 1,
+  "source": "https://www.hp.com/ctg/Manual/c00442262.pdf",
+  "edition": "HP 48G Series User's Guide, Edition 8, December 1994",
+  "source_digest": "77b25f276277e90fbbd7ca1676d7440f69a844169fec6951382255df26e0782a",
+  "page_scope": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    57,
+    58
+  ],
+  "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified",
+  "limitations": "Only nine selected G pages, not the complete 57-page command index. Multiple contexts with the same printed name appear as separate rows. Row for CASE covers three suboperations in one printed cell.",
+  "source_rows": 111,
+  "items": [
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 1,
+      "label": "←A",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 2,
+      "label": "↪A←",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 3,
+      "label": "A→",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 4,
+      "label": "↪A→",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 5,
+      "label": "ABS",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 6,
+      "label": "ACK",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 7,
+      "label": "ACKALL",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 8,
+      "label": "ACOS",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 9,
+      "label": "ACOSH",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 10,
+      "label": "ADD",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 11,
+      "label": "AF",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 12,
+      "label": "ALOG",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "index_row": 13,
+      "label": "AMORT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 1,
+      "label": "AMORT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 2,
+      "label": "AMRT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 3,
+      "label": "AND",
+      "hp_class": "C/F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 4,
+      "label": "ANIMATE",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 5,
+      "label": "APPLY",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 6,
+      "label": "ARC",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 7,
+      "label": "ARCHIVE",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 8,
+      "label": "AREA",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 9,
+      "label": "ARG",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "index_row": 10,
+      "label": "ARRY→",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 1,
+      "label": "→ARRY",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 2,
+      "label": "ASIN",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 3,
+      "label": "ASINH",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 4,
+      "label": "ASN",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 5,
+      "label": "ASR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 6,
+      "label": "ATAN",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 7,
+      "label": "ATANH",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 8,
+      "label": "ATICK",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 9,
+      "label": "ATTACH",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 10,
+      "label": "AUTO",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 11,
+      "label": "AXES",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 12,
+      "label": "BAR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 13,
+      "label": "BARPLOT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "index_row": 14,
+      "label": "BAUD",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 1,
+      "label": "BEEP",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 2,
+      "label": "BEG",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 3,
+      "label": "BESTFIT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 4,
+      "label": "BIN",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 5,
+      "label": "BINS",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 6,
+      "label": "BLANK",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 7,
+      "label": "BOX",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 8,
+      "label": "BOX",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 9,
+      "label": "BOXZ",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 10,
+      "label": "BUF LEN",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 11,
+      "label": "BYTES",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "index_row": 12,
+      "label": "B→PV",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 1,
+      "label": "B→R",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 2,
+      "label": "CALC",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 3,
+      "label": "CANCL",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 4,
+      "label": "CASE / ↩CASE / ↪CASE",
+      "hp_class": "C/O/O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 5,
+      "label": "CEIL",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 6,
+      "label": "CENTR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 7,
+      "label": "CF",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 8,
+      "label": "%CH",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 9,
+      "label": "✓CHK",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "index_row": 10,
+      "label": "CHOOS",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 1,
+      "label": "CHOOSE",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 2,
+      "label": "CHR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 3,
+      "label": "CIRCL",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 4,
+      "label": "CKSM",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 5,
+      "label": "CLEAR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 6,
+      "label": "CLK",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 7,
+      "label": "CLKADJ",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 8,
+      "label": "CLLCD",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 9,
+      "label": "CLOSEIO",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 10,
+      "label": "CLS",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 11,
+      "label": "CLUSR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 12,
+      "label": "CLVAR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 13,
+      "label": "CNCT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "index_row": 14,
+      "label": "CNRM",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 1,
+      "label": "CNTR",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 2,
+      "label": "→COL",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 3,
+      "label": "+COL",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 4,
+      "label": "COL+",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 5,
+      "label": "−COL",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 6,
+      "label": "COL−",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 7,
+      "label": "COL→",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 8,
+      "label": "COLΣ",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 9,
+      "label": "COLCT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 10,
+      "label": "COLCT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 11,
+      "label": "COLCT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "index_row": 12,
+      "label": "COMB",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 1,
+      "label": "<",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 2,
+      "label": "≤",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 3,
+      "label": ">",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 4,
+      "label": "≥",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 5,
+      "label": "=",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 6,
+      "label": "==",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 7,
+      "label": "≠",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 8,
+      "label": "!",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 9,
+      "label": "∫",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 10,
+      "label": "∂",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 11,
+      "label": "%",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 12,
+      "label": "π",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "index_row": 13,
+      "label": "Σ",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 1,
+      "label": "Σ+",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 2,
+      "label": "Σ−",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 3,
+      "label": "√",
+      "hp_class": "A",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 4,
+      "label": "|",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 5,
+      "label": "1/()",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 6,
+      "label": "(())",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 7,
+      "label": "(←",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 8,
+      "label": "↪ (←",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 9,
+      "label": "→()",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 10,
+      "label": "→)",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 11,
+      "label": "↪ →)",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 12,
+      "label": "←→",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "index_row": 13,
+      "label": "→",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    }
+  ],
+  "page_counts": [
+    {
+      "g_page": 2,
+      "source_rows": 13,
+      "raw_ocr_rows": 13,
+      "exact_rows_detected": 9,
+      "missing_exact": [
+        "←A",
+        "↪A←",
+        "A→",
+        "↪A→"
+      ]
+    },
+    {
+      "g_page": 3,
+      "source_rows": 10,
+      "raw_ocr_rows": 10,
+      "exact_rows_detected": 9,
+      "missing_exact": [
+        "ARRY→"
+      ]
+    },
+    {
+      "g_page": 4,
+      "source_rows": 14,
+      "raw_ocr_rows": 14,
+      "exact_rows_detected": 13,
+      "missing_exact": [
+        "→ARRY"
+      ]
+    },
+    {
+      "g_page": 5,
+      "source_rows": 12,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 10,
+      "missing_exact": [
+        "BUF LEN",
+        "B→PV"
+      ]
+    },
+    {
+      "g_page": 6,
+      "source_rows": 10,
+      "raw_ocr_rows": 5,
+      "exact_rows_detected": 4,
+      "missing_exact": [
+        "B→R",
+        "CASE / ↩CASE / ↪CASE",
+        "CEIL",
+        "CENTR",
+        "CF",
+        "✓CHK"
+      ]
+    },
+    {
+      "g_page": 7,
+      "source_rows": 14,
+      "raw_ocr_rows": 14,
+      "exact_rows_detected": 13,
+      "missing_exact": [
+        "CLS"
+      ]
+    },
+    {
+      "g_page": 8,
+      "source_rows": 12,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 7,
+      "missing_exact": [
+        "→COL",
+        "−COL",
+        "COL−",
+        "COL→",
+        "COLΣ"
+      ]
+    },
+    {
+      "g_page": 57,
+      "source_rows": 13,
+      "raw_ocr_rows": 13,
+      "exact_rows_detected": 13,
+      "missing_exact": []
+    },
+    {
+      "g_page": 58,
+      "source_rows": 13,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 1,
+      "missing_exact": [
+        "Σ+",
+        "Σ−",
+        "√",
+        "|",
+        "1/()",
+        "(←",
+        "↪ (←",
+        "→()",
+        "→)",
+        "↪ →)",
+        "←→",
+        "→"
+      ]
+    }
+  ]
+}
