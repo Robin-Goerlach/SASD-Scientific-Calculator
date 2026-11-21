@@ -1,0 +1,30 @@
+name: HP-48GX independent AUR manual probe
+
+on:
+  push:
+    paths:
+      - 'scripts/probe_hp48gx_aur.py'
+      - '.github/workflows/hp48gx-aur-source-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF text support
+        run: python -m pip install --quiet pymupdf
+      - name: Download independent 1994 HP-48G Advanced User's Reference
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fLsS --retry 2 --connect-timeout 10 --max-time 180 \
+            'https://www.transnull.com/files/hp48/hp48gaur.pdf' -o /tmp/hp48gx-aur-original.pdf
+          test -s /tmp/hp48gx-aur-original.pdf
+          sha256sum /tmp/hp48gx-aur-original.pdf
+      - name: Check original PDF text
+        run: python3 scripts/probe_hp48gx_aur.py /tmp/hp48gx-aur-original.pdf
