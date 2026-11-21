@@ -74,6 +74,24 @@ def key_equal(expected, actual):
     )
 
 
+def alpha_rows(s):
+    """Parse the source-linked, position-indexed ALPHA / SHIFT+ALPHA table."""
+    rows = {}
+    duplicates = []
+    for line in s.splitlines():
+        if not re.match(r"^\\|\\s*\\d{2}\\s*\\|", line):
+            continue
+        cells = [cell.strip().strip(chr(96)) for cell in line.strip().strip("|").split("|")]
+        if len(cells) != 5:
+            continue
+        position = int(cells[0])
+        if position in rows:
+            duplicates.append(position)
+        rows[position] = {"position": position, "key": cells[1],
+                          "alpha": cells[2], "shifted_alpha": cells[3]}
+    return rows, duplicates
+
+
 def check(inv, md):
     baseline = inv["base_index"]
     xrom = inv["xrom_index"]
@@ -125,6 +143,21 @@ def check(inv, md):
         if code not in {record["xrom"] for record in xrom}
         and code not in inv["reserved_xrom_headers"]
     })
+    alpha_expected = inv["alpha_layers"]
+    actual_alpha, duplicate_alpha = alpha_rows(section(md, 7))
+    missing_alpha = []
+    changed_alpha = []
+    for record in alpha_expected:
+        position = record["position"]
+        actual = actual_alpha.get(position)
+        if actual is None:
+            missing_alpha.append(position)
+            continue
+        for label in ("key", "alpha", "shifted_alpha"):
+            expected = record[label] if record[label] is not None else "—"
+            if actual[label] != expected:
+                changed_alpha.append([position, label, expected, actual[label]])
+    extra_alpha = sorted(set(actual_alpha) - {record["position"] for record in alpha_expected})
     actual_keys = keys(section(md, 7))
     missing_keys, wrong_keys = [], []
     for item in keypad:
@@ -135,6 +168,10 @@ def check(inv, md):
             wrong_keys.append([position, item["normal"], actual_keys[position - 1]])
     problems = {
         "cat3_reconciliation": cat3_errors,
+        "missing_alpha": missing_alpha,
+        "changed_alpha": changed_alpha,
+        "duplicate_alpha": duplicate_alpha,
+        "extra_alpha": extra_alpha,
         "missing_base": missing_base,
         "missing_xrom": missing_xrom,
         "wrong_xrom": wrong_xrom,
@@ -151,6 +188,7 @@ def check(inv, md):
         "gosmann_cat3_count": len(gosmann_names),
         "base_count": len(baseline),
         "key_count": len(keypad),
+        "alpha_key_count": len(alpha_expected),
         "xrom_by_profile": dict(Counter(r["profile"] for r in xrom)),
         "actual_key_rows": len(actual_keys),
         **problems,
@@ -170,7 +208,8 @@ def main():
         print(f"HP-41C textual inventory audit: {result['status']}")
         print(f"Baseline: {result['base_count']}; keypad: {result['key_count']}")
         print("XROM: " + ", ".join(f"{k}={v}" for k,v in result["xrom_by_profile"].items()))
-        for key in ("cat3_reconciliation", "missing_base", "missing_xrom", "wrong_xrom", "duplicate_xrom",
+        for key in ("cat3_reconciliation", "missing_alpha", "changed_alpha", "duplicate_alpha", "extra_alpha",
+                    "missing_base", "missing_xrom", "wrong_xrom", "duplicate_xrom",
                     "unexpected_xrom", "missing_key_positions", "wrong_key_positions"):
             if result[key]:
                 print(f"ERROR {key}: {result[key]}")
