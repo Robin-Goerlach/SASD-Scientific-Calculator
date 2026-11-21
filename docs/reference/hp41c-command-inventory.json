@@ -39,6 +39,30 @@
       "title": "HP-41C Training Manual",
       "url": "https://literature.hpcalc.org/community/hp41c-training.pdf",
       "printed_pages": "Function Catalogs"
+    },
+    {
+      "kind": "alpha_keyboard",
+      "title": "HP-41C Quick Reference, German, alpha keyboard drawing",
+      "url": "https://literature.hpcalc.org/community/hp41c-qrg-de.pdf",
+      "pdf_page": 3
+    },
+    {
+      "kind": "alpha_keyboard",
+      "title": "HP-41C/41CV Operating Manual, inside back cover Alpha keyboard",
+      "url": "https://literature.hpcalc.org/community/hp41c41cv-om-en.pdf",
+      "part": "inside back cover"
+    },
+    {
+      "kind": "xrom_crosscheck",
+      "title": "Independent historical XROM.TXT, ROMHandler",
+      "url": "https://robert-scheibe.de/git/cgit.cgi/hp41c.git/tree/ROMHandler/XROM.TXT?h=main&id=c6c9104a61bb609b040c592ee54ece1ac4b36b0c",
+      "part": "XROM 25 and 26"
+    },
+    {
+      "kind": "programmability_crosscheck",
+      "title": "Finseth HP-41C reference: keyboard, programmable operations, ROM revisions",
+      "url": "https://finseth.com/hpdata/hp41c.php",
+      "part": "Keyboard; Programmable-Operations; Bugs/ROM-Versions"
     }
   ],
   "base_index": [
@@ -1585,7 +1609,10 @@
     "Many items are input/editor actions and not programmable functions.",
     "The 117 CAT-3 count stated in the HP Training Manual needs an actual complete unmodified-device transcript.",
     "When one row has multiple aliases, this is NOT an extra historical function.",
-    "Programmability ambiguity: FACT and X<> in original online handbook index vs detailed operating-manual byte columns."
+    "Programmability ambiguity: FACT and X<> in original online handbook index vs detailed operating-manual byte columns.",
+    "Shift+Alpha includes 35 lower keyboard locations, 34 actionable keys and a SHIFT modifier; the four top controls do not produce ALPHA characters.",
+    "XROM naming aliases: independent files may spell ΣREG? as SREG?, and X≠NN? as X#NN?; normalize display names without inventing new functions.",
+    "Secondary module database labels GETAS/SAVEAS as key assignments, but original HP 82180A manual confirms GETAS/SAVEAS transfer ASCII text files to/from HP-IL mass storage: source error, do not change description."
   ],
   "reconstructed_cat3": {
     "status": "derived from independent printed secondary CAT3 index plus original primary references; not device dump",
@@ -1871,5 +1898,252 @@
       "X↑2",
       "Y↑X"
     ]
-  }
+  },
+  "alpha_layers": [
+    {
+      "position": 5,
+      "key": "Σ+",
+      "alpha": "A",
+      "shifted_alpha": "a",
+      "kind": "character"
+    },
+    {
+      "position": 6,
+      "key": "1/X",
+      "alpha": "B",
+      "shifted_alpha": "b",
+      "kind": "character"
+    },
+    {
+      "position": 7,
+      "key": "SQRT",
+      "alpha": "C",
+      "shifted_alpha": "c",
+      "kind": "character"
+    },
+    {
+      "position": 8,
+      "key": "LOG",
+      "alpha": "D",
+      "shifted_alpha": "d",
+      "kind": "character"
+    },
+    {
+      "position": 9,
+      "key": "LN",
+      "alpha": "E",
+      "shifted_alpha": "e",
+      "kind": "character"
+    },
+    {
+      "position": 10,
+      "key": "X<>Y",
+      "alpha": "F",
+      "shifted_alpha": "Σ",
+      "kind": "character"
+    },
+    {
+      "position": 11,
+      "key": "RDN",
+      "alpha": "G",
+      "shifted_alpha": "%",
+      "kind": "character"
+    },
+    {
+      "position": 12,
+      "key": "SIN",
+      "alpha": "H",
+      "shifted_alpha": "≠",
+      "kind": "character"
+    },
+    {
+      "position": 13,
+      "key": "COS",
+      "alpha": "I",
+      "shifted_alpha": "<",
+      "kind": "character"
+    },
+    {
+      "position": 14,
+      "key": "TAN",
+      "alpha": "J",
+      "shifted_alpha": ">",
+      "kind": "character"
+    },
+    {
+      "position": 15,
+      "key": "SHIFT",
+      "alpha": null,
+      "shifted_alpha": null,
+      "kind": "modifier"
+    },
+    {
+      "position": 16,
+      "key": "XEQ",
+      "alpha": "K",
+      "shifted_alpha": "APPEND",
+      "kind": "function"
+    },
+    {
+      "position": 17,
+      "key": "STO",
+      "alpha": "L",
+      "shifted_alpha": "ASTO",
+      "kind": "function"
+    },
+    {
+      "position": 18,
+      "key": "RCL",
+      "alpha": "M",
+      "shifted_alpha": "ARCL",
+      "kind": "function"
+    },
+    {
+      "position": 19,
+      "key": "SST",
+      "alpha": "SST",
+      "shifted_alpha": "BST",
+      "kind": "function"
+    },
+    {
+      "position": 20,
+      "key": "ENTER↑",
+      "alpha": "N",
+      "shifted_alpha": "↑",
+      "kind": "character"
+    },
+    {
+      "position": 21,
+      "key": "CHS",
+      "alpha": "O",
+      "shifted_alpha": "∠",
+      "kind": "character"
+    },
+    {
+      "position": 22,
+      "key": "EEX",
+      "alpha": "P",
+      "shifted_alpha": "$",
+      "kind": "character"
+    },
+    {
+      "position": 23,
+      "key": "BACKSPACE",
+      "alpha": "←",
+      "shifted_alpha": "CLA",
+      "kind": "function"
+    },
+    {
+      "position": 24,
+      "key": "−",
+      "alpha": "Q",
+      "shifted_alpha": "−",
+      "kind": "character"
+    },
+    {
+      "position": 25,
+      "key": "7",
+      "alpha": "R",
+      "shifted_alpha": "7",
+      "kind": "character"
+    },
+    {
+      "position": 26,
+      "key": "8",
+      "alpha": "S",
+      "shifted_alpha": "8",
+      "kind": "character"
+    },
+    {
+      "position": 27,
+      "key": "9",
+      "alpha": "T",
+      "shifted_alpha": "9",
+      "kind": "character"
+    },
+    {
+      "position": 28,
+      "key": "+",
+      "alpha": "U",
+      "shifted_alpha": "+",
+      "kind": "character"
+    },
+    {
+      "position": 29,
+      "key": "4",
+      "alpha": "V",
+      "shifted_alpha": "4",
+      "kind": "character"
+    },
+    {
+      "position": 30,
+      "key": "5",
+      "alpha": "W",
+      "shifted_alpha": "5",
+      "kind": "character"
+    },
+    {
+      "position": 31,
+      "key": "6",
+      "alpha": "X",
+      "shifted_alpha": "6",
+      "kind": "character"
+    },
+    {
+      "position": 32,
+      "key": "×",
+      "alpha": "Y",
+      "shifted_alpha": "*",
+      "kind": "character"
+    },
+    {
+      "position": 33,
+      "key": "1",
+      "alpha": "Z",
+      "shifted_alpha": "1",
+      "kind": "character"
+    },
+    {
+      "position": 34,
+      "key": "2",
+      "alpha": "=",
+      "shifted_alpha": "2",
+      "kind": "character"
+    },
+    {
+      "position": 35,
+      "key": "3",
+      "alpha": "?",
+      "shifted_alpha": "3",
+      "kind": "character"
+    },
+    {
+      "position": 36,
+      "key": "÷",
+      "alpha": ":",
+      "shifted_alpha": "/",
+      "kind": "character"
+    },
+    {
+      "position": 37,
+      "key": "0",
+      "alpha": "SPACE",
+      "shifted_alpha": "0",
+      "kind": "character"
+    },
+    {
+      "position": 38,
+      "key": ".",
+      "alpha": ",",
+      "shifted_alpha": ".",
+      "kind": "character"
+    },
+    {
+      "position": 39,
+      "key": "R/S",
+      "alpha": "R/S",
+      "shifted_alpha": "AVIEW",
+      "kind": "function"
+    }
+  ]
 }
