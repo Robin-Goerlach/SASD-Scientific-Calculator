@@ -55,12 +55,13 @@
     50,
     51,
     52,
+    53,
     57,
     58
   ],
   "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified; manually supplemented G-57 entries are NOT counted as independent OCR confirmations",
   "limitations": "Only nine selected G pages, not the complete 57-page command index. Multiple contexts with the same printed name appear as separate rows. Row for CASE covers three suboperations in one printed cell.",
-  "source_rows": 648,
+  "source_rows": 661,
   "items": [
     {
       "g_page": 2,
@@ -5124,10 +5125,10 @@
       "g_page": 48,
       "pdf_page": 528,
       "index_row": 1,
-      "label": "TAHN",
+      "label": "TANH",
       "hp_class": "A",
-      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "source_status": "SOURCE_TEXT_NORMALIZED_FROM_TAHN_ERROR_UNVERIFIED_SCAN",
+      "exact_ocr_detected": true
     },
     {
       "g_page": 48,
@@ -5223,61 +5224,79 @@
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 1,
-      "label": "TVARS",
+      "label": "TLINE",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 2,
-      "label": "TVM",
-      "hp_class": "C",
+      "label": "TLINE",
+      "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 3,
-      "label": "TVMBEG",
+      "label": "TMENU",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 4,
-      "label": "TVMEND",
+      "label": "TOT",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 5,
-      "label": "TVMROOT",
+      "label": "TRACE",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 6,
-      "label": "TYPE",
-      "hp_class": "C",
+      "label": "TRACE",
+      "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 49,
       "pdf_page": 529,
       "index_row": 7,
-      "label": "TYPES",
+      "label": "TRANSIO",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "index_row": 8,
+      "label": "TRG*",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "index_row": 9,
+      "label": "→TRG",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
       "exact_ocr_detected": false
@@ -5285,24 +5304,123 @@
     {
       "g_page": 49,
       "pdf_page": 529,
+      "index_row": 10,
+      "label": "TRN",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "index_row": 11,
+      "label": "TRNC",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "index_row": 12,
+      "label": "TRUTH",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "index_row": 13,
+      "label": "TSTR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 1,
+      "label": "TVARS",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 2,
+      "label": "TVM",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 3,
+      "label": "TVMBEG",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 4,
+      "label": "TVMEND",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 5,
+      "label": "TVMROOT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 6,
+      "label": "TYPE",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "index_row": 7,
+      "label": "TYPES",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 8,
       "label": "UBASE",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 49,
-      "pdf_page": 529,
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 9,
       "label": "UFACT",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 49,
-      "pdf_page": 529,
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 10,
       "label": "→UNIT",
       "hp_class": "C",
@@ -5310,107 +5428,107 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 49,
-      "pdf_page": 529,
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 11,
       "label": "UNTIL",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 49,
-      "pdf_page": 529,
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 12,
       "label": "UPDIR",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 49,
-      "pdf_page": 529,
+      "g_page": 50,
+      "pdf_page": 530,
       "index_row": 13,
       "label": "UTPC",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 1,
       "label": "UTPF",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 2,
       "label": "UTPN",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 3,
       "label": "UTPT",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 4,
       "label": "UVAL",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 5,
       "label": "VAR",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 6,
       "label": "VARS",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 7,
       "label": "VEC",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 8,
       "label": "VIEW",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 9,
       "label": "↪ VIEW",
       "hp_class": "O",
@@ -5418,53 +5536,53 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 10,
       "label": "VIEW",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 50,
-      "pdf_page": 530,
+      "g_page": 51,
+      "pdf_page": 531,
       "index_row": 11,
       "label": "VPAR",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 1,
       "label": "VTYPE",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 2,
       "label": "VZIN",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 3,
       "label": "VZOUT",
       "hp_class": "O",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 4,
       "label": "→V2",
       "hp_class": "O",
@@ -5472,8 +5590,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 5,
       "label": "→V3",
       "hp_class": "C",
@@ -5481,8 +5599,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 6,
       "label": "V→",
       "hp_class": "C",
@@ -5490,8 +5608,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 7,
       "label": "*W",
       "hp_class": "C",
@@ -5499,26 +5617,26 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 8,
       "label": "WAIT",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 9,
       "label": "WHILE",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 10,
       "label": "↩ WHILE",
       "hp_class": "O",
@@ -5526,8 +5644,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 11,
       "label": "WID→",
       "hp_class": "O",
@@ -5535,8 +5653,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 12,
       "label": "←WID",
       "hp_class": "O",
@@ -5544,8 +5662,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 51,
-      "pdf_page": 531,
+      "g_page": 52,
+      "pdf_page": 532,
       "index_row": 13,
       "label": "WIREFRAME",
       "hp_class": "C",
@@ -5553,17 +5671,17 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 1,
       "label": "WSLOG",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 2,
       "label": "ΣX",
       "hp_class": "C",
@@ -5571,8 +5689,8 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 3,
       "label": "ΣX^2",
       "hp_class": "C",
@@ -5580,85 +5698,85 @@
       "exact_ocr_detected": false
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 4,
       "label": "XCOL",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 5,
       "label": "XMIT",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 6,
       "label": "XOR",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 7,
       "label": "XPON",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 8,
       "label": "XRECV",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 9,
       "label": "XRNG",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 10,
       "label": "XROOT",
       "hp_class": "A",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 11,
       "label": "XSEND",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
-      "g_page": 52,
-      "pdf_page": 532,
+      "g_page": 53,
+      "pdf_page": 533,
       "index_row": 12,
       "label": "XVOL",
       "hp_class": "C",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": false
+      "exact_ocr_detected": true
     },
     {
       "g_page": 57,
@@ -6441,97 +6559,74 @@
       "g_page": 48,
       "source_rows": 11,
       "raw_ocr_rows": 11,
-      "exact_rows_detected": 9,
+      "exact_rows_detected": 10,
       "missing_exact": [
-        "TAHN",
         "→TIME"
       ],
       "explicit_text_fallback": false
     },
     {
       "g_page": 49,
+      "pdf_page": 529,
       "source_rows": 13,
       "raw_ocr_rows": 13,
-      "exact_rows_detected": 0,
+      "exact_rows_detected": 12,
       "missing_exact": [
-        "TVARS",
-        "TVM",
-        "TVMBEG",
-        "TVMEND",
-        "TVMROOT",
-        "TYPE",
-        "TYPES",
-        "UBASE",
-        "UFACT",
-        "→UNIT",
-        "UNTIL",
-        "UPDIR",
-        "UTPC"
+        "→TRG"
       ],
       "explicit_text_fallback": false
     },
     {
       "g_page": 50,
-      "source_rows": 11,
+      "source_rows": 13,
       "raw_ocr_rows": 13,
-      "exact_rows_detected": 0,
+      "exact_rows_detected": 12,
       "missing_exact": [
-        "UTPF",
-        "UTPN",
-        "UTPT",
-        "UVAL",
-        "VAR",
-        "VARS",
-        "VEC",
-        "VIEW",
-        "↪ VIEW",
-        "VIEW",
-        "VPAR"
+        "→UNIT"
       ],
-      "explicit_text_fallback": false
+      "explicit_text_fallback": false,
+      "pdf_page": null
     },
     {
       "g_page": 51,
-      "source_rows": 13,
+      "source_rows": 11,
       "raw_ocr_rows": 11,
-      "exact_rows_detected": 0,
+      "exact_rows_detected": 10,
       "missing_exact": [
-        "VTYPE",
-        "VZIN",
-        "VZOUT",
+        "↪ VIEW"
+      ],
+      "explicit_text_fallback": false,
+      "pdf_page": null
+    },
+    {
+      "g_page": 52,
+      "source_rows": 13,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 5,
+      "missing_exact": [
         "→V2",
         "→V3",
         "V→",
         "*W",
-        "WAIT",
-        "WHILE",
         "↩ WHILE",
         "WID→",
         "←WID",
         "WIREFRAME"
       ],
-      "explicit_text_fallback": false
+      "explicit_text_fallback": false,
+      "pdf_page": null
     },
     {
-      "g_page": 52,
+      "g_page": 53,
       "source_rows": 12,
       "raw_ocr_rows": 12,
-      "exact_rows_detected": 0,
+      "exact_rows_detected": 10,
       "missing_exact": [
-        "WSLOG",
         "ΣX",
-        "ΣX^2",
-        "XCOL",
-        "XMIT",
-        "XOR",
-        "XPON",
-        "XRECV",
-        "XRNG",
-        "XROOT",
-        "XSEND",
-        "XVOL"
+        "ΣX^2"
       ],
-      "explicit_text_fallback": false
+      "explicit_text_fallback": false,
+      "pdf_page": null
     },
     {
       "g_page": 57,
