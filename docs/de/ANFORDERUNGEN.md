@@ -41,6 +41,8 @@ Mathematische Algorithmen, Parser, numerische Hilfen, Statistik, Matrizen, Tests
 
 Time Module, Statistics Pac, Advantage-Pac-inspirierte **funktionale** Ergänzungen, RAM-Karten und Bibliotheken später; keine ungeprüfte historische ROM-Nachbildung. UPN/ALG-Hilfe und erste Offline-Erklärungen früh, vollständiges interaktives Lernprogramm später. Inhalte und Tests dürfen nur als **implementiert** gelten, wenn tatsächlich eine funktionsfähige Umsetzung mit Nachweis existiert.
 
+**Fachlich konsolidiertes Lastenheft:** [SASD Scientific Calculator – Lastenheft](../LASTENHEFT.md). Das Lastenheft beschreibt Anforderungen, Prioritäten, Abnahme und Abgrenzungen; die historischen vollständigen Befehlslisten liegen separat unter [HP-41C](HP-41C-FUNKTIONSKATALOG.md) und [HP 48GX](HP-48GX-FUNKTIONSKATALOG.md).
+
 ## Verbindliche Lesewege
 
 - [Detaillierte Anforderungsmatrix (EN)](../en/REQUIREMENTS-MATRIX.md)
