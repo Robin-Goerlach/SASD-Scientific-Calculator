@@ -4,7 +4,7 @@
 
 **Strategy C with strict priority A:** the portable architecture and future calculator family remain in view, but work that does not improve a shippable *classic scientific calculator* must not delay M1/M2.
 
-The governing detailed product requirements and acceptance boundaries are documented in the **[German Lastenheft](docs/LASTENHEFT.md)**. Historical command completeness is tracked in separate [HP-41C](docs/de/HP-41C-FUNKTIONSKATALOG.md) and [HP 48GX](docs/de/HP-48GX-FUNKTIONSKATALOG.md) catalogs, not as first-release scope.
+The governing detailed product requirements and acceptance boundaries are documented in the **[German Lastenheft](docs/LASTENHEFT.md)**. The **[Pflichtenheft](docs/PFLICHTENHEFT.md)** defines the proposed technical decomposition, implementation/test responsibilities, 200-ID traceability, and unresolved ADR gates; it does not change the M0–M5 release priority. Historical command completeness is tracked in separate [HP-41C](docs/de/HP-41C-FUNKTIONSKATALOG.md) and [HP 48GX](docs/de/HP-48GX-FUNKTIONSKATALOG.md) catalogs, not as first-release scope.
 
 ## Status vocabulary
 

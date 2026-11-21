@@ -2,6 +2,8 @@
 
 **Stand:** 21.11.2026. **Planungsstand, keine Funktionszusage für die vorhandene Software.** Der aktuelle C++20-Kern beherrscht bislang nur einfache generische RPN-Grundoperationen. Eine native iPhone-App gibt es noch nicht.
 
+**Technische Ausarbeitung zum Lastenheft:** [Pflichtenheft – SASD Scientific Calculator](../PFLICHTENHEFT.md). Der aktuelle Codebestand ist nur ein kleiner RPN-Prototyp; die Umsetzungsvorschläge sind ausdrücklich keine Behauptung über bereits fertiggestellte Apps oder historische Kompatibilität.
+
 ## Verbindliches erstes Produktziel
 
 Zuerst entsteht ein **hochwertiger klassischer wissenschaftlicher UPN/RPN-Rechner auf dem iPhone**, möglichst auch für das iPhone XS. Er arbeitet offline, ist werbefrei, benötigt kein Abo und soll nach Möglichkeit kostenlos sein. Im Hochformat zeigt er ausschließlich Rechner und vollständige, geprüfte Tastatur; links oben sitzt eine dezente anklickbare SASD-Kennzeichnung.

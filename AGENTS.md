@@ -1,5 +1,7 @@
 # AGENTS.md — operating rules for coding agents and contributors
 
+**Technical implementation guidance:** Consult [`docs/PFLICHTENHEFT.md`](docs/PFLICHTENHEFT.md) after the Lastenheft, especially its source-ID traceability, proposed architecture modules and open ADRs. Its recommendations must not be treated as approved historical semantics or implemented code.
+
 **Normative product scope:** Read [`docs/LASTENHEFT.md`](docs/LASTENHEFT.md) before any scope, release-gate or historical-compatibility decision. This German Lastenheft consolidates binding versus planned versus optional requirements; full historic function catalogs remain separate.
 
 These instructions apply to the whole repository. Read `README.md`, `ROADMAP.md`, `TASKS.md` and `docs/en/DECISIONS.md` before changing scope or architecture.

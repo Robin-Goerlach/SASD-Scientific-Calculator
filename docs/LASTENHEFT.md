@@ -12,6 +12,8 @@
 >
 > **Dieses Lastenheft beschreibt aus Auftraggeber- und Produktsicht das WAS und WARUM.** Technische Ausführungsdetails, konkrete C++-Typen, Dateien, Tastencodes und die vollständigen Befehlsinventare gehören in Architektur, Pflichtenheft, Testfälle bzw. separate Funktionskataloge. Übernommene Architekturentscheidungen werden hier als Randbedingungen festgehalten, ohne einen bereits implementierten Funktionsumfang vorzutäuschen.
 
+> **Technische Ausarbeitung:** [Pflichtenheft – SASD Scientific Calculator](PFLICHTENHEFT.md). Es spezifiziert mögliche Realisierungsbausteine, Testfälle und die Rückverfolgbarkeit aller 200 Lastenheft-IDs. Die hier dokumentierten verbindlichen fachlichen Anforderungen werden dadurch **nicht** stillschweigend verändert.
+
 ---
 
 ## 1. Dokumentzweck, Verbindlichkeit und Abgrenzung
