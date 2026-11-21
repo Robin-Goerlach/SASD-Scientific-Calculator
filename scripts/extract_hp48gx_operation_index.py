@@ -78,7 +78,20 @@ def main():
     for g in range(2,59):
         p=pdf[479+g]  # G-1 is 1-based PDF page 481
         rows=page_candidates(run_ocr(p),g,round(p.rect.height*DPI/72),valid)
-        pages.append(dict(g=g,pdf_page=480+g,candidates=len(rows)))
+        if g == 57 and not rows:
+            # The original G-57 page contains operator symbols almost exclusively.
+            # Tesseract cannot reliably detect these name-column glyphs.
+            # This *separately marked* transcription is from the searchable
+            # HP Operation Index and needs manual verification against the scan.
+            symbols=["<", "≤", ">", "≥", "=", "==", "≠", "!", "∫", "∂", "%", "π", "Σ"]
+            rows=[dict(g_page=g,pdf_page=480+g,name_ocr=n,y=None,
+                       confidence=None,adjacent_description=None,
+                       exact_rom_match=n in valid,
+                       rom_match_suggestions=[],
+                       status="INDEX_TEXT_TRANSCRIPTION_UNVERIFIED")
+                  for n in symbols]
+        pages.append(dict(g=g,pdf_page=480+g,candidates=len(rows),
+                          non_ocr_supplement=bool(g==57 and rows and rows[0]["status"]!="OCR_UNVERIFIED")))
         all_rows.extend(rows)
         print('G-%02d candidates %d' % (g,len(rows)),flush=True)
     too_short=[x for x in pages if x['candidates']<3]
@@ -89,7 +102,7 @@ def main():
                 source_sha256=checksum,model='HP 48GX / 48G series',
                 edition='HP 48G Series User\x27s Guide, December 1994, edition 8',
                 page_range='G-2–G-58 / PDF 482–538',
-                note='Unverified OCR candidate names, not a human-checked full operation index',
+                note='Unverified OCR candidates, plus an explicitly labelled text-index transcription for symbol-only G-57; not a human-checked full index',
                 candidates=len(all_rows),unique_exact_rom_names=len(found),
                 unmatched_ocr_candidates=len(unfamiliar),page_summary=pages,rows=all_rows)
     Path(a.output).parent.mkdir(parents=True,exist_ok=True)
@@ -98,7 +111,7 @@ def main():
            '**STATUS: AUTOMATISCHE TEXTERKENNUNG – KEINE HISTORISCHE VOLLSTÄNDIGKEITSFREIGABE.**', '',
            'Quelle: HP 48G Series User\x27s Guide (Dezember 1994, Edition 8), Appendix G.',
            'SHA256: '+checksum,'',
-           '- Alle 57 Index-Tabellenseiten G-2 bis G-58 maschinell verarbeitet.',
+           '- Alle 57 Index-Tabellenseiten G-2 bis G-58 maschinell verarbeitet; G-57 separat als unbestätigte Texttranskription ergänzt.',
            '- OCR-Kandidaten: '+str(len(all_rows)),
            '- Als ROM-Namen exakt erkannte unterschiedliche Namen: '+str(len(found)),
            '- Nicht exakt zugeordneten OCR-Kandidaten: '+str(len(unfamiliar)), '',
