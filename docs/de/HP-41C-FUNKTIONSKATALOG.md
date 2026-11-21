@@ -387,6 +387,50 @@ Die ALPHA-Spalte nennt die **einfachen** ALPHA-Tasten. Auch SHIFT-ALPHA-Zeichen,
 
 **Foto- und Tastatur-Kontrolle:** Aufgedruckt und daher kein Modul: Σ−, Y↑X, X², 10↑X, E↑X, CLΣ, %, ASIN/ACOS/ATAN, ASN, LBL, GTO, BST, CATALOG, ISG, RTN, X=Y?, SF, CF, FS?, X≤Y?, BEEP, P→R, R→P, X>Y?, FIX, SCI, ENG, X=0?, π, LAST X, VIEW. Nicht aufgedruckte Standardbefehle werden über XEQ oder USER-Zuweisung angesprochen.
 
+### 7.2 ALPHA- und SHIFT+ALPHA-Ebene: alle 35 unteren Tastenpositionen
+
+Die bisherige Matrix der **39 physischen Tasten** enthielt nur die einfache ALPHA-Beschriftung, aber **nicht** alle SHIFT+ALPHA-Funktionen. Hier sind beide Ebenen unabhängig anhand des originalen HP-Dokuments erfasst. `—` bedeutet Modifikator ohne auszugebendes Zeichen; die vier oberen Modustasten sind nicht Bestandteil der 35 unteren Positionen.
+
+| Position | Normaltaste | ALPHA | SHIFT+ALPHA | Art |
+| ---: | --- | --- | --- | --- |
+| 05 | `Σ+` | `A` | `a` | Zeichen |
+| 06 | `1/X` | `B` | `b` | Zeichen |
+| 07 | `SQRT` | `C` | `c` | Zeichen |
+| 08 | `LOG` | `D` | `d` | Zeichen |
+| 09 | `LN` | `E` | `e` | Zeichen |
+| 10 | `X<>Y` | `F` | `Σ` | Zeichen |
+| 11 | `RDN` | `G` | `%` | Zeichen |
+| 12 | `SIN` | `H` | `≠` | Zeichen |
+| 13 | `COS` | `I` | `<` | Zeichen |
+| 14 | `TAN` | `J` | `>` | Zeichen |
+| 15 | `SHIFT` | `—` | `—` | Umschaltung |
+| 16 | `XEQ` | `K` | `APPEND` | Funktion |
+| 17 | `STO` | `L` | `ASTO` | Funktion |
+| 18 | `RCL` | `M` | `ARCL` | Funktion |
+| 19 | `SST` | `SST` | `BST` | Funktion |
+| 20 | `ENTER↑` | `N` | `↑` | Zeichen |
+| 21 | `CHS` | `O` | `∠` | Zeichen |
+| 22 | `EEX` | `P` | `$` | Zeichen |
+| 23 | `BACKSPACE` | `←` | `CLA` | Funktion |
+| 24 | `−` | `Q` | `−` | Zeichen |
+| 25 | `7` | `R` | `7` | Zeichen |
+| 26 | `8` | `S` | `8` | Zeichen |
+| 27 | `9` | `T` | `9` | Zeichen |
+| 28 | `+` | `U` | `+` | Zeichen |
+| 29 | `4` | `V` | `4` | Zeichen |
+| 30 | `5` | `W` | `5` | Zeichen |
+| 31 | `6` | `X` | `6` | Zeichen |
+| 32 | `×` | `Y` | `*` | Zeichen |
+| 33 | `1` | `Z` | `1` | Zeichen |
+| 34 | `2` | `=` | `2` | Zeichen |
+| 35 | `3` | `?` | `3` | Zeichen |
+| 36 | `÷` | `:` | `/` | Zeichen |
+| 37 | `0` | `SPACE` | `0` | Zeichen |
+| 38 | `.` | `,` | `.` | Zeichen |
+| 39 | `R/S` | `R/S` | `AVIEW` | Funktion |
+
+ALPHA-Eingabe: `APPEND`, `ASTO`, `ARCL`, `BST`, `CLA` und `AVIEW` sind Funktionen auf dieser Ebene; Zeichen wie `Σ`, `≠`, `∠`, `↑`, `$` und die Kleinbuchstaben werden ausdrücklich erfasst. **Quellen:** [HP-41C Kurzanleitung, PDF-Seite 3](https://literature.hpcalc.org/community/hp41c-qrg-de.pdf); [HP-41C/41CV Operating Manual, ALPHA-Tastatur auf dem Umschlag](https://literature.hpcalc.org/community/hp41c41cv-om-en.pdf).
+
 ## 8. Korrigierter Kreuzcheck gegen Original-Funktionsindex
 
 **Quellen:** HP-41C Owner's Handbook and Programming Guide, **Funktionsindex S. 267–270**, Bedingungen **S. 170–171**, SIGN **S. 85**; HP-41C/41CV Operating Manual, **Function Index S. 59–68**. Nicht jede Web-Abschrift ordnet mehrspaltige Hinweise korrekt zu. Der detaillierte Index mit der Spalte **Bytes** löst unter anderem die missverständlichen „not programmable“-Angaben auf.
