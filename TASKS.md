@@ -22,3 +22,14 @@ Maintain this as a lightweight, task-oriented overview. GitHub Issues may track 
 | P-01 | separate | other repo | Financial calculator and optional modules | own requirements | **never a blocker** | out of scope |
 
 **Task completion rule:** code merged on `main` with regression tests + documentation updated; CI green. A generated image or planned API does not count as implementation. Small incremental commits to `main` are acceptable for this solo-maintained repository if the gates are respected.
+
+## Active GitHub issue entry points
+
+- [#1 — V1 keyboard/command inventory](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/1) — F-02 (M0/P0).
+- [#2 — iPhone XS / Xcode deployment verification](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/2) — M0/P0.
+- [#3 — RPN semantics and error contract](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/3) — C-01 (M1/P0).
+- [#4 — Scientific functions and test fixtures](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/4) — C-02 (M1/P0).
+- [#5 — Versioned persistent state](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/5) — C-03 (M1/P0).
+- [#6 — Versioned C ABI and native iPhone UI](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/6) — C-04/I-01 (M1→M2/P0).
+- [#7 — App Store / physical-device acceptance](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/7) — I-03 (M2/P0).
+- [#8 — Verify actual CI runs and regression coverage](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/8) — F-01 follow-up (M0/P1).
