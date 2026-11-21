@@ -50,7 +50,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 - Uhr, Datum, Sekundenbasis, Alarm-/Terminverwaltung und Zeitberechnungen.
 - Serielle Rechner-zu-Rechner-/PC-Übertragung über Kermit und XModem, Infrarotkommunikation zu anderen Rechnern und kompatiblen Druckern, druckbare Stackinhalte und Bildschirmbilder.
 - Eingebaute Test-/Wartungsfunktionen (Tastatur, Display/Hardware, RAM-/Port- und Schnittstellentests), Kontrasteinstellungen und definierte Resetabläufe. Nicht alles ist als User-RPL-Mnemonic vorhanden.
-- ROM-Versionen und besondere eingebaute Befehle `VERSION`, `RULES` (Umformungsregeln), `TEACH`/`CLTEACH` und `MINEHUNT`.
+- ROM-Versionen und besondere eingebaute Befehle `VERSION`, `RULES` (undokumentierte Entwicklerfunktion; vom EquationWriter-Regelmenü zu unterscheiden), `TEACH`/`CLTEACH` und `MINEHUNT`.
 
 ## 2a. Überprüfung anhand der Originalhandbücher und der vollständigen Tastatur
 
@@ -259,13 +259,13 @@ Die Kurzanleitung zeigt lediglich das UNITS-Menü; die vollständige Menüauftei
 | POWR – Leistung | `W`, `hp` |
 | PRESS – Druck | `Pa`, `atm`, `bar`, `psi`, `torr`, `mmHg`, `inHg`, `inH₂O` |
 | TEMP – Temperatur | `°C`, `°F`, `K`, `°R` |
-| ELEC – Elektrische/magnetische Größen | `V`, `A`, `C`, `Ω`, `F`, `Wb`, `Fdy`, `H`, `mho`, `S`, `T`, `Wb` |
+| ELEC – Elektrische/magnetische Größen | `V`, `A`, `C`, `Ω`, `F`, `W`, `Fdy`, `H`, `mho`, `S`, `T`, `Wb` |
 | ANGL – Winkel | `°`, `rad`, `grad`, `arcmin`, `arcsec`, `sr` |
 | LIGHT – Photometrie | `fc`, `flam`, `lx`, `ph`, `sb`, `lm`, `cd`, `lam` |
 | RAD – Strahlung | `Gy`, `rad`, `rem`, `Sv`, `Bq`, `Ci`, `R` |
 | VISC – Viskosität | `P`, `St` |
 
-**Zusätzliche nicht bloß aus einem Menü-Label ableitbare Funktionen:** SI-Vorsätze, Einheitenprodukte/Quotienten/Potenzen, dimensionsbehaftete Rechnungen, dimensionsfremde Fehlermeldungen, `UBASE`, `UFACT`, `UVAL`, `CONVERT`, `→UNIT`, die besondere Temperaturbehandlung mit `TDELTA`/`TINC`, benutzerdefinierte Einheiten als Variablen und Einheitenanzeige im SOLVE/EQ-LIB-Kontext. Die obigen 148 Schreibformen sind ein **Rechercheindex**, **keine geprüfte numerische Tabelle** aller Umrechnungsfaktoren; solche Faktoren einschließlich Offset/Skala und Rundung erfordern gesonderte Referenztests.
+**Zusätzliche nicht bloß aus einem Menü-Label ableitbare Funktionen:** SI-Vorsätze, Einheitenprodukte/Quotienten/Potenzen, dimensionsbehaftete Rechnungen, dimensionsfremde Fehlermeldungen, `UBASE`, `UFACT`, `UVAL`, `CONVERT`, `→UNIT`, die besondere Temperaturbehandlung mit `TDELTA`/`TINC`, benutzerdefinierte Einheiten als Variablen und Einheitenanzeige im SOLVE/EQ-LIB-Kontext. Die obigen 148 notierten Menüpositionen enthalten teils wiederkehrende oder kontextabhängige Zeichen (z. B. `W`, `rad`). Es handelt sich um einen **Rechercheindex**, **keine abschließend verifizierte 1:1-Liste der 147 eingebauten Einheitendefinitionen und keine geprüfte numerische Tabelle** aller Umrechnungsfaktoren; solche Faktoren einschließlich Offset/Skala und Rundung erfordern gesonderte Referenztests.
 
 ### 2a.8 Equation Library: alle **15 eingebauten Themengebiete** mit ihren Problemüberschriften
 
@@ -870,7 +870,7 @@ Die Standard-GX-Gleichungsbibliothek besitzt über 300 Gleichungen, thematisch i
 ## 4. Was nicht fälschlich mitgezählt werden darf
 
 1. **Nichtprogrammierbare Tasten und Dialogfolgen:** `DBUG`, `SST`, `SST↓`, Editor- und Navigationsaktionen, Hotkeys, Untermenüs, Reset-/Selbsttestsequenzen; sie müssen als UI-Bedieninventar, nicht als ROM-Befehlsnameneinträge geprüft werden.
-2. **ROM-eigene Datentabellen:** Die rund 147 Einheiten, 300+ Formeln, Konstanten und eingebauten Beispiele sind kein Synonym für 147 oder 300 neue RPL-Befehlsnamen. Eine hundertprozentige historische Emulation verlangt zusätzliche, getrennte Kataloge der **Einheitenbezeichnungen, Einzelformeln, Konstantenwerte und Sonderbilder**. Diese Werte sind hier **nicht einzeln aufgeschrieben**; eine Behauptung absoluter Vollständigkeit über alle internen ROM-Daten wäre daher falsch.
+2. **ROM-eigene Datentabellen:** Die rund 147 Einheiten, 300+ Formeln, Konstanten und eingebauten Beispiele sind kein Synonym für 147 oder 300 neue RPL-Befehlsnamen. Eine hundertprozentige historische Emulation verlangt zusätzliche, getrennte Kataloge der **Einheitenbezeichnungen, Einzelformeln, Konstantenwerte und Sonderbilder**. Die **16 Einheiten-Menügruppen und 102 Gleichungs-Problemüberschriften** wurden jetzt zusätzlich inventarisiert, aber die mehr als 300 Einzelformeln, die vollständigen Einheitenwerte und die historischen Konstanten-/Bilddaten **nicht einzeln rekonstruiert**; eine Behauptung absoluter Vollständigkeit über alle internen ROM-Daten wäre daher falsch.
 3. **Erweiterungskarten/Fremdsoftware:** Software- und RAM-Module sind in der GX-Hardware möglich, jedoch nicht serienmäßig installiert. Das Periodensystem und Tetris der älteren HP-48SX-Equation-Library-Karte zählen **nicht** automatisch zum HP-48GX-ROM.
 4. **System- und Maschinenebene:** Interne System-RPL-Entry-Points, Saturn-CPU-Befehle, ROM-Routinen und ROM-Images bilden einen eigenen Forschungsumfang. `SYSEVAL` und `LIBEVAL` erscheinen als Benutzerschnittstellen, nicht als vollständige Liste der aufrufbaren Systemfunktionen.
 5. **ROM-Revisionsunterschiede:** Historische ROM-Stände (K/L/M/P/R) und ihre Fehler sind getrennte Testprofile. Eine Namensliste allein ist kein Anspruch auf identisches Verhalten bei allen Revisionen.
