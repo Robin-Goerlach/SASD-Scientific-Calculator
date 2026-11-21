@@ -30,7 +30,8 @@ Die drei Tabellen auf den gedruckten Seiten **9–11** des bereitgestellten Gosm
 | Grundgeräte-Index S. 59–67 manuell als Referenzmenge normalisiert | **124 eindeutig benannte Einträge/Bedienvarianten** | Das ist keine unveränderte CAT-3-Ausgabe und nicht unmittelbar HPs offizielle „130“-Zählung. |
 | Zusätzlich getrennt kontrollierte physische RUN/STOP-Taste | **1** | In der Inventur getrennt vom programmierbaren `STOP` berücksichtigt. |
 | Abgleich dieser **125 Referenzeinträge** gegen die Befehlstabellen in Abschnitt 2 des Hauptkatalogs | **125 vorhanden; 0 textuelle Fehlstellen** nach expliziter Aliasauflösung | **Nur Präsenzprüfung**: kein Beweis der richtigen Syntax/Semantik und keine ROM-Verifikation. |
-| Foto/Faltblatt – normale Tastenpositionen | **39 Positionen** | Einzeln abgehakt; SHIFT-/ALPHA-/USER-Betriebsmodi zusätzlich erforderlich. Foto zeigt CX. |
+| Foto/Faltblatt – normale Tastenpositionen | **39 Positionen** | Einzeln abgehakt; Foto zeigt CX. |
+| **Originale ALPHA- und SHIFT+ALPHA-Ebene** | **35 untere Positionen**, beide Ebenen | Gegen das original HP-Dokument (Kurzanleitung PDF-Seite 3) abgeglichen; der Audit prüft jetzt jede Position. |
 | XROM 25,01–25,47, HP 82180A | **47/47**, keine nummerische Lücke | Kontrolliert gegen unabhängig publizierte HP-XROM-Tabelle. |
 | XROM 25,49–25,62, HP-41CX spezifisch | **14/14**, keine nummerische Lücke | `25,48` ist Kennung, kein 15. Befehl. |
 | XROM 26,01–26,29, HP 82182A | **29/29**, keine nummerische Lücke | `26,00` ist Kennung. |
@@ -64,15 +65,31 @@ Die drei Tabellen auf den gedruckten Seiten **9–11** des bereitgestellten Gosm
 5. **Unabhängige Tests:** Charakteristische Referenzfälle auf Gerät oder unabhängig verifiziertem Emulator, reproduzierbare Testfixtures und Testbericht. Auf keinen Fall Gerätetreue aus einem Namen oder einer mathematisch korrekten Host-Berechnung ableiten.
 6. **Vier separate Freigaben:** (A) Grundinventar aus Originalindex, (B) tatsächlicher ROM-CAT-3-Dump, (C) belegte Modul- und Geräteprofile, (D) historische Verhaltenskonformität. **A ist dokumentarisch geprüft; B bis D sind offen.**
 
-## Wiederholbare automatische Prüfung
+## Quellenprüfung – zusätzlich abgesicherte ALPHA-Ebene und XROM-Katalog
 
-Der Python-3-Checker `tools/audit_hp41c_functions.py` (nur Standardbibliothek) prüft bei Ausführung **125** Index-/Tastaturhandlungen, die **39** Tastenpositionen, alle **95** XROM-Kennungen über vier Profile sowie die unabhängige **116/117-CAT-3-Rekonstruktion**. Er bricht mit Fehler ab, wenn eine Befehlsbezeichnung fehlt, ein XROM-Eintrag vertauscht oder doppelt vergeben wird, sich eine Tastaturposition verschiebt oder die Gosmann-Differenz nicht mehr exakt erklärbar ist. Aufruf:
+- **ALPHA:** Die ursprüngliche 39-Tasten-Matrix enthielt nicht die vollständige SHIFT+ALPHA-Belegung. Die [deutsche HP-41C-Kurzanleitung, PDF-Seite 3](https://literature.hpcalc.org/community/hp41c-qrg-de.pdf) zeigt die unteren 35 Positionen einschließlich Kleinbuchstaben, Sonderzeichen und ALPHA-Funktionen. Diese stehen nun in Abschnitt 7.2 und im Datenfeld `alpha_layers` der Referenzdatei; sie werden positionstreu geprüft. Die vier oberen ON/USER/PRGM/ALPHA-Tasten sind gesonderte Bedientasten.
+- **XROM:** Die 95 Zusatzfunktionen wurden auch mit einer unabhängigen historischen [XROM.TXT-Tabelle](https://robert-scheibe.de/git/cgit.cgi/hp41c.git/tree/ROMHandler/XROM.TXT?h=main&id=c6c9104a61bb609b040c592ee54ece1ac4b36b0c) kontrolliert. Schreibweisen wie `SREG?`/`ΣREG?` und `X#NN?`/`X≠NN?` sind Aliase, keine neuen Funktionen.
+- **Quellenwiderspruch:** Eine sekundäre Modultabelle beschreibt `GETAS` und `SAVEAS` fälschlich als Tastenzuweisung. Das Originalhandbuch des 82180A beschreibt die ASCII-Dateiübertragung mit HP-IL-Massenspeicher; die richtige Beschreibung blieb erhalten.
+- **Gosmann-Lücke:** Von Gosmann sind 116 CAT-3-Befehlsnamen abschreibbar; `X>Y?` fehlt gegenüber dem von HP belegten 117er-Satz. Der Grundkatalog enthält den Befehl.
+- **Grenze:** Damit sind Dokumentationsquellen gegengeprüft, aber noch **kein** reales, firmwaregenaues CAT-3-Laufzeitprotokoll erstellt.
+
+## Erprobter Prüfer – tatsächlicher GitHub-Actions-Lauf
+
+**GitHub Actions, PR #10, Commit `39cffd74525499678e78143eb77d6b6dff762eeb`: [Run 44937068237](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/actions/runs/44937068237) – erfolgreich abgeschlossen.** Das vollständige Jobprotokoll wurde eingesehen, nicht nur ein Workflow angelegt.
+
+- `python3 -m unittest discover -s tools -p 'test_audit_hp41c_functions.py' -v` → **8 Tests OK**. Davon prüfen **sieben Negativtests**, ob absichtlich gelöschte Befehle, doppelte XROM-Nummern, falsche Kennungen, Tastatur-/ALPHA-Verfälschungen und die Gosmann-Differenz zu einem Fehler führen.
+- `python3 tools/audit_hp41c_functions.py --json` → **`"status": "PASS"`**.
+- Protokollierte Zahlen: **117 CAT-3-Namen**, **116 Gosmann-Einträge**, **125 normierte Referenz-/Bedienposten**, **39 Tasten**, **35 ALPHA-Positionen**, **47 + 14 + 29 + 5 = 95 XROM-Einträge**.
+- Die Fehlerlisten für fehlende oder doppelte Befehle, falsche XROM-Einträge, Tasten und ALPHA-Einträge sind **leer**.
+
+**Geltungsgrenze des grünen CI-Tests:** Textuelle Inventarkonsistenz. **Es wurden weder proprietäre ROM-Bytes ausgewertet noch eine echte HP-41C-CAT-3-Ausgabe gemessen oder historische Programme auf einer validierten ROM-Referenz ausgeführt.** Der Test bestätigt damit **nicht** vollständige numerische oder historische Kompatibilität.
+
+Lokal auszuführen:
 
 ```bash
+python3 -m unittest discover -s tools -p 'test_audit_hp41c_functions.py' -v
 python3 tools/audit_hp41c_functions.py --json
 ```
-
-Der Workflow `.github/workflows/hp41c-inventory-audit.yml` ist auf `main` eingerichtet. **Die grüne Ausführung dieses neuen GitHub-Actions-Workflows konnte bei Erstellung des Berichts nicht separat aus einem Run-Protokoll bestätigt werden; keine CI-Erfolgsmeldung wird vorgetäuscht.**
 
 ## Aktueller Entscheidungsstand
 
