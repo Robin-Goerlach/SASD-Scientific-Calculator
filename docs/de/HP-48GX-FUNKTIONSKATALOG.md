@@ -4,7 +4,7 @@
 **Historisches Referenzmodell:** HP 48GX der 48G-Reihe (Grundausstattung ab Werk; keine beliebig nachgerüsteten Erweiterungskarten).  
 **Status:** Historische Forschungs-/Anforderungsreferenz. **Vollständigkeit ausdrücklich noch nicht abgenommen.** **Nicht** gleichbedeutend mit vorhandener SASD-Implementierung.
 
-**Verbindlicher Vollständigkeitsnachweis:** [HP-48GX-VOLLSTAENDIGKEITSAUDIT.md](HP-48GX-VOLLSTAENDIGKEITSAUDIT.md) – Abgleich mit Appendix G des Originalhandbuchs, AUR-Kommandoreferenz, ROM-Index, Tastatur, Menüs und eingebauten Datentabellen. Bis dessen Kriterien erfüllt sind, gilt dieses Dokument als **Arbeitsinventar**.
+**Verbindlicher Vollständigkeitsnachweis:** [HP-48GX-VOLLSTAENDIGKEITSAUDIT.md](HP-48GX-VOLLSTAENDIGKEITSAUDIT.md) – Abgleich mit Appendix G des Originalhandbuchs, AUR-Kommandoreferenz, ROM-Index, Tastatur, Menüs und eingebauten Datentabellen. **Quellen- und Befehlsmatrix:** [HP-48GX-BEFEHLSABGLEICH-MATRIX.md](HP-48GX-BEFEHLSABGLEICH-MATRIX.md); dort werden alle 517 ROM-Namen mit möglichen Fundstellen, offenen Fällen und ersten gegen Anhang G geprüften Bedienoperationen erfasst. Bis dessen Kriterien erfüllt sind, gilt dieses Dokument als **Arbeitsinventar**.
 
 > **Vollständigkeit und Grenzen:** Kapitel 2a enthält jetzt den belegten Tastatur-, Menü-, App-, Einheiten- und Equation-Library-Abgleich mit den historischen Handbüchern. Die alphabetische Tabelle in Kapitel 3 enthält **sämtliche 517 unterschiedlichen Einträge** der aus dem HP-48GX-ROM generierten *saturnus*-Befehlsnamendatei (`48gx.json`). Dazu gehören Operatoren, Konstanten und RPL-Strukturtoken; daher sind dies **nicht** 517 mathematisch unabhängige Funktionen. Die Vollständigkeit bezieht sich auf **diesen belegten ROM-Namensindex**, nicht auf sämtliche internen System-RPL-Einstiegspunkte, jede Bediensequenz oder alle Inhalte von Fremdkarten. Ergänzende interaktive Funktionen und Grenzen sind ausdrücklich dokumentiert. Alle Kurzbeschreibungen wurden neu verfasst, nicht aus Originalhandbüchern abgeschrieben.
 
@@ -456,7 +456,7 @@ Die Standard-GX-Gleichungsbibliothek besitzt über 300 Gleichungen, thematisch i
 | `COL→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Bildet ein Array aus vorliegenden Spaltenobjekten. | `171:68` | MTH MATRX COL |
 | `COL+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalte einfügen. | `171:74` | MTH MATRX COL |
 | `COLCT` | Symbolische Mathematik, Solver und Differentialgleichungen | Algebraischen Ausdruck zusammenfassen. | `2:333` | MENU 93 |
-| `COLΣ` | Statistik, Verteilungen und Regression | Spaltensumme. | `2:312` | ohne Menüeintrag |
+| `COLΣ` | Statistik, Verteilungen und Regression | Wählt abhängige und unabhängige Datenspalten in `ΣDAT` (HP User's Guide G-8 / H-4); keine Spaltensumme. | `2:312` | ohne Menüeintrag |
 | `COMB` | Grundrechnen, elementare Funktionen und Zahlen | Kombinationen berechnen. | `2:129` | MTH PROB |
 | `CON` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Mit einem konstanten Wert gefülltes Array bilden. | `2:173` | MTH MATRX MAKE |
 | `COND` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Konditionszahl bestimmen. | `171:49` | MTH MATRX NORM |
