@@ -880,6 +880,10 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 
 | Name | Typ / Status | Bedeutung | Originalfundstelle |
 | --- | --- | --- | --- |
+| `CLUSR` | Im offiziellen Operation Index ausdrücklich als programmierbares `C` dokumentiert; ROM-Zuordnung offen | Löscht alle Benutzervariablen des aktuellen Verzeichnisses, ebenso laut Index `CLVAR` – Alias-/Identitätsprüfung nötig | User's Guide G-7 |
+| `ECHO` | Nichtprogrammierbare Stack-Browser-Aktion `O` | Kopiert markiertes Stackobjekt in die Eingabezeile | User's Guide G-14 |
+| `DINV` | Nichtprogrammierbare EquationWriter-Regel `O` | Doppelte Invertierung als Umformungsregel | User's Guide 20-20 / Operation Index G-12 |
+| `EXTR` | Nichtprogrammierbare Grafik-Analyseaktion `O` | Extremum in der Grafik suchen | User's Guide, G-16 / Kapitel 22 |
 | `GRAPH` | Historischer programmierbarer Befehlszugang, separat nachzuprüfen | Aktiviert die Grafik-Umgebung; dokumentierter älterer Zugang neben `PICTURE` | User's Guide G-18/19, AUR Command Reference / Index |
 | `LAST` | AUR-/User-Guide-Eintrag; genaue Aliaswirkung prüfen | Letzte Argumente beziehungsweise vorheriger Stackzustand je Kontext | User's Guide G-23, AUR Index |
 | `SCLS` | Im Operation Index als `C` geführt, AUR-Abgleich offen | Statistische Plot-Skalierung | User's Guide G-41 |
