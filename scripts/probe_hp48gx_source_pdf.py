@@ -24,4 +24,21 @@ def main(path):
         t=ocr(doc[idx],185)
         print("FOCUS",idx+1,repr(t[:500]),"FOOTER",repr(t[-180:]))
 
+
+    idx=482
+    p=doc[idx]
+    png=p.get_pixmap(matrix=fitz.Matrix(220/72,220/72),alpha=False).tobytes("png")
+    result=subprocess.run(["tesseract","stdin","stdout","--psm","3","tsv"],input=png,stdout=subprocess.PIPE,stderr=subprocess.PIPE,timeout=45,check=True).stdout.decode("utf-8",errors="replace")
+    import csv, io
+    lines={}
+    for rec in csv.DictReader(io.StringIO(result),delimiter="\t"):
+        token=rec.get("text","").strip()
+        if not token:continue
+        key=(rec["block_num"],rec["par_num"],rec["line_num"])
+        lines.setdefault(key,[]).append((int(rec["left"]),int(rec["top"]),token))
+    print("TSV-PAGE",idx+1,"rect",p.rect,"lines",len(lines))
+    for group in sorted(lines.values(),key=lambda arr:min(t[1] for t in arr))[:75]:
+        group=sorted(group)
+        print("TSV",min(t[1] for t in group),min(t[0] for t in group),repr(" ".join(x[2] for x in group)[:160]))
+
 if __name__=="__main__":main(sys.argv[1])
