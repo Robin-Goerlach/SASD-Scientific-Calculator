@@ -14,7 +14,7 @@
     57,
     58
   ],
-  "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified",
+  "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified; manually supplemented G-57 entries are NOT counted as independent OCR confirmations",
   "limitations": "Only nine selected G pages, not the complete 57-page command index. Multiple contexts with the same printed name appear as separate rows. Row for CASE covers three suboperations in one printed cell.",
   "source_rows": 111,
   "items": [
@@ -790,7 +790,7 @@
       "label": "<",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -799,7 +799,7 @@
       "label": "≤",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -808,7 +808,7 @@
       "label": ">",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -817,7 +817,7 @@
       "label": "≥",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -826,7 +826,7 @@
       "label": "=",
       "hp_class": "A",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -835,7 +835,7 @@
       "label": "==",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -844,7 +844,7 @@
       "label": "≠",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -853,7 +853,7 @@
       "label": "!",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -862,7 +862,7 @@
       "label": "∫",
       "hp_class": "A",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -871,7 +871,7 @@
       "label": "∂",
       "hp_class": "A",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -880,7 +880,7 @@
       "label": "%",
       "hp_class": "A",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -889,7 +889,7 @@
       "label": "π",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 57,
@@ -898,7 +898,7 @@
       "label": "Σ",
       "hp_class": "F",
       "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
-      "exact_ocr_detected": true
+      "exact_ocr_detected": false
     },
     {
       "g_page": 58,
@@ -1029,7 +1029,8 @@
         "↪A←",
         "A→",
         "↪A→"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 3,
@@ -1038,7 +1039,8 @@
       "exact_rows_detected": 9,
       "missing_exact": [
         "ARRY→"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 4,
@@ -1047,7 +1049,8 @@
       "exact_rows_detected": 13,
       "missing_exact": [
         "→ARRY"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 5,
@@ -1057,7 +1060,8 @@
       "missing_exact": [
         "BUF LEN",
         "B→PV"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 6,
@@ -1071,7 +1075,8 @@
         "CENTR",
         "CF",
         "✓CHK"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 7,
@@ -1080,7 +1085,8 @@
       "exact_rows_detected": 13,
       "missing_exact": [
         "CLS"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 8,
@@ -1093,14 +1099,30 @@
         "COL−",
         "COL→",
         "COLΣ"
-      ]
+      ],
+      "explicit_text_fallback": false
     },
     {
       "g_page": 57,
       "source_rows": 13,
       "raw_ocr_rows": 13,
-      "exact_rows_detected": 13,
-      "missing_exact": []
+      "exact_rows_detected": 0,
+      "missing_exact": [
+        "<",
+        "≤",
+        ">",
+        "≥",
+        "=",
+        "==",
+        "≠",
+        "!",
+        "∫",
+        "∂",
+        "%",
+        "π",
+        "Σ"
+      ],
+      "explicit_text_fallback": true
     },
     {
       "g_page": 58,
@@ -1120,7 +1142,8 @@
         "↪ →)",
         "←→",
         "→"
-      ]
+      ],
+      "explicit_text_fallback": false
     }
   ]
 }
