@@ -26,7 +26,7 @@
 - [x] Product priorities and K1–K4 separated in repository documentation.
 - [x] First portable C++20 target and minimal unit tests prepared and locally validated.
 - [x] Desktop/iPhone/science-art **SVG redrawings** stored as mockups (not releases).
-- [ ] GitHub Actions CI observed passing on Linux, Windows, macOS.
+- [x] GitHub Actions native core CI observed successful on Linux, Windows, macOS — [run 44899248003](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/actions/runs/44899248003) (2026-11-21); this is **not** iOS or historical compatibility validation.
 - [ ] Approve exact iOS minimum deployment target after device/SDK research.
 - [ ] Review final key inventory against authoritative specifications and owned reference device.
 
@@ -48,6 +48,21 @@
 - [ ] Small top-left SASD brand link; privacy and third-party rights review.
 - [ ] App Store archival/release checklist signed off.
 - [ ] Release notes accurately enumerate shipped features and compatibility limitations.
+
+## Non-blocking parallel tracks and historical dependencies
+
+**Classic RPN M1→M2 is the critical release path.** The independently publishable **ALG scientific app** has its own modern calculator state, planned shared Pratt parser and scientific function catalog; it may proceed concurrently after shared contracts stabilize, but cannot delay the first classic iPhone V1. The **Advanced RPL app** is a distinct later consumer. A combined ALG/RPN user interface is optional. The external **Financial Calculator** has separate repository, domain and release train.
+
+The historical compatibility milestones are intentionally *delivery order*, not a reduction in long-term commitments:
+
+- **41-family:** virtual 56-bit register and byte-program architecture seam from the outset; regular FOCAL in M3; selected synthetic **A**, program-level **B** as a long-term commitment in M4; Byte Grabber **C optional**.
+- **48-family:** historical object/nibble and Saturn virtual address seam; User RPL before selected System RPL; a documented subset of System RPL remains a **long-term commitment** in M4; Saturn machine-language interpretation optional M5.
+- **Modules:** Time/Statistics and Advantage-Pac-inspired command adapters after priority-A work; no original ROM replication and no duplicate math algorithms.
+- **Memory:** modern host resources by default; opt-in historical modes and 128 KiB built-in 48GX plus extensions accounted for later, not a flat host RAM cap.
+- **Education:** minimal offline help with M2; bilingual manual, interactive comparison and step-by-step traces after core readiness.
+
+See [requirements](docs/en/REQUIREMENTS-MATRIX.md), [41-family](docs/en/HISTORICAL-41.md), [48-family](docs/en/HISTORICAL-48.md), [ALgebraic](docs/en/ALGEBRAIC-INPUT.md) and [decisions](docs/en/DECISION-QUESTIONS.md).
+
 
 ## Prioritization rules
 1. Fix correctness, crash, lost state, and key usability regressions ahead of new features.

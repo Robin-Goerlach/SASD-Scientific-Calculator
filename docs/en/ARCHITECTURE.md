@@ -80,3 +80,13 @@ tests/compatibility/           Legal fixtures and evidence, M3+
 ```
 
 Directories are added **only when implemented**; empty scaffolding should not be mistaken for supported features.
+
+## Multi-app and historical-system addendum (2026-11-21)
+
+The earlier diagram describes the **current V1-first critical path**, not the full future Scientific app family. The separate ALG scientific app and optional ALG input in historic calculator profiles use a **single neutral parser** but have their own app state and integration adapters. See [multi-app architecture](MULTI-APP-ARCHITECTURE.md) and [ALG grammar](ALGEBRAIC-INPUT.md).
+
+**Series 41** needs a later 56-bit raw register/byte-oriented programme store (ordinary FOCAL, then synthetic commands/programs); **Series 48** needs separately versioned historical RPL object/nibble representation, ROM/RAM virtual addresses, User RPL followed by selected System RPL. These are not compatible memory maps and must not be unified. See [41](HISTORICAL-41.md), [48](HISTORICAL-48.md) and [extensions](MODULES.md).
+
+A family-specific operation may use shared mathematics, but historic rounding, under/overflow, stack lift, object conversion and error state must remain family-owned. Modern ALG results must enter historical calculator state through a deliberate, tested transfer operation. Shared libraries must not import historical family internals or SwiftUI.
+
+The main classic RPN release remains M1→M2. Full hardware/software simulation is not a prerequisite. The existing vector-stack code is explicitly **not** reclassified as a finished historical four-level engine.

@@ -37,3 +37,9 @@ Suggested CSV schema: `release,model,level,feature,source,fixture,test,status,li
 
 ## Initial working-core classification
 As of bootstrap, **no historical compatibility level is certified**. The demonstrated generic stack operations are a starting point toward an eventual **subset of K1**, not an emulated historical machine.
+
+## Commitment versus delivery detail
+
+The planning decision to ship classic V1 before historical programs **does not cancel** the later committed stage-B synthetic 41 program goal or bounded System RPL compatibility. Their normative planning IDs are `SASD-CALC-COMPAT-041-SYN` and `SASD-CALC-COMPAT-048-SYSRPL`; Saturn remains optional. The optional Byte Grabber stage C is **not** mandatory. See [41 details](HISTORICAL-41.md), [48 details](HISTORICAL-48.md) and the [requirements matrix](REQUIREMENTS-MATRIX.md).
+
+The documented K1–K4 *target level* is independent of a feature's evidence grade: syntax recognized, function executed, behavioral match, historical system-state match, and machine-instruction emulation. For every programme/command report the exact tested scope and ROM/model profile; do not infer historic fidelity from mathematical output alone. The interactive modern ALG app has no automatic historical compatibility grade.

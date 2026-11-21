@@ -47,3 +47,13 @@ Each feature is one of **planned, implemented, verified, explicitly unsupported*
 - iPhone minimum iOS version, real iPhone XS touch target measurement and App Store constraints.
 - Exact restore/backup/export rules and privacy policy content.
 These are recorded explicitly rather than invented from images.
+
+## Consolidated product-family decisions (2026-11-21)
+
+**Release order:** classical RPN iPhone M1/M2 has priority; an independent ALG Scientific app and an advanced object/RPL app are *separate planned Scientific experiences* with shared mathematical algorithms and independent release gates. ALG as a later **additional input mode** in historical apps remains permitted. The Financial Calculator is a different product/repository, with separate finance-domain workflows and release obligations.
+
+**Long-term historical obligations:** planned 41 FOCAL, 41 synthetic **stage B**, 48 User RPL and documented System RPL subset remain in the requirements. Byte Grabber C, Nut/Saturn machine emulation and full vintage hardware/OS remain **optional**. None block M2. Features are only called compatible following recorded model-specific reference evidence. The 48GX 128-KiB built-in RAM concept belongs to opt-in historical profiles, never to the modern iPhone memory budget.
+
+**Later nonblocking extensions:** Time and Statistics modules; selected Advantage-Pac-inspired *functions* via common numerical algorithms, not historical ROMs; bilingual offline help and interactive RPN/ALG training. The common mathematical core is separately reusable with Financial only after proven stable APIs exist.
+
+For exact status/priorities see [requirements matrix](REQUIREMENTS-MATRIX.md), [V1 contract](RELEASE-V1.md), [APP architecture](MULTI-APP-ARCHITECTURE.md), [historical 41](HISTORICAL-41.md), [historical 48](HISTORICAL-48.md).

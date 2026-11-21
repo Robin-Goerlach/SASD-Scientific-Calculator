@@ -28,3 +28,5 @@
 - [ ] Desktop IDE, iPad/Android parity, advanced tutorials and financial features.
 
 **Release decision:** date/commit, tested devices, evidence links, reviewer and outstanding known issues must be recorded when the gate is actually performed.
+
+**Traceability supplement:** consult the [V1.0 scope and open design freezes](RELEASE-V1.md) and [per-requirement matrix](REQUIREMENTS-MATRIX.md). The first release is **Classic RPN**, independent from planned stand-alone ALG and advanced RPL Scientific apps. Neither synthetic 41 stage B nor bounded System RPL is removed from the *long-term* roadmap, but neither may block this release.

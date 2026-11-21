@@ -32,3 +32,9 @@ ctest --test-dir build -C Debug --output-on-failure
 ```
 
 No mocking of App Store approval, iPhone device checks or compatibility percentages. Report gaps plainly.
+
+## Consolidated regression inventory and current CI evidence
+
+The [detailed future test matrix](TEST-MATRIX.md) separates core arithmetic, ALG lexer/Pratt/AST and evaluator, classic stack state, historic 41 bytes/FOCAL/synthetic, 48 User/System RPL, memory profiles, safe virtual address space, cross-input *result* comparisons and iPhone UX. Each historical fixture needs provenance and distribution rights. No unimplemented suite is represented as passing.
+
+**Verified initial GitHub Actions status:** [run 44899248003](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/actions/runs/44899248003) finished successfully on the existing native C++ Linux/Windows/macOS build matrix at commit `9f266421` on 2026-11-21. This verifies **only** the current generic RPN core and its small CTest suite, not a four-level historical model, iOS or App Store.

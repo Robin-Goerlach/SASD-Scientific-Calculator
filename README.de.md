@@ -39,6 +39,28 @@ Am PC dürfen neben dem Rechner ein Programmeditor, Stack-/Variablenansichten, B
 
 Der aktuelle Entwicklerkern verwendet `double` und einen dynamischen Stack. Er ist **kein historischer Emulator**. Fehler dürfen vorhandene Stackwerte nicht beschädigen.
 
+## Drei eigenständig veröffentlichbare wissenschaftliche Rechner
+
+| Variante | Aufgabe | Priorität |
+| --- | --- | --- |
+| **Klassischer UPN/RPN-Rechner** | Alltagstauglicher iPhone-Rechner mit zuverlässiger Stack-Bedienung | **Erster Release M1–M2** |
+| **Algebraischer Rechner (ALG)** | Eigene wissenschaftliche App mit `=`, Klammern und Operatorrangfolge | Geplant, parallel möglich; **kein V1-Blocker** |
+| **Erweiterter RPL-Rechner** | Eigenständige historische Objekt-/Programmlaufzeit | Langfristige Ausbaulinie |
+
+Alle drei verwenden nach Möglichkeit eine **gemeinsame mathematische Basis**, ohne ihre Eingabe-, Stack-, Zahlen- und Programmsemantik gleichzusetzen. Der ALG-Parser ist für die eigene App und eine spätere optionale algebraische Eingabe in historischen Rechnerprofilen vorgesehen. Scientific und Financial bleiben **getrennte Produkte und Repositories**.
+
+### Die letzten Entwürfe in der README
+
+Oben sind die beiden **aktuellen iPhone- und Desktop-Konzeptdarstellungen** sichtbar. Es handelt sich um **SVG-Neuzeichnungen** der zuletzt diskutierten Bildschirmkonzepte, nicht um pixelgenaue Kopien der Originaldateien `SASD RPN Calculator on iPhone.png` und `SASD RPN Calculator SC-48 Interface.png` und nicht um Fotos einer fertigen App. Die Original-PNGs liegen in der Projektbibliothek, **nicht im GitHub-Repository**. Details: [Bildherkunft](docs/images/README.md).
+
+### Vertiefende Projektunterlagen
+
+- **[Konsolidierte Anforderungen (DE)](docs/de/ANFORDERUNGEN.md)** und [Anforderungsmatrix (EN)](docs/en/REQUIREMENTS-MATRIX.md).
+- [Mehrrechner-Architektur](docs/en/MULTI-APP-ARCHITECTURE.md), [ALG-Eingabe](docs/en/ALGEBRAIC-INPUT.md) und [gemeinsame Komponenten](docs/en/SHARED-COMPONENTS.md).
+- Historische 41er-[Programmierung](docs/en/HISTORICAL-41.md) und 48er-[RPL-Systeme](docs/en/HISTORICAL-48.md), [Erweiterungsmodule](docs/en/MODULES.md).
+- [V1-Abnahmekriterien](docs/en/RELEASE-V1.md), [Tests](docs/en/TEST-MATRIX.md), [Lernen/Hilfe](docs/en/LEARNING.md) und [offene Detailentscheidungen](docs/en/DECISION-QUESTIONS.md).
+
+
 ## Verbindliche Reihenfolge
 
 | Meilenstein | Ziel |

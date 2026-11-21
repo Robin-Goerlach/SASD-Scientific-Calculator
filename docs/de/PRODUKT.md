@@ -29,3 +29,11 @@ Portabler **C++20-Rechenkern** mit CMake/CTest; für iOS ist **SwiftUI** mit sch
 Exakte Tasten-/Funktionsliste für V1, numerisches Modell, Stack-/ENTER-Semantik, minimale iOS-Version auf dem iPhone XS, Persistenzformat, Barrierefreiheit und konkrete App-Store-Prüfbedingungen. Die generierten Konzeptbilder sind **kein** normativer Beleg.
 
 Ausführlich: [englische Produktspezifikation](../en/PRODUCT.md), [Roadmap](../../ROADMAP.md), [Tests](../en/TESTING.md).
+
+## Nachtrag: Mehrrechnerfamilie und langfristige historische Ziele
+
+Die bisherige Priorität bleibt: **zuerst der klassische RPN-Rechner für das iPhone**. Parallel ist innerhalb des Scientific-Monorepos eine **eigenständige algebraische Wissenschaftsrechner-App** vorgesehen; sie nutzt einen gemeinsamen Parser/Mathematik-Unterbau, ist aber **kein V1.0-Blocker**. Ebenso bleibt eine eigenständige erweiterte RPL-App vorgesehen. Der Financial Calculator bleibt ein anderes Repository und Produkt.
+
+Für später gelten weiterhin die konkreten historischen Ziele: 41er-FOCAL und synthetische Programmierung bis Stufe B (Byte-Hüpfer C optional); 48er-User-RPL und ein dokumentierter System-RPL-Umfang (Saturn optional). Vollständige Maschinen-, ROM-/Betriebssystem- und Strict-Historical-Kompatibilität sind keine Voraussetzungen der ersten App. Der aktuelle kleine dynamische C++-Stack belegt keine solche Kompatibilität.
+
+[Ausführliche konsolidierte Anforderungen](ANFORDERUNGEN.md) · [V1-Abnahme (EN)](../en/RELEASE-V1.md) · [ALG (EN)](../en/ALGEBRAIC-INPUT.md) · [Historisch 41 (EN)](../en/HISTORICAL-41.md) · [Historisch 48 (EN)](../en/HISTORICAL-48.md).

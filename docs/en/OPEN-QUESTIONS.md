@@ -12,3 +12,7 @@
 10. When should an optional desktop front end start without consuming iPhone V1 resources?
 
 These are intentionally open. A coding agent must not resolve them by copying generated mockup labels or inventing historical specifications.
+
+## Controlled deferral
+
+The [dated decision/questions supplement](DECISION-QUESTIONS.md) separates essential V1 design freezes (key map, stack, numerics, persistence, iOS bridge/device) from deliberately **later** FOCAL/User RPL depth, synthetic stage A/B, optional Byte Grabber C, ROM-dependent System RPL, Strict Historical resources, optional Saturn/Nut research and Financial package extraction. These deferred topics **must not** be reintroduced as generic M2 prerequisites without a new explicit scope decision.

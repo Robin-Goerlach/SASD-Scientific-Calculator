@@ -23,6 +23,27 @@ Maintain this as a lightweight, task-oriented overview. GitHub Issues may track 
 
 **Task completion rule:** code merged on `main` with regression tests + documentation updated; CI green. A generated image or planned API does not count as implementation. Small incremental commits to `main` are acceptable for this solo-maintained repository if the gates are respected.
 
+## New documentation-backed work tracks (not yet implemented)
+
+| ID | Priority | Target | Deliverable | Dependency / mandatory evidence | State |
+| --- | --- | --- | --- | --- | --- |
+| ARC-01 | P0 | M0 | Confirm public math/numeric contracts and calculator-neutral input API | Independent build, numerical decision record, shared tests | specified; open |
+| RPN-01 | P0 | M1 | Four-level stack/ENTER/LAST-X/flags/register state machine | Exact state transition table and golden tests; do not repurpose generic vector stack silently | planned |
+| RPN-02 | P0 | M1 | Approved scientific key set, angle and precision behavior | Unit/domain/error tests and independent key inventory | planned |
+| APP-01 | P0 | M2 | Native iPhone XS app and versioned bridge | physical iPhone testing, lifecycle persistence, offline, release compliance | planned |
+| ALG-01 | P2 | parallel | Stand-alone ALG scientific app context, Pratt lexer/AST and evaluator | `docs/en/ALGEBRAIC-INPUT.md` golden cases, separate release gate | planned |
+| HIST41-01 | P2 | M0 seam / M3 | Raw 56-bit/byte program architecture and regular FOCAL | independently sourced byte/state fixtures | planned |
+| HIST41-02 | P3 | M4 | Synthetic commands A, programs B long-term; Byte Grabber C optional | separately gated A/B/C compatibility suites | planned |
+| HIST48-01 | P2 | M0 seam / M3 | Historical RPL object representation and User RPL | object roundtrips; legal User RPL fixtures | planned |
+| HIST48-02 | P3 | M4 | Documented subset of System RPL, virtual SYSEVAL/LIBEVAL | ROM profile, virtual address, system stack and safety tests | planned |
+| MOD-01 | P3 | M4+ | Time/Statistics and optional Advantage-style function adapters | no duplicate math; module state/rights/behavior tests | planned |
+| EDU-01 | P2 | M2/post-M2 | Minimal offline help then interactive RPN/ALG lessons | real command metadata and bilingual reference tests | planned |
+| REUSE-01 | P2 | when Financial starts | Evaluate real shared-package consumers vs provenance-tracked code copy | independent release/build, license and version evidence | deferred |
+| RSRCH-01 | P4 | M5 | Optional Nut/Saturn emulator feasibility | separate decision, rights analysis, test fixtures | optional |
+
+Do not start P3/P4 projects to make the V1 backlog appear complete. **P0 defects and release gates always win**. Refer to [full requirements](docs/en/REQUIREMENTS-MATRIX.md), [architecture](docs/en/MULTI-APP-ARCHITECTURE.md) and [V1 scope](docs/en/RELEASE-V1.md).
+
+
 ## Active GitHub issue entry points
 
 - [#1 — V1 keyboard/command inventory](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/1) — F-02 (M0/P0).

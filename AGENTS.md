@@ -43,3 +43,21 @@ Use **implemented / tested / planned / optional / explicitly excluded**. Compati
 ## Out-of-scope without explicit new approval
 
 Emulator CPU/OS, System RPL, synthetic low-level programs, full historical binary compatibility, App Store submission, financial features, forced desktop editor, user accounts, adverts, subscription billing, cloud save and indiscriminate refactors of other SASD repositories.
+
+## Binding multi-app and historic architecture supplement (2026-11-21)
+
+The newly consolidated normative planning documentation is [requirements](docs/en/REQUIREMENTS-MATRIX.md), [multi-app boundaries](docs/en/MULTI-APP-ARCHITECTURE.md), [ALG](docs/en/ALGEBRAIC-INPUT.md), [Series 41](docs/en/HISTORICAL-41.md), [Series 48](docs/en/HISTORICAL-48.md), [shared components](docs/en/SHARED-COMPONENTS.md), and [V1 scope](docs/en/RELEASE-V1.md).
+
+- **One shared mathematical function** where technically meaningful; use model-specific numeric/precision/error/stack adapters. No universal historical interpreter and no duplicate ALG parser. A 41 raw 56-bit register is not a `double`; a 48 RPL object is not a 41 register.
+- Independent ALG app is a **planned** Scientific consumer with its own state and `=` input. Keep that path buildable without importing historical family internals when implemented. Its delivery cannot block the classic RPN iPhone V1.
+- Preserve future 41 synthetic **B** and documented 48 System-RPL long-term objectives; their implementation is **not authorized merely by this note**, nor required for V1. 41 Byte Grabber stage C and Saturn/Nut execution remain optional.
+- Under no circumstances resolve 48 `SYSEVAL` / `LIBEVAL` to host pointers. Byte-level historic execution may only access checked, virtual calculator memory.
+- Specify modern expression grammar (power right-associative, `-2^2` parses as `-(2^2)`), source-position errors and resource bounds independently of historical RPL or FOCAL program parsing.
+- Historical storage: plan model-specific opt-in profiles, not a global 128-KB cap; profile and module capabilities must appear in snapshots and conformance fixtures.
+- Maintain separate catalogs of *mathematical operations* and *historical command effects*. New math must not silently create new vintage opcodes.
+- Financial TVM/cashflow/annuity/bond UI, release and data are **not in this repo**; library reuse requires real consumers, pinned versions and license/provenance review.
+- Each plan/spec row names status and target. Never say a diagram, archived image, unchecked requirement, manual excerpt or fixture proposal is an implemented feature.
+- When a shared API changes, run all existing affected tests and record missing future test suites honestly. Provide code comments for invariants, state ownership, historical divergence, security and serialization decisions.
+- README conceptual art is not a true screenshot or authoritative key map. **Do not add proprietary screenshot/ROM/manual assets**. Replace App Store screenshots only with real build captures after rights review.
+
+When working on the initial C++ code, do not casually change `RpnEngine` from its documented generic dynamic stack to a purported exact four-level emulation. Add a separately approved and tested historical state machine when its behavior contract exists.

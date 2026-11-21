@@ -40,6 +40,33 @@ Desktop applications may add an optional editor, stack and variable inspector, p
 
 Development core operations use host-managed memory, a modern unbounded vector stack, and binary64 arithmetic. They **do not** claim exact historical numeric or stack behavior. The published MIT license applies to this repository; the concept images are included as project artwork, not evidence of production readiness.
 
+## Three scientific experiences — one mathematical foundation
+
+The long-term Scientific monorepo supports **three independently releasable app tracks**, not three copies of the same math engine:
+
+| Experience | Role | Delivery priority |
+| --- | --- | --- |
+| **Classic RPN** | First, excellent offline iPhone calculator; historically oriented stack/keys | **M1–M2 / V1.0 first** |
+| **Algebraic (ALG)** | Separate scientific app with `=`, parentheses, precedence and scientific functions; may later serve as a secondary input mode | **Planned parallel track; not a V1.0 blocker** |
+| **Advanced RPL** | Separate object-based historical calculator with User RPL and later system-level compatibility | **Longer-term track** |
+
+All three can share a **SASD Mathematical Core** and metadata; historical execution semantics remain separate. The modern ALG parser is **not** a replacement for historic stored-program interpreters. A fourth combined input-mode app is a future possibility, not a release requirement. The Financial Calculator is a **separate product and repository**.
+
+### The latest visual concepts, not app screenshots
+
+The **iPhone portrait** and **desktop workspace** previews shown above are the repository's *current scalable SVG redrawings* of the last design concepts. They are intentionally not claimed to be pixel-identical copies of the original high-resolution PNG artwork. The latest source concept filenames are `SASD RPN Calculator on iPhone.png` and `SASD RPN Calculator SC-48 Interface.png`. Those original PNGs were retained in the project handoff/library but are **not committed in this repository**. See [image provenance](docs/images/README.md). Neither drawing proves the final key mapping or a running app.
+
+### Requirements and engineering specifications
+
+- [Consolidated acceptance and traceability matrix](docs/en/REQUIREMENTS-MATRIX.md) — V1 vs architecture vs long-term vs optional.
+- [Multi-app architecture and dependencies](docs/en/MULTI-APP-ARCHITECTURE.md) and [shared-component policy](docs/en/SHARED-COMPONENTS.md).
+- [Algebraic expression language](docs/en/ALGEBRAIC-INPUT.md) — Pratt parser recommendation, precedence and test vectors.
+- [Historical Series 41](docs/en/HISTORICAL-41.md) — FOCAL, 56-bit registers, synthetic programming A/B, optional Byte Grabber C.
+- [Historical Series 48](docs/en/HISTORICAL-48.md) — User RPL, long-term System RPL, optional Saturn.
+- [Historical extensions](docs/en/MODULES.md), [help/training](docs/en/LEARNING.md) and [research references](docs/en/REFERENCE-SOURCES.md).
+- [V1.0 release acceptance](docs/en/RELEASE-V1.md), [detailed test matrix](docs/en/TEST-MATRIX.md) and [deliberately deferred decisions](docs/en/DECISION-QUESTIONS.md).
+
+
 ## First release — intentionally narrow
 
 Version 1.0 acceptance is driven by: fundamental and commonly used scientific functions; dependable stack and register operations; explicit error behavior; state restoration after app suspension/restart; reliable and accessible touch interaction; offline use; no advertisements or recurring subscription; tested on supported devices, including the iPhone XS target; and a discreet SASD link. The exact supported iOS versions and App Store entitlements must be verified during implementation. A version number alone is not evidence of release readiness.
