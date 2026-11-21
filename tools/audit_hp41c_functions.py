@@ -79,7 +79,7 @@ def alpha_rows(s):
     rows = {}
     duplicates = []
     for line in s.splitlines():
-        if not re.match(r"^\\|\\s*\\d{2}\\s*\\|", line):
+        if not re.match(r"^\|\s*\d{2}\s*\|", line):
             continue
         cells = [cell.strip().strip(chr(96)) for cell in line.strip().strip("|").split("|")]
         if len(cells) != 5:
