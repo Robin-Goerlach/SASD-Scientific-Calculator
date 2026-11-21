@@ -4,6 +4,8 @@
 **Historisches Referenzmodell:** HP-41C (ab 1979), ohne eingesteckte Funktionsmodule.  
 **Dokumentstatus:** recherchierte **Spezifikation/Referenz**, keine Behauptung über bereits implementierte SASD-Funktionen.
 
+**Vollständigkeitsprüfung:** Der Grundgeräteindex wurde gegen den HP-Original-Funktionsindex (S. 267–270), das HP-41C/41CV Operating Manual (S. 59–68), die 39 Tasten und Gosmanns unabhängige CAT-3-Tabelle geprüft. **117 CAT-3-Befehle sind schriftlich rekonstruiert**; bei Gosmann fehlt `X>Y?`. Der Nachweis und die verbleibende Grenze (kein Geräte-/ROM-CAT-3-Dump, keine Semantiktests) stehen in [HP-41C-VOLLSTAENDIGKEITSPRUEFUNG.md](HP-41C-VOLLSTAENDIGKEITSPRUEFUNG.md). Die maschinenlesbare Referenz liegt unter [`../reference/hp41c-command-inventory.json`](../reference/hp41c-command-inventory.json); Prüfung: `python3 tools/audit_hp41c_functions.py`.
+
 > **Abgrenzung:** Diese Liste soll das **gesamte ab Werk vorhandene Funktions- und Bedienrepertoire des HP-41C** erfassen. Sie enthält die Standardbefehle (einschließlich nur über `XEQ` erreichbarer Befehle), Tastaturfunktionen, programmbezogene Bedienhandlungen und die für die korrekte Nachbildung wesentlichen Betriebszustände. Sie enthält **nicht** pauschal sämtliche Funktionen beliebiger Steckmodule, Software-Pacs oder späterer HP-41CX-Erweiterungen. Erweiterungen stehen am Ende ausdrücklich getrennt. Die originale HP-Dokumentation spricht von **über 130 Standardfunktionen/Operationen, 68 davon unmittelbar über Funktionstasten**. Diese historische Zählung ist nicht identisch mit der Anzahl unterschiedlicher Mnemonics in einer Tabelle: Tasten, Varianten, programmierbare Instruktionen und Bedienaktionen werden unterschiedlich gezählt.
 
 ## 1. Schreibweise und Geltungsbereich
