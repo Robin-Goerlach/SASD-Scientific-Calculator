@@ -6,12 +6,14 @@ on:
       - 'docs/de/HP-41C-FUNKTIONSKATALOG.md'
       - 'docs/reference/hp41c-command-inventory.json'
       - 'tools/audit_hp41c_functions.py'
+      - 'tools/test_audit_hp41c_functions.py'
       - '.github/workflows/hp41c-inventory-audit.yml'
   pull_request:
     paths:
       - 'docs/de/HP-41C-FUNKTIONSKATALOG.md'
       - 'docs/reference/hp41c-command-inventory.json'
       - 'tools/audit_hp41c_functions.py'
+      - 'tools/test_audit_hp41c_functions.py'
       - '.github/workflows/hp41c-inventory-audit.yml'
   workflow_dispatch:
 
@@ -24,5 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Mutation regression tests for the audit checker
+        run: python3 -m unittest discover -s tools -p 'test_audit_hp41c_functions.py' -v
       - name: Run HP-41C inventory audit (Python standard library)
         run: python3 tools/audit_hp41c_functions.py --json
