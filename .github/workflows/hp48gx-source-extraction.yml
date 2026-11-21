@@ -1,0 +1,37 @@
+name: HP-48GX original manual source audit (research)
+
+on:
+  push:
+    paths:
+      - 'scripts/probe_hp48gx_source_pdf.py'
+      - 'scripts/extract_hp48gx_operation_index.py'
+      - '.github/workflows/hp48gx-source-extraction.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PyMuPDF
+        run: python -m pip install --quiet pymupdf
+      - name: Download original 1994 HP 48G Series User's Guide (temporarily)
+        shell: bash
+        run: |
+          set -euo pipefail
+          for src in \
+             'https://www.hp.com/ctg/Manual/c00442262.pdf' \
+             'https://literature.hpcalc.org/official/hp48gseries-ug-en.pdf'; do
+            if curl -fLsS --retry 2 --connect-timeout 10 --max-time 110 "$src" -o /tmp/hp48gx-original-user-guide.pdf; then
+              break
+            fi
+          done
+          test -s /tmp/hp48gx-original-user-guide.pdf
+          sha256sum /tmp/hp48gx-original-user-guide.pdf
+          pdfinfo /tmp/hp48gx-original-user-guide.pdf | head -18
+      - name: Inspect Appendix G page layout
+        run: python3 scripts/probe_hp48gx_source_pdf.py /tmp/hp48gx-original-user-guide.pdf
