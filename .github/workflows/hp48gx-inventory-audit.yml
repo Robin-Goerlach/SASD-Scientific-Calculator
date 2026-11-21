@@ -1,0 +1,28 @@
+name: HP-48GX reference-inventory consistency
+
+on:
+  push:
+    paths:
+      - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
+      - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
+      - 'scripts/check_hp48gx_inventory.py'
+      - '.github/workflows/hp48gx-inventory-audit.yml'
+  pull_request:
+    paths:
+      - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
+      - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
+      - 'scripts/check_hp48gx_inventory.py'
+      - '.github/workflows/hp48gx-inventory-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-inventory:
+    name: Check 517 ROM names, XLIB IDs and 49 keyboard positions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify catalog/table consistency (does not certify historic completeness)
+        run: python3 scripts/check_hp48gx_inventory.py
