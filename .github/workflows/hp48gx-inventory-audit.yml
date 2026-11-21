@@ -5,12 +5,14 @@ on:
     paths:
       - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
       - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
+      - 'docs/reference/hp48gx-rom-index-baseline.json'
       - 'scripts/check_hp48gx_inventory.py'
       - '.github/workflows/hp48gx-inventory-audit.yml'
   pull_request:
     paths:
       - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
       - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
+      - 'docs/reference/hp48gx-rom-index-baseline.json'
       - 'scripts/check_hp48gx_inventory.py'
       - '.github/workflows/hp48gx-inventory-audit.yml'
   workflow_dispatch:
