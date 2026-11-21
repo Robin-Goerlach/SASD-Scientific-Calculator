@@ -187,3 +187,19 @@ Die 57 Tabellenseiten (gedruckt G-2 bis G-58, PDF 482 bis 538) wurden aus dem **
 | `RSD` | User's Guide 14-17: für `AX=B` wird als Rest ausdrücklich `AX-B` beschrieben; saturnus-Referenz beschreibt dagegen `B-AZ` | **Quellenkonflikt!** Vor einer Nachimplementierung Original-AUR-Stackdiagramm sowie Hardware-Test mit asymmetrischen Werten prüfen, statt nur wegen einer Sekundärquelle das Vorzeichen zu ändern |
 
 **Abgrenzung:** Für den Eintrag `GRAPH` liegt ein Original-AUR-/Operation-Index-Hinweis vor; eine unabhängige technische User-RPL/ROM-Identitätsprüfung bleibt offen. `CLU SR` ist **kein** typographischer Ersatz für `CLUSR`: Kein zusätzlicher Befehl wird ohne Beleg erfunden.
+
+## 13. Dreiquellenabgleich mit der originalen Advanced User’s Reference
+
+**Original AUR:** *HP 48G Series Advanced User’s Reference*, Edition 4 Dezember 1994, Hewlett-Packard, PN 00048-90136. Eigenständiges 764-seitiges Bild-PDF unter https://www.transnull.com/files/hp48/hp48gaur.pdf; PDF-SHA-256 `c041081c07dac1716ed7667774ed43cd618d98b0cd5ddca4755eb797a67bdb96`.
+
+Das **vollständige Kapitel-3-Inhaltsverzeichnis** der AUR, *Contents-3 bis Contents-16*, wurde jetzt unabhängig von der ROM-Tabelle als eigenes [Namensinventar](../reference/hp48gx-aur-command-index.json) übertragen. Ergebnis: **517 Zeilen**, **516 unterschiedliche Drucknamen** (NEXT doppelt); nach dokumentierter Normalisierung der Schreibweise entsprechen **507 unterschiedliche Namen** dem ROM-Namenssatz.
+
+**Acht AUR-Drucknamen ohne identische ROM-Kennung:** `CLUSR` (AUR 3-52), `DBUG` (3-74), `GRAPH` (3-131), `IR` (3-157), `LAST` (3-162), `SIMU` (3-307), `SST` und `SST↓` (beide 3-320). Diese Namen sind nicht automatisch acht unabhängige programmierbare Maschinenbefehle; die Quellen unterscheiden historische Namen/Aliase, interaktive Debuggerbefehle und Parameter-/I/O-Bedienoperationen.
+
+**Zehn ROM-Namen ohne eigenes AUR-TOC-Kapitel:** `_`, `RULES`, `gmol`, `lbmol`, `rpm`, `dB`, `»`, `«`, `'`, `DIR`. Hierzu zählen insbesondere Einheiten-/Systemlabels und RPL-Syntaxbegrenzer, deren Fehlen als AUR-Kapitel keineswegs ein fehlender ROM-Eintrag ist.
+
+Die drei unabhängigen Referenzen (User Guide mit **696** Indexzeilen, AUR-TOC mit **517** Zeilen, ROM-Namen mit **517**) sind jetzt über [`docs/reference/hp48gx-historical-index-differences.json`](../reference/hp48gx-historical-index-differences.json) einander zugeordnet. Ein [ausführlicher Prüfbericht](HP-48GX-QUELLENABGLEICH-PRUEFBERICHT.md) erläutert sämtliche 26 unterschiedlichen G-Index-Schreibweisen gegenüber ROM, 143 eigenständigen O-Labels und die noch ungeklärten Fälle. [`scripts/audit_hp48gx_three_sources.py`](../../scripts/audit_hp48gx_three_sources.py) kontrolliert den strukturellen Abgleich per CI, **ohne** fälschlich historische Vollständigkeit zu behaupten.
+
+**Quellenkritischer Sonderfall `CLUSR` gegenüber `CLVAR`:** Das User's Guide nennt beide mit demselben vereinfachten Zweck. Die AUR weist aber eigene Referenzseiten zu und die Behandlung nichtleerer Unterverzeichnisse kann abweichen. **Bis die Einzelreferenz tatsächlich anhand des Originalscans kontrolliert ist, keine unumstrittene Alias-Semantik behaupten.**
+
+**Abnahmeentscheidung:** `SOURCE_NAME_INVENTORIES_COMPARABLE`, **`HISTORICAL_COMMAND_BEHAVIOR_NOT_CERTIFIED`**. Nicht abgeschlossen sind insbesondere Einzelreferenztexte und Stackdiagramme der AUR, Original-Scan-Sichtfreigabe aller Tabellenzeilen, komplette unabhängige Pocket-Guide-Prüfung, alle 315 Einzelgleichungen/396 Variablen, Einheitenfaktoren/Offsets, ROM-Revisionsvarianten und Testfälle am echten HP-48GX.
