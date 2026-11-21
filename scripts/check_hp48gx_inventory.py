@@ -7,6 +7,7 @@ every operation from HP's manuals, menus, built-in equations or cards is listed.
 Run: python3 scripts/check_hp48gx_inventory.py
 """
 from __future__ import annotations
+import json
 import re
 import sys
 from pathlib import Path
@@ -14,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "docs/de/HP-48GX-FUNKTIONSKATALOG.md"
 MATRIX = ROOT / "docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md"
+BASELINE = ROOT / "docs/reference/hp48gx-rom-index-baseline.json"
 EXPECTED_ROM_NAMES = 517
 EXPECTED_KEY_POSITIONS = 49
 ROM_ID = re.compile(r"^\d+:\d+(?:, \d+:\d+)*$")
@@ -49,7 +51,7 @@ def inventory(section: str, id_column: int) -> dict[str, str]:
 
 
 def audit() -> int:
-    if not CATALOG.is_file() or not MATRIX.is_file():
+    if not CATALOG.is_file() or not MATRIX.is_file() or not BASELINE.is_file():
         print("ERROR: Required Markdown inventory missing.", file=sys.stderr)
         return 2
 
@@ -60,7 +62,21 @@ def audit() -> int:
     keyboard = markdown_section(catalog, "### 2a.2", "### 2a.3")
     key_count = sum(bool(re.match(r"^\| [1-9] /", l)) for l in keyboard.splitlines())
 
+    src_obj = json.loads(BASELINE.read_text(encoding="utf-8"))
+    src_entries = src_obj["entries"]
+    source = {e["name"]: ", ".join(e["xlib"]) for e in src_entries}
     errors: list[str] = []
+    if len(src_entries) != EXPECTED_ROM_NAMES or len(source) != len(src_entries):
+        errors.append("Pinned ROM source baseline is incomplete or contains duplicate names")
+    if src_obj.get("row_count") != len(src_entries):
+        errors.append("Pinned source row_count differs from actual entries")
+    for name in sorted(set(source) - set(cat)):
+        errors.append(f"Missing from main catalog versus pinned ROM baseline: {name}")
+    for name in sorted(set(cat) - set(source)):
+        errors.append(f"Extra name in main catalog versus pinned ROM baseline: {name}")
+    for name in sorted(set(source) & set(cat)):
+        if source[name] != cat[name]:
+            errors.append(f"Pinned baseline XLIB mismatch for {name}: {source[name]} vs {cat[name]}")
     if len(cat) != EXPECTED_ROM_NAMES:
         errors.append(f"Main catalog has {len(cat)} instead of {EXPECTED_ROM_NAMES} ROM names")
     if len(mat) != EXPECTED_ROM_NAMES:
@@ -79,7 +95,7 @@ def audit() -> int:
     if "UNVERIFIED" not in matrix:
         errors.append("Evidence matrix lacks verification status")
 
-    print(f"HP 48GX: catalog={len(cat)}, evidence_matrix={len(mat)}, keyboard_rows={key_count}")
+    print(f"HP 48GX: baseline={len(source)}, catalog={len(cat)}, evidence_matrix={len(mat)}, keyboard_rows={key_count}")
     if errors:
         for error in errors:
             print(f"ERROR: {error}", file=sys.stderr)
