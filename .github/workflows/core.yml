@@ -1,0 +1,28 @@
+name: Core C++20 build and tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  native:
+    name: Core / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure CMake
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DSASD_SCIENTIFIC_BUILD_TESTS=ON
+      - name: Compile
+        run: cmake --build build --config Debug
+      - name: Core regression tests
+        run: ctest --test-dir build -C Debug --output-on-failure
