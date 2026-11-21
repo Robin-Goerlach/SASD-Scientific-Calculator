@@ -1,5 +1,7 @@
 # Work packages — prioritized, verifiable
 
+**Architectural source and dependencies:** [German system architecture](docs/ARCHITEKTUR.md) and the canonical [ROADMAP.md](ROADMAP.md). Use its WP-00…WP-16 and ADR gate mapping when opening work items; do not mark planned historic engines as implemented.
+
 Maintain this as a lightweight, task-oriented overview. GitHub Issues may track implementation detail. **Order is deliberate**: the calculator's first usable iPhone release wins over compatibility research. Each issue/PR must link its scope, tests, dependencies and completion evidence.
 
 | ID | Priority | Milestone | Work package | Dependencies | Acceptance evidence | State |

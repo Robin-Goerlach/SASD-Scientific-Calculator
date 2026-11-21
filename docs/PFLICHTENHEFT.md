@@ -4,7 +4,9 @@
 **Fassung:** 1.0 – technischer Umsetzungsvorschlag auf Basis des Lastenhefts vom 21.11.2026  
 **Stand:** 21.11.2026  
 **Quelle:** [Lastenheft `SASD-SCI-LH-001`](LASTENHEFT.md)  
-**Repository:** https://github.com/Robin-Goerlach/SASD-Scientific-Calculator  
+**Repository:** https://github.com/Robin-Goerlach/SASD-Scientific-Calculator
+**Abgeleitete Systemarchitektur:** [Gesamtarchitektur](ARCHITEKTUR.md)  
+**Kanonischer Umsetzungsplan:** [ROADMAP.md](../ROADMAP.md)  
 **Status:** **Technische Soll-Konzeption, nicht als implementiert oder als Detailentwurf vollständig freigegeben zu verstehen.**
 
 > **Verbindliche Priorität:** Zuerst ein zuverlässiger klassischer wissenschaftlicher UPN/RPN-Rechner für das iPhone (M1/M2), offline und werbefrei. Vollständige historische Programme, System-RPL, synthetische Programmierung, CPU-/OS-Emulation und die eigenständige ALG-App sind keine V1.0-Blocker.

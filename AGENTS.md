@@ -1,5 +1,7 @@
 # AGENTS.md — operating rules for coding agents and contributors
 
+**Canonical modular architecture:** Read [`docs/ARCHITEKTUR.md`](docs/ARCHITEKTUR.md) and the single [`ROADMAP.md`](ROADMAP.md) before changing subsystem boundaries, state/ABI contracts or release dependencies. The architecture is a **proposal subject to ADR gates**, not a list of existing modules; classic RPN V1 retains priority over ALG, historic programs, Financial and optional emulation.
+
 **Technical implementation guidance:** Consult [`docs/PFLICHTENHEFT.md`](docs/PFLICHTENHEFT.md) after the Lastenheft, especially its source-ID traceability, proposed architecture modules and open ADRs. Its recommendations must not be treated as approved historical semantics or implemented code.
 
 **Normative product scope:** Read [`docs/LASTENHEFT.md`](docs/LASTENHEFT.md) before any scope, release-gate or historical-compatibility decision. This German Lastenheft consolidates binding versus planned versus optional requirements; full historic function catalogs remain separate.

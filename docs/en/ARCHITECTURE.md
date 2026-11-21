@@ -1,5 +1,7 @@
 # Architecture and boundaries
 
+> **Canonical detailed architecture (German):** [SASD Scientific Calculator – Gesamtarchitektur](../ARCHITEKTUR.md). This English document is an earlier focused summary; the canonical design and current M0–M5 plan are in the comprehensive architecture and [ROADMAP.md](../../ROADMAP.md). Proposed interfaces/ADRs do not imply implemented code.
+
 ## Principle: platform strategy C, priority A
 
 Implement a **small headless calculator first**, build the reliable iPhone product, then add depth and platforms. The current working code is **one generic C++20 arithmetic stack**, not a complete scientific engine, not a historic interpreter, and not a native iOS app.

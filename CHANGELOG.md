@@ -18,3 +18,10 @@ All notable product-visible changes should be recorded here once releases exist.
 - Added algebraic parser grammar examples, math component reuse, Time/Statistics/Advantage functional-extension planning, bilingual learning and evidence/test matrices.
 - Updated EN/DE README navigation and caption provenance for the last visual iPhone/desktop **SVG redrawings**, not original PNG or production screenshots.
 - Confirmed existing Linux/Windows/macOS native C++ GitHub Actions run as successful; **no new code, native iOS app or historical emulator was implemented as part of this documentation update**.
+
+## Unreleased – System architecture and canonical roadmap (2026-11-21)
+
+- Added `docs/ARCHITEKTUR.md`: proposed modular C++20/SwiftUI system design, explicit 41/48/ALG boundaries, state/ABI/numeric/persistence contracts, security model and mandatory ADR gates.
+- Reworked the **single** root `ROADMAP.md` as a German, release-first M0–M5 plan with work packages WP-00…WP-16, exit gates, independent ALG/RPL/Financial tracks and pre-implementation documents.
+- Linked the canonical architecture and roadmap from both READMEs, Pflichtenheft, legacy architecture summaries, tasking and coding-agent guidance.
+- No application, historical program support, iOS executable or numerical capability was implemented by this documentation-only change.

@@ -2,6 +2,8 @@
 
 **Stand:** 21.11.2026. **Planungsstand, keine Funktionszusage für die vorhandene Software.** Der aktuelle C++20-Kern beherrscht bislang nur einfache generische RPN-Grundoperationen. Eine native iPhone-App gibt es noch nicht.
 
+**Gesamtarchitektur und Meilensteinplanung:** [Architekturdokument](../ARCHITEKTUR.md) und [kanonische Roadmap M0–M5](../../ROADMAP.md).
+
 **Technische Ausarbeitung zum Lastenheft:** [Pflichtenheft – SASD Scientific Calculator](../PFLICHTENHEFT.md). Der aktuelle Codebestand ist nur ein kleiner RPN-Prototyp; die Umsetzungsvorschläge sind ausdrücklich keine Behauptung über bereits fertiggestellte Apps oder historische Kompatibilität.
 
 ## Verbindliches erstes Produktziel

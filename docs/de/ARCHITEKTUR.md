@@ -1,5 +1,7 @@
 # Architektur — SASD Scientific Calculator
 
+> **Maßgebliches ausführliches Architekturdokument:** [SASD Scientific Calculator – Gesamtarchitektur](../ARCHITEKTUR.md). Diese Datei ist eine knappe frühere Einstiegsskizze; für Module, Datenflüsse, Tests, ADRs und den M0–M5-Plan gelten das zentrale Architekturdokument und die [Roadmap](../../ROADMAP.md). Beide ergänzen das [Pflichtenheft](../PFLICHTENHEFT.md), ohne offene Detailentscheidungen als erledigt auszugeben.
+
 **Priorität:** zuerst der klassische UPN-/RPN-Rechenkern, dann die iPhone-App, **erst danach** historische Anwenderprogramme und systemnahe Emulation. C++20/CMake bildet den portablen Kern; die UI bleibt ein austauschbarer Adapter.
 
 Die derzeit tatsächlich vorhandene Klasse `sasd::scientific::RpnEngine` ist **nur ein generischer erster Stack mit Grundrechenarten**. Sie simuliert keine vollständige historische Rechnerfamilie und besitzt noch keine persistente Zustandsablage. `apps/cli` ist ein Entwicklerwerkzeug.
