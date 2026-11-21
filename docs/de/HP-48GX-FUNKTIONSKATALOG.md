@@ -4,7 +4,7 @@
 **Historisches Referenzmodell:** HP 48GX der 48G-Reihe (Grundausstattung ab Werk; keine beliebig nachgerüsteten Erweiterungskarten).  
 **Status:** Historische Forschungs-/Anforderungsreferenz. **Nicht** gleichbedeutend mit vorhandener SASD-Implementierung.
 
-> **Vollständigkeit und Grenzen:** Die alphabetische Tabelle in Kapitel 3 enthält **sämtliche 517 unterschiedlichen Einträge** der aus dem HP-48GX-ROM generierten *saturnus*-Befehlsnamendatei (`48gx.json`). Dazu gehören Operatoren, Konstanten und RPL-Strukturtoken; daher sind dies **nicht** 517 mathematisch unabhängige Funktionen. Die Vollständigkeit bezieht sich auf **diesen belegten ROM-Namensindex**, nicht auf sämtliche internen System-RPL-Einstiegspunkte, jede Bediensequenz oder alle Inhalte von Fremdkarten. Ergänzende interaktive Funktionen und Grenzen sind ausdrücklich dokumentiert. Alle Kurzbeschreibungen wurden neu verfasst, nicht aus Originalhandbüchern abgeschrieben.
+> **Vollständigkeit und Grenzen:** Kapitel 2a enthält jetzt den belegten Tastatur-, Menü-, App-, Einheiten- und Equation-Library-Abgleich mit den historischen Handbüchern. Die alphabetische Tabelle in Kapitel 3 enthält **sämtliche 517 unterschiedlichen Einträge** der aus dem HP-48GX-ROM generierten *saturnus*-Befehlsnamendatei (`48gx.json`). Dazu gehören Operatoren, Konstanten und RPL-Strukturtoken; daher sind dies **nicht** 517 mathematisch unabhängige Funktionen. Die Vollständigkeit bezieht sich auf **diesen belegten ROM-Namensindex**, nicht auf sämtliche internen System-RPL-Einstiegspunkte, jede Bediensequenz oder alle Inhalte von Fremdkarten. Ergänzende interaktive Funktionen und Grenzen sind ausdrücklich dokumentiert. Alle Kurzbeschreibungen wurden neu verfasst, nicht aus Originalhandbüchern abgeschrieben.
 
 ## 1. Modell, Funktionsumfang und Abgrenzung
 
@@ -52,6 +52,297 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 - Eingebaute Test-/Wartungsfunktionen (Tastatur, Display/Hardware, RAM-/Port- und Schnittstellentests), Kontrasteinstellungen und definierte Resetabläufe. Nicht alles ist als User-RPL-Mnemonic vorhanden.
 - ROM-Versionen und besondere eingebaute Befehle `VERSION`, `RULES` (Umformungsregeln), `TEACH`/`CLTEACH` und `MINEHUNT`.
 
+## 2a. Überprüfung anhand der Originalhandbücher und der vollständigen Tastatur
+
+### 2a.1 Was mit »alle Funktionen« gemeint ist
+
+Die Kurzanleitung des HP-48G beschreibt ausdrücklich **49 physische Tasten und mehr als tausend ausführbare Bedienoperationen** (deutsche Kurzanleitung, S. 2-10, PDF-S. 24). Die Zahl ist **keine Anzahl unterschiedlicher User-RPL-Kommandonamen**. Das englische Originalhandbuch unterscheidet `operation` (ausführbare Handlung), `command` (programmierbare Operation), `function` (als algebraische Funktion verwendbarer Befehl) und `analytic function` (Funktion mit besonderer symbolischer Behandlung). Die 517 aus dem ROM abgeleiteten Namen in Kapitel 3 sind deshalb nur **eine Ebene** einer sinnvollen Vollständigkeitsprüfung.
+
+**Quellenlage (Modell/Edition prüfen):**
+
+| Kennung | Quelle | Geltungsbereich | Verwendung |
+| --- | --- | --- | --- |
+| Q1 | Hochgeladen: `HP 48g-qsg-de.pdf`, *Serie HP 48G Kurzanleitung*, HP 00048-90127, 3. Auflage März 1994, 132 PDF-Seiten | HP-48G-Serie, einschließlich GX | Tatsächlich gesichtete deutsche Grundlagenschritte, 37 Lektionen, Bildschirm- und Menüdarstellung |
+| Q2 | Hewlett-Packard, *HP 48G Series User's Guide*, 8. Ausgabe Dezember 1994, 612 Seiten | HP 48G/G+/GX | Tastaturebenen, 12 Anwendungen, Einheiten/Graphik, Appendix C–H; [Online-Original](https://literature.hpcalc.org/official/hp48gseries-ug-en.pdf) |
+| Q3 | Hewlett-Packard, *HP 48G Series Advanced User's Reference*, 4. Ausgabe Dezember 1994, 766 Scan-Seiten | HP 48G/G+/GX | Befehlssyntax/Stackdiagramme, Gleichungsreferenz, Units, Systemflags, reservierte Variablen; [Online-Original](https://literature.hpcalc.org/community/hp48g-aur-en.pdf) |
+| Q4 | Das im Projekt bereitgestellte Foto `HP 48GX_Calculator.jpg` | Physische GX-Tastatur | Sichtprüfung sämtlicher 49 Tasten und deren farbigen Beschriftungen |
+| Q5 | James Donnelly et al., *The HP 48G/GX Pocket Guide*, Command Index, S. 41–77 | HP 48G/GX | unabhängige Kurzreferenz zu Befehlen und Bedientasten; [PDF](https://literature.hpcalc.org/community/hp48g-pg-en.pdf) |
+| Q6 | Viktor T. Toth / Eric Rechlin und John Finseth: [HP48GX Key Locator, menu and equation inventory](https://finseth.com/hpdata/hp48gx.php) | GX-Referenz | Zweitprüfung der Shift-Belegung, Menüs, Einheiten und Titel der Equation Library |
+| **X1** | Hochgeladen: `HP 48GX grafikfähiger Taschenrechner.pdf` – tatsächlicher PDF-Titel **`hp 48gII grafikfähiger Taschenrechner`**, 4. Ausgabe April **2004**, 981 PDF-Seiten | **HP 48gII, NICHT HP 48GX** | **Nicht** zur Ableitung der GX-Befehle verwenden; separate spätere Plattform mit anderem CAS/Funktionssatz |
+| P1 | Hochgeladen: `HP_48GX_App-SASD_Scientific_Calculator_Repository-2026_11_21.pdf` | SASD-Projektarchiv, kein historisches Handbuch | Projektkontext, keine Primärquelle für GX-Funktionen |
+
+Die HP-48gII-Befehle wie `DROITE`, `COLLECT`, `FACTOR`, `LNCOLLECT`, `PARTFRAC`, `ZEROS`, `DESOLVE`, `LAPLACE` oder `HESS` in der hochgeladenen 2004er Anleitung sind **nicht schon deshalb HP-48GX-Werksbefehle**. Ähnlich benannte klassische Funktionen im GX werden anhand des AUR/ROM einzeln unterschieden.
+
+### 2a.2 Tastatur: alle **49 physischen Tasten** und die sichtbaren Mehrfachfunktionen
+
+**Lesart:** »Links« = lavendelfarbene linke Shift-Taste; »rechts« = türkisfarbene rechte Shift-Taste. Die Taste kann in verschiedenen Kontexten eine andere Wirkung haben. Bei den sechs weißen Softkeys A–F ist der Funktionsinhalt **dynamisch** und kommt aus dem Menü, kein fest kodierter »A«-Rechenbefehl. Bei Ziffern sind die nicht gedruckten Shift-Belegungen nicht künstlich ergänzt. `–` bedeutet: keine entsprechend aufgedruckte zusätzliche Taste in der sichtbaren Ebene.
+
+| Physische Position / Alpha | Grundtaste | Linker Shift (lavendel) | Rechter Shift (türkis) | Wirkung / Kontext |
+| --- | --- | --- | --- | --- |
+| 1 / A | A / Softkey A | dynamisches erstes Menüfeld | – | Menüseite / Alpha A |
+| 1 / B | B / Softkey B | dynamisches zweites Menüfeld | – | Menüseite / Alpha B |
+| 1 / C | C / Softkey C | dynamisches drittes Menüfeld | – | Menüseite / Alpha C |
+| 1 / D | D / Softkey D | dynamisches viertes Menüfeld | – | Menüseite / Alpha D |
+| 1 / E | E / Softkey E | dynamisches fünftes Menüfeld | – | Menüseite / Alpha E |
+| 1 / F | F / Softkey F | dynamisches sechstes Menüfeld | – | Menüseite / Alpha F |
+| 2 / G | MTH | RAD | POLAR | Mathematik-Menü / Winkelmodus |
+| 2 / H | PRG | – | CHARS | Programm-Menü / 256-Zeichenkatalog |
+| 2 / I | CST | – | MODES | Benutzermenü / Systemeinstellungen |
+| 2 / J | VAR | – | MEMORY | Variablenmenü / Variablen-Browser |
+| 2 / K | ▲ | – | STACK | Cursor aufwärts / interaktiver Stack |
+| 2 / L | NXT | PREV | MENU | Nächste / vorige Menüseite; vorheriges Menü |
+| 3 / M | ' | UP | HOME | Algebraisches Objekt quotieren; Verzeichnisnavigation |
+| 3 / N | STO | DEF | RCL | Speichern / Funktionsdefinition / Rückruf |
+| 3 / O | EVAL | →NUM | UNDO | Auswerten / numerisch / letzten Stack wiederherstellen |
+| 3 / P | ◄ | PICTURE | – | Cursor links bzw. Grafikansicht |
+| 3 / Q | ▼ | VIEW | – | Cursor abwärts bzw. Stackobjekt ansehen |
+| 3 / R | ► | SWAP | – | Cursor rechts bzw. Stackebenen 1/2 vertauschen |
+| 4 / S | SIN | ASIN | ∂ | Sinus / Arkussinus / Differenziation |
+| 4 / T | COS | ACOS | ∫ | Kosinus / Arkuskosinus / Integration |
+| 4 / U | TAN | ATAN | Σ | Tangens / Arkustangens / Summation |
+| 4 / V | √x | x² | x√y (XROOT) | Quadratwurzel / Quadrat / n-te Wurzel |
+| 4 / W | yˣ | 10ˣ | LOG | Potenz / Antilogarithmus / Zehnerlogarithmus |
+| 4 / X | 1/x | eˣ | LN | Kehrwert / Exponentialfunktion / natürlicher Logarithmus |
+| 5 / 1 | ENTER | EQUATION | MATRIX | Stackeingabe / EquationWriter / MatrixWriter |
+| 5 / Y | +/− | EDIT | CMD | Vorzeichen / Objekteditierung / Kommandohistorie |
+| 5 / Z | EEX | PURG | ARG | Exponenteneingabe / Löschen / komplexes Argument |
+| 5 / – | DEL | CLEAR | – | Zeichen löschen bzw. gesamten Stack leeren |
+| 5 / – | ← (Backspace) | DROP | – | Zeichen davor löschen bzw. Stackobjekt entfernen |
+| 6 / – | α | USER | ENTRY | Alpha / User-Tastatur / Eingabemodus |
+| 6 / – | 7 | – | SOLVE | Ziffer 7 / Gleichungslöser |
+| 6 / – | 8 | – | PLOT | Ziffer 8 / Plot-Anwendung |
+| 6 / – | 9 | – | SYMBOLIC | Ziffer 9 / symbolische Mathematik |
+| 6 / – | ÷ | ( ) | # | Division / Klammerpaar / binäres Objektzeichen |
+| 7 / – | Linke Umschalttaste | – | – | Lavendel-/linke Shift-Ebene aktivieren |
+| 7 / – | 4 | – | TIME | Ziffer 4 / Uhr, Datum, Alarmverwaltung |
+| 7 / – | 5 | – | STAT | Ziffer 5 / Statistik-Anwendung |
+| 7 / – | 6 | – | UNITS | Ziffer 6 / Maßeinheitenkatalog |
+| 7 / – | × | [ ] | _ | Multiplikation / Arrayklammern / Einheitentrenner |
+| 8 / – | Rechte Umschalttaste | – | – | Türkis-/rechte Shift-Ebene aktivieren |
+| 8 / – | 1 | – | I/O | Ziffer 1 / Datentransfer, serielle und IR-Schnittstelle |
+| 8 / – | 2 | – | LIBRARY | Ziffer 2 / Bibliotheken, Kartenports |
+| 8 / – | 3 | – | EQ LIB | Ziffer 3 / eingebaute Gleichungsbibliothek |
+| 8 / – | − | « » | " " | Subtraktion / Programmbegrenzer / Zeichenkette |
+| 9 / – | ON | CONT | OFF | Einschalten/Abbruch / Fortsetzen / Ausschalten |
+| 9 / – | 0 | = | → | Ziffer 0 / Gleichheitszeichen / lokale Variablen |
+| 9 / – | . | , | ↵ | Dezimalpunkt / Argumenttrennung / Eingabeende im Editor |
+| 9 / – | SPC | π | ∠ | Leerzeichen / Pi / Winkelzeichen |
+| 9 / – | + | { } | : : | Addition / Liste / weitere Trenn-/Tagzeichen |
+
+**Tastaturebenen insgesamt:** Normaltastatur; Links-Shift; Rechts-Shift; Alpha-Großbuchstaben; Alpha-Links-Shift (Kleinbuchstaben); Alpha-Rechts-Shift (griechische/weitere Sonderzeichen). Alpha-Shift-Belegungen sind teilweise **nicht auf den physischen Tasten aufgedruckt**. Alpha einmal, Alpha zweimal (Verriegelung), Shift plus Alpha, Klein-/Großschreibung, gehaltene Alpha-Taste, Benutzer-Modus und benutzerdefinierte Tasten gehören als **Zustandsautomaten** in einen späteren Tastaturtest.
+
+**Präzise Kontextregeln:** Die Richtungstasten `▲ ▼ ◄ ►`, `DEL` und Backspace navigieren bzw. löschen **in Eingabe/Editoren**, können aber **ohne aktiven Cursor** die Funktionen `STACK`, `VIEW`, `PICTURE`, `SWAP`, `CLEAR` und `DROP` ausführen. `ON` ist im Betrieb meist `CANCEL`. `NXT` blättert Menüseiten; mit `PREV` rückwärts und `MENU` zwischen zuletzt aktiven Menüs. Das ist aus Bild plus User's Guide Kapitel 1 und Q1, Lektionen 2–5, belegt.
+
+### 2a.3 Die **12 eingebauten Anwendungen** (Bildschirm-/Dialogfunktionen)
+
+| Anwendung | Aufruf über rechte Shift-Ebene | Umfasste Bedienmöglichkeiten (kein separater XLIB-Name für jede Aktion) |
+| --- | --- | --- |
+| CHARS | PRG | 256-Zeichen-Katalog, vier Tafeln à 64 Zeichen, Pfeiltasten, Zeichenposition, ECHO in Kommandozeile |
+| EQ LIB | 3 | Themen und Problemüberschriften wählen, Gleichungen/Bildtafeln und Einheiten, Constants Library, Multiple Equation Solver, Utilities |
+| I/O | 1 | Rechner-/PC-Datentransfer, Kermit, serielle Parameter, IR, Drucken, Status und Fehler |
+| LIBRARY | 2 | Ports durchblättern, Bibliotheken suchen, anhängen/abhängen, Speicherkartenbezug |
+| MEMORY | VAR | Variablen-Browser mit Verzeichnisnavigation, Ansehen, Bearbeiten, Kopieren, Verschieben, Umbenennen, Löschen, Backup/Restore |
+| MODES | CST | Number Format, Angle Measure, Coordinate System, BEEP/CLOCK/Decimal-Mark, Systemflags, eigene Tastatur und Menüs |
+| PLOT | 8 | Auswahl eines von 15 Plottypen, EQ/PPAR/VPAR-Formulare, Grenzen, Achsen, grafische Darstellung |
+| SOLVE | 7 | Gleichungen, Polynomnullstellen, lineare Systeme, Differentialgleichungen und Finanz-TVM historisch |
+| STACK | ▲ | Interaktiver Stack: Ebenen auswählen, Objekt ansehen/editieren, Kopien, Vertauschungen, Auswählen, Einfügen und Entfernen |
+| STAT | 5 | Dateneingabe/-editor, ein- und zweidimensionale Kennzahlen, Regressions-/Fit-Analyse und statistische Plots |
+| SYMBOLIC | 9 | Differenzieren, Integrieren, Taylor, Isolieren von Unbekannten, Quadratisieren, Expandieren/Collect |
+| TIME | 4 | Datum/Uhrzeit, Alarm-/Terminbrowser, Wiederholung, Alarm-Bestätigung und Datum-/Zeitberechnung |
+
+**Zusätzliche Editoren/Umgebungen:** `EQUATION` (EquationWriter), `MATRIX` (MatrixWriter), `PICTURE` (Bild-/Plot-Umgebung), Zeichenketten-Editor, Befehlszeile, der Bildschirm zum Ändern/Ansehen von Variablen sowie der interaktive Stack sind eigenständige **Oberflächenfunktionen**. Insbesondere `SOLVE`, `STAT` und `PLOT` bieten Fullscreen-Formulare und zugehörige Programm-Menüs, nicht nur eine einzelne Ergebnisfunktion.
+
+### 2a.4 Systematische Menüinventur, einschließlich nicht programmierbarer Menüaktionen
+
+Hier werden Menübereiche **als Navigationsräume** dokumentiert. Die voll ausgeschriebenen programmierbaren Befehlsnamen stehen in Kapitel 3; hier wird erfasst, **welche Funktionalität Anwender in den Menüs erreichen können**.
+
+| Menü / Untermenü | Funktionen, Menügruppen und Bedienelemente |
+| --- | --- |
+| `MTH` | `VECTR`, `MATR`, `LIST`, `HYP`, `REAL`, `BASE`, `PROB`, `FFT`, `CMPLX`, `CONST` |
+| `MTH/VECTR` | `ABS`, `DOT`, `CROSS`, `V→`, `→V2`, `→V3`, `RECT`, `CYLIN`, `SPHERE` |
+| `MTH/MATR/MAKE` | `CON`, `IDN`, `TRN`, `RDM`, `RANM`, `SIZE`, `GET`, `GETI`, `PUT`, `PUTI`, `SUB`, `REPL` |
+| `MTH/MATR/NORM` | `ABS`, `SNRM`, `RNRM`, `CNRM`, `SRAD`, `COND`, `RANK`, `DET`, **`TRACE` = Matrixspur** |
+| `MTH/MATR/FACTR` | `RREF`, `LU`, `LQ`, `QR`, `SCHUR`, `SVD`, `SVL` |
+| `MTH/MATR/COL` / `ROW` | `→COL`, `COL→`, `COL+`, `COL-`, `CSWP`; `→ROW`, `ROW→`, `ROW+`, `ROW-`, `RCI`, `RCIJ`, `RSWP` |
+| `MTH/LIST` | `ΔLIST`, `ΣLIST`, `ΠLIST`, `SORT`, `REVLIST`, `ADD` |
+| `MTH/HYP` | Hyperbolische und inverse Funktionen plus `EXPM`/`LNP1` |
+| `MTH/PROB` | `COMB`, `PERM`, `!`, `RAND`, `RDZ`, `UTPC`, `UTPF`, `UTPN`, `UTPT`, `NDIST` |
+| `MTH/REAL` | Prozent, Maximum/Minimum, Modul, Signum, Mantisse/Exponent, Ganz-/Bruchteil, Runden/Trunkieren, `FLOOR`/`CEIL`, Grad/Rad |
+| `MTH/BASE` | HEX/DEC/OCT/BIN, `R→B`/`B→R`, `LOGIC`, `BIT`, `BYTE`, Wortlänge `STWS`/`RCWS` |
+| `MTH/FFT` | `FFT`, `IFFT` |
+| `MTH/CMPLX` | `RE`, `IM`, `C→R`, `R→C`, `ABS`, `ARG`, `SIGN`, `NEG`, `CONJ` |
+| `PRG/BRCH` | `IF/THEN/ELSE/END`, `CASE`, `START/NEXT/STEP`, `FOR/NEXT/STEP`, `DO/UNTIL`, `WHILE/REPEAT`, `IFT`/`IFTE` |
+| `PRG/TEST` | Relationen, Boolesch, Flags, `SAME`, `TYPE`, `LININ` |
+| `PRG/TYPE` | Objektzerlegung, Arrays, Listen, Text, Tags, Einheiten, Typabfrage, `EQ→`, `CHR`/`NUM` |
+| `PRG/LIST/ELEM` | `GET`, `GETI`, `PUT`, `PUTI`, `SIZE`, `POS`, `HEAD`, `TAIL` |
+| `PRG/LIST/PROC` | `DOLIST`, `DOSUBS`, `NSUB`, `ENDSUB`, `STREAM`, `REVLIST`, `SORT`, `SEQ` |
+| `PRG/GROB` | `→GROB`, `BLANK`, `GOR`, `GXOR`, `SUB`, `REPL`, `→LCD`, `LCD→`, `SIZE`, `ANIMATE` |
+| `PRG/PICT` | `PICT`, `PDIM`, `LINE`, `TLINE`, `BOX`, `ARC`, Pixel setzen/löschen/testen, Koordinaten wandeln |
+| `PRG/IN` | `INFORM`, `NOVAL`, `CHOOSE`, `INPUT`, `KEY`, `WAIT`, `PROMPT` |
+| `PRG/OUT` | `PVIEW`, `TEXT`, `CLLCD`, `DISP`, `FREEZE`, `MSGBOX`, `BEEP` |
+| `PRG/RUN` | **UI-only** `DBUG`, `SST`, `SST↓`, `NEXT` sowie `HALT`, `CONT`, `KILL`, `OFF` |
+| `PRG/ERROR` | `DOERR`, `ERRN`, `ERRM`, `ERR0`, `LASTARG`, `IFERR`-Struktur |
+| `CHAR/CHARS` | `SUB`, `REPL`, `POS`, `SIZE`, `NUM`, `CHR`, `OBJ→`, `→STR`, `HEAD`, `TAIL` |
+| `MODES/FMT` | `STD`, `FIX`, `SCI`, `ENG`, Dezimaltrennzeichen, Formatdialog |
+| `MODES/ANGL` | `DEG`, `RAD`, `GRAD`, `RECT`, `CYLIN`, `SPHERE` |
+| `MODES/FLAG` | `SF`, `CF`, `FS?`, `FC?`, `FS?C`, `FC?C`, `STOF`, `RCLF`, `RESET`-Dialog |
+| `MODES/KEYS` / `MENU` / `MISC` | `ASN`, Tastenbelegung löschen/speichern; `MENU`, `TMENU`, `RCLMENU`; Beep/Uhr/Undo- und Anzeigeoptionen |
+| `MEMORY` / `DIR` / `ARITH` | `MEM`, `BYTES`, `NEWOB`, `ARCHIVE`, `RESTORE`; `PATH`, `CRDIR`, `PGDIR` (= Verzeichnis löschen), `VARS`, `TVARS`, `ORDER`; `STO±/*/÷`, `INCR`, `DECR`, `SINV`, `SNEG`, `SCONJ` |
+| `STACK` | `OVER`, `ROT`, `ROLL`, `ROLLD`, `PICK`, `DEPTH`, `DUP`, `DUP2`, `DUPN`, `DROP2`, `DROPN`, `SWAP`, `DROP` |
+| `SOLVE/ROOT` | `SOLVR`-Eingabemaske, `ROOT`, Eingabe-/Änderung der reservierten Variable `EQ` |
+| `SOLVE/DIFFE` | `RKF`, `RRK`, `RKFSTEP`, `RRKSTEP`, `RKFERR`, `RSBERR` |
+| `SOLVE/POLY` / `SYS` / `TVM` | Polynomnullstellen/-koeffizienten, LGS, LSQ/RSD; historischer TVM-Solver/Amortisation als **separat zu verwaltender SASD-Produktbereich** |
+| `SYMBOLIC` | `COLCT`, `EXPAN`, `ISOL`, `QUAD`, `SHOW`, `TAYLR`, `↑MATCH`, `↓MATCH`, `→Q`, `→Qπ`, `|`, `APPLY`, `QUOTE` |
+| `PLOT/PTYPE` / `3D/PTYPE` | Alle 15 im nächsten Abschnitt einzeln aufgeführten Plottypen |
+| `PLOT/PPAR` | `INDEP`, `DEPND`, `XRNG`, `YRNG`, `RES`, Reset/Info, `CENTR`, `SCALE`, `*W`, `*H`, `AXES`, `ATICK` |
+| `PLOT/3D/VPAR` | `XVOL`, `YVOL`, `ZVOL`, `XXRNG`, `YYRNG`, `EYEPT`, `NUMX`, `NUMY` und Parameterdialog |
+| `STAT/DATA` / `ΣPAR` | Daten importieren/erfassen, `Σ+`, `Σ-`, `CLΣ`, Datenauswahl `ΣDAT`, `XCOL`/`YCOL`, Fit-Modell |
+| `STAT/1VAR` | `TOT`, `MEAN`, `SDEV`, `MAXΣ`, `MINΣ`, `BINS`, `VAR`, `PSDEV`, `PVAR` |
+| `STAT/FIT` / `SUMS` | `ΣLINE`, `LR`, `PREDX`, `PREDY`, `CORR`, `COV`, `PCOV`; `ΣX`, `ΣY`, `ΣX^2`, `ΣY^2`, `ΣX*Y`, `NΣ` |
+| `STAT/PLOT` | `BARPLOT`, `HISTPLOT`, `SCATRPLOT` |
+| `TIME` / `ALRM` | Datum, Uhrzeit, Ticks, Formatumwandlung, Intervalle, Kalenderarithmetik, Alarme suchen/setzen/löschen/quittieren |
+| `I/O` / `SERIAL` | `OPENIO`, `CLOSEIO`, `XMIT`, `SRECV`, `STIME`, `SBRK`, `BUFLEN`, serielle Parameter |
+| `I/O` / `IOPAR` / `SRVR` | IR/Wire, ASCII/Binary, Baud, Parität, Prüfsumme, Übersetzung, Kermit-Server, `SEND`/`RECV`, XModem |
+| `I/O` / `PRINT` | `PRVAR`, `PRST`, `PRSTC`, `PRLCD`, `CR`, `PR1`, Druckparameter/-verzögerung |
+| `LIBRARY` / `PORTS` | `:0:`, `:1:`, `:2:` und weitere verfügbare Ports, `PVARS`, `LIBS`, `MERGE1`, `FREE1`, `ATTACH`, `DETACH` |
+| `UNITS` | 16 Untermenüs (nachstehend mit Einheitenbezeichnungen) und `CONVERT`, `UBASE`, `UFACT`, `UVAL`, `→UNIT` |
+| `EQ LIB` | `EQLIB` (15 Themen), `COLIB` (Konstanten), `MES` (Mehrgleichungslöser), `UTILS` (spezielle Formeln und Spiel) |
+
+**Regel für die Umsetzung:** Menüknöpfe wie `RESET`, `INFO`, `COPY`, `CANCL`, `EDIT`, `DBUG`, `ZOOM`, `ISECT`, `SLOPE`, `AREA` usw. werden als **Bedienaktionen** erfasst und nicht fälschlich zu neuen programmierbaren XLIB-Befehlen umdeklariert.
+
+### 2a.5 PICTURE und Graphik: **zusätzliche interaktive Funktionen**
+
+| Bereich | Bedienaktionen im Original (nicht alle separat programmierbar) |
+| --- | --- |
+| PICTURE / Grundansicht | `ZOOM`, Koordinatenanzeige `(X,Y)`, grafisches `TRACE`, `FCN`, `EDIT`, `CANCL`, Scrollen |
+| Zoom | `ZFACT`, `BOXZ`, `ZIN`, `ZOUT`, `ZSQR`, `ZDFLT`, `HZIN`, `HZOUT`, `VZIN`, `VZOUT`, `CNTR`, `ZAUTO`, `ZDECI`, `ZINTG`, `ZTRIG`, `ZLAST` |
+| Grafische Analyse `FCN` | `ROOT` (Nullstelle), `ISECT` (Schnittpunkt), `SLOPE` (Steigung), `AREA` (Fläche), `SHADE` (Schraffur), `EXTR` (Extremum), `F(X)` (Funktionswert), `F'` (Ableitung), `TANL` (Tangente), `NXEQ` (nächste Gleichung), `VIEW` |
+| PICTURE-Editor | `DOT+`, `DOT-`, `LINE`, `TLINE`, `BOX`, `CIRCL`, `MARK`, `+/−`, `LABEL`, `DEL`, `ERASE`, `MENU`, `SUB`, `REPL`, `PICT→`, `X,Y→` |
+| Plotparameter | Freie Achsenwahl, Skalierung, Achsenschnitt, benannte Kurven, Gitter, Koordinaten-/Pixelvergleich, Nachzeichnen ohne Datenverlust |
+
+**Wichtiger Kollisionsfall:** Der ROM-Befehl **`TRACE` ist die Spur einer quadratischen Matrix**, also die Summe ihrer Diagonalelemente. Die **gleichnamige interaktive Kurvenverfolgung im Grafikmodus** ist eine *andere Operation*. Ebenso sind `ROOT` (programmierbarer numerischer Löser) und `ROOT` in `PICTURE/FCN` nicht ohne Kontext gleichzusetzen.
+
+### 2a.6 Alle **15 Plottypen**, getrennt von den einzelnen Bedienaktionen
+
+| Nr. | Originaltyp | Inhalt |
+| --- | --- | --- |
+| 1 | `FUNCTION` | y=f(x), auch mehrere Kurven |
+| 2 | `CONIC` | Kegelschnitte / implizite Kurven |
+| 3 | `POLAR` | Polargleichungen |
+| 4 | `PARAMETRIC` | Parametrisierte Kurven |
+| 5 | `TRUTH` | Boolesche/implizite Wahrheitswertbereiche |
+| 6 | `DIFFEQ` | Kurven von Differentialgleichungen |
+| 7 | `SLOPEFIELD` | Richtungsfeld |
+| 8 | `WIREFRAME` | Räumliches Drahtgitter |
+| 9 | `YSLICE` | Schnitt-Darstellung mit y |
+| 10 | `PCONTOUR` | Pseudokontur |
+| 11 | `GRIDMAP` | Dreidimensionale Gitternetz-Abbildung |
+| 12 | `PARSURFACE` | Parametrische Fläche |
+| 13 | `BAR` | Balkendiagramm |
+| 14 | `HISTOGRAM` | Histogramm |
+| 15 | `SCATTER` | Streudiagramm |
+
+### 2a.7 Einheiten: sämtliche **16 historisch eingebauten Menügruppen**
+
+Die Kurzanleitung zeigt lediglich das UNITS-Menü; die vollständige Menüaufteilung und Namen müssen aus dem **HP-48G-User's-Guide-Anhang E / AUR-Anhang B** und den historischen GX-Menüübersichten stammen. Die folgende Bestandsaufnahme enthält die im Zweitindex sichtbaren Menüsymbole; aus Kompatibilitätsgründen sind Abweichungen zwischen **Anzeigekürzel, kanonischer Eingabeschreibweise und Umrechnungsfaktor** später gesondert abzugleichen (z. B. `A` für Ångström und Ampere je Kontext, `R`/ `rad`/ `°R`; Groß-/Kleinschreibung beachten).
+
+| Menü | Im historischen Menü sichtbare Einheitentypen / Bezeichnungen |
+| --- | --- |
+| LENG – Länge | `m`, `cm`, `mm`, `yd`, `ft`, `in`, `Mpc`, `pc`, `lyr`, `au`, `km`, `mi`, `nmi`, `miUS`, `chain`, `rd`, `fath`, `ftUS`, `mil`, `μm`, `Å`, `fermi` |
+| AREA – Fläche | `m²`, `cm²`, `b`, `yd²`, `ft²`, `in²`, `km²`, `ha`, `a`, `mi²`, `miUS²`, `acre` |
+| VOL – Volumen | `m³`, `st`, `cm³`, `yd³`, `ft³`, `in³`, `l`, `galUK`, `galC`, `galUS`, `qt`, `pt`, `ml`, `cu`, `flozUS`, `flozUK`, `tbsp`, `tsp`, `bbl`, `bu`, `pk`, `fbm` |
+| TIME – Zeit und Frequenz | `yr`, `d`, `h`, `min`, `s`, `Hz` |
+| SPEED – Geschwindigkeit | `m/s`, `cm/s`, `ft/s`, `kph`, `mph`, `knot`, `c`, `ga` |
+| MASS – Masse/Stoffmenge | `kg`, `g`, `lb`, `oz`, `slug`, `lbt`, `ton`, `tonUK`, `t`, `ozt`, `ct`, `grain`, `u`, `mol` |
+| FORCE – Kraft | `N`, `dyn`, `gf`, `kip`, `lbf`, `pdl` |
+| ENRG – Energie | `J`, `erg`, `kcal`, `cal`, `Btu`, `ft·lbf`, `therm`, `MeV`, `eV` |
+| POWR – Leistung | `W`, `hp` |
+| PRESS – Druck | `Pa`, `atm`, `bar`, `psi`, `torr`, `mmHg`, `inHg`, `inH₂O` |
+| TEMP – Temperatur | `°C`, `°F`, `K`, `°R` |
+| ELEC – Elektrische/magnetische Größen | `V`, `A`, `C`, `Ω`, `F`, `Wb`, `Fdy`, `H`, `mho`, `S`, `T`, `Wb` |
+| ANGL – Winkel | `°`, `rad`, `grad`, `arcmin`, `arcsec`, `sr` |
+| LIGHT – Photometrie | `fc`, `flam`, `lx`, `ph`, `sb`, `lm`, `cd`, `lam` |
+| RAD – Strahlung | `Gy`, `rad`, `rem`, `Sv`, `Bq`, `Ci`, `R` |
+| VISC – Viskosität | `P`, `St` |
+
+**Zusätzliche nicht bloß aus einem Menü-Label ableitbare Funktionen:** SI-Vorsätze, Einheitenprodukte/Quotienten/Potenzen, dimensionsbehaftete Rechnungen, dimensionsfremde Fehlermeldungen, `UBASE`, `UFACT`, `UVAL`, `CONVERT`, `→UNIT`, die besondere Temperaturbehandlung mit `TDELTA`/`TINC`, benutzerdefinierte Einheiten als Variablen und Einheitenanzeige im SOLVE/EQ-LIB-Kontext. Die obigen 148 Schreibformen sind ein **Rechercheindex**, **keine geprüfte numerische Tabelle** aller Umrechnungsfaktoren; solche Faktoren einschließlich Offset/Skala und Rundung erfordern gesonderte Referenztests.
+
+### 2a.8 Equation Library: alle **15 eingebauten Themengebiete** mit ihren Problemüberschriften
+
+Die Standard-GX-Gleichungsbibliothek besitzt über 300 Gleichungen, thematisch in 15 Bereiche und über 100 Problemüberschriften geordnet. **Eine Problemüberschrift kann mehrere Formeln beinhalten.** Darum ist die folgende Liste eine vollständige Übersicht der in der herangezogenen GX-Themenübersicht benannten **102 Problemüberschriften**, nicht eine Abschrift von über 300 urheberrechtlich geschützten Originalformeln.
+
+| Nr. / Themengebiet | Zahl der Problemüberschriften | Originaltitel der eingebauten Problemgruppen |
+| --- | ---: | --- |
+| 1. Stützen und Balken / Columns and Beams | 10 | `Elastic Buckling`; `Eccentric Columns`; `Simple Deflection`; `Simple Slope`; `Simple Moment`; `Simple Shear`; `Cantilever Deflection`; `Cantilever Slope`; `Cantilever Moment`; `Cantilever Shear` |
+| 2. Elektrizität / Electricity | 23 | `Coulomb's Law`; `Ohm's Law and Power`; `Voltage Divider`; `Current Divider`; `Wire Resistance`; `Series and Parallel R`; `Series and Parallel C`; `Series and Parallel L`; `Capacitive Energy`; `Inductive Energy`; `RLC Current Delay`; `DC Capacitor Current`; `Capacitor Charge`; `DC Inductor Voltage`; `RC Transient`; `RL Transient`; `Resonant Frequency`; `Plate Capacitor`; `Cylindrical Capacitor`; `Solenoid Inductance`; `Toroid Inductance`; `Sinusoidal Voltage`; `Sinusoidal Current` |
+| 3. Strömungslehre / Fluids | 4 | `Pressure at Depth`; `Bernoulli Equation`; `Flow with Losses`; `Flow in Full Pipes` |
+| 4. Kräfte und Energie / Forces and Energy | 8 | `Linear Mechanics`; `Angular Mechanics`; `Centripetal Force`; `Hooke's Law`; `1D Elastic Collisions`; `Drag Force`; `Law of Gravitation`; `Mass-Energy Relation` |
+| 5. Gase / Gases | 8 | `Ideal Gas Law`; `Ideal Gas State Change`; `Isothermal Expansion`; `Polytropic Processes`; `Isentropic Flow`; `Real Gas Law`; `Real Gas State Change`; `Kinetic Theory` |
+| 6. Wärmeübertragung / Heat Transfer | 6 | `Heat Capacity`; `Thermal Expansion`; `Conduction`; `Convection`; `Conduction + Convection`; `Black Body Radiation` |
+| 7. Magnetismus / Magnetism | 4 | `Straight Wire`; `Force Between Wires`; `B Field in Solenoid`; `B Field in Toroid` |
+| 8. Bewegung / Motion | 7 | `Linear Motion`; `Object in Free Fall`; `Projectile Motion`; `Angular Motion`; `Circular Motion`; `Terminal Velocity`; `Escape Velocity` |
+| 9. Optik / Optics | 6 | `Law of Refraction`; `Critical Angle`; `Brewster's Law`; `Spherical Reflection`; `Spherical Refraction`; `Thin Lens` |
+| 10. Schwingungen / Oscillations | 5 | `Mass-Spring System`; `Simple Pendulum`; `Conical Pendulum`; `Torsional Pendulum`; `Simple Harmonic` |
+| 11. Ebene Geometrie / Plane Geometry | 6 | `Circle`; `Ellipse`; `Rectangle`; `Regular Polygon`; `Circular Ring`; `Triangle` |
+| 12. Räumliche Geometrie / Solid Geometry | 4 | `Cone`; `Cylinder`; `Parallelepiped`; `Sphere` |
+| 13. Halbleiter / Solid State Devices | 4 | `PN Step Junctions`; `NMOS Transistors`; `Bipolar Transistors`; `JFETs` |
+| 14. Spannungsanalyse / Stress Analysis | 4 | `Normal Stress`; `Shear Stress`; `Stress on an Element`; `Mohr's Circle` |
+| 15. Wellen / Waves | 3 | `Transverse Waves`; `Longitudinal Waves`; `Sound Waves` |
+
+**Equation-Library-Bedienungen:** EQLIB-Katalog öffnen, Themengebiet auswählen, Problemtyp auswählen, Gleichung/Lösungsvariable wählen, Eingabeformulare mit Einheiten öffnen, Solver ausführen, Ergebnisse auf Stack/Variablen anwenden, Variablen zurücksetzen, Bilder/Diagramme ansehen, Einheiten berücksichtigen, Konstantenbibliothek öffnen, `MES`/Mehrgleichungslöser benutzen, mathematische Hilfsfunktionen aus `UTILS` ausführen. In der Bibliothek sind **40 physikalische Konstanten** zusätzlich als historische Datensammlung dokumentiert (keine 40 neuen Befehlsnamen). Die **einzelnen Formelzeichen, Variablenwerte, Illustrationen und numerischen Konstanten** sind noch nicht als unabhängige Prüfdatensätze eingetragen. Proprietäre HP-Grafiken/ROMs werden nicht ins SASD-Repository kopiert.
+
+### 2a.9 Reservierte Objekte, Systemvariablen und Speicherzustand
+
+| Name / Familie | Rolle, die bei historischer Kompatibilität zu berücksichtigen ist |
+| --- | --- |
+| `HOME`, Unterverzeichnisse | Objekt-/Variablen-Namensraum; globaler Pfad, lokale Variablen |
+| `EQ` | Aktuelle Gleichung bzw. Ausdruck für SOLVE und Plot |
+| `PPAR` | 2D-Plotparameter, Bereich, Achsen, unabhängige/abhängige Variable |
+| `VPAR` | 3D-Plotparameter und Betrachtungsraum |
+| `ΣDAT` | Statistik-Datenmatrix |
+| `ΣPAR` | Statistikparameter, Spalten, Modell |
+| `PICT` | Aktueller Grafikpuffer |
+| `IOPAR` | Schnittstellen-/Übertragungsparameter |
+| `PRTPAR` | Druckparameter |
+| `CST` | Benutzerdefinierte Menüstruktur |
+| `ALRMDAT` | Alarm-/Termindatensätze |
+| `IERR` | Integrationsfehler-/Genauigkeitsvariable |
+| `EXPR` | Algebraischer Ausdruck in EQW-Kontext |
+| `Mpar`, `MHpar` | Solver-/MINEHUNT-Kontextparameter |
+| `Nmines` | MINEHUNT-Spielparameter |
+| `n1`, `n2`, … sowie `s1`, `s2`, … | Hilfsnamen symbolischer Auflösungen |
+| `der…` | Benutzerdefinierte Ableitungsregeln |
+| `LAST CMD`, `LAST STACK`, `LAST ARG` | Rückrufhistorie mit flagabhängiger Aktivierung |
+| Port `0`, Kartenport `1`, Kartenports `2` bis `33` | Interne bzw. optionale externe Speicherräume; GX-Portlayout beachten |
+
+**Historischer Datenmodell-Testbedarf:** Objektprolog, Nibblelänge, atomare/zusammengesetzte Typen, Präzisionsformat, Typprüfung, globale/lokale Namensbindung, Wortlänge von Binärzahlen, Algebraic-Lazy-Evaluation, Flagsystem, Speicherbereinigung, Zugriffspfad für Bibliotheken, Port-Backup-Objekte und kontrolliertes Fehlerverhalten. Für `SYSEVAL`/`LIBEVAL` nur virtuelle, explizit erlaubte Kommandoregister; **keine** Host-Pointer.
+
+### 2a.10 Numerische und programmierte Bedienfälle, die oft vergessen werden
+
+- **Eingabe und Stack:** Stackscrollen, dynamische Tiefe, `ENTER`, `LASTARG` und `UNDO`, Zahleneingabe-/EEX-Zustand, Stack-Browser, Objekte mit und ohne Auswertung, Zwischenresultate und Fehlerzustand.
+- **Editoren:** `EDIT`, `VIEW`, `CMD`, `PURG`, Cursor zu Anfang/Ende bzw. über mehrere Zeilen, Einfügen/Überschreiben, Auswahl eines Teilausdrucks, Unterausdrücke klammern/entklammern, `SUB`/`REPL`.
+- **EquationWriter-Regelmenü:** `RULES` *als interaktives Untermenü im EquationWriter* eröffnet eine Vielzahl einzelner Umformungsaktionen (z. B. doppelte Negation, Inversion, Einserneutralität, Klammerung, distributive Regeln, trigonometrische Identitäten, Expandieren und Zusammenfassen). **Nicht verwechseln mit dem eingebauten RPL-Namen `RULES`**, der historisch auch als undokumentierte Entwickler-Spielerei referenziert wird; Befehl und Menüpunkt sind gesondert zu testen.
+- **Grafik und numerisches Lösen:** `ROOT`, `ISECT`, `SLOPE`, `AREA`, `F(X)`, `F'`, `TANL`, `NXEQ`, vier Zoomrichtungen, Standardzoom, Spezialskalierungen und Grafikkursor nicht mit gleichnamigen Stackbefehlen verwechseln.
+- **User RPL:** Programme anlegen/editieren/speichern/aufrufen, Verzweigungen, lokale Variablen, Listen über mehreren Typen auswerten, `DEBUG`-Oberfläche, `SST`/`SST↓`-/Einzelschritt und Stopp; Zwischenstände ausgeben, Tastatur oder Formular abfragen, Alarmaktionen/Softwarekeys.
+- **Statistik:** Einzelwert- und Paarstatistik, Kolonnenparameter, Fit-Modellauswahl, Histogrammklassen, gewichtete/komplexe Eingabetypen, Streuung, Regressionsprognose, grafische Auswertung.
+- **Basisarithmetik:** Vorzeichenbehandlung, Wortlängen von 1 bis 64 Bit, Überläufe, Schiebe-/Rotate-Befehle auf Bit-/Bytebasis, logische/bitweise Operatoren; `HEX/DEC/BIN/OCT` steuern **Anzeige**, nicht stets Konvertierung eines `real`-Objekts.
+- **Datensicherung und Hardware:** Ein-/Ausschalten mit Zustandswiederherstellung, Option Alarm aufwecken, Batteriesignal, Kontrast, serielle/IR-Parameter, Druckerkompatibilität, selbsttätige Speicherbereinigung, Speicherkarten-Hotplug/Portkonfiguration unter historischen Hardwarebedingungen.
+- **Sonderfälle:** Eingebaute `TEACH`/`CLTEACH`-Beispielobjekte; `MINEHUNT`; internes `RULES`; von Anwendern installierte ROM-Bibliotheken in Port 1/2 sind **nicht Bestandteil des Grundgeräts**.
+
+### 2a.11 Korrigierte semantische Besonderheiten – verbindlich für alle späteren Tests
+
+| Name | Richtige Unterscheidung | Fehlerquelle |
+| --- | --- | --- |
+| `→COL` / `COL→` | `→COL` zerlegt Array in Spalten; `COL→` baut Array aus Spalten | Bei umgekehrter Übersetzung sind Tests systematisch falsch |
+| `→ROW` / `ROW→` | `→ROW` zerlegt Array in Zeilen; `ROW→` baut Array aus Zeilen | Gleiche Asymmetrie |
+| `→DIAG` / `DIAG→` | `→DIAG` liefert Diagonalelemente; `DIAG→` erzeugt Diagonalmatrix | Gegenrichtung ist leicht zu verwechseln |
+| `TRACE` / Grafik-`TRACE` | RPL-`TRACE` = Matrixspur; Grafik-`TRACE` = interaktive Kurvenverfolgung | Gleiche Aufschrift, zwei Kontexte |
+| `PGDIR` / `UPDIR` | `PGDIR` löscht ein Verzeichnis; `UPDIR` navigiert ins Elternverzeichnis | Verwechslung ist potentiell datenzerstörend |
+| `PINIT` | Speicherport initialisieren; **nicht** beliebige Plotparameter | Besonders relevant bei GX-Erweiterungskarten |
+| `CKSM` | Kermit-Prüfsummeneinstellung; **nicht** abstrakte Datei-Hashfunktion | I/O-Protokollsemantik |
+| `FACT` / `!` | Beide stehen im GX für Fakultät/Gamma-Zusammenhang; **nicht** Primfaktorzerlegung | Späteres CAS-Vokabular anderer Modelle |
+| `RULES` (Befehl) / EquationWriter-`RULES` (Menü) | Nicht denselben internen Einstiegspunkt oder Semantik unterstellen | Benutzeroberfläche und versteckte Sonderfunktion |
+
 ## 3. Alphabetisches Register sämtlicher 517 belegten ROM-Befehle
 
 **Spalten:** Die Kategorie ist eine redaktionelle Einordnung, nicht notwendigerweise die HP-Menüstruktur. Die ROM-Kennung ist `Bibliotheksnummer:Kommandonummer` (mehrere Varianten mit Komma). Der Menüpfad folgt der aus der ROM-Menüstruktur abgeleiteten saturnus-Quelle. Wenn die Kurzbeschreibung noch unsicher ist, wird das ausdrücklich kenntlich gemacht. Bei typabhängigen Operationen ersetzt eine Kurzbeschreibung **nicht** das vollständige AUR-Stackdiagramm.
@@ -74,9 +365,9 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `^` | Grundrechnen, elementare Funktionen und Zahlen | Potenzierung. | `2:73` | ohne Menüeintrag |
 | `→` | Stack und User-RPL-Programmsteuerung | Lokale Variablen binden. | `1792:4, 1792:16` | ohne Menüeintrag |
 | `→ARRY` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Array aus Stackelementen bilden. | `2:170` | PRG TYPE |
-| `→COL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Aus Spalten ein Array bilden. | `171:67` | MTH MATRX COL |
+| `→COL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zerlegt ein Array in seine Spalten und liefert die Spaltenanzahl. | `171:67` | MTH MATRX COL |
 | `→DATE` | Zeit, Kalender, Wecker | Datum setzen. | `2:22` | MENU 94 |
-| `→DIAG` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Diagonalmatrix bilden. | `171:69` | MTH MATRX |
+| `→DIAG` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Liefert die Hauptdiagonale einer Matrix als Vektor. | `171:69` | MTH MATRX |
 | `→GROB` | Grafik, Diagramme und Plotparameter | Objekt als Grafikobjekt darstellen. | `2:215` | PRG GROB |
 | `→HMS` | Grundrechnen, elementare Funktionen und Zahlen | Dezimalzeit in Stunden-Minuten-Sekunden-Darstellung. | `2:114` | MENU 94 |
 | `→LCD` | Grafik, Diagramme und Plotparameter | Grafikobjekt auf LCD darstellen. | `2:214` | PRG GROB |
@@ -84,7 +375,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `→NUM` | Stack und User-RPL-Programmsteuerung | Numerische Auswertung erzwingen. | `2:53` | ohne Menüeintrag |
 | `→Q` | Symbolische Mathematik, Solver und Differentialgleichungen | Wandelt eine Zahl in einen äquivalenten rationalen Bruch um. | `2:263` | MENU 93 |
 | `→Qπ` | Symbolische Mathematik, Solver und Differentialgleichungen | Wählt zwischen einer rationalen Näherung der Zahl und einem rationalen Vielfachen von π nach kleinerem Nenner. | `2:264` | MENU 93 |
-| `→ROW` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Aus Zeilen ein Array bilden. | `171:65` | MTH MATRX ROW |
+| `→ROW` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zerlegt ein Array in seine Zeilen und liefert die Zeilenanzahl. | `171:65` | MTH MATRX ROW |
 | `→STR` | Listen, Strings, Objektkonversion | Objekt in Text umwandeln. | `2:162` | PRG TYPE; MENU 62 |
 | `→TAG` | Listen, Strings, Objektkonversion | Objekt mit Text-Tag versehen. | `2:383` | PRG TYPE |
 | `→TIME` | Zeit, Kalender, Wecker | Uhrzeit setzen. | `2:23` | MENU 94 |
@@ -110,7 +401,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `ACKALL` | Zeit, Kalender, Wecker | Alle fälligen Alarme quittieren. | `2:20` | MENU 94 ALRM |
 | `ACOS` | Grundrechnen, elementare Funktionen und Zahlen | Arkuskosinus. | `2:88` | ohne Menüeintrag |
 | `ACOSH` | Grundrechnen, elementare Funktionen und Zahlen | Inverser Cosinus hyperbolicus. | `2:91` | MTH HYP |
-| `ADD` | Listen, Strings, Objektkonversion | Addiert zwei Listen elementweise. | `171:108` | MTH LIST |
+| `ADD` | Listen, Strings, Objektkonversion | Addiert zwei gleich strukturierte Listen elementweise; + konkateniert Listen. | `171:108` | MTH LIST |
 | `ALOG` | Grundrechnen, elementare Funktionen und Zahlen | 10 hoch x. | `2:96` | ohne Menüeintrag |
 | `AMORT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Tilgungsrechnung. | `171:89` | MENU 74 TVM; MENU 74 TVM SOLVR |
 | `AND` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises UND. | `2:229` | MTH BASE LOGIC; PRG TEST |
@@ -140,7 +431,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `BINS` | Statistik, Verteilungen und Regression | Daten für Histogramm klassieren. | `2:315` | MENU 96 1VAR |
 | `BLANK` | Grafik, Diagramme und Plotparameter | Leeres Grafikobjekt erzeugen. | `2:209` | PRG GROB |
 | `BOX` | Grafik, Diagramme und Plotparameter | Rechteck zeichnen. | `2:208` | PRG PICT |
-| `BUFLEN` | Schnittstellen, Drucker, Display und Tastenbelegung | Länge des Eingabepuffers. | `2:374` | MENU 104 SERIAL |
+| `BUFLEN` | Schnittstellen, Drucker, Display und Tastenbelegung | Liefert die Zahl der Zeichen im seriellen Empfangspuffer. | `2:374` | MENU 104 SERIAL |
 | `BYTES` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Speichergröße und Prüfsumme eines Objekts ermitteln. | `2:38` | MENU 70 |
 | `C→PX` | Grafik, Diagramme und Plotparameter | Benutzerkoordinaten in Pixelkoordinaten wandeln. | `2:199` | PRG PICT |
 | `C→R` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Komplexe Zahl in Komponenten zerlegen. | `2:159` | MTH CMPLX; PRG TYPE |
@@ -150,7 +441,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `CF` | Binärzahlen, Logik, Modi, Systemflags | Flag löschen. | `2:132` | PRG TEST; MENU 63 FLAG |
 | `CHOOSE` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Auswahlliste anzeigen. | `171:92` | PRG IN |
 | `CHR` | Listen, Strings, Objektkonversion | Zeichen aus Zeichencode erzeugen. | `2:165` | PRG TYPE; MENU 62 |
-| `CKSM` | Schnittstellen, Drucker, Display und Tastenbelegung | Prüfsumme erzeugen. | `2:369` | ohne Menüeintrag |
+| `CKSM` | Schnittstellen, Drucker, Display und Tastenbelegung | Wählt das Prüfsummenverfahren für den Kermit-Datentransfer. | `2:369` | ohne Menüeintrag |
 | `CLEAR` | Stack und User-RPL-Programmsteuerung | Stack leeren. | `2:282` | ohne Menüeintrag |
 | `CLKADJ` | Zeit, Kalender, Wecker | Uhrengang anpassen. | `2:24` | MENU 94 |
 | `CLLCD` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Inhalt löschen. | `2:56` | PRG OUT |
@@ -160,7 +451,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `CLΣ` | Statistik, Verteilungen und Regression | Statistische Daten löschen. | `2:284` | MENU 87 DATA; MENU 96 DATA |
 | `CNRM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spaltennorm einer Matrix. | `2:119` | MTH MATRX NORM |
 | `COL-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalte entfernen. | `171:73` | MTH MATRX COL |
-| `COL→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Array in Spalten zerlegen. | `171:68` | MTH MATRX COL |
+| `COL→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Bildet ein Array aus vorliegenden Spaltenobjekten. | `171:68` | MTH MATRX COL |
 | `COL+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalte einfügen. | `171:74` | MTH MATRX COL |
 | `COLCT` | Symbolische Mathematik, Solver und Differentialgleichungen | Algebraischen Ausdruck zusammenfassen. | `2:333` | MENU 93 |
 | `COLΣ` | Statistik, Verteilungen und Regression | Spaltensumme. | `2:312` | ohne Menüeintrag |
@@ -199,7 +490,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `DEPTH` | Stack und User-RPL-Programmsteuerung | Stacktiefe lesen. | `2:276` | MENU 73 |
 | `DET` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Determinante. | `2:120` | MTH MATRX NORM |
 | `DETACH` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Bibliothek abhängen. | `2:358` | MENU 110 |
-| `DIAG→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrixdiagonale extrahieren. | `171:70` | MTH MATRX |
+| `DIAG→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Erzeugt eine Diagonalmatrix aus gegebenen Diagonalelementen. | `171:70` | MTH MATRX |
 | `DIFFEQ` | Grafik, Diagramme und Plotparameter | Differentialgleichungsplot aktivieren. | `171:14` | ohne Menüeintrag |
 | `DIR` | Stack und User-RPL-Programmsteuerung | Verzeichnisobjekt beginnen. | `1792:27` | ohne Menüeintrag |
 | `DISP` | Schnittstellen, Drucker, Display und Tastenbelegung | Objekt in LCD-Zeile anzeigen. | `2:50` | PRG OUT |
@@ -222,7 +513,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `EGVL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Eigenwerte. | `171:56` | MTH MATRX |
 | `ELSE` | Stack und User-RPL-Programmsteuerung | Alternativzweig beginnen. | `1792:2` | PRG BRCH IF; PRG ERROR IFERR |
 | `END` | Stack und User-RPL-Programmsteuerung | Kontrollstruktur abschließen. | `1792:3, 1792:22, 1792:23` | PRG BRCH IF; PRG BRCH CASE; PRG BRCH DO; PRG BRCH WHILE; PRG ERROR IFERR |
-| `ENDSUB` | Listen, Strings, Objektkonversion | Verarbeitung von Teilfolgen beenden. | `171:102` | PRG LIST PROC |
+| `ENDSUB` | Listen, Strings, Objektkonversion | Liefert die Anzahl noch verbleibender Teilfolgen-Durchläufe im DOSUBS-Kontext. | `171:102` | PRG LIST PROC |
 | `ENG` | Binärzahlen, Logik, Modi, Systemflags | Technisches Format. | `2:140` | MENU 63 FMT |
 | `EQ→` | Listen, Strings, Objektkonversion | Zerlegt eine Gleichung in die linke und rechte Seite. | `2:168` | PRG TYPE |
 | `EQNLIB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Eingebaute Gleichungsbibliothek öffnen. | `171:34` | MENU 113 EQLIB |
@@ -237,7 +528,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `EXPM` | Grundrechnen, elementare Funktionen und Zahlen | Berechnet exp(x) minus 1 mit besonderer Genauigkeit. | `2:98` | MTH HYP |
 | `EYEPT` | Grafik, Diagramme und Plotparameter | Standpunkt für 3D-Betrachtung. | `171:5` | ohne Menüeintrag |
 | `F0λ` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Schwarzkörper-Strahlungsanteil berechnen. | `171:121` | MENU 113 UTILS |
-| `FACT` | Grundrechnen, elementare Funktionen und Zahlen | Fakultät berechnen; synonym zu !, keine Primfaktorzerlegung. | `2:100` | ohne Menüeintrag |
+| `FACT` | Grundrechnen, elementare Funktionen und Zahlen | Fakultät einer Zahl (für geeignete Nichtganzzahlen über Gamma), synonym zu !. | `2:100` | ohne Menüeintrag |
 | `FANNING` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Fanning-Reibungsbeiwert berechnen. | `171:119` | MENU 113 UTILS |
 | `FC?` | Binärzahlen, Logik, Modi, Systemflags | Testen ob Flag gelöscht ist. | `2:134` | PRG TEST; MENU 63 FLAG |
 | `FC?C` | Binärzahlen, Logik, Modi, Systemflags | Flag testen und löschen. | `2:143` | PRG TEST; MENU 63 FLAG |
@@ -334,7 +625,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `NEXT` | Stack und User-RPL-Programmsteuerung | Zählschleife wiederholen. | `1792:11` | PRG BRCH START; PRG BRCH FOR |
 | `NOT` | Binärzahlen, Logik, Modi, Systemflags | Logische/bitweise Negation. | `2:231` | MTH BASE LOGIC; PRG TEST |
 | `NOVAL` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Wert fehlt/ist nicht festgelegt. | `171:91` | PRG IN |
-| `NSUB` | Listen, Strings, Objektkonversion | Anzahl von Teilfolgen. | `171:101` | PRG LIST PROC |
+| `NSUB` | Listen, Strings, Objektkonversion | Liest den aktuellen Teilfolgenzähler im Kontext von DOSUBS. | `171:101` | PRG LIST PROC |
 | `NUM` | Listen, Strings, Objektkonversion | Zeichencode ermitteln. | `2:164` | PRG TYPE; MENU 62 |
 | `NUMX` | Grafik, Diagramme und Plotparameter | Rastergröße in x-Richtung. | `171:6` | ohne Menüeintrag |
 | `NUMY` | Grafik, Diagramme und Plotparameter | Rastergröße in y-Richtung. | `171:7` | ohne Menüeintrag |
@@ -357,11 +648,11 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `PDIM` | Grafik, Diagramme und Plotparameter | Bildspeicher/Plotbereich dimensionieren. | `2:195` | PRG PICT |
 | `PERM` | Grundrechnen, elementare Funktionen und Zahlen | Permutationen/Variationen berechnen. | `2:130` | MTH PROB |
 | `PEVAL` | Symbolische Mathematik, Solver und Differentialgleichungen | Polynom aus Koeffizienten auswerten. | `171:84` | MENU 74 POLY |
-| `PGDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Elternverzeichnis auswählen. | `2:351` | MENU 70 DIR |
+| `PGDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Löscht (purge) ein Verzeichnis; nicht mit UPDIR/Elternverzeichniswechsel verwechseln. | `2:351` | MENU 70 DIR |
 | `PICK` | Stack und User-RPL-Programmsteuerung | Stackelement aus bestimmter Tiefe kopieren. | `2:279` | MENU 73 |
 | `PICT` | Grafik, Diagramme und Plotparameter | Auf Grafikobjekt-Bildspeicher zugreifen. | `2:210` | PRG PICT |
 | `PICTURE` | Grafik, Diagramme und Plotparameter | Interaktive Grafikansicht öffnen. | `2:200` | MENU 96 PLOT |
-| `PINIT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Plot-/Bibliotheksparameter initialisieren. | `171:129` | MENU 110 |
+| `PINIT` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Initialisiert einen Speicherport für geeignete RAM-/Erweiterungskarten. | `171:129` | MENU 110 |
 | `PIX?` | Grafik, Diagramme und Plotparameter | Pixel prüfen. | `2:205` | PRG PICT |
 | `PIXOFF` | Grafik, Diagramme und Plotparameter | Pixel löschen. | `2:204` | PRG PICT |
 | `PIXON` | Grafik, Diagramme und Plotparameter | Pixel setzen. | `2:203` | PRG PICT |
@@ -433,7 +724,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `ROOT` | Symbolische Mathematik, Solver und Differentialgleichungen | Numerische Nullstelle bestimmen. | `2:251` | MENU 74 ROOT |
 | `ROT` | Stack und User-RPL-Programmsteuerung | Drei Stackelemente rotieren. | `2:274` | MENU 73 |
 | `ROW-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile entfernen. | `171:71` | MTH MATRX ROW |
-| `ROW→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Array in Zeilen zerlegen. | `171:66` | MTH MATRX ROW |
+| `ROW→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Bildet ein Array aus vorliegenden Zeilenobjekten. | `171:66` | MTH MATRX ROW |
 | `ROW+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile einfügen. | `171:72` | MTH MATRX ROW |
 | `rpm` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheit Umdrehungen je Minute. | `171:127` | MENU 113 UTILS |
 | `RR` | Binärzahlen, Logik, Modi, Systemflags | Bits nach rechts rotieren. | `2:3` | MTH BASE BIT |
@@ -444,7 +735,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `RSBERR` | Symbolische Mathematik, Solver und Differentialgleichungen | Fehlerabschätzung für steife DGL. | `171:48` | MENU 74 DIFFEQ |
 | `RSD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet den Restvektor einer Matrixgleichung (A·X − B). | `2:123` | MTH MATRX; MENU 74 SYS |
 | `RSWP` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeilen vertauschen. | `171:75` | MTH MATRX ROW |
-| `RULES` | Symbolische Mathematik, Solver und Differentialgleichungen | Öffnet das Menü der algebraischen Umformungsregeln für den ausgewählten Teilausdruck. | `2:335` | ohne Menüeintrag |
+| `RULES` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Undokumentierter ROM-Eintrag mit historischem Entwickler-Namensrätsel; EQW-RULES ist ein separates Menü. | `2:335` | ohne Menüeintrag |
 | `SAME` | Binärzahlen, Logik, Modi, Systemflags | Vollständige Objektgleichheit prüfen. | `2:228` | PRG TEST |
 | `SBRK` | Schnittstellen, Drucker, Display und Tastenbelegung | Serielles Break-Signal senden. | `2:376` | MENU 104 SERIAL |
 | `SCALE` | Grafik, Diagramme und Plotparameter | Grafikmaßstab setzen. | `2:194` | ohne Menüeintrag |
@@ -515,7 +806,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `TLINE` | Grafik, Diagramme und Plotparameter | Linie invertierend zeichnen. | `2:207` | PRG PICT |
 | `TMENU` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Temporäres Menü erzeugen. | `2:347` | MENU 63 MENU |
 | `TOT` | Statistik, Verteilungen und Regression | Summe der statistischen Werte. | `2:300` | MENU 96 1VAR |
-| `TRACE` | Grafik, Diagramme und Plotparameter | Plot-/Programmverfolgung aktivieren. | `171:50` | MTH MATRX NORM |
+| `TRACE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet die Matrixspur als Summe der Diagonalelemente; nicht Grafik-TRACE. | `171:50` | MTH MATRX NORM |
 | `TRANSIO` | Schnittstellen, Drucker, Display und Tastenbelegung | I/O-Übertragungsart wählen. | `2:372` | ohne Menüeintrag |
 | `TRN` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrix transponieren. | `2:175` | MTH MATRX MAKE |
 | `TRNC` | Grundrechnen, elementare Funktionen und Zahlen | Schneidet einen Zahlenwert ab. | `2:109` | MTH REAL |
