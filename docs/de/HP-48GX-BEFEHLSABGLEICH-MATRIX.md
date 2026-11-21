@@ -95,6 +95,142 @@ Die folgenden Namen/Bedienkontexte wurden in einer ersten quellengebundenen Sich
 | `BUF LEN` / `BUFLEN` | U G-5 | Druckweise / ROM-Schlüssel als möglichen Alias erfassen, nicht doppelt zählen |
 | `CLS` / `CLΣ` | U G-6 | Zeichenerkennung mit griechischem Sigma und Modellstand anhand AUR prüfen, statt als zwei verschiedene Befehle zu zählen |
 
+## C.2 Weiterer quellengebundener Abgleich aus dem Operation Index (G-17 bis G-58)
+
+**Status:** Gezielt geprüfte **einzelne** Einträge, keine lückenlose Abzeichnung der 58 Appendix-G-Seiten. Die Seitenkennungen sind gedruckte G-Seiten; die Beschreibungen sind selbst verfasst. Gleich lautende Einträge mit unterschiedlichen Bedienkontexten erscheinen mehrfach.
+
+| G-Seite | Operation | Kontext | Wirkung / Abgrenzung |
+| --- | --- | --- | --- |
+| G-17 | FM | MODES/Beep/Uhr/Dezimalzeichen | Schaltet Punkt/Komma für Dezimalzahlen um |
+| G-18 | F(X) | PICTURE/FCN | Wertet die aktuelle Plotfunktion an Cursorposition aus |
+| G-18 | F′ | PICTURE/FCN | Zeigt die Ableitung am Cursor |
+| G-18 | ↩ FOR | PRG/BRCH | Fügt FOR/NEXT-Programmgerüst ein |
+| G-18 | ↪ FOR | PRG/BRCH | Fügt FOR/STEP-Programmgerüst ein |
+| G-19 | GO↓ | MatrixWriter | Cursorbewegung in Richtung nächster Matrixzeile konfigurieren |
+| G-19 | GO→ | MatrixWriter | Cursorbewegung in Richtung nächster Matrixspalte konfigurieren |
+| G-20 | HZIN | PICTURE/ZOOM | Horizontale Vergrößerung |
+| G-20 | HZOUT | PICTURE/ZOOM | Horizontale Verkleinerung |
+| G-20 | ↩ IF | PRG/BRCH | IF-Struktur-Gerüst eingeben |
+| G-21 | INFO | PLOT/EQ LIB | Anzeigen von Hilfe/Information im aktuellen Dialog |
+| G-21 | INFO? | PLOT | Infoanzeige umschalten |
+| G-21 | INS | Texteditor | Eingabemodus Einfügen/Umschreiben |
+| G-22 | ISECT | PICTURE/FCN | Schnittpunkt zweier gezeichneter Kurven |
+| G-22 | KEEP | MEMORY/Browser | Markierte Selektion/Objekt beibehalten |
+| G-23 | LEVEL | STACK/Browser | Stackebene gezielt auswählen |
+| G-24 | LINE | PICTURE/EDIT | Interaktiv Linie zwischen Markierung und Cursor zeichnen |
+| G-25 | L* | EquationWriter/RULES | Linke distributive Umformung |
+| G-26 | ←M | EquationWriter/RULES | Multiplikativen Term nach links verschieben |
+| G-26 | M→ | EquationWriter/RULES | Multiplikativen Term nach rechts verschieben |
+| G-26 | MARK | PICTURE/EDIT | Markierung im Bildeditor setzen |
+| G-26 | MENU | PICTURE | Grafik-Softkeys ein-/ausblenden |
+| G-27 | MOVE | MEMORY | Markierte Variablen in anderes Verzeichnis verschieben |
+| G-28 | NEW | MEMORY | Neue benannte Variable/Objekt erstellen |
+| G-28 | NEW | TIME/Alarmbrowser | Neuen Alarm anlegen |
+| G-28 | NEXT | PRG/RUN/Debugger | Nächste auszuführende RPL-Struktur ansehen |
+| G-29 | NXEQ | PICTURE/FCN | Zur nächsten Gleichung der EQ-Liste wechseln |
+| G-30 | OK | Dialog | Formular bestätigen bzw. Hauptaktion ausführen |
+| G-30 | OPTS | PLOT | Plotoptionen des aktuellen Plottyps öffnen |
+| G-31 | PICK | STACK/Browser | Markiertes Stackobjekt an Level 1 kopieren |
+| G-31 | PICT→ | PICTURE/EDIT | Aktuelles Bildobjekt auf Stack legen |
+| G-32 | PRED | STAT/FIT | Wert mittels aktuellem Regressionsmodell vorhersagen |
+| G-32 | PRINT | I/O | Objekt über interaktiven Druckdialog ausgeben |
+| G-33 | PURG | MEMORY/TIME/EQ LIB | Markierte Daten/Alarme/Variablen im Dialog löschen |
+| G-35 | RCL | MEMORY/Browser | Markiertes Objekt auf Stack zurückrufen |
+| G-36 | RECV | I/O/Transfer | Interaktiven Empfang vorbereiten |
+| G-37 | REPL | PICTURE/EDIT | Grafikbereich durch Grafikobjekt ersetzen |
+| G-37 | REPL | EquationWriter | Symbolisches Substitutionsmuster anwenden |
+| G-37 | RESET | PLOT | Aktuelle Formularfelder/Plotparameter zurücksetzen |
+| G-38 | ROLL | STACK/Browser | Stackobjekte im Dialog rollen |
+| G-39 | ROOT | PICTURE/FCN | Nullstelle des aktuellen Funktionsgraphen suchen |
+| G-39 | +ROW | MatrixWriter | Matrixzeile hinzufügen |
+| G-39 | −ROW | MatrixWriter | Matrixzeile löschen |
+| G-41 | SEND | I/O/Transfer | Objekt per eingestelltem Verfahren aus Dialog senden |
+| G-41 | SHADE | PICTURE/FCN | Fläche zwischen Kurve und Achse/zweiter Kurve schraffieren |
+| G-42 | SIMU | PLOT/FLAG | Kurven simultan oder nacheinander darstellen |
+| G-42 | SLOPE | PICTURE/FCN | Kurvensteigung an Cursor bestimmen |
+| G-43 | SST | PRG/RUN/Debugger | Einzelschritt im angehaltenen Programm |
+| G-43 | SST↓ | PRG/RUN/Debugger | Einzelschritt auch in Unterprogramme |
+| G-44 | ↩ START | PRG/BRCH | START/NEXT-Gerüst einfügen |
+| G-44 | ↪ START | PRG/BRCH | START/STEP-Gerüst einfügen |
+| G-44 | STEP | SYMBOLIC/Differentiation | Symbolischen Einzelschritt der Ableitung ausführen |
+| G-44 | ↑STK | MatrixWriter/EquationWriter | Interaktiven Stack aus Editor öffnen |
+| G-44 | →STK | MatrixWriter | Markiertes Matrixelement auf Stack kopieren |
+| G-44 | →STK | EQ LIB | Ausgewählte Gleichungen auf Stack kopieren |
+| G-45 | SUB | PICTURE/EDIT | Ausgewählten Teil des Bildspeichers auf Stack kopieren |
+| G-46 | SUB | EquationWriter | Unterausdruck auf Stack kopieren |
+| G-47 | SYM | MODES/MISC | Numerische/symbolische Auswertung von Konstanten schalten |
+| G-47 | ←T | EquationWriter/RULES | Term nach links verschieben |
+| G-47 | ↪←T | EquationWriter/RULES | Linksumformung wiederholen |
+| G-47 | T→ | EquationWriter/RULES | Term nach rechts verschieben |
+| G-47 | ↪T→ | EquationWriter/RULES | Rechtsumformung wiederholen |
+| G-48 | TANL | PICTURE/FCN | Tangente am Cursor zeichnen und Gleichung ausgeben |
+| G-48 | TLINE | PICTURE/EDIT | Pixel entlang einer markierten Linie toggeln |
+| G-49 | TRACE | PICTURE | Kurvenverfolgung umschalten; verschieden von Matrix-TRACE |
+| G-49 | TRG* | EquationWriter/RULES | Trigonometrische/hyperbolische Summenformeln expandieren |
+| G-49 | →TRG | EquationWriter/RULES | Exponentialausdrücke in trigonometrische umschreiben |
+| G-50 | TYPES | Eingabeformular | Erlaubte Objekttypen des aktuellen Eingabefelds anzeigen |
+| G-51 | VEC | MatrixWriter | Vektor-/Array-Eingabemodus wechseln |
+| G-51 | VIEW | Stack/PICTURE | Stackobjekt, Menüinformation oder Plot anzeigen |
+| G-51 | VZIN | PICTURE/ZOOM | Vertikal hineinzoomen |
+| G-51 | VZOUT | PICTURE/ZOOM | Vertikal herauszoomen |
+| G-52 | ↩ WHILE | PRG/BRCH | WHILE/REPEAT/END-Gerüst einfügen |
+| G-52 | WID→ | MatrixWriter | Breite der Matrixspalten vergrößern |
+| G-52 | ←WID | MatrixWriter | Breite der Matrixspalten verkleinern |
+| G-53 | (X,Y) | PICTURE | Aktuelle Cursorposition an-/ausblenden |
+| G-53 | X,Y→ | PICTURE | Cursorposition als komplexen Wert auf Stack legen |
+| G-54 | ZAUTO | PICTURE/ZOOM | Grafik automatisch skalieren |
+| G-54 | ZDECI | PICTURE/ZOOM | Horizontale Dezimalskalierung |
+| G-54 | ZDFLT | PICTURE/ZOOM | Standard-Plotparameter wählen |
+| G-54 | ZFACT | PICTURE/ZOOM | Zoomfaktoren-Dialog öffnen |
+| G-54 | ZIN | PICTURE/ZOOM | Hineinzoomen |
+| G-54 | ZINTG | PICTURE/ZOOM | Horizontale Ganzzahls-Skalierung |
+| G-54 | ZLAST | PICTURE/ZOOM | Vorherigen Zoombereich wiederherstellen |
+| G-54 | ZOOM | PICTURE/ZOOM | Mit Markierungsrechteck zoomen |
+| G-54 | ZOUT | PICTURE/ZOOM | Herauszoomen |
+| G-54 | ZSQR | PICTURE/ZOOM | Seitenverhältnis winkelrichtig einstellen |
+| G-55 | ZTRIG | PICTURE/ZOOM | Trigonometrisch sinnvoll skalieren |
+| G-55 | +/− | PICTURE | Cursordarstellung umschalten |
+| G-55 | +1−1 | EquationWriter/RULES | Neutrale Addition/Subtraktion mit 1 |
+| G-55 | −() | EquationWriter/RULES | Doppelte Negation verteilen |
+| G-55 | *1 | EquationWriter/RULES | Multiplikation mit 1 |
+| G-55 | /1 | EquationWriter/RULES | Division durch 1 |
+| G-56 | ^1 | EquationWriter/RULES | Potenzierung mit 1 |
+| G-57 | 1/() | EquationWriter/RULES | Inversion zweifach verteilen |
+| G-57 | (()) | EquationWriter/RULES | Benachbarte Ausdrücke klammern |
+| G-57 | (← | EquationWriter/RULES | Linken Unterausdruck erweitern |
+| G-57 | ↪(← | EquationWriter/RULES | Linken Unterausdruck wiederholt erweitern |
+| G-57 | →() | EquationWriter/RULES | Präfixfunktion distributiv anwenden |
+| G-57 | →) | EquationWriter/RULES | Rechten Unterausdruck erweitern |
+| G-57 | ↪→) | EquationWriter/RULES | Rechten Unterausdruck wiederholt erweitern |
+| G-58 | ←→ | EquationWriter/RULES | Reihenfolge der Argumente vertauschen |
+
+**Beleg:** [Hewlett-Packard, HP 48G Series User's Guide, Appendix G (G-1–G-58)](https://www.hp.com/ctg/Manual/c00442262.pdf), Einzelseiten wie in Tabelle angegeben. Diese Tabelle erweitert Abschnitt C.1 und ist kein über alle Operationen abgeschlossenes G-Inventar.
+
+## C.3 Originalhandbuch-Einträge, die der 517er-ROM-Namensindex nicht direkt enthält
+
+**Das Fehlen eines Namens im ROM-Index bedeutet nicht automatisch, dass eine Funktion fehlt.** Einige Namen sind reservierte Variablen, Aliase oder Menütasten; andere wie `GRAPH` benötigen eine echte Gegenprüfung am AUR. Die Klassifikation des Handbuchs wird hier als solche genannt, nicht mit einer eigenständigen ROM-Kennung verwechselt.
+
+| Name | Fundstelle | Handbuch-Klasse | Bedeutung | Zu klären |
+| --- | --- | --- | --- | --- |
+| `GRAPH` | G-18/G-19; AUR | C | Programmierbarer Wechsel in die Grafikansicht; in 517er ROM-Namensliste nicht enthalten | Wahrscheinlicher echter fehlender Namenszugang; AUR/ROM-Aufruf prüfen |
+| `LAST` | G-23 | C | Im Guide benannter Abruf der letzten Argumente | Alias zu LASTARG prüfen |
+| `CST` | G-9 | C laut Index | Reservierte Variable für benutzerdefinierte Menüs | Kein eigener XLIB-Befehl; Variable/Programmzugriff separat |
+| `ΣDAT` | G-10 | C laut Index | Statistischer Datencontainer | Reservierte Variable, nicht mit Σ-Kommandos doppelt zählen |
+| `IOPAR` | G-22 | C laut Index | Schnittstellen-Parameterobjekt | Reservierte Variable; Zugriff ggf. im Menü und über Namen |
+| `PPAR` | G-31 | C laut Index | Plot-Parameterobjekt | Reservierte Variable, kein automatischer ROM-Befehl |
+| `PRTPAR` | G-32 | C laut Index | Drucker-Parameterobjekt | Reservierte Variable, kein automatischer ROM-Befehl |
+| `FV` | G-17 | C laut Index | Future-Value-Solvervariable | Finanzfunktion vorhanden; kein zusätzlicher Scientific-V1-Scope |
+| `PMT` | G-32 | C laut Index | Payment-Solvervariable | Finanzfunktion vorhanden; kein zusätzlicher Scientific-V1-Scope |
+| `PV` | G-33 | C laut Index | Present-Value-Solvervariable | Finanzfunktion vorhanden; kein zusätzlicher Scientific-V1-Scope |
+| `PYR` | G-33 | C laut Index | Payments-per-year-Solvervariable | Finanzfunktion vorhanden; kein zusätzlicher Scientific-V1-Scope |
+| `VPAR` | G-51 | C laut Index | 3D-Plot-Parameterobjekt | Reservierte Variable, nicht mit WVOL etc verwechseln |
+| `SCLS` | G-41 | C laut Index | Autoskalierung der Statistik-Daten für Scatterplots | Fehlender Name gegenüber ROM-Satz; AUR- und Klassenprüfung nötig |
+| `EDIT` | G-14; AUR-Hinweis | O/C prüfen | Interaktive Objektbearbeitung | Nicht vorschnell als eigener User-RPL-Befehl zählen |
+| `SOLVE` | G-42 | O | Interaktiver Solver-Softkey | Kein selbständiger ROM-Befehl nur weil UI-Name |
+| `DBUG` | G-11; AUR | O | Interaktiven Debugger starten | Nichtprogrammierbar trotz AUR-Beschreibung |
+
+**Provenienz:** [Original Operation Index G-1 bis G-58](https://www.hp.com/ctg/Manual/c00442262.pdf); für `GRAPH` zusätzlicher [AUR Command Reference](https://literature.hpcalc.org/community/hp48g-aur-en.pdf). Die im Handbuch als `C` markierten Bedienungen reservierter Variablennamen müssen noch als **Name/RCL/Menü-Operation** statt als zusätzliche maschinennahe XLIB-Befehle klassifiziert werden. Keine neuen ROM-Kommandonummern erfinden.
+
 ## D. Vollständige technische Zuordnung der ROM-Namenseinträge
 
 **Status-Legende:** `UNVERIFIED` = ROM-Name erfasst, aber keine unabhängige AUR- und G-Operation-Index-Einzelabnahme. Die Zahl nach `AUR` bzw. `UG` ist eine automatische **PDF-Fundseitenposition aus dem Sekundärindex**, nicht eine gedruckte Buchseite und nicht extern verifiziert. `—` heißt **kein Seitenhinweis in dieser Datenquelle**, nicht »nicht im Handbuch«.
@@ -631,7 +767,7 @@ Die folgenden Namen/Bedienkontexte wurden in einer ersten quellengebundenen Sich
 - [ ] Automatische ID-/Referenz-/Delta-Checks sowie risikogewichtete Gerätetests durchgeführt.
 - [ ] **0 ungeklärte Abweichungen**, 0 unbelegte Funktionen, 0 unzulässige HP-48gII-Funktionen.
   
-**ERGEBNIS DES AKTUELLEN DURCHLAUFS: NO GO – nicht vollständig verifiziert.** Diese Prüfmatrix ist eine nachprüfbare **Arbeitsgrundlage**, kein Qualitätszertifikat. Der menschliche Sichtabgleich der Originalseiten ist weiterhin erforderlich; die im Browser abrufbaren PDF-Ausschnitte reichen nicht für den unbeaufsichtigten, vollständigen Druckseiten-Abgleich. Die bereitgestellte **deutsche Kurzanleitung** umfasst 132 PDF-Seiten und behauptet ausdrücklich **nicht**, alle Operationen zu behandeln.
+**ERGEBNIS DES AKTUELLEN DURCHLAUFS: NO GO – nicht vollständig verifiziert.** Die Abschnitte C.1 und C.2 umfassen 143 quellengebundene Stichproben-/Kontextzeilen, nicht das vollständige Operationsverzeichnis. Diese Prüfmatrix ist eine nachprüfbare **Arbeitsgrundlage**, kein Qualitätszertifikat. Der menschliche Sichtabgleich der Originalseiten ist weiterhin erforderlich; die im Browser abrufbaren PDF-Ausschnitte reichen nicht für den unbeaufsichtigten, vollständigen Druckseiten-Abgleich. Die bereitgestellte **deutsche Kurzanleitung** umfasst 132 PDF-Seiten und behauptet ausdrücklich **nicht**, alle Operationen zu behandeln.
 
 ### Warum keine automatischen Prozentwerte?
 
