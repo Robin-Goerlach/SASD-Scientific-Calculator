@@ -141,3 +141,20 @@ Ein menschlicher Abgleich (Handbuch/Display) bleibt **zusätzlich** erforderlich
 - **Nicht geprüft / Abnahme offen:** lückenlose Erfassung jeder einzelnen Operation der 58 gedruckten G-Seiten, vollständige Einzelabnahme jeder AUR-Stackvariante, unabhängiger Pocket-Guide-Vergleich sämtlicher Befehle, vollständige historische Werte aller 300+ Gleichungen und 147 Einheiten, ROM-Revisionsvarianten und Tests an Originalhardware.
 
 **Abnahmeentscheidung weiterhin: KEIN GO.** Ein fehlerfreier Konsistenzcheck ist eine notwendige technische Schranke, ersetzt aber keine historische Vollständigkeitsprüfung.
+
+## 9. Quellenwiderspruch bei der Zahl der eingebauten Maßeinheiten
+
+Im **selben** offiziellen HP-48G-Series-User's-Guide (Edition 8, 1994) stehen unterschiedliche Bestandsangaben:
+
+- **Kapitel 10, Einleitung / „Unit Objects“:** Katalog mit **147 Einheiten**.
+- **Kapitel 10, Seite 10-1:** **neun Basiseinheiten** und **141 abgeleitete Einheiten**, also bei schlichter Addition **150**; das Handbuch erklärt dort nicht, warum beide Gesamtzahlen auseinanderfallen.
+
+Dies ist ein **nachgewiesener interner Quellenwiderspruch**, nicht eine von SASD zu entscheidende Produktfunktion. Die frühere Aussage „147 einzelne Definitionen sind vollständig nachgewiesen“ ist deshalb **nicht zulässig**. Erst ein tatsächlicher Abgleich sämtlicher Einträge des `UNITS`-Katalogs samt Synonymen, Präfixvarianten und Menügruppen kann den konsistenten Modellbestand festlegen. Auch ein aus einer Quelle abgeleitetes arithmetisches Ergebnis `9 + 141 = 150` rechtfertigt noch keine 150 eindeutigen Implementierungen.
+
+**Quellennachweis:** [HP 48G Series User's Guide, Kapitel 10 („Unit Objects“), gedruckte Seiten 10-1 bis 10-2](https://www.hp.com/ctg/Manual/c00442262.pdf). **Status:** `OPEN_SOURCE_CONFLICT`.
+
+## 10. Kontrollsumme der Equation Library (Anhang F)
+
+Das offizielle Handbuch belegt in **Anhang F, F-1 bis F-3** genau **315 Gleichungen und 396 Variablen in 15 Fachgebieten**. Die 15 sachgebietsweisen Summen sind im [Hauptkatalog](HP-48GX-FUNKTIONSKATALOG.md) dokumentiert und addieren sich zu diesen Zahlen. Das ist eine **abgeschlossene Kontrollsummenprüfung**, aber **keine** Validierung jeder einzelnen Formel oder Variablenbeziehung. Die 102 bisher zusammengetragenen Problemüberschriften brauchen ihren separaten 1:1-Abgleich.
+
+**Status:** `SUMMARY_VERIFIED`; Einzelgleichungen `UNVERIFIED`.
