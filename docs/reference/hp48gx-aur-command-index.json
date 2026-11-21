@@ -1,0 +1,4722 @@
+{
+  "schema": 1,
+  "source": "https://www.transnull.com/files/hp48/hp48gaur.pdf",
+  "source_description": "Original HP 48G Series Advanced User's Reference, 4th edition December 1994, Chapter 3 Command Reference table of contents",
+  "source_sha256": "c041081c07dac1716ed7667774ed43cd618d98b0cd5ddca4755eb797a67bdb96",
+  "source_pages": "Contents-3 through Contents-16",
+  "scope": "Manual TOC printed command names and independently recorded source-index page, not full per-command Stack diagram conformance",
+  "qualification": "Source is an image-only scanned PDF. Names transcribed from published structured PDF TOC text, and secondary PDF page hints marked as such; every scan glyph remains to be visually approved.",
+  "distinct_printed_names": 516,
+  "source_rows": 517,
+  "contents_pages": 14,
+  "exact_or_normalized_rom_names": 507,
+  "rom_name_differences": [
+    {
+      "name": "CLUSR",
+      "source_index_page": "Contents-5",
+      "normalized": "CLUSR"
+    },
+    {
+      "name": "DBUG",
+      "source_index_page": "Contents-5",
+      "normalized": "DBUG"
+    },
+    {
+      "name": "GRAPH",
+      "source_index_page": "Contents-7",
+      "normalized": "GRAPH"
+    },
+    {
+      "name": "IR",
+      "source_index_page": "Contents-8",
+      "normalized": "IR"
+    },
+    {
+      "name": "LAST",
+      "source_index_page": "Contents-8",
+      "normalized": "LAST"
+    },
+    {
+      "name": "SIMU",
+      "source_index_page": "Contents-13",
+      "normalized": "SIMU"
+    },
+    {
+      "name": "SST",
+      "source_index_page": "Contents-13",
+      "normalized": "SST"
+    },
+    {
+      "name": "SST↓",
+      "source_index_page": "Contents-13",
+      "normalized": "SST↓"
+    }
+  ],
+  "rom_names_absent_from_aur_toc": [
+    "_",
+    "RULES",
+    "gmol",
+    "lbmol",
+    "rpm",
+    "dB",
+    "»",
+    "«",
+    "'",
+    "DIR"
+  ],
+  "rows": [
+    {
+      "source_index_page": "Contents-3",
+      "row": 1,
+      "printed_name": "ABS",
+      "rom_normalized_candidate": "ABS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 169,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-3",
+      "row": 2,
+      "printed_name": "ACK",
+      "rom_normalized_candidate": "ACK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 170,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-3",
+      "row": 3,
+      "printed_name": "ACKALL",
+      "rom_normalized_candidate": "ACKALL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 170,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-3",
+      "row": 4,
+      "printed_name": "ACOS",
+      "rom_normalized_candidate": "ACOS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 166,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-3",
+      "row": 5,
+      "printed_name": "ACOSH",
+      "rom_normalized_candidate": "ACOSH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 173,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-3",
+      "row": 6,
+      "printed_name": "ADD",
+      "rom_normalized_candidate": "ADD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 175,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 1,
+      "printed_name": "ALOG",
+      "rom_normalized_candidate": "ALOG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 176,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 2,
+      "printed_name": "AMORT",
+      "rom_normalized_candidate": "AMORT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 176,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 3,
+      "printed_name": "AND",
+      "rom_normalized_candidate": "AND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 177,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 4,
+      "printed_name": "ANIMATE",
+      "rom_normalized_candidate": "ANIMATE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 178,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 5,
+      "printed_name": "APPLY",
+      "rom_normalized_candidate": "APPLY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 179,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 6,
+      "printed_name": "ARC",
+      "rom_normalized_candidate": "ARC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 181,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 7,
+      "printed_name": "ARCHIVE",
+      "rom_normalized_candidate": "ARCHIVE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 182,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 8,
+      "printed_name": "ARG",
+      "rom_normalized_candidate": "ARG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 183,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 9,
+      "printed_name": "ARRY→",
+      "rom_normalized_candidate": "ARRY→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 183,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 10,
+      "printed_name": "→ARRY",
+      "rom_normalized_candidate": "→ARRY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 184,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 11,
+      "printed_name": "ASIN",
+      "rom_normalized_candidate": "ASIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 185,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 12,
+      "printed_name": "ASINH",
+      "rom_normalized_candidate": "ASINH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 187,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 13,
+      "printed_name": "ASN",
+      "rom_normalized_candidate": "ASN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 188,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 14,
+      "printed_name": "ASR",
+      "rom_normalized_candidate": "ASR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 189,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 15,
+      "printed_name": "ATAN",
+      "rom_normalized_candidate": "ATAN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 190,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 16,
+      "printed_name": "ATANH",
+      "rom_normalized_candidate": "ATANH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 192,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 17,
+      "printed_name": "ATICK",
+      "rom_normalized_candidate": "ATICK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 194,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 18,
+      "printed_name": "ATTACH",
+      "rom_normalized_candidate": "ATTACH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 195,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 19,
+      "printed_name": "AUTO",
+      "rom_normalized_candidate": "AUTO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 196,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 20,
+      "printed_name": "AXES",
+      "rom_normalized_candidate": "AXES",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 197,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 21,
+      "printed_name": "BAR",
+      "rom_normalized_candidate": "BAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 198,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 22,
+      "printed_name": "BARPLOT",
+      "rom_normalized_candidate": "BARPLOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 200,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 23,
+      "printed_name": "BAUD",
+      "rom_normalized_candidate": "BAUD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 200,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 24,
+      "printed_name": "BEEP",
+      "rom_normalized_candidate": "BEEP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 201,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 25,
+      "printed_name": "BESTFIT",
+      "rom_normalized_candidate": "BESTFIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 201,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 26,
+      "printed_name": "BIN",
+      "rom_normalized_candidate": "BIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 202,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 27,
+      "printed_name": "BINS",
+      "rom_normalized_candidate": "BINS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 202,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 28,
+      "printed_name": "BLANK",
+      "rom_normalized_candidate": "BLANK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 203,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 29,
+      "printed_name": "BOX",
+      "rom_normalized_candidate": "BOX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 204,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 30,
+      "printed_name": "BUFLEN",
+      "rom_normalized_candidate": "BUFLEN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 204,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 31,
+      "printed_name": "BYTES",
+      "rom_normalized_candidate": "BYTES",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 205,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 32,
+      "printed_name": "B→R",
+      "rom_normalized_candidate": "B→R",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 206,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 33,
+      "printed_name": "CASE",
+      "rom_normalized_candidate": "CASE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 206,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 34,
+      "printed_name": "CEIL",
+      "rom_normalized_candidate": "CEIL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 208,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 35,
+      "printed_name": "CENTR",
+      "rom_normalized_candidate": "CENTR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 208,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 36,
+      "printed_name": "CF",
+      "rom_normalized_candidate": "CF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 209,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 37,
+      "printed_name": "CHOOSE",
+      "rom_normalized_candidate": "CHOOSE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 210,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 38,
+      "printed_name": "%CH",
+      "rom_normalized_candidate": "%CH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 211,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 39,
+      "printed_name": "CHR",
+      "rom_normalized_candidate": "CHR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 212,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 40,
+      "printed_name": "CKSM",
+      "rom_normalized_candidate": "CKSM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 213,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-4",
+      "row": 41,
+      "printed_name": "CLEAR",
+      "rom_normalized_candidate": "CLEAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 214,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 1,
+      "printed_name": "CLKADJ",
+      "rom_normalized_candidate": "CLKADJ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 214,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 2,
+      "printed_name": "CLLCD",
+      "rom_normalized_candidate": "CLLCD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 215,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 3,
+      "printed_name": "CLOSEIO",
+      "rom_normalized_candidate": "CLOSEIO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 215,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 4,
+      "printed_name": "CLΣ",
+      "rom_normalized_candidate": "CLΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 5,
+      "printed_name": "CLTEACH",
+      "rom_normalized_candidate": "CLTEACH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 216,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 6,
+      "printed_name": "CLUSR",
+      "rom_normalized_candidate": "CLUSR",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 7,
+      "printed_name": "CLVAR",
+      "rom_normalized_candidate": "CLVAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 217,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 8,
+      "printed_name": "CNRM",
+      "rom_normalized_candidate": "CNRM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 217,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 9,
+      "printed_name": "→COL",
+      "rom_normalized_candidate": "→COL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 218,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 10,
+      "printed_name": "COL+",
+      "rom_normalized_candidate": "COL+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 218,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 11,
+      "printed_name": "COL−",
+      "rom_normalized_candidate": "COL-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 219,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 12,
+      "printed_name": "COL→",
+      "rom_normalized_candidate": "COL→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 220,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 13,
+      "printed_name": "COLCT",
+      "rom_normalized_candidate": "COLCT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 220,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 14,
+      "printed_name": "COLΣ",
+      "rom_normalized_candidate": "COLΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 15,
+      "printed_name": "COMB",
+      "rom_normalized_candidate": "COMB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 222,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 16,
+      "printed_name": "CON",
+      "rom_normalized_candidate": "CON",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 223,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 17,
+      "printed_name": "COND",
+      "rom_normalized_candidate": "COND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 224,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 18,
+      "printed_name": "CONIC",
+      "rom_normalized_candidate": "CONIC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 225,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 19,
+      "printed_name": "CONJ",
+      "rom_normalized_candidate": "CONJ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 226,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 20,
+      "printed_name": "CONLIB",
+      "rom_normalized_candidate": "CONLIB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 227,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 21,
+      "printed_name": "CONST",
+      "rom_normalized_candidate": "CONST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 227,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 22,
+      "printed_name": "CONT",
+      "rom_normalized_candidate": "CONT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 228,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 23,
+      "printed_name": "CONVERT",
+      "rom_normalized_candidate": "CONVERT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 229,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 24,
+      "printed_name": "CORR",
+      "rom_normalized_candidate": "CORR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 229,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 25,
+      "printed_name": "COS",
+      "rom_normalized_candidate": "COS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 26,
+      "printed_name": "COSH",
+      "rom_normalized_candidate": "COSH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 231,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 27,
+      "printed_name": "COV",
+      "rom_normalized_candidate": "COV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 28,
+      "printed_name": "CR",
+      "rom_normalized_candidate": "CR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 232,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 29,
+      "printed_name": "CRDIR",
+      "rom_normalized_candidate": "CRDIR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 233,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 30,
+      "printed_name": "CROSS",
+      "rom_normalized_candidate": "CROSS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 233,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 31,
+      "printed_name": "CSWP",
+      "rom_normalized_candidate": "CSWP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 32,
+      "printed_name": "CYLIN",
+      "rom_normalized_candidate": "CYLIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 234,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 33,
+      "printed_name": "C→PX",
+      "rom_normalized_candidate": "C→PX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 235,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 34,
+      "printed_name": "C→R",
+      "rom_normalized_candidate": "C→R",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 235,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 35,
+      "printed_name": "DARCY",
+      "rom_normalized_candidate": "DARCY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 236,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 36,
+      "printed_name": "DATE",
+      "rom_normalized_candidate": "DATE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 237,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 37,
+      "printed_name": "→DATE",
+      "rom_normalized_candidate": "→DATE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 237,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 38,
+      "printed_name": "DATE+",
+      "rom_normalized_candidate": "DATE+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 238,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 39,
+      "printed_name": "DBUG",
+      "rom_normalized_candidate": "DBUG",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": 238,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 40,
+      "printed_name": "DDAYS",
+      "rom_normalized_candidate": "DDAYS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 239,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-5",
+      "row": 41,
+      "printed_name": "DEC",
+      "rom_normalized_candidate": "DEC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 239,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 1,
+      "printed_name": "DECR",
+      "rom_normalized_candidate": "DECR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 240,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 2,
+      "printed_name": "DEFINE",
+      "rom_normalized_candidate": "DEFINE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 241,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 3,
+      "printed_name": "DEG",
+      "rom_normalized_candidate": "DEG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 242,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 4,
+      "printed_name": "DELALARM",
+      "rom_normalized_candidate": "DELALARM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 242,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 5,
+      "printed_name": "DELAY",
+      "rom_normalized_candidate": "DELAY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 243,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 6,
+      "printed_name": "DELKEYS",
+      "rom_normalized_candidate": "DELKEYS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 244,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 7,
+      "printed_name": "DEPND",
+      "rom_normalized_candidate": "DEPND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 245,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 8,
+      "printed_name": "DEPTH",
+      "rom_normalized_candidate": "DEPTH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 246,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 9,
+      "printed_name": "DET",
+      "rom_normalized_candidate": "DET",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 246,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 10,
+      "printed_name": "DETACH",
+      "rom_normalized_candidate": "DETACH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 248,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 11,
+      "printed_name": "DIAG→",
+      "rom_normalized_candidate": "DIAG→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 248,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 12,
+      "printed_name": "→DIAG",
+      "rom_normalized_candidate": "→DIAG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 249,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 13,
+      "printed_name": "DIFFEQ",
+      "rom_normalized_candidate": "DIFFEQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 250,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 14,
+      "printed_name": "DISP",
+      "rom_normalized_candidate": "DISP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 252,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 15,
+      "printed_name": "DO",
+      "rom_normalized_candidate": "DO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 253,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 16,
+      "printed_name": "DOERR",
+      "rom_normalized_candidate": "DOERR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 254,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 17,
+      "printed_name": "DOLIST",
+      "rom_normalized_candidate": "DOLIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 255,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 18,
+      "printed_name": "DOSUBS",
+      "rom_normalized_candidate": "DOSUBS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 256,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 19,
+      "printed_name": "DOT",
+      "rom_normalized_candidate": "DOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 258,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 20,
+      "printed_name": "DRAW",
+      "rom_normalized_candidate": "DRAW",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 258,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 21,
+      "printed_name": "DRAX",
+      "rom_normalized_candidate": "DRAX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 259,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 22,
+      "printed_name": "DROP",
+      "rom_normalized_candidate": "DROP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 259,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 23,
+      "printed_name": "DROPN",
+      "rom_normalized_candidate": "DROPN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 260,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 24,
+      "printed_name": "DROP2",
+      "rom_normalized_candidate": "DROP2",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 260,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 25,
+      "printed_name": "DTAG",
+      "rom_normalized_candidate": "DTAG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 261,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 26,
+      "printed_name": "DUP",
+      "rom_normalized_candidate": "DUP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 261,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 27,
+      "printed_name": "DUPN",
+      "rom_normalized_candidate": "DUPN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 262,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 28,
+      "printed_name": "DUP2",
+      "rom_normalized_candidate": "DUP2",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 262,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 29,
+      "printed_name": "D→R",
+      "rom_normalized_candidate": "D→R",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 263,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 30,
+      "printed_name": "e",
+      "rom_normalized_candidate": "e",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 263,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 31,
+      "printed_name": "EGV",
+      "rom_normalized_candidate": "EGV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 264,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 32,
+      "printed_name": "EGVL",
+      "rom_normalized_candidate": "EGVL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 265,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 33,
+      "printed_name": "ELSE",
+      "rom_normalized_candidate": "ELSE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 265,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 34,
+      "printed_name": "END",
+      "rom_normalized_candidate": "END",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 266,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 35,
+      "printed_name": "ENDSUB",
+      "rom_normalized_candidate": "ENDSUB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 266,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 36,
+      "printed_name": "ENG",
+      "rom_normalized_candidate": "ENG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 267,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 37,
+      "printed_name": "EQ→",
+      "rom_normalized_candidate": "EQ→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 268,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 38,
+      "printed_name": "EQNLIB",
+      "rom_normalized_candidate": "EQNLIB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 268,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 39,
+      "printed_name": "ERASE",
+      "rom_normalized_candidate": "ERASE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 269,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 40,
+      "printed_name": "ERRM",
+      "rom_normalized_candidate": "ERRM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 269,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-6",
+      "row": 41,
+      "printed_name": "ERRN",
+      "rom_normalized_candidate": "ERRN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 270,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 1,
+      "printed_name": "ERRO",
+      "rom_normalized_candidate": "ERR0",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 2,
+      "printed_name": "EVAL",
+      "rom_normalized_candidate": "EVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 271,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 3,
+      "printed_name": "EXP",
+      "rom_normalized_candidate": "EXP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 272,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 4,
+      "printed_name": "EXPAN",
+      "rom_normalized_candidate": "EXPAN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 273,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 5,
+      "printed_name": "EXPFIT",
+      "rom_normalized_candidate": "EXPFIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 274,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 6,
+      "printed_name": "EXPM",
+      "rom_normalized_candidate": "EXPM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 274,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 7,
+      "printed_name": "EYEPT",
+      "rom_normalized_candidate": "EYEPT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 275,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 8,
+      "printed_name": "F0λ",
+      "rom_normalized_candidate": "F0λ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 9,
+      "printed_name": "FACT",
+      "rom_normalized_candidate": "FACT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 276,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 10,
+      "printed_name": "FANNING",
+      "rom_normalized_candidate": "FANNING",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 277,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 11,
+      "printed_name": "FC?",
+      "rom_normalized_candidate": "FC?",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 278,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 12,
+      "printed_name": "FC?C",
+      "rom_normalized_candidate": "FC?C",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 278,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 13,
+      "printed_name": "FFT",
+      "rom_normalized_candidate": "FFT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 279,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 14,
+      "printed_name": "FINDALARM",
+      "rom_normalized_candidate": "FINDALARM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 280,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 15,
+      "printed_name": "FINISH",
+      "rom_normalized_candidate": "FINISH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 281,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 16,
+      "printed_name": "FIX",
+      "rom_normalized_candidate": "FIX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 281,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 17,
+      "printed_name": "FLOOR",
+      "rom_normalized_candidate": "FLOOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 282,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 18,
+      "printed_name": "FOR",
+      "rom_normalized_candidate": "FOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 283,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 19,
+      "printed_name": "FP",
+      "rom_normalized_candidate": "FP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 285,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 20,
+      "printed_name": "FREE",
+      "rom_normalized_candidate": "FREE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 285,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 21,
+      "printed_name": "FREE1",
+      "rom_normalized_candidate": "FREE1",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 286,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 22,
+      "printed_name": "FREEZE",
+      "rom_normalized_candidate": "FREEZE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 287,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 23,
+      "printed_name": "FS?",
+      "rom_normalized_candidate": "FS?",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 288,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 24,
+      "printed_name": "FS?C",
+      "rom_normalized_candidate": "FS?C",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 289,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 25,
+      "printed_name": "FUNCTION",
+      "rom_normalized_candidate": "FUNCTION",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 289,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 26,
+      "printed_name": "GET",
+      "rom_normalized_candidate": "GET",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 291,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 27,
+      "printed_name": "GETI",
+      "rom_normalized_candidate": "GETI",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 293,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 28,
+      "printed_name": "GOR",
+      "rom_normalized_candidate": "GOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 294,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 29,
+      "printed_name": "GRAD",
+      "rom_normalized_candidate": "GRAD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 295,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 30,
+      "printed_name": "GRAPH",
+      "rom_normalized_candidate": "GRAPH",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": 295,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 31,
+      "printed_name": "GRIDMAP",
+      "rom_normalized_candidate": "GRIDMAP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 296,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 32,
+      "printed_name": "→GROB",
+      "rom_normalized_candidate": "→GROB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 297,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 33,
+      "printed_name": "GXOR",
+      "rom_normalized_candidate": "GXOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 298,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 34,
+      "printed_name": "*H",
+      "rom_normalized_candidate": "*H",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 35,
+      "printed_name": "HALT",
+      "rom_normalized_candidate": "HALT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 300,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 36,
+      "printed_name": "HEAD",
+      "rom_normalized_candidate": "HEAD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 300,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 37,
+      "printed_name": "HEX",
+      "rom_normalized_candidate": "HEX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 301,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 38,
+      "printed_name": "HISTOGRAM",
+      "rom_normalized_candidate": "HISTOGRAM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 301,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 39,
+      "printed_name": "HISTPLOT",
+      "rom_normalized_candidate": "HISTPLOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 303,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 40,
+      "printed_name": "HMS+",
+      "rom_normalized_candidate": "HMS+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 303,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-7",
+      "row": 41,
+      "printed_name": "HMS−",
+      "rom_normalized_candidate": "HMS-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 1,
+      "printed_name": "HMS→",
+      "rom_normalized_candidate": "HMS→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 304,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 2,
+      "printed_name": "→HMS",
+      "rom_normalized_candidate": "→HMS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 306,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 3,
+      "printed_name": "HOME",
+      "rom_normalized_candidate": "HOME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 306,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 4,
+      "printed_name": "i",
+      "rom_normalized_candidate": "i",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 307,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 5,
+      "printed_name": "IDN",
+      "rom_normalized_candidate": "IDN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 307,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 6,
+      "printed_name": "IF",
+      "rom_normalized_candidate": "IF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 308,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 7,
+      "printed_name": "IFERR",
+      "rom_normalized_candidate": "IFERR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 310,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 8,
+      "printed_name": "IFFT",
+      "rom_normalized_candidate": "IFFT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 311,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 9,
+      "printed_name": "IFT",
+      "rom_normalized_candidate": "IFT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 312,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 10,
+      "printed_name": "IFTE",
+      "rom_normalized_candidate": "IFTE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 313,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 11,
+      "printed_name": "IM",
+      "rom_normalized_candidate": "IM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 314,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 12,
+      "printed_name": "INCR",
+      "rom_normalized_candidate": "INCR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 314,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 13,
+      "printed_name": "INDEP",
+      "rom_normalized_candidate": "INDEP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 315,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 14,
+      "printed_name": "INFORM",
+      "rom_normalized_candidate": "INFORM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 316,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 15,
+      "printed_name": "INPUT",
+      "rom_normalized_candidate": "INPUT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 318,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 16,
+      "printed_name": "INV",
+      "rom_normalized_candidate": "INV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 320,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 17,
+      "printed_name": "IP",
+      "rom_normalized_candidate": "IP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 18,
+      "printed_name": "IR",
+      "rom_normalized_candidate": "IR",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 19,
+      "printed_name": "ISOL",
+      "rom_normalized_candidate": "ISOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 322,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 20,
+      "printed_name": "KERRM",
+      "rom_normalized_candidate": "KERRM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 323,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 21,
+      "printed_name": "KEY",
+      "rom_normalized_candidate": "KEY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 323,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 22,
+      "printed_name": "KGET",
+      "rom_normalized_candidate": "KGET",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 324,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 23,
+      "printed_name": "KILL",
+      "rom_normalized_candidate": "KILL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 325,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 24,
+      "printed_name": "LABEL",
+      "rom_normalized_candidate": "LABEL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 326,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 25,
+      "printed_name": "LAST",
+      "rom_normalized_candidate": "LAST",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 26,
+      "printed_name": "LASTARG",
+      "rom_normalized_candidate": "LASTARG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 327,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 27,
+      "printed_name": "LCD→",
+      "rom_normalized_candidate": "LCD→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 327,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 28,
+      "printed_name": "→LCD",
+      "rom_normalized_candidate": "→LCD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 328,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 29,
+      "printed_name": "LIBEVAL",
+      "rom_normalized_candidate": "LIBEVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 329,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 30,
+      "printed_name": "LIBS",
+      "rom_normalized_candidate": "LIBS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 329,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 31,
+      "printed_name": "LINE",
+      "rom_normalized_candidate": "LINE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 330,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 32,
+      "printed_name": "ΣLINE",
+      "rom_normalized_candidate": "ΣLINE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 33,
+      "printed_name": "LINFIT",
+      "rom_normalized_candidate": "LINFIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 331,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 34,
+      "printed_name": "LININ",
+      "rom_normalized_candidate": "LININ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 332,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 35,
+      "printed_name": "LIST→",
+      "rom_normalized_candidate": "LIST→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 333,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 36,
+      "printed_name": "→LIST",
+      "rom_normalized_candidate": "→LIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 333,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 37,
+      "printed_name": "ΣLIST",
+      "rom_normalized_candidate": "ΣLIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 334,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 38,
+      "printed_name": "ΔLIST",
+      "rom_normalized_candidate": "ΔLIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 39,
+      "printed_name": "ΠLIST",
+      "rom_normalized_candidate": "ΠLIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 40,
+      "printed_name": "LN",
+      "rom_normalized_candidate": "LN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 336,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-8",
+      "row": 41,
+      "printed_name": "LNP1",
+      "rom_normalized_candidate": "LNP1",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 338,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 1,
+      "printed_name": "LOG",
+      "rom_normalized_candidate": "LOG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 338,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 2,
+      "printed_name": "LOGFIT",
+      "rom_normalized_candidate": "LOGFIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 340,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 3,
+      "printed_name": "LQ",
+      "rom_normalized_candidate": "LQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 340,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 4,
+      "printed_name": "LR",
+      "rom_normalized_candidate": "LR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 341,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 5,
+      "printed_name": "LSQ",
+      "rom_normalized_candidate": "LSQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 342,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 6,
+      "printed_name": "LU",
+      "rom_normalized_candidate": "LU",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 343,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 7,
+      "printed_name": "MANT",
+      "rom_normalized_candidate": "MANT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 343,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 8,
+      "printed_name": "↑MATCH",
+      "rom_normalized_candidate": "↑MATCH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 9,
+      "printed_name": "↓MATCH",
+      "rom_normalized_candidate": "↓MATCH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 10,
+      "printed_name": "MAX",
+      "rom_normalized_candidate": "MAX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 11,
+      "printed_name": "MAXR",
+      "rom_normalized_candidate": "MAXR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 347,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 12,
+      "printed_name": "MAXΣ",
+      "rom_normalized_candidate": "MAXΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 348,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 13,
+      "printed_name": "MCALC",
+      "rom_normalized_candidate": "MCALC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 349,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 14,
+      "printed_name": "MEAN",
+      "rom_normalized_candidate": "MEAN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 349,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 15,
+      "printed_name": "MEM",
+      "rom_normalized_candidate": "MEM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 350,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 16,
+      "printed_name": "MENU",
+      "rom_normalized_candidate": "MENU",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 351,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 17,
+      "printed_name": "MERGE",
+      "rom_normalized_candidate": "MERGE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 354,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 18,
+      "printed_name": "MERGE1",
+      "rom_normalized_candidate": "MERGE1",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 19,
+      "printed_name": "MIN",
+      "rom_normalized_candidate": "MIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 355,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 20,
+      "printed_name": "MINEHUNT",
+      "rom_normalized_candidate": "MINEHUNT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 356,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 21,
+      "printed_name": "MINIT",
+      "rom_normalized_candidate": "MINIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 357,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 22,
+      "printed_name": "MINR",
+      "rom_normalized_candidate": "MINR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 357,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 23,
+      "printed_name": "MINΣ",
+      "rom_normalized_candidate": "MINΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 358,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 24,
+      "printed_name": "MITM",
+      "rom_normalized_candidate": "MITM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 358,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 25,
+      "printed_name": "MOD",
+      "rom_normalized_candidate": "MOD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 359,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 26,
+      "printed_name": "MROOT",
+      "rom_normalized_candidate": "MROOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 359,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 27,
+      "printed_name": "MSGBOX",
+      "rom_normalized_candidate": "MSGBOX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 360,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 28,
+      "printed_name": "MSOLVR",
+      "rom_normalized_candidate": "MSOLVR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 361,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 29,
+      "printed_name": "MUSER",
+      "rom_normalized_candidate": "MUSER",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 361,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 30,
+      "printed_name": "NDIST",
+      "rom_normalized_candidate": "NDIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 362,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 31,
+      "printed_name": "NEG",
+      "rom_normalized_candidate": "NEG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 363,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 32,
+      "printed_name": "NEWOB",
+      "rom_normalized_candidate": "NEWOB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 364,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 33,
+      "printed_name": "NEXT",
+      "rom_normalized_candidate": "NEXT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 365,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 34,
+      "printed_name": "NEXT",
+      "rom_normalized_candidate": "NEXT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 365,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 35,
+      "printed_name": "NOT",
+      "rom_normalized_candidate": "NOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 365,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 36,
+      "printed_name": "NOVAL",
+      "rom_normalized_candidate": "NOVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 367,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 37,
+      "printed_name": "NSUB",
+      "rom_normalized_candidate": "NSUB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 367,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 38,
+      "printed_name": "NUM",
+      "rom_normalized_candidate": "NUM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 368,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 39,
+      "printed_name": "→NUM",
+      "rom_normalized_candidate": "→NUM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 371,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 40,
+      "printed_name": "NUMX",
+      "rom_normalized_candidate": "NUMX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 371,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-9",
+      "row": 41,
+      "printed_name": "NUMY",
+      "rom_normalized_candidate": "NUMY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 372,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 1,
+      "printed_name": "NΣ",
+      "rom_normalized_candidate": "NΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 372,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 2,
+      "printed_name": "OBJ→",
+      "rom_normalized_candidate": "OBJ→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 373,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 3,
+      "printed_name": "OCT",
+      "rom_normalized_candidate": "OCT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 374,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 4,
+      "printed_name": "OFF",
+      "rom_normalized_candidate": "OFF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 375,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 5,
+      "printed_name": "OLDPRT",
+      "rom_normalized_candidate": "OLDPRT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 375,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 6,
+      "printed_name": "OPENIO",
+      "rom_normalized_candidate": "OPENIO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 376,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 7,
+      "printed_name": "OR",
+      "rom_normalized_candidate": "OR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 377,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 8,
+      "printed_name": "ORDER",
+      "rom_normalized_candidate": "ORDER",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 378,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 9,
+      "printed_name": "OVER",
+      "rom_normalized_candidate": "OVER",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 379,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 10,
+      "printed_name": "PARAMETRIC",
+      "rom_normalized_candidate": "PARAMETRIC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 379,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 11,
+      "printed_name": "PARITY",
+      "rom_normalized_candidate": "PARITY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 381,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 12,
+      "printed_name": "PARSURFACE",
+      "rom_normalized_candidate": "PARSURFACE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 382,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 13,
+      "printed_name": "PATH",
+      "rom_normalized_candidate": "PATH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 383,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 14,
+      "printed_name": "PCOEF",
+      "rom_normalized_candidate": "PCOEF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 384,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 15,
+      "printed_name": "PCONTOUR",
+      "rom_normalized_candidate": "PCONTOUR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 385,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 16,
+      "printed_name": "PCOV",
+      "rom_normalized_candidate": "PCOV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 386,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 17,
+      "printed_name": "PDIM",
+      "rom_normalized_candidate": "PDIM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 387,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 18,
+      "printed_name": "PERM",
+      "rom_normalized_candidate": "PERM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 388,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 19,
+      "printed_name": "PEVAL",
+      "rom_normalized_candidate": "PEVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 388,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 20,
+      "printed_name": "PGDIR",
+      "rom_normalized_candidate": "PGDIR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 389,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 21,
+      "printed_name": "PICK",
+      "rom_normalized_candidate": "PICK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 390,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 22,
+      "printed_name": "PICT",
+      "rom_normalized_candidate": "PICT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 390,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 23,
+      "printed_name": "PICTURE",
+      "rom_normalized_candidate": "PICTURE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 391,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 24,
+      "printed_name": "PINIT",
+      "rom_normalized_candidate": "PINIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 392,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 25,
+      "printed_name": "PIXOFF",
+      "rom_normalized_candidate": "PIXOFF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 392,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 26,
+      "printed_name": "PIXON",
+      "rom_normalized_candidate": "PIXON",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 393,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 27,
+      "printed_name": "PIX?",
+      "rom_normalized_candidate": "PIX?",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 393,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 28,
+      "printed_name": "PKT",
+      "rom_normalized_candidate": "PKT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 394,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 29,
+      "printed_name": "PMAX",
+      "rom_normalized_candidate": "PMAX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 395,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 30,
+      "printed_name": "PMIN",
+      "rom_normalized_candidate": "PMIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 395,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 31,
+      "printed_name": "POLAR",
+      "rom_normalized_candidate": "POLAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 396,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 32,
+      "printed_name": "POS",
+      "rom_normalized_candidate": "POS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 398,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 33,
+      "printed_name": "PREDV",
+      "rom_normalized_candidate": "PREDV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 398,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 34,
+      "printed_name": "PREDX",
+      "rom_normalized_candidate": "PREDX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 399,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 35,
+      "printed_name": "PREDY",
+      "rom_normalized_candidate": "PREDY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 400,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 36,
+      "printed_name": "PRLCD",
+      "rom_normalized_candidate": "PRLCD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 401,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 37,
+      "printed_name": "PROMPT",
+      "rom_normalized_candidate": "PROMPT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 402,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 38,
+      "printed_name": "PROOT",
+      "rom_normalized_candidate": "PROOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 402,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 39,
+      "printed_name": "PRST",
+      "rom_normalized_candidate": "PRST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 403,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 40,
+      "printed_name": "PRSTC",
+      "rom_normalized_candidate": "PRSTC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 404,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-10",
+      "row": 41,
+      "printed_name": "PRVAR",
+      "rom_normalized_candidate": "PRVAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 404,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 1,
+      "printed_name": "PR1",
+      "rom_normalized_candidate": "PR1",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 405,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 2,
+      "printed_name": "PSDEV",
+      "rom_normalized_candidate": "PSDEV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 406,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 3,
+      "printed_name": "PURGE",
+      "rom_normalized_candidate": "PURGE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 407,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 4,
+      "printed_name": "PUT",
+      "rom_normalized_candidate": "PUT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 408,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 5,
+      "printed_name": "PUTI",
+      "rom_normalized_candidate": "PUTI",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 410,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 6,
+      "printed_name": "PVAR",
+      "rom_normalized_candidate": "PVAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 411,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 7,
+      "printed_name": "PVARS",
+      "rom_normalized_candidate": "PVARS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 412,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 8,
+      "printed_name": "PVIEW",
+      "rom_normalized_candidate": "PVIEW",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 413,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 9,
+      "printed_name": "PWRFIT",
+      "rom_normalized_candidate": "PWRFIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 414,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 10,
+      "printed_name": "PX→C",
+      "rom_normalized_candidate": "PX→C",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 414,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 11,
+      "printed_name": "→Q",
+      "rom_normalized_candidate": "→Q",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 415,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 12,
+      "printed_name": "→Qπ",
+      "rom_normalized_candidate": "→Qπ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 13,
+      "printed_name": "QR",
+      "rom_normalized_candidate": "QR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 417,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 14,
+      "printed_name": "QUAD",
+      "rom_normalized_candidate": "QUAD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 417,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 15,
+      "printed_name": "QUOTE",
+      "rom_normalized_candidate": "QUOTE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 418,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 16,
+      "printed_name": "RAD",
+      "rom_normalized_candidate": "RAD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 420,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 17,
+      "printed_name": "RAND",
+      "rom_normalized_candidate": "RAND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 420,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 18,
+      "printed_name": "RANK",
+      "rom_normalized_candidate": "RANK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 421,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 19,
+      "printed_name": "RANM",
+      "rom_normalized_candidate": "RANM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 421,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 20,
+      "printed_name": "RATIO",
+      "rom_normalized_candidate": "RATIO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 422,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 21,
+      "printed_name": "RCEQ",
+      "rom_normalized_candidate": "RCEQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 423,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 22,
+      "printed_name": "RCI",
+      "rom_normalized_candidate": "RCI",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 424,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 23,
+      "printed_name": "RCIJ",
+      "rom_normalized_candidate": "RCIJ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 424,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 24,
+      "printed_name": "RCL",
+      "rom_normalized_candidate": "RCL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 425,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 25,
+      "printed_name": "RCLALARM",
+      "rom_normalized_candidate": "RCLALARM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 426,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 26,
+      "printed_name": "RCLF",
+      "rom_normalized_candidate": "RCLF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 426,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 27,
+      "printed_name": "RCLKEYS",
+      "rom_normalized_candidate": "RCLKEYS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 427,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 28,
+      "printed_name": "RCLMENU",
+      "rom_normalized_candidate": "RCLMENU",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 428,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 29,
+      "printed_name": "RCLΣ",
+      "rom_normalized_candidate": "RCLΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 30,
+      "printed_name": "RCWS",
+      "rom_normalized_candidate": "RCWS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 429,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 31,
+      "printed_name": "RDM",
+      "rom_normalized_candidate": "RDM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 430,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 32,
+      "printed_name": "RDZ",
+      "rom_normalized_candidate": "RDZ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 431,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 33,
+      "printed_name": "RE",
+      "rom_normalized_candidate": "RE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 431,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 34,
+      "printed_name": "RECN",
+      "rom_normalized_candidate": "RECN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 432,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 35,
+      "printed_name": "RECT",
+      "rom_normalized_candidate": "RECT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 433,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 36,
+      "printed_name": "RECV",
+      "rom_normalized_candidate": "RECV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 433,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 37,
+      "printed_name": "REPEAT",
+      "rom_normalized_candidate": "REPEAT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 434,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 38,
+      "printed_name": "REPL",
+      "rom_normalized_candidate": "REPL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 434,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 39,
+      "printed_name": "RES",
+      "rom_normalized_candidate": "RES",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 435,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 40,
+      "printed_name": "RESTORE",
+      "rom_normalized_candidate": "RESTORE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 437,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-11",
+      "row": 41,
+      "printed_name": "REVLIST",
+      "rom_normalized_candidate": "REVLIST",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 438,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 1,
+      "printed_name": "RKF",
+      "rom_normalized_candidate": "RKF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 438,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 2,
+      "printed_name": "RKFERR",
+      "rom_normalized_candidate": "RKFERR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 440,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 3,
+      "printed_name": "RKFSTEP",
+      "rom_normalized_candidate": "RKFSTEP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 441,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 4,
+      "printed_name": "RL",
+      "rom_normalized_candidate": "RL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 442,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 5,
+      "printed_name": "RLB",
+      "rom_normalized_candidate": "RLB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 442,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 6,
+      "printed_name": "RND",
+      "rom_normalized_candidate": "RND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 443,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 7,
+      "printed_name": "RNRM",
+      "rom_normalized_candidate": "RNRM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 444,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 8,
+      "printed_name": "ROLL",
+      "rom_normalized_candidate": "ROLL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 444,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 9,
+      "printed_name": "ROLLD",
+      "rom_normalized_candidate": "ROLLD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 445,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 10,
+      "printed_name": "ROOT",
+      "rom_normalized_candidate": "ROOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 445,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 11,
+      "printed_name": "ROT",
+      "rom_normalized_candidate": "ROT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 446,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 12,
+      "printed_name": "→ROW",
+      "rom_normalized_candidate": "→ROW",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 446,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 13,
+      "printed_name": "ROW+",
+      "rom_normalized_candidate": "ROW+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 447,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 14,
+      "printed_name": "ROW−",
+      "rom_normalized_candidate": "ROW-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 448,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 15,
+      "printed_name": "ROW→",
+      "rom_normalized_candidate": "ROW→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 448,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 16,
+      "printed_name": "RR",
+      "rom_normalized_candidate": "RR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 449,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 17,
+      "printed_name": "RRB",
+      "rom_normalized_candidate": "RRB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 449,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 18,
+      "printed_name": "RREF",
+      "rom_normalized_candidate": "RREF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 450,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 19,
+      "printed_name": "RRK",
+      "rom_normalized_candidate": "RRK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 450,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 20,
+      "printed_name": "RRKSTEP",
+      "rom_normalized_candidate": "RRKSTEP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 452,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 21,
+      "printed_name": "RSBERR",
+      "rom_normalized_candidate": "RSBERR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 454,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 22,
+      "printed_name": "RSD",
+      "rom_normalized_candidate": "RSD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 455,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 23,
+      "printed_name": "RSWP",
+      "rom_normalized_candidate": "RSWP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 456,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 24,
+      "printed_name": "R→B",
+      "rom_normalized_candidate": "R→B",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 456,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 25,
+      "printed_name": "R→C",
+      "rom_normalized_candidate": "R→C",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 457,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 26,
+      "printed_name": "R→D",
+      "rom_normalized_candidate": "R→D",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 458,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 27,
+      "printed_name": "SAME",
+      "rom_normalized_candidate": "SAME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 458,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 28,
+      "printed_name": "SBRK",
+      "rom_normalized_candidate": "SBRK",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 459,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 29,
+      "printed_name": "SCALE",
+      "rom_normalized_candidate": "SCALE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 459,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 30,
+      "printed_name": "SCATR PLOT",
+      "rom_normalized_candidate": "SCATRPLOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 460,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 31,
+      "printed_name": "SCATTER",
+      "rom_normalized_candidate": "SCATTER",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 461,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 32,
+      "printed_name": "SCHUR",
+      "rom_normalized_candidate": "SCHUR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 462,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 33,
+      "printed_name": "SCI",
+      "rom_normalized_candidate": "SCI",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 34,
+      "printed_name": "SCLΣ",
+      "rom_normalized_candidate": "SCLΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 464,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 35,
+      "printed_name": "SCONJ",
+      "rom_normalized_candidate": "SCONJ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 464,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 36,
+      "printed_name": "SDEV",
+      "rom_normalized_candidate": "SDEV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 464,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 37,
+      "printed_name": "SEND",
+      "rom_normalized_candidate": "SEND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 465,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 38,
+      "printed_name": "SEQ",
+      "rom_normalized_candidate": "SEQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 466,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 39,
+      "printed_name": "SERVER",
+      "rom_normalized_candidate": "SERVER",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 467,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 40,
+      "printed_name": "SF",
+      "rom_normalized_candidate": "SF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 468,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-12",
+      "row": 41,
+      "printed_name": "SHOW",
+      "rom_normalized_candidate": "SHOW",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 469,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 1,
+      "printed_name": "SIDENS",
+      "rom_normalized_candidate": "SIDENS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 469,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 2,
+      "printed_name": "SIGN",
+      "rom_normalized_candidate": "SIGN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 470,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 3,
+      "printed_name": "SIMU",
+      "rom_normalized_candidate": "SIMU",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 4,
+      "printed_name": "SIN",
+      "rom_normalized_candidate": "SIN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 471,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 5,
+      "printed_name": "SINH",
+      "rom_normalized_candidate": "SINH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 472,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 6,
+      "printed_name": "SINV",
+      "rom_normalized_candidate": "SINV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 473,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 7,
+      "printed_name": "SIZE",
+      "rom_normalized_candidate": "SIZE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 473,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 8,
+      "printed_name": "SL",
+      "rom_normalized_candidate": "SL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 474,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 9,
+      "printed_name": "SLB",
+      "rom_normalized_candidate": "SLB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 475,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 10,
+      "printed_name": "SLOPEFIELD",
+      "rom_normalized_candidate": "SLOPEFIELD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 476,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 11,
+      "printed_name": "SNEG",
+      "rom_normalized_candidate": "SNEG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 477,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 12,
+      "printed_name": "SNRM",
+      "rom_normalized_candidate": "SNRM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 478,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 13,
+      "printed_name": "SOLVEQN",
+      "rom_normalized_candidate": "SOLVEQN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 478,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 14,
+      "printed_name": "SORT",
+      "rom_normalized_candidate": "SORT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 479,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 15,
+      "printed_name": "SPHERE",
+      "rom_normalized_candidate": "SPHERE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 480,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 16,
+      "printed_name": "SQ",
+      "rom_normalized_candidate": "SQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 480,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 17,
+      "printed_name": "SR",
+      "rom_normalized_candidate": "SR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 481,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 18,
+      "printed_name": "SRAD",
+      "rom_normalized_candidate": "SRAD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 481,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 19,
+      "printed_name": "SRB",
+      "rom_normalized_candidate": "SRB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 482,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 20,
+      "printed_name": "SRECV",
+      "rom_normalized_candidate": "SRECV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 482,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 21,
+      "printed_name": "SST",
+      "rom_normalized_candidate": "SST",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 22,
+      "printed_name": "SST↓",
+      "rom_normalized_candidate": "SST↓",
+      "in_rom_baseline": false,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 23,
+      "printed_name": "START",
+      "rom_normalized_candidate": "START",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 485,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 24,
+      "printed_name": "STD",
+      "rom_normalized_candidate": "STD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 486,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 25,
+      "printed_name": "STEP",
+      "rom_normalized_candidate": "STEP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 487,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 26,
+      "printed_name": "STEQ",
+      "rom_normalized_candidate": "STEQ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 488,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 27,
+      "printed_name": "STIME",
+      "rom_normalized_candidate": "STIME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 488,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 28,
+      "printed_name": "STO",
+      "rom_normalized_candidate": "STO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 489,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 29,
+      "printed_name": "STOALARM",
+      "rom_normalized_candidate": "STOALARM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 490,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 30,
+      "printed_name": "STOF",
+      "rom_normalized_candidate": "STOF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 491,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 31,
+      "printed_name": "STOKEYS",
+      "rom_normalized_candidate": "STOKEYS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 492,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 32,
+      "printed_name": "STO+",
+      "rom_normalized_candidate": "STO+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 493,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 33,
+      "printed_name": "STO−",
+      "rom_normalized_candidate": "STO-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 494,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 34,
+      "printed_name": "STO*",
+      "rom_normalized_candidate": "STO*",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 35,
+      "printed_name": "STO/",
+      "rom_normalized_candidate": "STO/",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 495,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 36,
+      "printed_name": "STOΣ",
+      "rom_normalized_candidate": "STOΣ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 37,
+      "printed_name": "STREAM",
+      "rom_normalized_candidate": "STREAM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 497,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 38,
+      "printed_name": "STR→",
+      "rom_normalized_candidate": "STR→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 497,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 39,
+      "printed_name": "→STR",
+      "rom_normalized_candidate": "→STR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 498,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 40,
+      "printed_name": "STWS",
+      "rom_normalized_candidate": "STWS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 499,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-13",
+      "row": 41,
+      "printed_name": "SUB",
+      "rom_normalized_candidate": "SUB",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 1,
+      "printed_name": "SVD",
+      "rom_normalized_candidate": "SVD",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 18,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 2,
+      "printed_name": "SVL",
+      "rom_normalized_candidate": "SVL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 502,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 3,
+      "printed_name": "SWAP",
+      "rom_normalized_candidate": "SWAP",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 502,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 4,
+      "printed_name": "SYSEVAL",
+      "rom_normalized_candidate": "SYSEVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 503,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 5,
+      "printed_name": "%T",
+      "rom_normalized_candidate": "%T",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 503,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 6,
+      "printed_name": "→TAG",
+      "rom_normalized_candidate": "→TAG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 505,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 7,
+      "printed_name": "TAIL",
+      "rom_normalized_candidate": "TAIL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 505,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 8,
+      "printed_name": "TAN",
+      "rom_normalized_candidate": "TAN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 506,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 9,
+      "printed_name": "TANH",
+      "rom_normalized_candidate": "TANH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 507,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 10,
+      "printed_name": "TAYLR",
+      "rom_normalized_candidate": "TAYLR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 507,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 11,
+      "printed_name": "TDELTA",
+      "rom_normalized_candidate": "TDELTA",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 508,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 12,
+      "printed_name": "TEACH",
+      "rom_normalized_candidate": "TEACH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 509,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 13,
+      "printed_name": "TEXT",
+      "rom_normalized_candidate": "TEXT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 509,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 14,
+      "printed_name": "THEN",
+      "rom_normalized_candidate": "THEN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 510,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 15,
+      "printed_name": "TICKS",
+      "rom_normalized_candidate": "TICKS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 510,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 16,
+      "printed_name": "TIME",
+      "rom_normalized_candidate": "TIME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 511,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 17,
+      "printed_name": "→TIME",
+      "rom_normalized_candidate": "→TIME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 511,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 18,
+      "printed_name": "TINC",
+      "rom_normalized_candidate": "TINC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 512,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 19,
+      "printed_name": "TLINE",
+      "rom_normalized_candidate": "TLINE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 513,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 20,
+      "printed_name": "TMENU",
+      "rom_normalized_candidate": "TMENU",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 514,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 21,
+      "printed_name": "TOT",
+      "rom_normalized_candidate": "TOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 515,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 22,
+      "printed_name": "TRACE",
+      "rom_normalized_candidate": "TRACE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 515,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 23,
+      "printed_name": "TRANSIO",
+      "rom_normalized_candidate": "TRANSIO",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 516,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 24,
+      "printed_name": "TRN",
+      "rom_normalized_candidate": "TRN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 517,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 25,
+      "printed_name": "TRNC",
+      "rom_normalized_candidate": "TRNC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 517,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 26,
+      "printed_name": "TRUTH",
+      "rom_normalized_candidate": "TRUTH",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 519,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 27,
+      "printed_name": "TSTR",
+      "rom_normalized_candidate": "TSTR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 520,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 28,
+      "printed_name": "TVARS",
+      "rom_normalized_candidate": "TVARS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 521,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 29,
+      "printed_name": "TVM",
+      "rom_normalized_candidate": "TVM",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 521,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 30,
+      "printed_name": "TVMBEG",
+      "rom_normalized_candidate": "TVMBEG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 522,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 31,
+      "printed_name": "TVMEND",
+      "rom_normalized_candidate": "TVMEND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 522,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 32,
+      "printed_name": "TVMROOT",
+      "rom_normalized_candidate": "TVMROOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 522,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 33,
+      "printed_name": "TYPE",
+      "rom_normalized_candidate": "TYPE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 523,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 34,
+      "printed_name": "UBASE",
+      "rom_normalized_candidate": "UBASE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 524,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 35,
+      "printed_name": "UFACT",
+      "rom_normalized_candidate": "UFACT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 525,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 36,
+      "printed_name": "→UNIT",
+      "rom_normalized_candidate": "→UNIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 526,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 37,
+      "printed_name": "UNTIL",
+      "rom_normalized_candidate": "UNTIL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 526,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 38,
+      "printed_name": "UPDIR",
+      "rom_normalized_candidate": "UPDIR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 527,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 39,
+      "printed_name": "UTPC",
+      "rom_normalized_candidate": "UTPC",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 527,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 40,
+      "printed_name": "UTPF",
+      "rom_normalized_candidate": "UTPF",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 528,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-14",
+      "row": 41,
+      "printed_name": "UTPN",
+      "rom_normalized_candidate": "UTPN",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 529,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 1,
+      "printed_name": "UTPT",
+      "rom_normalized_candidate": "UTPT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 529,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 2,
+      "printed_name": "UVAL",
+      "rom_normalized_candidate": "UVAL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 530,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 3,
+      "printed_name": "VAR",
+      "rom_normalized_candidate": "VAR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 531,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 4,
+      "printed_name": "VARS",
+      "rom_normalized_candidate": "VARS",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 531,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 5,
+      "printed_name": "VERSION",
+      "rom_normalized_candidate": "VERSION",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 532,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 6,
+      "printed_name": "VTYPE",
+      "rom_normalized_candidate": "VTYPE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 532,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 7,
+      "printed_name": "→V2",
+      "rom_normalized_candidate": "→V2",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 533,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 8,
+      "printed_name": "→V3",
+      "rom_normalized_candidate": "→V3",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 534,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 9,
+      "printed_name": "V→",
+      "rom_normalized_candidate": "V→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 535,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 10,
+      "printed_name": "*W",
+      "rom_normalized_candidate": "*W",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 11,
+      "printed_name": "WAIT",
+      "rom_normalized_candidate": "WAIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 537,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 12,
+      "printed_name": "WHILE",
+      "rom_normalized_candidate": "WHILE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 538,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 13,
+      "printed_name": "WIREFRAME",
+      "rom_normalized_candidate": "WIREFRAME",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 539,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 14,
+      "printed_name": "WSLOG",
+      "rom_normalized_candidate": "WSLOG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 541,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 15,
+      "printed_name": "ΣX",
+      "rom_normalized_candidate": "ΣX",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 16,
+      "printed_name": "ΣX^2",
+      "rom_normalized_candidate": "ΣX^2",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 17,
+      "printed_name": "XCOL",
+      "rom_normalized_candidate": "XCOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 544,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 18,
+      "printed_name": "XMIT",
+      "rom_normalized_candidate": "XMIT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 545,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 19,
+      "printed_name": "XOR",
+      "rom_normalized_candidate": "XOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 546,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 20,
+      "printed_name": "XPON",
+      "rom_normalized_candidate": "XPON",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 547,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 21,
+      "printed_name": "XRECV",
+      "rom_normalized_candidate": "XRECV",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 548,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 22,
+      "printed_name": "XRNG",
+      "rom_normalized_candidate": "XRNG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 548,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 23,
+      "printed_name": "XROOT",
+      "rom_normalized_candidate": "XROOT",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 549,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 24,
+      "printed_name": "XSEND",
+      "rom_normalized_candidate": "XSEND",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 550,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 25,
+      "printed_name": "XVOL",
+      "rom_normalized_candidate": "XVOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 550,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 26,
+      "printed_name": "XXRNG",
+      "rom_normalized_candidate": "XXRNG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 551,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 27,
+      "printed_name": "ΣX*Y",
+      "rom_normalized_candidate": "ΣX*Y",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 28,
+      "printed_name": "ΣY",
+      "rom_normalized_candidate": "ΣY",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 29,
+      "printed_name": "ΣY^2",
+      "rom_normalized_candidate": "ΣY^2",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 30,
+      "printed_name": "YCOL",
+      "rom_normalized_candidate": "YCOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 553,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 31,
+      "printed_name": "YRNG",
+      "rom_normalized_candidate": "YRNG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 554,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 32,
+      "printed_name": "YSLICE",
+      "rom_normalized_candidate": "YSLICE",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 555,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 33,
+      "printed_name": "YVOL",
+      "rom_normalized_candidate": "YVOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 556,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 34,
+      "printed_name": "YYRNG",
+      "rom_normalized_candidate": "YYRNG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 557,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 35,
+      "printed_name": "ZFACTOR",
+      "rom_normalized_candidate": "ZFACTOR",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 557,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 36,
+      "printed_name": "ZVOL",
+      "rom_normalized_candidate": "ZVOL",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 558,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 37,
+      "printed_name": "+",
+      "rom_normalized_candidate": "+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 560,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 38,
+      "printed_name": "−",
+      "rom_normalized_candidate": "-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 39,
+      "printed_name": "*",
+      "rom_normalized_candidate": "*",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 564,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 40,
+      "printed_name": "/",
+      "rom_normalized_candidate": "/",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 565,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-15",
+      "row": 41,
+      "printed_name": "^",
+      "rom_normalized_candidate": "^",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 1,
+      "printed_name": "<",
+      "rom_normalized_candidate": "<",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 567,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 2,
+      "printed_name": "≤",
+      "rom_normalized_candidate": "≤",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 3,
+      "printed_name": ">",
+      "rom_normalized_candidate": ">",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 570,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 4,
+      "printed_name": "≥",
+      "rom_normalized_candidate": "≥",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 5,
+      "printed_name": "=",
+      "rom_normalized_candidate": "=",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 6,
+      "printed_name": "≡",
+      "rom_normalized_candidate": "==",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 7,
+      "printed_name": "≠",
+      "rom_normalized_candidate": "≠",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 8,
+      "printed_name": "!",
+      "rom_normalized_candidate": "!",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 576,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 9,
+      "printed_name": "∫",
+      "rom_normalized_candidate": "∫",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 10,
+      "printed_name": "∂",
+      "rom_normalized_candidate": "∂",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 11,
+      "printed_name": "%",
+      "rom_normalized_candidate": "%",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 580,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 12,
+      "printed_name": "π",
+      "rom_normalized_candidate": "π",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 13,
+      "printed_name": "Σ",
+      "rom_normalized_candidate": "Σ",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 717,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 14,
+      "printed_name": "Σ+",
+      "rom_normalized_candidate": "Σ+",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 584,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 15,
+      "printed_name": "Σ−",
+      "rom_normalized_candidate": "Σ-",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 16,
+      "printed_name": "√",
+      "rom_normalized_candidate": "√",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 17,
+      "printed_name": "¯",
+      "rom_normalized_candidate": "NEG",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": 363,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 18,
+      "printed_name": "|",
+      "rom_normalized_candidate": "|",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    },
+    {
+      "source_index_page": "Contents-16",
+      "row": 19,
+      "printed_name": "→",
+      "rom_normalized_candidate": "→",
+      "in_rom_baseline": true,
+      "secondary_aur_pdf_page_hint": null,
+      "review_status": "SOURCE_TOC_TEXT_NOT_SCAN_VISUALLY_APPROVED"
+    }
+  ]
+}
