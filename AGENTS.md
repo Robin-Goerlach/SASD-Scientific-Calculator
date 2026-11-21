@@ -1,5 +1,7 @@
 # AGENTS.md — operating rules for coding agents and contributors
 
+**SASD Development Standard (pinned candidate):** Read [`docs/SASD-COMPLIANCE.md`](docs/SASD-COMPLIANCE.md) for the exact standard commit, *proposed* Recommended quality level, applicability, open evidence and phase gates. This is **Pilot Alignment – Assessment in Progress**, not a claim of completed compliance. The normative standard is German; its examples/templates/tools do not create extra runtime or V1 feature requirements. Agentic repository writes require explicit authorization and auditable scope; no AI self-approval of production releases, irreversible migrations or critical security changes. Maintain independent code/test/review evidence.
+
 **Canonical modular architecture:** Read [`docs/ARCHITEKTUR.md`](docs/ARCHITEKTUR.md) and the single [`ROADMAP.md`](ROADMAP.md) before changing subsystem boundaries, state/ABI contracts or release dependencies. The architecture is a **proposal subject to ADR gates**, not a list of existing modules; classic RPN V1 retains priority over ALG, historic programs, Financial and optional emulation.
 
 **Technical implementation guidance:** Consult [`docs/PFLICHTENHEFT.md`](docs/PFLICHTENHEFT.md) after the Lastenheft, especially its source-ID traceability, proposed architecture modules and open ADRs. Its recommendations must not be treated as approved historical semantics or implemented code.

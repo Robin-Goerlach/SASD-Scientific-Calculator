@@ -1,6 +1,6 @@
 # SASD Scientific Calculator
 
-[English](README.md) · [Deutsch](README.de.md) · **[Full requirements / Lastenheft (DE)](docs/LASTENHEFT.md)** · **[Technical specification / Pflichtenheft (DE)](docs/PFLICHTENHEFT.md)** · [Roadmap](ROADMAP.md) · **[Gesamtarchitektur (DE)](docs/ARCHITEKTUR.md)** · [Architecture summary (EN)](docs/en/ARCHITECTURE.md) · [Compatibility](docs/en/COMPATIBILITY.md)
+[English](README.md) · [Deutsch](README.de.md) · **[Full requirements / Lastenheft (DE)](docs/LASTENHEFT.md)** · **[Technical specification / Pflichtenheft (DE)](docs/PFLICHTENHEFT.md)** · [Roadmap](ROADMAP.md) · [SASD Development Standard alignment](docs/SASD-COMPLIANCE.md) · **[Gesamtarchitektur (DE)](docs/ARCHITEKTUR.md)** · [Architecture summary (EN)](docs/en/ARCHITECTURE.md) · [Compatibility](docs/en/COMPATIBILITY.md)
 
 <p align="center"><img src="docs/images/science-icon-concept.svg" alt="Scientific calculator icon concept: sine and cosine" width="136"></p>
 

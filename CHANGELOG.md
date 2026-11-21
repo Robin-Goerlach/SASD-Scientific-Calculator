@@ -33,3 +33,9 @@ All notable product-visible changes should be recorded here once releases exist.
 - Added `docs/de/V1-TEST-UND-FREIGABEPLAN.md`: all AC-V1-001…017, RPN/numeric/state/ABI/device tests, severity gates, explicit NO-GO before evidence, historical nonblocking tests.
 - Linked new drafts from architecture, specification, README, roadmap, tasking, decision and release documents.
 - No app feature, native iPhone binary, actual Stack/ABI/State implementation, historical compatibility or new test PASS was created by this docs-only change.
+
+## Unreleased – SASD Development Standard pilot adoption (2026-11-21)
+
+- Added `docs/SASD-COMPLIANCE.md` with a pinned 1.0 specification-candidate reference, provisional Recommended quality-level recommendation, applicable Core scope, explicit gaps and staged M0–M2 review gates.
+- Linked the standard assessment from both READMEs, the architecture, roadmap and coding-agent instructions.
+- Standard adoption does **not** indicate complete alignment or change the classic-RPN-first product scope; no app code or tests were altered.

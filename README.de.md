@@ -1,6 +1,6 @@
 # SASD Scientific Calculator
 
-[Deutsch](README.de.md) · [English](README.md) · **[Lastenheft (DE)](docs/LASTENHEFT.md)** · **[Pflichtenheft (DE)](docs/PFLICHTENHEFT.md)** · **[Roadmap](ROADMAP.md)** · **[Gesamtarchitektur](docs/ARCHITEKTUR.md)** · [Architektur-Kurzfassung](docs/de/ARCHITEKTUR.md) · [Anforderungen](docs/de/PRODUKT.md)
+[Deutsch](README.de.md) · [English](README.md) · **[Lastenheft (DE)](docs/LASTENHEFT.md)** · **[Pflichtenheft (DE)](docs/PFLICHTENHEFT.md)** · **[Roadmap](ROADMAP.md)** · **[SASD-Entwicklungsstandard / Prüfstand](docs/SASD-COMPLIANCE.md)** · **[Gesamtarchitektur](docs/ARCHITEKTUR.md)** · [Architektur-Kurzfassung](docs/de/ARCHITEKTUR.md) · [Anforderungen](docs/de/PRODUKT.md)
 
 <p align="center"><img src="docs/images/science-icon-concept.svg" alt="Konzept für das Scientific-Icon mit Sinus und Cosinus" width="136"></p>
 

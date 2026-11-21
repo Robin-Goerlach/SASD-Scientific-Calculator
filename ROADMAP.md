@@ -7,6 +7,7 @@
 **Normative Quellen:** [Lastenheft](docs/LASTENHEFT.md), [Pflichtenheft](docs/PFLICHTENHEFT.md)  
 **Technisches Zielbild:** [Gesamtarchitektur](docs/ARCHITEKTUR.md)  
 **Operative Aufgaben:** [TASKS.md](TASKS.md), [Freigabe-Checkliste](docs/en/RELEASE-CHECKLIST.md)
+**SASD Development Standard:** [projektbezogene, vorläufige Übernahme und Compliance-Prüfstand](docs/SASD-COMPLIANCE.md) – **Assessment in Progress**, keine zusätzliche V1-Historik-Blockade.
 
 **English orientation:** This is the canonical Scientific Calculator roadmap. **Classic RPN iPhone first (M0–M2);** user programs and historical System RPL later (M3/M4); Nut/Saturn machine emulation optional (M5). A separate ALG app and advanced RPL app may progress on independent, **non-blocking** tracks. Financial is a separate product/repository. „Planned“ never means „implemented“.
 

@@ -7,6 +7,7 @@
 **Geltungsbereich:** alle wissenschaftlichen SASD-Rechner-Anwendungen dieses Monorepositories  
 **Normative Quellen:** [Lastenheft](LASTENHEFT.md), [Pflichtenheft](PFLICHTENHEFT.md), [Entscheidungsregister](en/DECISIONS.md), [V1-Abnahmekriterien](en/RELEASE-V1.md)  
 **Umsetzungsplanung:** [ROADMAP.md](../ROADMAP.md), [TASKS.md](../TASKS.md)
+**Prozess- und Qualitätsrahmen:** [SASD Development Standard – vorläufiger Übernahme-/Compliance-Prüfstand](SASD-COMPLIANCE.md), bezogen auf einen gepinnten Standard-Commit; kein pauschaler Konformitätsnachweis.
 
 > **Architekturziel:** Ein verlässlicher, eigenständiger **klassischer UPN/RPN-Rechner für das iPhone zuerst**, während die Codebasis spätere ALG-, HP-41C-/CV- und HP-48GX-/RPL-Varianten sauber aufnehmen kann. Gemeinsame mathematische Algorithmen ja; künstlich vereinheitlichte historische Stack-, Programm-, Speicher- und Zahlenmodelle nein.
 >
