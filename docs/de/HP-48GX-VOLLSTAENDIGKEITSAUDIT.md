@@ -158,3 +158,32 @@ Dies ist ein **nachgewiesener interner Quellenwiderspruch**, nicht eine von SASD
 Das offizielle Handbuch belegt in **Anhang F, F-1 bis F-3** genau **315 Gleichungen und 396 Variablen in 15 Fachgebieten**. Die 15 sachgebietsweisen Summen sind im [Hauptkatalog](HP-48GX-FUNKTIONSKATALOG.md) dokumentiert und addieren sich zu diesen Zahlen. Das ist eine **abgeschlossene Kontrollsummenprüfung**, aber **keine** Validierung jeder einzelnen Formel oder Variablenbeziehung. Die 102 bisher zusammengetragenen Problemüberschriften brauchen ihren separaten 1:1-Abgleich.
 
 **Status:** `SUMMARY_VERIFIED`; Einzelgleichungen `UNVERIFIED`.
+
+## 11. Originalscan G-2–G-58: tatsächlich durchgeführter maschineller Durchlauf
+
+**Laufdatum:** 21.11.2026 · HP-Original-PDF SHA-256 `77b25f276277e90fbbd7ca1676d7440f69a844169fec6951382255df26e0782a`
+
+Die 57 Tabellenseiten (gedruckt G-2 bis G-58, PDF 482 bis 538) wurden aus dem **bildbasierten** 612-seitigen User's Guide per Tesseract gelesen und die Auswertung unter folgenden Namen in GitHub gespeichert:
+
+- [Seitenweiser Rohabgleich](HP-48GX-OPERATION-INDEX-ROHABGLEICH.md) und [OCR-Metadaten](../reference/hp48gx-operation-index-ocr.json).
+- [Unabhängig anhand des Original-Textindex kontrollierte neun Seiten](../reference/hp48gx-operation-index-crosschecked-pages.json), ausdrücklich **keine vollständige visuelle Scan-Abnahme**.
+
+**Messwerte:** 57/57 Tabellenseiten verarbeitet; 692 Kandidatenzeilen; 411 unterschiedliche technische ROM-Namen exakt erkannt; 253 OCR-Zeilen ohne exakte Übereinstimmung mit dem ROM-Index. Die Zahlen sind **keine Funktionszählung**. 106 der 517 ROM-Namen wurden nicht exakt wiedererkannt; dies erklärt sich mindestens teilweise aus Sonderzeichen, Tasten-/Variablenbezeichnern und OCR-Fehlern und bedeutet **nicht**, dass 106 Funktionen fehlen.
+
+**Vergleich gegen tatsächlich lesbare Originalzeilen:** Neun ausgewählte Originalindex-Seiten G-2–G-8 und G-57/G-58 enthalten **111 gedruckte Tabellenzeilen**; nur **66** davon wurden im unabhängigen Tesseract-Lauf exakt mit identischem Label erkannt (die separat eingetragene G-57-Transkription zählt ausdrücklich nicht als OCR-Treffer). Die OCR-Fehlstellen sind **belegt**: Auf G-6 wurden nur 5 Rohkandidaten aus 10 Original-Tabellenzeilen extrahiert; Sonderzeichenseite G-57 wurde original per OCR gar nicht erkannt, G-58 überwiegend falsch. Deshalb ist eine bloße Anwendung der OCR auf alle Seiten **nicht** ausreichend für einen echten Abnahmeentscheid.
+
+**Folgerung:** Nicht »57 Seiten verarbeitet = 57 Seiten vollständig geprüft« schreiben. Der Abnahmestatus bleibt `NO_GO`; ein Originalindex muss seitenweise anhand tatsächlicher Quelle kontrolliert werden, unabhängig vom Ausgabestatus des automatischen Workflows.
+
+## 12. Zusätzliche nachgewiesene Inhaltsfehler und Quellenkonflikte
+
+| Befehl | Original-Nachweis | Bewertung |
+| --- | --- | --- |
+| `PVARS` | User's Guide 28-4; G-33/G-34 | Portobjekte und Speichertyp; frühere Beschreibung „Variablen im Elternverzeichnis“ **nachweislich falsch**, im Hauptkatalog korrigiert |
+| `COLΣ` | User's Guide G-8 / H-4 | Statistikspalten auswählen; nicht deren Summe |
+| `SCLΣ` | saturnus Sekundärbeschreibung (AUR noch einzeln prüfen) | Skalierung des Plotfensters in `PPAR`, nicht der Statistikmatrix; Hauptkatalog präzisiert |
+| `CLUSR` | User's Guide G-7 als programmierbar (C), neben `CLVAR` | Rom-Index führt `CLUSR` nicht gesondert; Alias/Entry-Point prüfen. Insbesondere **nicht** allein aufgrund des fehlenden ROM-Namens weglassen |
+| `CLS` / `CLΣ` | User's Guide G-7 verwendet `CLS`; andere Referenzen `CLΣ` | Darstellung/Typographie/Alias noch klären, nicht zwei zusätzliche Befehle erfinden |
+| `RULES` | User's Guide 20-19/20-20 (EquationWriter-Dialog); unabhängige historische HP-48-FAQ (undokumentierter gleichnamiger ROM-Easter-Egg-Befehl) | Beides existiert in unterschiedlichem Kontext; Menü und ROM-Namenseintrag getrennt halten |
+| `RSD` | User's Guide 14-17: für `AX=B` wird als Rest ausdrücklich `AX-B` beschrieben; saturnus-Referenz beschreibt dagegen `B-AZ` | **Quellenkonflikt!** Vor einer Nachimplementierung Original-AUR-Stackdiagramm sowie Hardware-Test mit asymmetrischen Werten prüfen, statt nur wegen einer Sekundärquelle das Vorzeichen zu ändern |
+
+**Abgrenzung:** Für den Eintrag `GRAPH` liegt ein Original-AUR-/Operation-Index-Hinweis vor; eine unabhängige technische User-RPL/ROM-Identitätsprüfung bleibt offen. `CLU SR` ist **kein** typographischer Ersatz für `CLUSR`: Kein zusätzlicher Befehl wird ohne Beleg erfunden.
