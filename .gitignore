@@ -1,0 +1,42 @@
+# CMake / compiler output
+/build/
+/out/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Testing/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+compile_commands.json
+
+# IDE / OS
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local Apple output and signing (planned)
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.ipa
+*.mobileprovision
+*.p12
+
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.key
+*.pem
