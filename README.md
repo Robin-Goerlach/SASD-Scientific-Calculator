@@ -2,7 +2,7 @@
 
 [English](README.md) · [Deutsch](README.de.md) · [Roadmap](ROADMAP.md) · [Architecture](docs/en/ARCHITECTURE.md) · [Compatibility](docs/en/COMPATIBILITY.md)
 
-<p align="center"><img src="docs/images/science-icon-concept.webp" alt="Scientific calculator icon concept: sine and cosine" width="136"></p>
+<p align="center"><img src="docs/images/science-icon-concept.svg" alt="Scientific calculator icon concept: sine and cosine" width="136"></p>
 
 **A classic, stack-based scientific calculator for modern devices.**
 
@@ -16,13 +16,13 @@ Our guiding decision is **platform strategy C, executed with priority A**: build
 
 ### iPhone concept — the calculator fills the screen
 
-<p align="center"><img src="docs/images/ios-calculator-concept.webp" alt="Generated SASD iPhone calculator concept, not a running app" width="340"></p>
+<p align="center"><img src="docs/images/ios-calculator-concept.svg" alt="Generated SASD iPhone calculator concept, not a running app" width="340"></p>
 
 Portrait mode should display **only the calculator** — its screen, full keypad, six contextual menu keys where appropriate, Shift/Alpha layers, and a subtle clickable **SASD** mark at top left. No desktop editor, advertisement, permanent toolbar, account, or web service. Correct key mapping and readability take precedence over visual imitation. The concept image is **not** an authoritative keyboard specification.
 
 ### Desktop concept — optional development workspace
 
-![Generated concept of a desktop calculator with editor, stack, and library](docs/images/desktop-workspace-concept.webp)
+![Generated concept of a desktop calculator with editor, stack, and library](docs/images/desktop-workspace-concept.svg)
 
 Desktop applications may add an optional editor, stack and variable inspector, program libraries, and debugging tools beside the calculator. These tools must consume the same portable semantics; they must never be mandatory for iPhone operation. The image is a **mockup only**.
 

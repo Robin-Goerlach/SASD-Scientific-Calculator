@@ -2,7 +2,7 @@
 
 [Deutsch](README.de.md) · [English](README.md) · [Roadmap](ROADMAP.md) · [Architektur](docs/de/ARCHITEKTUR.md) · [Anforderungen](docs/de/PRODUKT.md)
 
-<p align="center"><img src="docs/images/science-icon-concept.webp" alt="Konzept für das Scientific-Icon mit Sinus und Cosinus" width="136"></p>
+<p align="center"><img src="docs/images/science-icon-concept.svg" alt="Konzept für das Scientific-Icon mit Sinus und Cosinus" width="136"></p>
 
 **Ein klassischer, stackbasierter wissenschaftlicher Taschenrechner für moderne Geräte.**
 
@@ -16,13 +16,13 @@ Unsere Strategie lautet **„Strategie C mit konsequenter Priorität A“**: Lan
 
 ### iPhone: nur der Rechner im Hochformat
 
-<p align="center"><img src="docs/images/ios-calculator-concept.webp" alt="Generierter iPhone-Entwurf, keine lauffähige App" width="340"></p>
+<p align="center"><img src="docs/images/ios-calculator-concept.svg" alt="Generierter iPhone-Entwurf, keine lauffähige App" width="340"></p>
 
 Das iPhone zeigt den **Taschenrechner selbst**, nicht zusätzlich Desktop-Editor, Seitenleisten oder Werbung. Der vollständige Tastenumfang, sinnvolle Shift-/Alpha-Ebenen, gut bedienbare Tasten, ein lesbares Display und eine **dezente anklickbare SASD-Kennzeichnung links oben** sind vorgesehen. Die tatsächliche Tastenbelegung wird **unabhängig** vom generierten Bild geprüft.
 
 ### Desktop: optionale Entwicklungsumgebung
 
-![Generierter Desktop-Entwurf mit Rechner, Programmeditor, Stack und Bibliothek](docs/images/desktop-workspace-concept.webp)
+![Generierter Desktop-Entwurf mit Rechner, Programmeditor, Stack und Bibliothek](docs/images/desktop-workspace-concept.svg)
 
 Am PC dürfen neben dem Rechner ein Programmeditor, Stack-/Variablenansichten, Bibliotheken und Diagnosefunktionen stehen. Sie sind zusätzliche Oberflächen über einem UI-unabhängigen Kern und **keine Voraussetzung für das iPhone**.
 

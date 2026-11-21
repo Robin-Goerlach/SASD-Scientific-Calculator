@@ -8,5 +8,5 @@ All notable product-visible changes should be recorded here once releases exist.
 - Created English/German entry documentation, roadmap, task plan, architecture, UX, rights and test guidance.
 - Added small generic C++20 RPN arithmetic and a command-line development exerciser.
 - Added basic CTest checks and desktop build CI definition.
-- Included concept-only icon, iPhone and desktop visual assets.
+- Included concept-only vector previews of the icon, iPhone and desktop; original high-resolution PNG designs are retained in the handoff package.
 - **Not delivered:** native iOS application, persistent state, scientific completeness, legacy program execution, App Store product.

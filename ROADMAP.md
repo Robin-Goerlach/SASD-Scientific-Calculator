@@ -25,7 +25,7 @@
 - [x] Repo exists and already has a MIT license (retain author copyright and notice).
 - [x] Product priorities and K1–K4 separated in repository documentation.
 - [x] First portable C++20 target and minimal unit tests prepared and locally validated.
-- [x] Desktop/iPhone/science-art concepts stored as mockups (not releases).
+- [x] Desktop/iPhone/science-art **SVG redrawings** stored as mockups (not releases).
 - [ ] GitHub Actions CI observed passing on Linux, Windows, macOS.
 - [ ] Approve exact iOS minimum deployment target after device/SDK research.
 - [ ] Review final key inventory against authoritative specifications and owned reference device.
