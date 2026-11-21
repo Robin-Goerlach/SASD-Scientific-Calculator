@@ -1,0 +1,421 @@
+{
+  "schema": 1,
+  "scope": "HP 48GX standard built-in command-name inventories, original documents 1994, no optional cards",
+  "status": "SOURCE_NAME_INDEXES_CROSS_COMPARED; ORIGINAL_SCAN_VISUAL_AND_COMMAND_BEHAVIOR_NOT_CERTIFIED",
+  "input": {
+    "rom": "docs/reference/hp48gx-rom-index-baseline.json",
+    "aur": "docs/reference/hp48gx-aur-command-index.json",
+    "user_guide": "docs/reference/hp48gx-operation-index-crosschecked-pages.json"
+  },
+  "counts": {
+    "rom_names": 517,
+    "aur_rows": 517,
+    "aur_unique_names": 516,
+    "aur_rom_mapped_unique": 507,
+    "aur_source_names_not_in_rom": 8,
+    "rom_names_not_in_aur_toc": 10,
+    "ug_source_rows": 696,
+    "ug_distinct_printed_labels": 661,
+    "ug_pure_ui_rows": 179,
+    "ug_program_and_mixed_rows": 517,
+    "ug_program_raw_label_not_in_rom": 26,
+    "ug_ui_raw_label_not_in_rom": 143
+  },
+  "aur_extra": [
+    {
+      "name": "CLUSR",
+      "aur_printed_page": "3-52",
+      "description": "Eigenständiger dokumentierter historischer Name; mögliche Unterschiede zu CLVAR bei Verzeichnissen prüfen",
+      "classification": "ALIAS_ODER_EIGENER_BEFEHL_NOCH_PRUEFEN",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "DBUG",
+      "aur_printed_page": "3-74",
+      "description": "Debugger-Aktivierung, interaktiver Zustand statt gewöhnlicher Rechenfunktion",
+      "classification": "INTERAKTIVE_DEBUGGER_OPERATION",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "GRAPH",
+      "aur_printed_page": "3-131",
+      "description": "Historischer Kompatibilitätszugang zur Grafik-/PICTURE-Umgebung",
+      "classification": "KOMPATIBILITAETSZUGANG",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "IR",
+      "aur_printed_page": "3-157",
+      "description": "Aktivierung/Anwahl der IR-Kommunikation; genaue IOPAR-/Hardwarewirkung prüfen",
+      "classification": "IO_OPERATION",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "LAST",
+      "aur_printed_page": "3-162",
+      "description": "Historischer Zugang zum Last-Argument-Verhalten; Zusammenhang mit LASTARG und Flag prüfen",
+      "classification": "ALIAS_ODER_KOMPATIBILITAETSZUGANG",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "SIMU",
+      "aur_printed_page": "3-307",
+      "description": "Plots gleichzeitig zeichnen statt nacheinander; Flag-/Plotmoduswirkung prüfen",
+      "classification": "PLOT_MODUSAKTION",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "SST",
+      "aur_printed_page": "3-320",
+      "description": "Debugger-Einzelschritt; keine frei kombinierbare mathematische Funktion",
+      "classification": "DEBUGGER_BEDIENOPERATION",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    },
+    {
+      "name": "SST↓",
+      "aur_printed_page": "3-320",
+      "description": "Debugger-Einzelschritt in Unterprogramme; keine Rechenfunktion",
+      "classification": "DEBUGGER_BEDIENOPERATION",
+      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+    }
+  ],
+  "rom_no_aur": [
+    {
+      "name": "_",
+      "notes": "Einheitenzeichen/Objektbegrenzer; AUR-TOC nicht als eigener Befehlsname",
+      "classification": "SYNTAKTOKEN",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "RULES",
+      "notes": "Undokumentierter oder kontextabhängiger ROM-Name; UI-Regelmenü separat prüfen",
+      "classification": "UNGEKLAERTER_ROM_NAME",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "gmol",
+      "notes": "Bibliothekseinheiten-Bezeichnung, kein eigener AUR-TOC-Befehl",
+      "classification": "EINHEITENBIBLIOTHEK",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "lbmol",
+      "notes": "Bibliothekseinheiten-Bezeichnung, kein eigener AUR-TOC-Befehl",
+      "classification": "EINHEITENBIBLIOTHEK",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "rpm",
+      "notes": "Bibliothekseinheiten-Bezeichnung, kein eigener AUR-TOC-Befehl",
+      "classification": "EINHEITENBIBLIOTHEK",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "dB",
+      "notes": "Bibliothekseinheiten-Bezeichnung, kein eigener AUR-TOC-Befehl",
+      "classification": "EINHEITENBIBLIOTHEK",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "»",
+      "notes": "User-RPL-Programm-Enddelimiter, syntaktisch, nicht als AUR-Referenzkapitel",
+      "classification": "SYNTAX",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "«",
+      "notes": "User-RPL-Programm-Anfangsdelimiter, syntaktisch",
+      "classification": "SYNTAX",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "'",
+      "notes": "Quoting-/Algebraic-Begrenzer, syntaktisch",
+      "classification": "SYNTAX",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    },
+    {
+      "name": "DIR",
+      "notes": "Verzeichnisobjekt-Delimiter, syntaktisch",
+      "classification": "SYNTAX",
+      "verification": "CLASSIFICATION_PROVISIONAL"
+    }
+  ],
+  "ug_program_label_differences": [
+    {
+      "label": "BUF LEN",
+      "candidate_rom_or_aur_name": "BUFLEN",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "CASE / ↩CASE / ↪CASE",
+      "candidate_rom_or_aur_name": "CASE",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "CLS",
+      "candidate_rom_or_aur_name": "CLΣ",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "CLUSR",
+      "candidate_rom_or_aur_name": "CLUSR",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "COL−",
+      "candidate_rom_or_aur_name": "COL-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "CST",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "ΣDAT",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "EQ",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "FO^",
+      "candidate_rom_or_aur_name": "F0λ",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "FV",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "GRAPH",
+      "candidate_rom_or_aur_name": "GRAPH",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "HMS−",
+      "candidate_rom_or_aur_name": "HMS-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "IOPAR",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "LAST",
+      "candidate_rom_or_aur_name": "LAST",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "ΣPAR",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "PMT",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "PRTPAR",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "PURG",
+      "candidate_rom_or_aur_name": "PURGE",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "PV",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "PYR",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "ROW−",
+      "candidate_rom_or_aur_name": "ROW-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "SCLS",
+      "candidate_rom_or_aur_name": "SCLΣ",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "STO−",
+      "candidate_rom_or_aur_name": "STO-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "VPAR",
+      "candidate_rom_or_aur_name": null,
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "−",
+      "candidate_rom_or_aur_name": "-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    },
+    {
+      "label": "Σ−",
+      "candidate_rom_or_aur_name": "Σ-",
+      "decision": "SOURCE_RAW_DIFFERENCE; ALIAS_NORMALIZATION_OR_RESERVED_SYSTEM_VARIABLE; REVIEW_OPEN"
+    }
+  ],
+  "ug_ui_labels_not_in_rom": [
+    "←A",
+    "↪A←",
+    "A→",
+    "↪A→",
+    "AF",
+    "AMRT",
+    "AREA",
+    "BEG",
+    "BOXZ",
+    "B→PV",
+    "CALC",
+    "CANCL",
+    "✓CHK",
+    "CHOOS",
+    "CIRCL",
+    "CLK",
+    "CNCT",
+    "CNTR",
+    "+COL",
+    "−COL",
+    "COPY",
+    "←D",
+    "↪←D",
+    "D→",
+    "↪D→",
+    "DBUG",
+    "→DEF",
+    "DEL",
+    "→DEL",
+    "↪→DEL",
+    "DEL→",
+    "DIV",
+    "DNEG",
+    "↩ DO",
+    "DOT+",
+    "DOT−",
+    "DRPN",
+    "ECHO",
+    "EDIT",
+    "EEX",
+    "EXIT",
+    "EXPND",
+    "EXPR",
+    "EXTR",
+    "E^",
+    "E()",
+    "FM,",
+    "↩ FOR",
+    "↪ FOR",
+    "F(X)",
+    "F′",
+    "GO↓",
+    "GO→",
+    "HZIN",
+    "HZOUT",
+    "↩ IF",
+    "↪ IF",
+    "↩ IFERR",
+    "↪ IFERR",
+    "INFO",
+    "INFO?",
+    "INIT+",
+    "INS",
+    "ISECT",
+    "KEEP",
+    "LEVEL",
+    "L*",
+    "L()",
+    "←M",
+    "↪←M",
+    "M→",
+    "↪M→",
+    "MARK",
+    "MATCH",
+    "ML",
+    "MOVE",
+    "NEW",
+    "NXEQ",
+    "OK",
+    "OPTS",
+    "PICT→",
+    "PRED",
+    "PRINT",
+    "RESET",
+    "+ROW",
+    "−ROW",
+    "SHADE",
+    "SIMU",
+    "←SKIP",
+    "SKIP→",
+    "SLOPE",
+    "SOLVE",
+    "SST",
+    "SST↓",
+    "↩ START",
+    "↪ START",
+    "↑STK",
+    "→STK",
+    "STS",
+    "SYM",
+    "←T",
+    "↪←T",
+    "T→",
+    "↪T→",
+    "TANL",
+    "TRG*",
+    "→TRG",
+    "TYPES",
+    "VEC",
+    "VIEW",
+    "↪ VIEW",
+    "VZIN",
+    "VZOUT",
+    "↩ WHILE",
+    "WID→",
+    "←WID",
+    "(X,Y)",
+    "X,Y→",
+    "ZAUTO",
+    "ZDECI",
+    "ZDFLT",
+    "ZFACT",
+    "ZIN",
+    "ZINTG",
+    "ZLAST",
+    "ZOOM",
+    "ZOUT",
+    "ZSQR",
+    "ZTRIG",
+    "+/−",
+    "+1−1",
+    "−()",
+    "*1",
+    "/1",
+    "^1",
+    "1/()",
+    "(())",
+    "(←",
+    "↪ (←",
+    "→()",
+    "→)",
+    "↪ →)",
+    "←→"
+  ]
+}
