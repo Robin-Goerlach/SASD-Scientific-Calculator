@@ -19,12 +19,16 @@
     14,
     15,
     16,
+    17,
+    18,
+    19,
+    20,
     57,
     58
   ],
   "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified; manually supplemented G-57 entries are NOT counted as independent OCR confirmations",
   "limitations": "Only nine selected G pages, not the complete 57-page command index. Multiple contexts with the same printed name appear as separate rows. Row for CASE covers three suboperations in one printed cell.",
-  "source_rows": 217,
+  "source_rows": 270,
   "items": [
     {
       "g_page": 2,
@@ -1746,6 +1750,483 @@
       "exact_ocr_detected": true
     },
     {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 1,
+      "label": "E^",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 2,
+      "label": "E()",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 3,
+      "label": "FO^",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 4,
+      "label": "FACT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 5,
+      "label": "FANNING",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 6,
+      "label": "FC?",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 7,
+      "label": "FC?C",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 8,
+      "label": "FFT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 9,
+      "label": "FINDALARM",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 10,
+      "label": "FINISH",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 11,
+      "label": "FIX",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 12,
+      "label": "FLOOR",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "index_row": 13,
+      "label": "FM,",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 1,
+      "label": "FOR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 2,
+      "label": "↩ FOR",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 3,
+      "label": "↪ FOR",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 4,
+      "label": "FP",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 5,
+      "label": "FREE1",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 6,
+      "label": "FREEZE",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 7,
+      "label": "FS?",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 8,
+      "label": "FS?C",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 9,
+      "label": "FUNCTION",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 10,
+      "label": "FV",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 11,
+      "label": "F(X)",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 12,
+      "label": "F′",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "index_row": 13,
+      "label": "GET",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 1,
+      "label": "GETI",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 2,
+      "label": "GOR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 3,
+      "label": "GO↓",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 4,
+      "label": "GO→",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 5,
+      "label": "GRAD",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 6,
+      "label": "GRAPH",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 7,
+      "label": "GRIDMAP",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 8,
+      "label": "→GROB",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 9,
+      "label": "GXOR",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 10,
+      "label": "*H",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 11,
+      "label": "HALT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "index_row": 12,
+      "label": "HEAD",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 1,
+      "label": "HEX",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 2,
+      "label": "HISTOGRAM",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 3,
+      "label": "HISTPLOT",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 4,
+      "label": "HMS+",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 5,
+      "label": "HMS−",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 6,
+      "label": "HMS→",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 7,
+      "label": "→HMS",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 8,
+      "label": "HOME",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 9,
+      "label": "HZIN",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 10,
+      "label": "HZOUT",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 11,
+      "label": "i",
+      "hp_class": "F",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 12,
+      "label": "IDN",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 13,
+      "label": "IF",
+      "hp_class": "C",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": true
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 14,
+      "label": "↩ IF",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "index_row": 15,
+      "label": "↪ IF",
+      "hp_class": "O",
+      "source_status": "SOURCE_TEXT_CHECKED_NOT_SCAN_SIGNED_OFF",
+      "exact_ocr_detected": false
+    },
+    {
       "g_page": 57,
       "pdf_page": 537,
       "index_row": 1,
@@ -2158,6 +2639,58 @@
       "exact_rows_detected": 13,
       "missing_exact": [
         "ERR0"
+      ],
+      "explicit_text_fallback": false
+    },
+    {
+      "g_page": 17,
+      "source_rows": 13,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 10,
+      "missing_exact": [
+        "E^",
+        "E()",
+        "FO^"
+      ],
+      "explicit_text_fallback": false
+    },
+    {
+      "g_page": 18,
+      "source_rows": 13,
+      "raw_ocr_rows": 13,
+      "exact_rows_detected": 10,
+      "missing_exact": [
+        "↩ FOR",
+        "↪ FOR",
+        "F′"
+      ],
+      "explicit_text_fallback": false
+    },
+    {
+      "g_page": 19,
+      "source_rows": 12,
+      "raw_ocr_rows": 12,
+      "exact_rows_detected": 8,
+      "missing_exact": [
+        "GO↓",
+        "GO→",
+        "→GROB",
+        "*H"
+      ],
+      "explicit_text_fallback": false
+    },
+    {
+      "g_page": 20,
+      "source_rows": 15,
+      "raw_ocr_rows": 15,
+      "exact_rows_detected": 9,
+      "missing_exact": [
+        "HMS−",
+        "HMS→",
+        "→HMS",
+        "HZOUT",
+        "↩ IF",
+        "↪ IF"
       ],
       "explicit_text_fallback": false
     },
