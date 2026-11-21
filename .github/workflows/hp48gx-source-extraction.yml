@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install PyMuPDF
         run: python -m pip install --quiet pymupdf
+      - name: Install OCR utility
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr
       - name: Download original 1994 HP 48G Series User's Guide (temporarily)
         shell: bash
         run: |
