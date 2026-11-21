@@ -50,7 +50,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 - Uhr, Datum, Sekundenbasis, Alarm-/Terminverwaltung und Zeitberechnungen.
 - Serielle Rechner-zu-Rechner-/PC-Übertragung über Kermit und XModem, Infrarotkommunikation zu anderen Rechnern und kompatiblen Druckern, druckbare Stackinhalte und Bildschirmbilder.
 - Eingebaute Test-/Wartungsfunktionen (Tastatur, Display/Hardware, RAM-/Port- und Schnittstellentests), Kontrasteinstellungen und definierte Resetabläufe. Nicht alles ist als User-RPL-Mnemonic vorhanden.
-- ROM-Versionen und besondere eingebaute Befehle `VERSION`, `RULES`, `TEACH`/`CLTEACH` und `MINEHUNT`.
+- ROM-Versionen und besondere eingebaute Befehle `VERSION`, `RULES` (Umformungsregeln), `TEACH`/`CLTEACH` und `MINEHUNT`.
 
 ## 3. Alphabetisches Register sämtlicher 517 belegten ROM-Befehle
 
@@ -58,7 +58,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 
 | ROM-Befehl | Bereich | Kurzbeschreibung | ROM-Kennung | ROM-Menüzuordnung |
 | --- | --- | --- | --- | --- |
-| `_` | Symbolische Mathematik, Solver und Differentialgleichungen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:267` | ohne Menüeintrag |
+| `_` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Eingabezeichen/Begrenzer zum Kennzeichnen eines Einheitenobjekts. | `2:267` | ohne Menüeintrag |
 | `-` | Grundrechnen, elementare Funktionen und Zahlen | Subtraktion. | `2:70` | ohne Menüeintrag |
 | `!` | Grundrechnen, elementare Funktionen und Zahlen | Fakultät beziehungsweise Gamma-Funktion. | `2:99` | MTH PROB |
 | `'` | Stack und User-RPL-Programmsteuerung | Name/algebraischen Ausdruck quotieren. | `1792:20, 1792:21` | ohne Menüeintrag |
@@ -82,8 +82,8 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `→LCD` | Grafik, Diagramme und Plotparameter | Grafikobjekt auf LCD darstellen. | `2:214` | PRG GROB |
 | `→LIST` | Listen, Strings, Objektkonversion | Liste aus Stackobjekten erzeugen. | `2:152` | PRG TYPE; PRG LIST |
 | `→NUM` | Stack und User-RPL-Programmsteuerung | Numerische Auswertung erzwingen. | `2:53` | ohne Menüeintrag |
-| `→Q` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:263` | MENU 93 |
-| `→Qπ` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:264` | MENU 93 |
+| `→Q` | Symbolische Mathematik, Solver und Differentialgleichungen | Wandelt eine Zahl in einen äquivalenten rationalen Bruch um. | `2:263` | MENU 93 |
+| `→Qπ` | Symbolische Mathematik, Solver und Differentialgleichungen | Wählt zwischen einer rationalen Näherung der Zahl und einem rationalen Vielfachen von π nach kleinerem Nenner. | `2:264` | MENU 93 |
 | `→ROW` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Aus Zeilen ein Array bilden. | `171:65` | MTH MATRX ROW |
 | `→STR` | Listen, Strings, Objektkonversion | Objekt in Text umwandeln. | `2:162` | PRG TYPE; MENU 62 |
 | `→TAG` | Listen, Strings, Objektkonversion | Objekt mit Text-Tag versehen. | `2:383` | PRG TYPE |
@@ -110,7 +110,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `ACKALL` | Zeit, Kalender, Wecker | Alle fälligen Alarme quittieren. | `2:20` | MENU 94 ALRM |
 | `ACOS` | Grundrechnen, elementare Funktionen und Zahlen | Arkuskosinus. | `2:88` | ohne Menüeintrag |
 | `ACOSH` | Grundrechnen, elementare Funktionen und Zahlen | Inverser Cosinus hyperbolicus. | `2:91` | MTH HYP |
-| `ADD` | Listen, Strings, Objektkonversion | Listenwerte kombinieren. | `171:108` | MTH LIST |
+| `ADD` | Listen, Strings, Objektkonversion | Addiert zwei Listen elementweise. | `171:108` | MTH LIST |
 | `ALOG` | Grundrechnen, elementare Funktionen und Zahlen | 10 hoch x. | `2:96` | ohne Menüeintrag |
 | `AMORT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Tilgungsrechnung. | `171:89` | MENU 74 TVM; MENU 74 TVM SOLVR |
 | `AND` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises UND. | `2:229` | MTH BASE LOGIC; PRG TEST |
@@ -189,7 +189,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `dB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Dezibel-Hilfsfunktion. | `171:128` | MENU 113 UTILS |
 | `DDAYS` | Zeit, Kalender, Wecker | Tage zwischen Daten ermitteln. | `2:30` | MENU 94 |
 | `DEC` | Binärzahlen, Logik, Modi, Systemflags | Dezimale Anzeigeform. | `2:145` | MTH BASE |
-| `DECR` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:332` | MENU 70 ARITH |
+| `DECR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Verringert den Inhalt einer benannten Variablen um eins. | `2:332` | MENU 70 ARITH |
 | `DEFINE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benutzerdefinierte Funktion definieren. | `2:342` | ohne Menüeintrag |
 | `DEG` | Binärzahlen, Logik, Modi, Systemflags | Winkelmodus Grad. | `2:135` | MENU 63 ANGLE |
 | `DELALARM` | Zeit, Kalender, Wecker | Wecker löschen. | `2:28` | MENU 94 ALRM |
@@ -224,7 +224,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `END` | Stack und User-RPL-Programmsteuerung | Kontrollstruktur abschließen. | `1792:3, 1792:22, 1792:23` | PRG BRCH IF; PRG BRCH CASE; PRG BRCH DO; PRG BRCH WHILE; PRG ERROR IFERR |
 | `ENDSUB` | Listen, Strings, Objektkonversion | Verarbeitung von Teilfolgen beenden. | `171:102` | PRG LIST PROC |
 | `ENG` | Binärzahlen, Logik, Modi, Systemflags | Technisches Format. | `2:140` | MENU 63 FMT |
-| `EQ→` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:168` | PRG TYPE |
+| `EQ→` | Listen, Strings, Objektkonversion | Zerlegt eine Gleichung in die linke und rechte Seite. | `2:168` | PRG TYPE |
 | `EQNLIB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Eingebaute Gleichungsbibliothek öffnen. | `171:34` | MENU 113 EQLIB |
 | `ERASE` | Grafik, Diagramme und Plotparameter | Bildspeicher löschen. | `2:197` | ohne Menüeintrag |
 | `ERR0` | Stack und User-RPL-Programmsteuerung | Letzten Fehler löschen. | `2:43` | PRG ERROR |
@@ -237,7 +237,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `EXPM` | Grundrechnen, elementare Funktionen und Zahlen | Berechnet exp(x) minus 1 mit besonderer Genauigkeit. | `2:98` | MTH HYP |
 | `EYEPT` | Grafik, Diagramme und Plotparameter | Standpunkt für 3D-Betrachtung. | `171:5` | ohne Menüeintrag |
 | `F0λ` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Schwarzkörper-Strahlungsanteil berechnen. | `171:121` | MENU 113 UTILS |
-| `FACT` | Grundrechnen, elementare Funktionen und Zahlen | Primfaktorzerlegung einer Zahl. | `2:100` | ohne Menüeintrag |
+| `FACT` | Grundrechnen, elementare Funktionen und Zahlen | Fakultät berechnen; synonym zu !, keine Primfaktorzerlegung. | `2:100` | ohne Menüeintrag |
 | `FANNING` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Fanning-Reibungsbeiwert berechnen. | `171:119` | MENU 113 UTILS |
 | `FC?` | Binärzahlen, Logik, Modi, Systemflags | Testen ob Flag gelöscht ist. | `2:134` | PRG TEST; MENU 63 FLAG |
 | `FC?C` | Binärzahlen, Logik, Modi, Systemflags | Flag testen und löschen. | `2:143` | PRG TEST; MENU 63 FLAG |
@@ -278,7 +278,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `IFT` | Stack und User-RPL-Programmsteuerung | Objekt bedingt ausführen. | `2:48` | PRG BRCH |
 | `IFTE` | Stack und User-RPL-Programmsteuerung | Bedingt zwischen zwei Objekten auswählen. | `2:47` | PRG BRCH |
 | `IM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Imaginärteil. | `2:155` | MTH CMPLX |
-| `INCR` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:331` | MENU 70 ARITH |
+| `INCR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Erhöht den Inhalt einer benannten Variablen um eins. | `2:331` | MENU 70 ARITH |
 | `INDEP` | Grafik, Diagramme und Plotparameter | Unabhängige Plotvariable festlegen. | `2:183` | ohne Menüeintrag |
 | `INFORM` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Eingabeformular anzeigen. | `171:90` | PRG IN |
 | `INPUT` | Stack und User-RPL-Programmsteuerung | Eingabe in der Kommandozeile anfordern. | `2:378` | PRG IN |
@@ -297,7 +297,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `LIBS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Bibliotheken auflisten. | `2:356` | MENU 110 |
 | `LINE` | Grafik, Diagramme und Plotparameter | Linie zeichnen. | `2:206` | PRG PICT |
 | `LINFIT` | Statistik, Verteilungen und Regression | Lineares Fit-Modell wählen. | `2:319` | ohne Menüeintrag |
-| `LININ` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `171:28` | PRG TEST |
+| `LININ` | Symbolische Mathematik, Solver und Differentialgleichungen | Prüft, ob ein algebraischer Ausdruck hinsichtlich einer angegebenen Variablen linear ist. | `171:28` | PRG TEST |
 | `LIST→` | Listen, Strings, Objektkonversion | Liste in Stackobjekte zerlegen. | `2:158` | ohne Menüeintrag |
 | `LN` | Grundrechnen, elementare Funktionen und Zahlen | Natürlicher Logarithmus. | `2:94` | ohne Menüeintrag |
 | `LNP1` | Grundrechnen, elementare Funktionen und Zahlen | Berechnet ln(1+x) mit besonderer Genauigkeit. | `2:97` | MTH HYP |
@@ -399,7 +399,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `RAND` | Grundrechnen, elementare Funktionen und Zahlen | Pseudozufallszahl erzeugen. | `2:127` | MTH PROB |
 | `RANK` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrixrang ermitteln. | `171:53` | MTH MATRX NORM |
 | `RANM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zufallsmatrix erzeugen. | `171:64` | MTH MATRX MAKE |
-| `RATIO` | Grundrechnen, elementare Funktionen und Zahlen | Division als algebraische Funktion. | `2:268` | ohne Menüeintrag |
+| `RATIO` | Symbolische Mathematik, Solver und Differentialgleichungen | Interne Präfixform des Divisionsoperators in EquationWriter. | `2:268` | ohne Menüeintrag |
 | `RCEQ` | Symbolische Mathematik, Solver und Differentialgleichungen | Gespeicherte Gleichung EQ abrufen. | `2:249` | MENU 74 ROOT; MENU 84 |
 | `RCI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile mit Faktor multiplizieren. | `171:77` | MTH MATRX ROW |
 | `RCIJ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Vielfaches einer Zeile zu anderer Zeile addieren. | `171:78` | MTH MATRX ROW |
@@ -442,9 +442,9 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `RRK` | Symbolische Mathematik, Solver und Differentialgleichungen | Numerisches Verfahren für steife Differentialgleichungen. | `171:46` | MENU 74 DIFFEQ |
 | `RRKSTEP` | Symbolische Mathematik, Solver und Differentialgleichungen | Einzelschritt des Verfahrens für steife DGL. | `171:47` | MENU 74 DIFFEQ |
 | `RSBERR` | Symbolische Mathematik, Solver und Differentialgleichungen | Fehlerabschätzung für steife DGL. | `171:48` | MENU 74 DIFFEQ |
-| `RSD` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:123` | MTH MATRX; MENU 74 SYS |
+| `RSD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet den Restvektor einer Matrixgleichung (A·X − B). | `2:123` | MTH MATRX; MENU 74 SYS |
 | `RSWP` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeilen vertauschen. | `171:75` | MTH MATRX ROW |
-| `RULES` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Verstecktes Entwickler-Namensrätsel. | `2:335` | ohne Menüeintrag |
+| `RULES` | Symbolische Mathematik, Solver und Differentialgleichungen | Öffnet das Menü der algebraischen Umformungsregeln für den ausgewählten Teilausdruck. | `2:335` | ohne Menüeintrag |
 | `SAME` | Binärzahlen, Logik, Modi, Systemflags | Vollständige Objektgleichheit prüfen. | `2:228` | PRG TEST |
 | `SBRK` | Schnittstellen, Drucker, Display und Tastenbelegung | Serielles Break-Signal senden. | `2:376` | MENU 104 SERIAL |
 | `SCALE` | Grafik, Diagramme und Plotparameter | Grafikmaßstab setzen. | `2:194` | ohne Menüeintrag |
@@ -453,7 +453,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `SCHUR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Schur-Zerlegung. | `171:62` | MTH MATRX FACTR |
 | `SCI` | Binärzahlen, Logik, Modi, Systemflags | Wissenschaftliches Format. | `2:139` | MENU 63 FMT |
 | `SCLΣ` | Statistik, Verteilungen und Regression | Statistische Daten skalieren. | `2:313` | ohne Menüeintrag |
-| `SCONJ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Konjugiert Matrix-/Arrayelemente. | `2:326` | MENU 70 ARITH |
+| `SCONJ` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Konjugiert den Inhalt einer benannten Variablen und speichert das Ergebnis dort. | `2:326` | MENU 70 ARITH |
 | `SDEV` | Statistik, Verteilungen und Regression | Stichprobenstandardabweichung. | `2:299` | MENU 96 1VAR |
 | `SEND` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Objekt senden. | `2:363` | MENU 104 |
 | `SEQ` | Listen, Strings, Objektkonversion | Folge generieren. | `171:98` | PRG LIST PROC |
@@ -464,19 +464,19 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `SIGN` | Grundrechnen, elementare Funktionen und Zahlen | Vorzeichenfunktion. | `2:78` | MTH REAL; MTH CMPLX |
 | `SIN` | Grundrechnen, elementare Funktionen und Zahlen | Sinus. | `2:81` | ohne Menüeintrag |
 | `SINH` | Grundrechnen, elementare Funktionen und Zahlen | Sinus hyperbolicus. | `2:84` | MTH HYP |
-| `SINV` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrix-/Array-Operation mit Invertierung. | `2:324` | MENU 70 ARITH |
+| `SINV` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Ersetzt den Inhalt einer benannten Variablen durch dessen Inverses. | `2:324` | MENU 70 ARITH |
 | `SIZE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Größe/Dimension ermitteln. | `2:160` | MTH MATRX MAKE; PRG LIST ELEM; PRG GROB; MENU 62 |
 | `SL` | Binärzahlen, Logik, Modi, Systemflags | Bitverschiebung nach links. | `2:5` | MTH BASE BIT |
 | `SLB` | Binärzahlen, Logik, Modi, Systemflags | Byteverschiebung nach links. | `2:6` | MTH BASE BYTE |
 | `SLOPEFIELD` | Grafik, Diagramme und Plotparameter | Richtungsfeld aktivieren. | `171:12` | ohne Menüeintrag |
-| `SNEG` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Negiert Matrix-/Arrayelemente. | `2:325` | MENU 70 ARITH |
-| `SNRM` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `171:52` | MTH MATRX NORM |
+| `SNEG` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Negiert den Inhalt einer benannten Variablen und speichert das Ergebnis dort. | `2:325` | MENU 70 ARITH |
+| `SNRM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet die Spektralnorm eines Arrays. | `171:52` | MTH MATRX NORM |
 | `SOLVEQN` | Symbolische Mathematik, Solver und Differentialgleichungen | Gleichung aus der Equation Library lösen. | `171:35` | MENU 113 EQLIB |
 | `SORT` | Listen, Strings, Objektkonversion | Liste sortieren. | `171:110` | MTH LIST; PRG LIST PROC |
 | `SPHERE` | Binärzahlen, Logik, Modi, Systemflags | Sphärischer Koordinatenmodus. | `171:21` | MTH VECTR; MENU 63 ANGLE |
 | `SQ` | Grundrechnen, elementare Funktionen und Zahlen | Quadrat. | `2:80` | ohne Menüeintrag |
 | `SR` | Binärzahlen, Logik, Modi, Systemflags | Bitverschiebung nach rechts. | `2:7` | MTH BASE BIT |
-| `SRAD` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `171:51` | MTH MATRX NORM |
+| `SRAD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet den Spektralradius einer quadratischen Matrix. | `171:51` | MTH MATRX NORM |
 | `SRB` | Binärzahlen, Logik, Modi, Systemflags | Byteverschiebung nach rechts. | `2:8` | MTH BASE BYTE |
 | `SRECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Seriellen Empfang steuern. | `2:360` | MENU 104 SERIAL |
 | `START` | Stack und User-RPL-Programmsteuerung | Zählschleife ohne benannte Zählvariable. | `1792:9` | PRG BRCH START |
@@ -507,7 +507,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `TAYLR` | Symbolische Mathematik, Solver und Differentialgleichungen | Taylorpolynom berechnen. | `2:339` | MENU 93 |
 | `TDELTA` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Hilfsfunktion für Temperaturdifferenzen. | `171:123` | MENU 113 UTILS |
 | `TEACH` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Lehrbeispielobjekte laden. | `171:17` | ohne Menüeintrag |
-| `TEXT` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:217` | PRG OUT |
+| `TEXT` | Schnittstellen, Drucker, Display und Tastenbelegung | Aktiviert die normale Stackdarstellung beim nächsten Display-Refresh. | `2:217` | PRG OUT |
 | `THEN` | Stack und User-RPL-Programmsteuerung | Wahr-Zweig beginnen. | `1792:1, 1792:24, 1792:26` | PRG BRCH IF; PRG BRCH CASE; PRG ERROR IFERR |
 | `TICKS` | Zeit, Kalender, Wecker | Interne Zeitbasis lesen. | `2:18` | MENU 94 |
 | `TIME` | Zeit, Kalender, Wecker | Aktuelle Zeit lesen. | `2:16` | MENU 94 |
@@ -544,7 +544,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `WAIT` | Stack und User-RPL-Programmsteuerung | Auf Zeitablauf oder Taste warten. | `2:55` | PRG IN |
 | `WHILE` | Stack und User-RPL-Programmsteuerung | WHILE-Schleife beginnen. | `1792:5` | PRG BRCH WHILE |
 | `WIREFRAME` | Grafik, Diagramme und Plotparameter | 3D-Drahtgitter aktivieren. | `171:8` | ohne Menüeintrag |
-| `WSLOG` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `2:19` | ohne Menüeintrag |
+| `WSLOG` | Zeit, Kalender, Wecker | Liefert Protokoll der letzten vier Warmstarts mit Zeitpunkt und Ursachenkennung. | `2:19` | ohne Menüeintrag |
 | `XCOL` | Statistik, Verteilungen und Regression | x-Datenspalte auswählen. | `2:306` | ohne Menüeintrag |
 | `XMIT` | Schnittstellen, Drucker, Display und Tastenbelegung | Daten seriell ohne Kermit senden. | `2:359` | MENU 104 SERIAL |
 | `XOR` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises exklusives ODER. | `2:232` | MTH BASE LOGIC; PRG TEST |
@@ -560,7 +560,7 @@ Funktionsplot, Polarplot, parametrischer Plot, Kegelschnitte, Wahrheitstabelle/-
 | `YSLICE` | Grafik, Diagramme und Plotparameter | Y-Schnitt-Plot aktivieren. | `171:11` | ohne Menüeintrag |
 | `YVOL` | Grafik, Diagramme und Plotparameter | 3D-Volumen: y-Bereich. | `171:1` | ohne Menüeintrag |
 | `YYRNG` | Grafik, Diagramme und Plotparameter | 3D-y-Bereich einstellen. | `171:4` | ohne Menüeintrag |
-| `ZFACTOR` | Weitere ROM-Funktionen | Dokumentierter ROM-Befehl; genaue Stackwirkung und Sonderfälle müssen mit der Advanced User’s Reference verglichen werden. | `171:118` | MENU 113 UTILS |
+| `ZFACTOR` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Berechnet den Realgas-Kompressibilitätsfaktor Z aus reduzierter Temperatur und reduziertem Druck. | `171:118` | MENU 113 UTILS |
 | `ZVOL` | Grafik, Diagramme und Plotparameter | 3D-Volumen: z-Bereich. | `171:2` | ohne Menüeintrag |
 | `ΔLIST` | Listen, Strings, Objektkonversion | Differenzen benachbarter Listenelemente. | `171:100` | MTH LIST |
 | `π` | Grundrechnen, elementare Funktionen und Zahlen | Symbolische Kreiszahl. | `2:63` | MTH CONST |
