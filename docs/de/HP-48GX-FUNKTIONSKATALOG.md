@@ -680,7 +680,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `PUT` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element an einer Position ersetzen. | `2:176` | MTH MATRX MAKE; PRG LIST ELEM |
 | `PUTI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element ersetzen und Index erhöhen. | `2:177` | MTH MATRX MAKE; PRG LIST ELEM |
 | `PVAR` | Statistik, Verteilungen und Regression | Populationsvarianz. | `171:41` | MENU 96 1VAR |
-| `PVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen des Elternverzeichnisses auflisten. | `2:350` | MENU 110 |
+| `PVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Listet Backupobjekte und Bibliotheken eines Speicherports; gibt zusätzlich dessen Speicherart oder freien Speicher zurück (User's Guide 28-4). | `2:350` | MENU 110 |
 | `PVIEW` | Grafik, Diagramme und Plotparameter | Grafikbereich anzeigen. | `2:202` | PRG PICT; PRG OUT |
 | `PWRFIT` | Statistik, Verteilungen und Regression | Potenz-Fit-Modell wählen. | `2:322` | ohne Menüeintrag |
 | `PX→C` | Grafik, Diagramme und Plotparameter | Pixelkoordinaten in Benutzerkoordinaten wandeln. | `2:198` | PRG PICT |
@@ -747,7 +747,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `SCATTER` | Grafik, Diagramme und Plotparameter | Streudiagramm aktivieren. | `2:225` | ohne Menüeintrag |
 | `SCHUR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Schur-Zerlegung. | `171:62` | MTH MATRX FACTR |
 | `SCI` | Binärzahlen, Logik, Modi, Systemflags | Wissenschaftliches Format. | `2:139` | MENU 63 FMT |
-| `SCLΣ` | Statistik, Verteilungen und Regression | Statistische Daten skalieren. | `2:313` | ohne Menüeintrag |
+| `SCLΣ` | Statistik, Verteilungen und Regression | Passt den Plotbereich in PPAR an die Statistikdaten in ΣDAT an (nicht die Datenmatrix selbst verändern); AUR-Einzelprüfung offen. | `2:313` | ohne Menüeintrag |
 | `SCONJ` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Konjugiert den Inhalt einer benannten Variablen und speichert das Ergebnis dort. | `2:326` | MENU 70 ARITH |
 | `SDEV` | Statistik, Verteilungen und Regression | Stichprobenstandardabweichung. | `2:299` | MENU 96 1VAR |
 | `SEND` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Objekt senden. | `2:363` | MENU 104 |
@@ -870,6 +870,9 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `ΣX^2` | Statistik, Verteilungen und Regression | Summe der x-Quadrate. | `2:293` | MENU 96 SUMS |
 | `ΣY` | Statistik, Verteilungen und Regression | Summe der y-Werte. | `2:292` | MENU 96 SUMS |
 | `ΣY^2` | Statistik, Verteilungen und Regression | Summe der y-Quadrate. | `2:294` | MENU 96 SUMS |
+
+
+**Korrektur anhand der Originalquelle (21.11.2026):** `PVARS` ist **keine** Auflistung der Variablen des Elternverzeichnisses. Nach dem *User's Guide*, 28-4, liest `PVARS` die Backup-/Bibliotheksobjekte **eines Speicherports** und meldet dessen Speicherstatus. `SCLΣ` verändert dagegen die **Plotparameter** für statistische Daten, nicht die Datensätze. In beiden Fällen ist das vereinfachte frühere Beschreibungsmuster potenziell irreführend. Exakte Stack-Typen und Fehlervarianten sind noch gesondert zu prüfen.
 
 ## 3a. Zusätzliche dokumentierte Operationen und Namen **außerhalb der 517 direkten ROM-Indexnamen**
 
