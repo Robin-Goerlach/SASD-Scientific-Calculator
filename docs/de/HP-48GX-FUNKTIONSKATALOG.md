@@ -271,25 +271,27 @@ Die Kurzanleitung zeigt lediglich das UNITS-Menü; die vollständige Menüauftei
 
 ### 2a.8 Equation Library: alle **15 eingebauten Themengebiete** mit ihren Problemüberschriften
 
-Die Standard-GX-Gleichungsbibliothek besitzt über 300 Gleichungen, thematisch in 15 Bereiche und über 100 Problemüberschriften geordnet. **Eine Problemüberschrift kann mehrere Formeln beinhalten.** Darum ist die folgende Liste eine vollständige Übersicht der in der herangezogenen GX-Themenübersicht benannten **102 Problemüberschriften**, nicht eine Abschrift von über 300 urheberrechtlich geschützten Originalformeln.
+Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3, besitzt die eingebaute GX-Gleichungsbibliothek **exakt 315 Gleichungen mit 396 Variablen**, geordnet in 15 Fachgebiete und 102 Problemüberschriften. **Eine Problemüberschrift kann mehrere Formeln beinhalten.** Darum ist die folgende Liste eine vollständige Übersicht der in der herangezogenen GX-Themenübersicht benannten **102 Problemüberschriften**, nicht eine Abschrift der 315 urheberrechtlich geschützten Originalformeln.
 
-| Nr. / Themengebiet | Zahl der Problemüberschriften | Originaltitel der eingebauten Problemgruppen |
-| --- | ---: | --- |
-| 1. Stützen und Balken / Columns and Beams | 10 | `Elastic Buckling`; `Eccentric Columns`; `Simple Deflection`; `Simple Slope`; `Simple Moment`; `Simple Shear`; `Cantilever Deflection`; `Cantilever Slope`; `Cantilever Moment`; `Cantilever Shear` |
-| 2. Elektrizität / Electricity | 23 | `Coulomb's Law`; `Ohm's Law and Power`; `Voltage Divider`; `Current Divider`; `Wire Resistance`; `Series and Parallel R`; `Series and Parallel C`; `Series and Parallel L`; `Capacitive Energy`; `Inductive Energy`; `RLC Current Delay`; `DC Capacitor Current`; `Capacitor Charge`; `DC Inductor Voltage`; `RC Transient`; `RL Transient`; `Resonant Frequency`; `Plate Capacitor`; `Cylindrical Capacitor`; `Solenoid Inductance`; `Toroid Inductance`; `Sinusoidal Voltage`; `Sinusoidal Current` |
-| 3. Strömungslehre / Fluids | 4 | `Pressure at Depth`; `Bernoulli Equation`; `Flow with Losses`; `Flow in Full Pipes` |
-| 4. Kräfte und Energie / Forces and Energy | 8 | `Linear Mechanics`; `Angular Mechanics`; `Centripetal Force`; `Hooke's Law`; `1D Elastic Collisions`; `Drag Force`; `Law of Gravitation`; `Mass-Energy Relation` |
-| 5. Gase / Gases | 8 | `Ideal Gas Law`; `Ideal Gas State Change`; `Isothermal Expansion`; `Polytropic Processes`; `Isentropic Flow`; `Real Gas Law`; `Real Gas State Change`; `Kinetic Theory` |
-| 6. Wärmeübertragung / Heat Transfer | 6 | `Heat Capacity`; `Thermal Expansion`; `Conduction`; `Convection`; `Conduction + Convection`; `Black Body Radiation` |
-| 7. Magnetismus / Magnetism | 4 | `Straight Wire`; `Force Between Wires`; `B Field in Solenoid`; `B Field in Toroid` |
-| 8. Bewegung / Motion | 7 | `Linear Motion`; `Object in Free Fall`; `Projectile Motion`; `Angular Motion`; `Circular Motion`; `Terminal Velocity`; `Escape Velocity` |
-| 9. Optik / Optics | 6 | `Law of Refraction`; `Critical Angle`; `Brewster's Law`; `Spherical Reflection`; `Spherical Refraction`; `Thin Lens` |
-| 10. Schwingungen / Oscillations | 5 | `Mass-Spring System`; `Simple Pendulum`; `Conical Pendulum`; `Torsional Pendulum`; `Simple Harmonic` |
-| 11. Ebene Geometrie / Plane Geometry | 6 | `Circle`; `Ellipse`; `Rectangle`; `Regular Polygon`; `Circular Ring`; `Triangle` |
-| 12. Räumliche Geometrie / Solid Geometry | 4 | `Cone`; `Cylinder`; `Parallelepiped`; `Sphere` |
-| 13. Halbleiter / Solid State Devices | 4 | `PN Step Junctions`; `NMOS Transistors`; `Bipolar Transistors`; `JFETs` |
-| 14. Spannungsanalyse / Stress Analysis | 4 | `Normal Stress`; `Shear Stress`; `Stress on an Element`; `Mohr's Circle` |
-| 15. Wellen / Waves | 3 | `Transverse Waves`; `Longitudinal Waves`; `Sound Waves` |
+| Nr. / Themengebiet | Problemüberschriften | Gleichungen | Variablen | Originaltitel der eingebauten Problemgruppen |
+| --- | ---: | ---: | ---: | --- |
+| 1. Stützen und Balken / Columns and Beams | 10 | 14 | 20 | `Elastic Buckling`; `Eccentric Columns`; `Simple Deflection`; `Simple Slope`; `Simple Moment`; `Simple Shear`; `Cantilever Deflection`; `Cantilever Slope`; `Cantilever Moment`; `Cantilever Shear` |
+| 2. Elektrizität / Electricity | 23 | 42 | 56 | `Coulomb's Law`; `Ohm's Law and Power`; `Voltage Divider`; `Current Divider`; `Wire Resistance`; `Series and Parallel R`; `Series and Parallel C`; `Series and Parallel L`; `Capacitive Energy`; `Inductive Energy`; `RLC Current Delay`; `DC Capacitor Current`; `Capacitor Charge`; `DC Inductor Voltage`; `RC Transient`; `RL Transient`; `Resonant Frequency`; `Plate Capacitor`; `Cylindrical Capacitor`; `Solenoid Inductance`; `Toroid Inductance`; `Sinusoidal Voltage`; `Sinusoidal Current` |
+| 3. Strömungslehre / Fluids | 4 | 29 | 29 | `Pressure at Depth`; `Bernoulli Equation`; `Flow with Losses`; `Flow in Full Pipes` |
+| 4. Kräfte und Energie / Forces and Energy | 8 | 31 | 36 | `Linear Mechanics`; `Angular Mechanics`; `Centripetal Force`; `Hooke's Law`; `1D Elastic Collisions`; `Drag Force`; `Law of Gravitation`; `Mass-Energy Relation` |
+| 5. Gase / Gases | 8 | 18 | 26 | `Ideal Gas Law`; `Ideal Gas State Change`; `Isothermal Expansion`; `Polytropic Processes`; `Isentropic Flow`; `Real Gas Law`; `Real Gas State Change`; `Kinetic Theory` |
+| 6. Wärmeübertragung / Heat Transfer | 6 | 17 | 31 | `Heat Capacity`; `Thermal Expansion`; `Conduction`; `Convection`; `Conduction + Convection`; `Black Body Radiation` |
+| 7. Magnetismus / Magnetism | 4 | 4 | 14 | `Straight Wire`; `Force Between Wires`; `B Field in Solenoid`; `B Field in Toroid` |
+| 8. Bewegung / Motion | 7 | 22 | 24 | `Linear Motion`; `Object in Free Fall`; `Projectile Motion`; `Angular Motion`; `Circular Motion`; `Terminal Velocity`; `Escape Velocity` |
+| 9. Optik / Optics | 6 | 11 | 14 | `Law of Refraction`; `Critical Angle`; `Brewster's Law`; `Spherical Reflection`; `Spherical Refraction`; `Thin Lens` |
+| 10. Schwingungen / Oscillations | 5 | 17 | 17 | `Mass-Spring System`; `Simple Pendulum`; `Conical Pendulum`; `Torsional Pendulum`; `Simple Harmonic` |
+| 11. Ebene Geometrie / Plane Geometry | 6 | 31 | 21 | `Circle`; `Ellipse`; `Rectangle`; `Regular Polygon`; `Circular Ring`; `Triangle` |
+| 12. Räumliche Geometrie / Solid Geometry | 4 | 18 | 12 | `Cone`; `Cylinder`; `Parallelepiped`; `Sphere` |
+| 13. Halbleiter / Solid State Devices | 4 | 33 | 53 | `PN Step Junctions`; `NMOS Transistors`; `Bipolar Transistors`; `JFETs` |
+| 14. Spannungsanalyse / Stress Analysis | 4 | 16 | 28 | `Normal Stress`; `Shear Stress`; `Stress on an Element`; `Mohr's Circle` |
+| 15. Wellen / Waves | 3 | 12 | 15 | `Transverse Waves`; `Longitudinal Waves`; `Sound Waves` |
+
+**Kontrollsummen aus der gedruckten Quelle:** 15 Fachgebiete, **102 Problemüberschriften**, **315 einzelne Gleichungen**, **396 Variablen**. Nachweis: [HP 48G Series User's Guide, Anhang F, Seiten F-1–F-3](https://www.hp.com/ctg/Manual/c00442262.pdf). Die Summen der 15 Zeilen stimmen mit den von HP angegebenen Gesamtzahlen überein. Die 315 einzelnen Formeln sind **noch nicht** semantisch einzeln verifiziert; dies bleibt ein anderer Auditumfang.
 
 **Equation-Library-Bedienungen:** EQLIB-Katalog öffnen, Themengebiet auswählen, Problemtyp auswählen, Gleichung/Lösungsvariable wählen, Eingabeformulare mit Einheiten öffnen, Solver ausführen, Ergebnisse auf Stack/Variablen anwenden, Variablen zurücksetzen, Bilder/Diagramme ansehen, Einheiten berücksichtigen, Konstantenbibliothek öffnen, `MES`/Mehrgleichungslöser benutzen, mathematische Hilfsfunktionen aus `UTILS` ausführen. In der Bibliothek sind **40 physikalische Konstanten** zusätzlich als historische Datensammlung dokumentiert (keine 40 neuen Befehlsnamen). Die **einzelnen Formelzeichen, Variablenwerte, Illustrationen und numerischen Konstanten** sind noch nicht als unabhängige Prüfdatensätze eingetragen. Proprietäre HP-Grafiken/ROMs werden nicht ins SASD-Repository kopiert.
 
