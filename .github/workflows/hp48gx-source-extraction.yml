@@ -32,6 +32,5 @@ jobs:
           done
           test -s /tmp/hp48gx-original-user-guide.pdf
           sha256sum /tmp/hp48gx-original-user-guide.pdf
-          pdfinfo /tmp/hp48gx-original-user-guide.pdf | head -18
       - name: Inspect Appendix G page layout
         run: python3 scripts/probe_hp48gx_source_pdf.py /tmp/hp48gx-original-user-guide.pdf
