@@ -869,6 +869,30 @@ Die Standard-GX-Gleichungsbibliothek besitzt über 300 Gleichungen, thematisch i
 | `ΣY` | Statistik, Verteilungen und Regression | Summe der y-Werte. | `2:292` | MENU 96 SUMS |
 | `ΣY^2` | Statistik, Verteilungen und Regression | Summe der y-Quadrate. | `2:294` | MENU 96 SUMS |
 
+## 3a. Zusätzliche dokumentierte Operationen und Namen **außerhalb der 517 direkten ROM-Indexnamen**
+
+**Quelle:** *HP 48G Series User's Guide*, Anhang G, *Operation Index*, und die *Advanced User's Reference*. Die vollständige quellengestützte Prüfung mit weiteren **143 ausgewählten kontextabhängigen Bedienaktionen** steht in der [Befehlsabgleich-Matrix](HP-48GX-BEFEHLSABGLEICH-MATRIX.md), Abschnitte C.1–C.3. Die nachfolgenden Namen **sind kein zusätzlicher, belegter XLIB-Zahlenraum**; manche sind Aliase, nur dialoggebunden oder reservierte Systemvariablen.
+
+| Name | Typ / Status | Bedeutung | Originalfundstelle |
+| --- | --- | --- | --- |
+| `GRAPH` | Historischer programmierbarer Befehlszugang, separat nachzuprüfen | Aktiviert die Grafik-Umgebung; dokumentierter älterer Zugang neben `PICTURE` | User's Guide G-18/19, AUR Command Reference / Index |
+| `LAST` | AUR-/User-Guide-Eintrag; genaue Aliaswirkung prüfen | Letzte Argumente beziehungsweise vorheriger Stackzustand je Kontext | User's Guide G-23, AUR Index |
+| `SCLS` | Im Operation Index als `C` geführt, AUR-Abgleich offen | Statistische Plot-Skalierung | User's Guide G-41 |
+| `CST` | Reservierter Variablenname | Benutzerdefiniertes Menüobjekt | G-9 |
+| `ΣDAT` | Reservierter Variablenname | Statistikdatenmatrix | G-10 |
+| `IOPAR` | Reservierter Variablenname | Parameter der Ein-/Ausgabe | G-22 |
+| `PPAR` | Reservierter Variablenname | 2D-Plotparameter | G-31 |
+| `VPAR` | Reservierter Variablenname | 3D-Plotparameter | G-51 |
+| `PRTPAR` | Reservierter Variablenname | Druckparameter | G-32 |
+| `FV`, `PMT`, `PV`, `PYR` | Reservierte Namen der eingebauten TVM-Anwendung | Zukunftswert, Zahlung, Gegenwartswert und Zahlungen/Jahr | G-17, G-32–33 |
+| `SOLVE` | Interaktive Aktion | Lösen des im Formular ausgewählten Problems | G-42 |
+| `DBUG`, `SST`, `SST↓`, Debugger-`NEXT` | Nichtprogrammierbare Programmierhilfen | Starten, Fortsetzen und Einzelschritt der Programmuntersuchung | G-11, G-28, G-43 |
+| `EDIT` | Kontextabhängige Editieraktion | Objekt oder Teilausdruck bearbeiten | G-14 und AUR-Verweise |
+| `←A`, `A→`, `AF`, `←D`, `D→`, `←T`, `T→`, `TRG*`, `→TRG`, `1/()` | Nichtprogrammierbare EquationWriter-Regeln | Algebraische Umformungen mit ausgewähltem Teilausdruck | G-2, G-10, G-47, G-49, G-57 |
+| `BOXZ`, `ZIN`, `ZOUT`, `ZLAST`, `SLOPE`, `ISECT`, `SHADE`, Plot-`TRACE` | Interaktive PICTURE-/Plotaktionen | Zoom, grafische Analyse und Kurvenverfolgung | G-5, G-22, G-41, G-49, G-54 |
+
+**Prüfstatus:** Diese Handbucheinträge **erweitern die Referenz**, ohne die 517 technischen ROM-Namen stillschweigend umzubenennen. Ob `GRAPH`, `LAST`, `SCLS` oder die Variablenzugriffe tatsächlich als unabhängige User-RPL-Programmelemente gelten, ist mit Einzelreferenz, realem Gerät oder unabhängigem Emulator zu verifizieren. Die G-Seiten sind handbuchbezogene Fundstellen, nicht behauptete komplette AUR-Stackdiagramme.
+
 ## 4. Was nicht fälschlich mitgezählt werden darf
 
 1. **Nichtprogrammierbare Tasten und Dialogfolgen:** `DBUG`, `SST`, `SST↓`, Editor- und Navigationsaktionen, Hotkeys, Untermenüs, Reset-/Selbsttestsequenzen; sie müssen als UI-Bedieninventar, nicht als ROM-Befehlsnameneinträge geprüft werden.
