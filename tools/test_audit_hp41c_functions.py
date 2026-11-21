@@ -58,9 +58,9 @@ class InventoryAuditTests(unittest.TestCase):
         self.assertIn("25,01", result["duplicate_xrom"])
 
     def test_bad_normal_key_fails(self):
-        original = "| 1 | `Σ+` |"
+        original = "| 1 | Σ+ |"
         self.assertIn(original, self.markdown)
-        broken = self.markdown.replace(original, "| 1 | `INVALID` |", 1)
+        broken = self.markdown.replace(original, "| 1 | INVALID |", 1)
         result = audit.check(self.inventory, broken)
         self.assertEqual(result["status"], "FAIL")
         self.assertTrue(result["wrong_key_positions"])
