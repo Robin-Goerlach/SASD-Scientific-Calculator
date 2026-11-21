@@ -18,6 +18,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install PDF text support
         run: python -m pip install --quiet pymupdf
+      - name: Install OCR support
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr
       - name: Download independent 1994 HP-48G Advanced User's Reference
         shell: bash
         run: |
