@@ -1,0 +1,8145 @@
+{
+  "schema": 1,
+  "source": "https://www.hp.com/ctg/Manual/c00442262.pdf",
+  "source_sha256": "77b25f276277e90fbbd7ca1676d7440f69a844169fec6951382255df26e0782a",
+  "model": "HP 48GX / 48G series",
+  "edition": "HP 48G Series User's Guide, December 1994, edition 8",
+  "page_range": "G-2–G-58 / PDF 482–538",
+  "note": "Unverified OCR candidates, plus an explicitly labelled text-index transcription for symbol-only G-57; not a human-checked full index",
+  "candidates": 692,
+  "unique_exact_rom_names": 411,
+  "unmatched_ocr_candidates": 253,
+  "page_summary": [
+    {
+      "g": 2,
+      "pdf_page": 482,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 3,
+      "pdf_page": 483,
+      "candidates": 10,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 4,
+      "pdf_page": 484,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 5,
+      "pdf_page": 485,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 6,
+      "pdf_page": 486,
+      "candidates": 5,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 7,
+      "pdf_page": 487,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 8,
+      "pdf_page": 488,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 9,
+      "pdf_page": 489,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 10,
+      "pdf_page": 490,
+      "candidates": 23,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 11,
+      "pdf_page": 491,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 12,
+      "pdf_page": 492,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 13,
+      "pdf_page": 493,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 14,
+      "pdf_page": 494,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 15,
+      "pdf_page": 495,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 16,
+      "pdf_page": 496,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 17,
+      "pdf_page": 497,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 18,
+      "pdf_page": 498,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 19,
+      "pdf_page": 499,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 20,
+      "pdf_page": 500,
+      "candidates": 15,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 21,
+      "pdf_page": 501,
+      "candidates": 10,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 22,
+      "pdf_page": 502,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 23,
+      "pdf_page": 503,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 24,
+      "pdf_page": 504,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 25,
+      "pdf_page": 505,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 26,
+      "pdf_page": 506,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 27,
+      "pdf_page": 507,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 28,
+      "pdf_page": 508,
+      "candidates": 10,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 29,
+      "pdf_page": 509,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 30,
+      "pdf_page": 510,
+      "candidates": 8,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 31,
+      "pdf_page": 511,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 32,
+      "pdf_page": 512,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 33,
+      "pdf_page": 513,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 34,
+      "pdf_page": 514,
+      "candidates": 9,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 35,
+      "pdf_page": 515,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 36,
+      "pdf_page": 516,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 37,
+      "pdf_page": 517,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 38,
+      "pdf_page": 518,
+      "candidates": 8,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 39,
+      "pdf_page": 519,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 40,
+      "pdf_page": 520,
+      "candidates": 8,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 41,
+      "pdf_page": 521,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 42,
+      "pdf_page": 522,
+      "candidates": 21,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 43,
+      "pdf_page": 523,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 44,
+      "pdf_page": 524,
+      "candidates": 14,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 45,
+      "pdf_page": 525,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 46,
+      "pdf_page": 526,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 47,
+      "pdf_page": 527,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 48,
+      "pdf_page": 528,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 49,
+      "pdf_page": 529,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 50,
+      "pdf_page": 530,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 51,
+      "pdf_page": 531,
+      "candidates": 11,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 52,
+      "pdf_page": 532,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 53,
+      "pdf_page": 533,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 54,
+      "pdf_page": 534,
+      "candidates": 9,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 55,
+      "pdf_page": 535,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 56,
+      "pdf_page": 536,
+      "candidates": 13,
+      "non_ocr_supplement": false
+    },
+    {
+      "g": 57,
+      "pdf_page": 537,
+      "candidates": 13,
+      "non_ocr_supplement": true
+    },
+    {
+      "g": 58,
+      "pdf_page": 538,
+      "candidates": 12,
+      "non_ocr_supplement": false
+    }
+  ],
+  "rows": [
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "HA",
+      "y": 269,
+      "confidence": 84.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "(@)-A",
+      "y": 347,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "A=",
+      "y": 451,
+      "confidence": 42.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "(P)a-",
+      "y": 529,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ABS",
+      "y": 634,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ACK",
+      "y": 866,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ACKALL",
+      "y": 957,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ACOS",
+      "y": 1048,
+      "confidence": 89.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ACOSH",
+      "y": 1139,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ADD",
+      "y": 1230,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "AF",
+      "y": 1322,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "ALOG",
+      "y": 1412,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 2,
+      "pdf_page": 482,
+      "name_ocr": "AMORT",
+      "y": 1503,
+      "confidence": 90.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "AMORT",
+      "y": 252,
+      "confidence": 91.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "AMRT",
+      "y": 441,
+      "confidence": 91.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "AMORT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "AND",
+      "y": 595,
+      "confidence": 96.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "ANIMATE",
+      "y": 798,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "APPLY",
+      "y": 921,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "ARC",
+      "y": 1076,
+      "confidence": 95.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "ARCHIVE",
+      "y": 1231,
+      "confidence": 96.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "AREA",
+      "y": 1321,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "ARG",
+      "y": 1475,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 3,
+      "pdf_page": 483,
+      "name_ocr": "ARRY—",
+      "y": 1568,
+      "confidence": 86.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→ARRY",
+        "ARRY→"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "—ARRY",
+      "y": 252,
+      "confidence": 65.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→ARRY",
+        "ARRY→"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ASIN",
+      "y": 343,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ASINH",
+      "y": 436,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ASN",
+      "y": 527,
+      "confidence": 96.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ASR",
+      "y": 620,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ATAN",
+      "y": 711,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ATANH",
+      "y": 804,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ATICK",
+      "y": 896,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "ATTACH",
+      "y": 1052,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "AUTO",
+      "y": 1144,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "AXES",
+      "y": 1234,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "BAR",
+      "y": 1420,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "BARPLOT",
+      "y": 1543,
+      "confidence": 90.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 4,
+      "pdf_page": 484,
+      "name_ocr": "BAUD",
+      "y": 1633,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BEEP",
+      "y": 247,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BEG",
+      "y": 338,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BESTFIT",
+      "y": 493,
+      "confidence": 90.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BIN",
+      "y": 618,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BINS",
+      "y": 708,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BLANK",
+      "y": 897,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BOX",
+      "y": 1019,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BOX",
+      "y": 1143,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BOXZ",
+      "y": 1265,
+      "confidence": 91.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "BOX"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BUFLEN",
+      "y": 1354,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "BYTES",
+      "y": 1444,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 5,
+      "pdf_page": 485,
+      "name_ocr": "B-PV",
+      "y": 1567,
+      "confidence": 30.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "name_ocr": "CALC",
+      "y": 332,
+      "confidence": 96.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "MCALC"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "name_ocr": "CANCL",
+      "y": 520,
+      "confidence": 90.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "name_ocr": "%CH",
+      "y": 1343,
+      "confidence": 90.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "name_ocr": "“CHK",
+      "y": 1435,
+      "confidence": 22.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 6,
+      "pdf_page": 486,
+      "name_ocr": "CHOOS",
+      "y": 1523,
+      "confidence": 91.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "CHOOSE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CHOOSE",
+      "y": 237,
+      "confidence": 95.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CHR",
+      "y": 392,
+      "confidence": 95.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CIRCL",
+      "y": 515,
+      "confidence": 89.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CKSM",
+      "y": 637,
+      "confidence": 91.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLEAR",
+      "y": 729,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLK",
+      "y": 818,
+      "confidence": 95.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLKADJ",
+      "y": 909,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLLCD",
+      "y": 1031,
+      "confidence": 79.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLOSEIO",
+      "y": 1153,
+      "confidence": 92.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLE",
+      "y": 1246,
+      "confidence": 55.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLUSR",
+      "y": 1336,
+      "confidence": 89.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CLVAR",
+      "y": 1423,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CNCT",
+      "y": 1508,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 7,
+      "pdf_page": 487,
+      "name_ocr": "CNRM",
+      "y": 1630,
+      "confidence": 92.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "CNTR",
+      "y": 249,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "CENTR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "=COL",
+      "y": 373,
+      "confidence": 53.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "+COL",
+      "y": 495,
+      "confidence": 92.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COL+",
+      "y": 618,
+      "confidence": 84.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "-—COL",
+      "y": 738,
+      "confidence": 34.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COL-—",
+      "y": 861,
+      "confidence": 38.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "COL-"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COL",
+      "y": 956,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→COL",
+        "YCOL"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COLE",
+      "y": 1109,
+      "confidence": 81.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COLCT",
+      "y": 1227,
+      "confidence": 91.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COLCT",
+      "y": 1319,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COLCT",
+      "y": 1441,
+      "confidence": 90.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 8,
+      "pdf_page": 488,
+      "name_ocr": "COMB",
+      "y": 1563,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CON",
+      "y": 253,
+      "confidence": 94.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "COND",
+      "y": 377,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONIC",
+      "y": 501,
+      "confidence": 96.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONJ",
+      "y": 591,
+      "confidence": 74.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONLIB",
+      "y": 681,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONST",
+      "y": 771,
+      "confidence": 95.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONT",
+      "y": 863,
+      "confidence": 95.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CONVERT",
+      "y": 953,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "COPY",
+      "y": 1077,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CORR",
+      "y": 1167,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "cos",
+      "y": 1289,
+      "confidence": 84.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "COS",
+        "COSH"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "COSH",
+      "y": 1380,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "COV",
+      "y": 1471,
+      "confidence": 59.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 9,
+      "pdf_page": 489,
+      "name_ocr": "CR",
+      "y": 1562,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "CRDIR",
+      "y": 264,
+      "confidence": 89.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "CROSS",
+      "y": 356,
+      "confidence": 93.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "CST",
+      "y": 447,
+      "confidence": 66.5,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "CSWP",
+      "y": 537,
+      "confidence": 88.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "CYLIN",
+      "y": 629,
+      "confidence": 92.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "C-+PX",
+      "y": 719,
+      "confidence": 56.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "coordinates.",
+      "y": 754,
+      "confidence": 94.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Cc",
+      "y": 786,
+      "confidence": 62.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Separates",
+      "y": 844,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "numbers",
+      "y": 877,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Distribute",
+      "y": 1014,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Executes",
+      "y": 1103,
+      "confidence": 57.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "subexpression.",
+      "y": 1135,
+      "confidence": 95.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Distribute",
+      "y": 1225,
+      "confidence": 97.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Executes",
+      "y": 1315,
+      "confidence": 30.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "subexpression.",
+      "y": 1348,
+      "confidence": 96.3,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "DARCY",
+      "y": 1436,
+      "confidence": 95.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Calculates",
+      "y": 1438,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "as",
+      "y": 1478,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "ASR",
+        "ASN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "(y)",
+      "y": 1502,
+      "confidence": 92.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "XZDAT",
+      "y": 1593,
+      "confidence": 0.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "Returns",
+      "y": 1594,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 10,
+      "pdf_page": 490,
+      "name_ocr": "the",
+      "y": 1628,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "THEN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DATE",
+      "y": 242,
+      "confidence": 95.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DATE+",
+      "y": 332,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "—=DATE",
+      "y": 451,
+      "confidence": 61.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "DATE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DBUG",
+      "y": 548,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DDAYS",
+      "y": 639,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DEC",
+      "y": 764,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DECR",
+      "y": 852,
+      "confidence": 91.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DEFINE",
+      "y": 944,
+      "confidence": 96.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "—DEF",
+      "y": 1068,
+      "confidence": 89.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DEG",
+      "y": 1190,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "DEL",
+      "y": 1281,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "+DEL",
+      "y": 1449,
+      "confidence": 76.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 11,
+      "pdf_page": 491,
+      "name_ocr": "(@)",
+      "y": 1527,
+      "confidence": 17.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DEL—",
+      "y": 253,
+      "confidence": 81.1,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "(@)DEL—",
+      "y": 412,
+      "confidence": 52.3,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DELAY",
+      "y": 652,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DELKEYS",
+      "y": 744,
+      "confidence": 91.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DEPND",
+      "y": 869,
+      "confidence": 92.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DEPTH",
+      "y": 961,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DET",
+      "y": 1052,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DETACH",
+      "y": 1144,
+      "confidence": 96.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "—DIAG",
+      "y": 1267,
+      "confidence": 72.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→DIAG",
+        "DIAG→"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DIAG—",
+      "y": 1359,
+      "confidence": 91.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→DIAG",
+        "DIAG→"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DIFFEQ",
+      "y": 1482,
+      "confidence": 90.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DINV",
+      "y": 1572,
+      "confidence": 90.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "INV"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 12,
+      "pdf_page": 492,
+      "name_ocr": "DISP",
+      "y": 1661,
+      "confidence": 91.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DNEG",
+      "y": 255,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "NEG",
+        "DEG"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DO",
+      "y": 345,
+      "confidence": 95.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "(4)Dbo",
+      "y": 425,
+      "confidence": 38.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOERR",
+      "y": 528,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOLIST",
+      "y": 653,
+      "confidence": 90.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOSUBS",
+      "y": 777,
+      "confidence": 90.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOT",
+      "y": 901,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOT+",
+      "y": 993,
+      "confidence": 90.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "DOT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DOT-",
+      "y": 1083,
+      "confidence": 44.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "DOT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DRAW",
+      "y": 1173,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DRAW",
+      "y": 1263,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DRAX",
+      "y": 1351,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DROP",
+      "y": 1441,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 13,
+      "pdf_page": 493,
+      "name_ocr": "DROPN",
+      "y": 1563,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DRPN",
+      "y": 260,
+      "confidence": 91.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "DROPN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DROP2",
+      "y": 382,
+      "confidence": 93.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DTAG",
+      "y": 475,
+      "confidence": 90.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DUP",
+      "y": 567,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DUPN",
+      "y": 696,
+      "confidence": 92.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DUPN",
+      "y": 787,
+      "confidence": 91.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "DUP2",
+      "y": 911,
+      "confidence": 91.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "D-R",
+      "y": 1000,
+      "confidence": 6.3,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "ECHO",
+      "y": 1251,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "EDIT",
+      "y": 1374,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "EDIT",
+      "y": 1493,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 14,
+      "pdf_page": 494,
+      "name_ocr": "EDIT",
+      "y": 1616,
+      "confidence": 95.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "BEX",
+      "y": 261,
+      "confidence": 95.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "EGV",
+      "y": 382,
+      "confidence": 93.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "EGVL",
+      "y": 506,
+      "confidence": 88.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "ELSE",
+      "y": 598,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "END",
+      "y": 735,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "ENDSUB",
+      "y": 1009,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "ENG",
+      "y": 1098,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "EQ",
+      "y": 1221,
+      "confidence": 95.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "SEQ",
+        "EQ→"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "EQ—",
+      "y": 1358,
+      "confidence": 45.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "EQNLIB",
+      "y": 1449,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 15,
+      "pdf_page": 495,
+      "name_ocr": "ERASE",
+      "y": 1539,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "ERASE",
+      "y": 255,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "ERRM",
+      "y": 346,
+      "confidence": 92.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "ERRN",
+      "y": 436,
+      "confidence": 93.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "ERRO",
+      "y": 525,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EVAL",
+      "y": 615,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXIT",
+      "y": 707,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "EXPFIT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXP",
+      "y": 798,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXPAN",
+      "y": 892,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXPND",
+      "y": 983,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "EXPAN",
+        "DEPND"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXPFIT",
+      "y": 1074,
+      "confidence": 88.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXPM",
+      "y": 1163,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXPR",
+      "y": 1254,
+      "confidence": 73.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "EXP"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EXTR",
+      "y": 1377,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 16,
+      "pdf_page": 496,
+      "name_ocr": "EYEPT",
+      "y": 1500,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "EQ)",
+      "y": 341,
+      "confidence": 63.1,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FOX",
+      "y": 433,
+      "confidence": 53.1,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FACT",
+      "y": 589,
+      "confidence": 96.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FANNING",
+      "y": 674,
+      "confidence": 96.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FC?",
+      "y": 831,
+      "confidence": 95.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FC?C",
+      "y": 969,
+      "confidence": 79.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FFT",
+      "y": 1107,
+      "confidence": 95.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FINDALARM",
+      "y": 1229,
+      "confidence": 92.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FINISH",
+      "y": 1322,
+      "confidence": 95.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FIX",
+      "y": 1413,
+      "confidence": 94.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FLOOR",
+      "y": 1503,
+      "confidence": 87.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 17,
+      "pdf_page": 497,
+      "name_ocr": "FM,",
+      "y": 1593,
+      "confidence": 95.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FOR",
+      "y": 246,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "(4)FOR",
+      "y": 362,
+      "confidence": 88.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "(@)FOR",
+      "y": 457,
+      "confidence": 42.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FP",
+      "y": 562,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FREE1",
+      "y": 653,
+      "confidence": 65.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FREEZE",
+      "y": 779,
+      "confidence": 95.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FS?",
+      "y": 871,
+      "confidence": 94.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FS?C",
+      "y": 1011,
+      "confidence": 87.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FUNCTION",
+      "y": 1148,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "FV",
+      "y": 1238,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "F(X)",
+      "y": 1358,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "F?",
+      "y": 1482,
+      "confidence": 80.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "FS?",
+        "FC?"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 18,
+      "pdf_page": 498,
+      "name_ocr": "GET",
+      "y": 1604,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GETI",
+      "y": 247,
+      "confidence": 75.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GOR",
+      "y": 371,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GO",
+      "y": 525,
+      "confidence": 64.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "GOR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "Go",
+      "y": 616,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "GOR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GRAD",
+      "y": 705,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GRAPH",
+      "y": 796,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GRIDMAP",
+      "y": 914,
+      "confidence": 92.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "—GROB",
+      "y": 1036,
+      "confidence": 88.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→GROB"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "GXOR",
+      "y": 1160,
+      "confidence": 88.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "*«H",
+      "y": 1311,
+      "confidence": 39.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "*H"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "HALT",
+      "y": 1406,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 19,
+      "pdf_page": 499,
+      "name_ocr": "HEAD",
+      "y": 1497,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HEX",
+      "y": 251,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HISTOGRAM",
+      "y": 341,
+      "confidence": 90.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HISTPLOT",
+      "y": 463,
+      "confidence": 90.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HMS+",
+      "y": 555,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HMS—~",
+      "y": 641,
+      "confidence": 18.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HMS—",
+      "y": 769,
+      "confidence": 67.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "—HMS",
+      "y": 861,
+      "confidence": 75.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HOME",
+      "y": 954,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HZIN",
+      "y": 1044,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "HZOUTN",
+      "y": 1134,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "i",
+      "y": 1225,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "IDN",
+      "y": 1316,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "IF",
+      "y": 1403,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "(q)IF",
+      "y": 1489,
+      "confidence": 43.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 20,
+      "pdf_page": 500,
+      "name_ocr": "(PF",
+      "y": 1583,
+      "confidence": 41.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "IFERR",
+      "y": 250,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "(4)IFERR",
+      "y": 332,
+      "confidence": 81.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "IFERR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "(P)IFERR",
+      "y": 425,
+      "confidence": 42.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "IFERR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "IFFT",
+      "y": 524,
+      "confidence": 95.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "IFT",
+      "y": 649,
+      "confidence": 94.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "IFTE",
+      "y": 771,
+      "confidence": 88.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "IM",
+      "y": 925,
+      "confidence": 94.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "INCR",
+      "y": 1048,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "INDEP",
+      "y": 1135,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 21,
+      "pdf_page": 501,
+      "name_ocr": "INFO",
+      "y": 1232,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "INFORM"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INFO",
+      "y": 266,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "INFORM"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INFO?",
+      "y": 415,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INFORM",
+      "y": 564,
+      "confidence": 95.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INIT+",
+      "y": 655,
+      "confidence": 90.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PINIT",
+        "MINIT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INPUT",
+      "y": 810,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INS",
+      "y": 966,
+      "confidence": 97.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "BINS"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "INV",
+      "y": 1058,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "IOPAR",
+      "y": 1149,
+      "confidence": 51.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "ISECT",
+      "y": 1360,
+      "confidence": 91.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "ISOL",
+      "y": 1516,
+      "confidence": 91.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 22,
+      "pdf_page": 502,
+      "name_ocr": "KEEP",
+      "y": 1608,
+      "confidence": 96.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "KERRM",
+      "y": 260,
+      "confidence": 90.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "KEY",
+      "y": 382,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "KGET",
+      "y": 472,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "KILL",
+      "y": 609,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LAST",
+      "y": 881,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LASTARG",
+      "y": 968,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LCD-—",
+      "y": 1055,
+      "confidence": 16.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "—LCD",
+      "y": 1181,
+      "confidence": 61.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LEVEL",
+      "y": 1304,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LIBEVAL",
+      "y": 1394,
+      "confidence": 92.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LIBS",
+      "y": 1513,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 23,
+      "pdf_page": 503,
+      "name_ocr": "LINE",
+      "y": 1602,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LINE",
+      "y": 262,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "ZLINE",
+      "y": 352,
+      "confidence": 48.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "LINE",
+        "ΣLINE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LINFIT",
+      "y": 475,
+      "confidence": 90.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LININ",
+      "y": 564,
+      "confidence": 92.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LIST—",
+      "y": 689,
+      "confidence": 83.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→LIST",
+        "ΣLIST"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "—LIST",
+      "y": 807,
+      "confidence": 66.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→LIST",
+        "ΣLIST"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LIST",
+      "y": 947,
+      "confidence": 15.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→LIST",
+        "ΣLIST"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "XLIST",
+      "y": 1069,
+      "confidence": 71.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→LIST",
+        "ΣLIST"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "TILIST",
+      "y": 1160,
+      "confidence": 63.5,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "ALIST",
+      "y": 1251,
+      "confidence": 90.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→LIST",
+        "ΣLIST"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LNP1",
+      "y": 1467,
+      "confidence": 69.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 24,
+      "pdf_page": 504,
+      "name_ocr": "LOG",
+      "y": 1559,
+      "confidence": 95.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "LOGFIT",
+      "y": 246,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "LQ",
+      "y": 338,
+      "confidence": 95.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "LR",
+      "y": 429,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "LSQ",
+      "y": 519,
+      "confidence": 76.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "LU",
+      "y": 785,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "L*",
+      "y": 907,
+      "confidence": 90.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "L()",
+      "y": 997,
+      "confidence": 72.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "—M",
+      "y": 1090,
+      "confidence": 61.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "(~)—M",
+      "y": 1175,
+      "confidence": 9.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "M—",
+      "y": 1303,
+      "confidence": 28.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": ")",
+      "y": 1388,
+      "confidence": 41.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 25,
+      "pdf_page": 505,
+      "name_ocr": "MANT",
+      "y": 1515,
+      "confidence": 92.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MARK",
+      "y": 247,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MATCH",
+      "y": 385,
+      "confidence": 96.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "↓MATCH",
+        "↑MATCH"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "[MATCH",
+      "y": 508,
+      "confidence": 93.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "↓MATCH",
+        "↑MATCH"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "{MATCH",
+      "y": 696,
+      "confidence": 84.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "↓MATCH",
+        "↑MATCH"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MAX",
+      "y": 885,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MAXR",
+      "y": 977,
+      "confidence": 91.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MAX",
+      "y": 1133,
+      "confidence": 37.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MCALG",
+      "y": 1255,
+      "confidence": 68.3,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "MCALC"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MEAN",
+      "y": 1410,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MEM",
+      "y": 1500,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 26,
+      "pdf_page": 506,
+      "name_ocr": "MENU",
+      "y": 1589,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MENU",
+      "y": 261,
+      "confidence": 96.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MERGE1",
+      "y": 397,
+      "confidence": 86.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MIN",
+      "y": 520,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MINEHUNT",
+      "y": 611,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MINIT",
+      "y": 701,
+      "confidence": 95.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MINR",
+      "y": 792,
+      "confidence": 81.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MINE",
+      "y": 948,
+      "confidence": 62.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "MIN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MITM",
+      "y": 1071,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "ML",
+      "y": 1195,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MOD",
+      "y": 1316,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MOVE",
+      "y": 1406,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 27,
+      "pdf_page": 507,
+      "name_ocr": "MSGBOX",
+      "y": 1497,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "MROOT",
+      "y": 277,
+      "confidence": 92.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "MSOLVR",
+      "y": 432,
+      "confidence": 92.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "MUSER",
+      "y": 555,
+      "confidence": 92.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NDIST",
+      "y": 711,
+      "confidence": 92.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEG",
+      "y": 959,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEW",
+      "y": 1079,
+      "confidence": 96.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEW",
+      "y": 1169,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEWOB",
+      "y": 1258,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEXT",
+      "y": 1381,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 28,
+      "pdf_page": 508,
+      "name_ocr": "NEXT",
+      "y": 1518,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NOT",
+      "y": 237,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NOVAL",
+      "y": 373,
+      "confidence": 92.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NSUB",
+      "y": 527,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NUM",
+      "y": 683,
+      "confidence": 96.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NUMX",
+      "y": 807,
+      "confidence": 89.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NUMY",
+      "y": 965,
+      "confidence": 92.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "—NUM",
+      "y": 1124,
+      "confidence": 78.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "NUM"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "NXEQ",
+      "y": 1247,
+      "confidence": 93.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "OBJ—",
+      "y": 1370,
+      "confidence": 85.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "OCT",
+      "y": 1584,
+      "confidence": 95.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 29,
+      "pdf_page": 509,
+      "name_ocr": "OFF",
+      "y": 1674,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "OLDPRT",
+      "y": 457,
+      "confidence": 91.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "OPENIO",
+      "y": 580,
+      "confidence": 92.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "OPTS",
+      "y": 670,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "ORDER.",
+      "y": 966,
+      "confidence": 73.6,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "ORDER"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "OVER",
+      "y": 1058,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "ZPAR",
+      "y": 1149,
+      "confidence": 63.5,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "PARITY",
+      "y": 1360,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 30,
+      "pdf_page": 510,
+      "name_ocr": "PATH",
+      "y": 1574,
+      "confidence": 96.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PCOEF",
+      "y": 244,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PCONTOUR",
+      "y": 368,
+      "confidence": 83.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PCOV",
+      "y": 490,
+      "confidence": 90.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PDIM",
+      "y": 579,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PERM",
+      "y": 704,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PEVAL",
+      "y": 826,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PGDIR",
+      "y": 950,
+      "confidence": 30.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PICK",
+      "y": 1072,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PICK",
+      "y": 1161,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PICT",
+      "y": 1251,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PICT—",
+      "y": 1341,
+      "confidence": 75.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PICT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 31,
+      "pdf_page": 511,
+      "name_ocr": "PICTURE",
+      "y": 1540,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PINIT",
+      "y": 253,
+      "confidence": 88.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PIXOFF",
+      "y": 377,
+      "confidence": 91.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PIXON",
+      "y": 469,
+      "confidence": 95.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PIX?",
+      "y": 562,
+      "confidence": 96.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PKT",
+      "y": 684,
+      "confidence": 90.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PMAX",
+      "y": 808,
+      "confidence": 92.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PMIN",
+      "y": 897,
+      "confidence": 93.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PMT",
+      "y": 985,
+      "confidence": 95.3,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "POLAR",
+      "y": 1076,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "POS",
+      "y": 1167,
+      "confidence": 96.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PRED",
+      "y": 1290,
+      "confidence": 96.7,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PREDY",
+        "PREDX"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PREDV",
+      "y": 1443,
+      "confidence": 91.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 32,
+      "pdf_page": 512,
+      "name_ocr": "PREDX",
+      "y": 1563,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PREDY",
+      "y": 251,
+      "confidence": 89.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRINT",
+      "y": 376,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PINIT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRLCD",
+      "y": 465,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PROMPT",
+      "y": 628,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PROOT",
+      "y": 751,
+      "confidence": 92.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRST",
+      "y": 875,
+      "confidence": 89.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRSTC",
+      "y": 964,
+      "confidence": 91.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRTPAR",
+      "y": 1055,
+      "confidence": 88.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PRVAR",
+      "y": 1178,
+      "confidence": 91.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PR1",
+      "y": 1302,
+      "confidence": 81.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PSDEV",
+      "y": 1392,
+      "confidence": 90.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 33,
+      "pdf_page": 513,
+      "name_ocr": "PURGE",
+      "y": 1482,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PURG",
+      "y": 262,
+      "confidence": 92.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PURGE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PUT",
+      "y": 487,
+      "confidence": 96.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PUTI",
+      "y": 613,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PVAR",
+      "y": 858,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PVARS",
+      "y": 948,
+      "confidence": 92.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PVIEW",
+      "y": 1073,
+      "confidence": 90.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PWRFIT",
+      "y": 1194,
+      "confidence": 92.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PYR",
+      "y": 1285,
+      "confidence": 93.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 34,
+      "pdf_page": 514,
+      "name_ocr": "PX<C",
+      "y": 1412,
+      "confidence": 0.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "QUAD",
+      "y": 262,
+      "confidence": 97.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "QUOTE",
+      "y": 385,
+      "confidence": 95.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "Qn",
+      "y": 477,
+      "confidence": 10.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RAD",
+      "y": 632,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RAND",
+      "y": 758,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RANK",
+      "y": 879,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RANM",
+      "y": 971,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RATIO",
+      "y": 1095,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RCEQ",
+      "y": 1213,
+      "confidence": 89.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RCI",
+      "y": 1351,
+      "confidence": 95.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RCI",
+      "y": 1474,
+      "confidence": 72.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 35,
+      "pdf_page": 515,
+      "name_ocr": "RCL",
+      "y": 1599,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCL",
+      "y": 239,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCLALARM",
+      "y": 330,
+      "confidence": 88.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCLF",
+      "y": 421,
+      "confidence": 86.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCLKEYS",
+      "y": 544,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCLMENU",
+      "y": 635,
+      "confidence": 90.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCLE",
+      "y": 726,
+      "confidence": 69.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "RCL"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RCWS",
+      "y": 895,
+      "confidence": 88.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RDM",
+      "y": 986,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RDZ",
+      "y": 1109,
+      "confidence": 92.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RE",
+      "y": 1198,
+      "confidence": 95.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RECN",
+      "y": 1290,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RECT",
+      "y": 1412,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 36,
+      "pdf_page": 516,
+      "name_ocr": "RECV",
+      "y": 1503,
+      "confidence": 89.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "RECV",
+      "y": 255,
+      "confidence": 89.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "fe)",
+      "y": 289,
+      "confidence": 28.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "REPEAT",
+      "y": 344,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "REPL",
+      "y": 499,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "REPL",
+      "y": 670,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "REPL",
+      "y": 823,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "RES",
+      "y": 946,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "RESET",
+      "y": 1037,
+      "confidence": 95.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "RESET",
+      "y": 1193,
+      "confidence": 95.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "RESTORE",
+      "y": 1365,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 37,
+      "pdf_page": 517,
+      "name_ocr": "REVLIST",
+      "y": 1489,
+      "confidence": 91.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RKF",
+      "y": 236,
+      "confidence": 87.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RKFERR",
+      "y": 490,
+      "confidence": 91.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RKFSTEP",
+      "y": 746,
+      "confidence": 83.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RLB",
+      "y": 1126,
+      "confidence": 92.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RND",
+      "y": 1218,
+      "confidence": 92.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "RNRM",
+      "y": 1341,
+      "confidence": 90.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "ROLL",
+      "y": 1434,
+      "confidence": 96.2,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 38,
+      "pdf_page": 518,
+      "name_ocr": "ROLL",
+      "y": 1556,
+      "confidence": 95.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROLLD",
+      "y": 243,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROLLD",
+      "y": 367,
+      "confidence": 92.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROOT",
+      "y": 489,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROOT",
+      "y": 613,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROT",
+      "y": 767,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROW+",
+      "y": 889,
+      "confidence": 89.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "+ROW",
+      "y": 1013,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROW—",
+      "y": 1134,
+      "confidence": 53.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "—-ROW",
+      "y": 1222,
+      "confidence": 41.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "—ROW",
+      "y": 1317,
+      "confidence": 55.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "ROW—",
+      "y": 1439,
+      "confidence": 70.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 39,
+      "pdf_page": 519,
+      "name_ocr": "RR",
+      "y": 1561,
+      "confidence": 95.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RRB",
+      "y": 244,
+      "confidence": 94.6,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RREF",
+      "y": 336,
+      "confidence": 91.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RRK",
+      "y": 461,
+      "confidence": 92.1,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RRKSTEP",
+      "y": 747,
+      "confidence": 92.0,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RSBERR",
+      "y": 1100,
+      "confidence": 91.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RSD",
+      "y": 1384,
+      "confidence": 95.4,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "RSWP",
+      "y": 1474,
+      "confidence": 85.8,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 40,
+      "pdf_page": 520,
+      "name_ocr": "R-=B",
+      "y": 1565,
+      "confidence": 37.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "R-C",
+      "y": 264,
+      "confidence": 33.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "R-D",
+      "y": 433,
+      "confidence": 45.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SAME",
+      "y": 555,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SBRK",
+      "y": 647,
+      "confidence": 91.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCALE",
+      "y": 737,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCATRPLOT",
+      "y": 859,
+      "confidence": 68.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCATTER",
+      "y": 949,
+      "confidence": 95.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCHUR",
+      "y": 1071,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "scl",
+      "y": 1195,
+      "confidence": 63.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "SCLΣ",
+        "SL"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCLE",
+      "y": 1285,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "SCALE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SCONJ",
+      "y": 1371,
+      "confidence": 89.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SDEV",
+      "y": 1462,
+      "confidence": 92.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 41,
+      "pdf_page": 521,
+      "name_ocr": "SEND",
+      "y": 1584,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SEND",
+      "y": 246,
+      "confidence": 96.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SEQ",
+      "y": 371,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "incremented",
+      "y": 438,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SERVER",
+      "y": 526,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SF",
+      "y": 617,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SHADE",
+      "y": 755,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "and",
+      "y": 790,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "AND",
+        "RAND"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "z-values",
+      "y": 823,
+      "confidence": 1.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "oO",
+      "y": 859,
+      "confidence": 47.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SHOW",
+      "y": 911,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "references",
+      "y": 946,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "c_@@MBON)",
+      "y": 984,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SIDENS",
+      "y": 1036,
+      "confidence": 80.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "function",
+      "y": 1070,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "FUNCTION"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SIGN",
+      "y": 1160,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "Returns",
+      "y": 1251,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SIMU",
+      "y": 1341,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "plotting",
+      "y": 1376,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SIN",
+      "y": 1464,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SINH",
+      "y": 1552,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 42,
+      "pdf_page": 522,
+      "name_ocr": "SINV",
+      "y": 1643,
+      "confidence": 91.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SIZE",
+      "y": 248,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SIZE",
+      "y": 419,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "«SKIP",
+      "y": 541,
+      "confidence": 56.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SKIP—",
+      "y": 675,
+      "confidence": 86.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SL",
+      "y": 809,
+      "confidence": 94.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SLB",
+      "y": 900,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SLOPE",
+      "y": 993,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SLOPEFIELD",
+      "y": 1115,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SNEG",
+      "y": 1236,
+      "confidence": 91.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SNRM",
+      "y": 1328,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SOLVE",
+      "y": 1420,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "SOLVEQN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 43,
+      "pdf_page": 523,
+      "name_ocr": "SOLVEQN",
+      "y": 1543,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SORT",
+      "y": 253,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SPHERE",
+      "y": 345,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SQ",
+      "y": 435,
+      "confidence": 89.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SR",
+      "y": 525,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SRAD",
+      "y": 618,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SRB",
+      "y": 743,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SRECV",
+      "y": 835,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SST",
+      "y": 959,
+      "confidence": 95.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "SST",
+      "y": 1049,
+      "confidence": 43.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "START",
+      "y": 1170,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "(4)START",
+      "y": 1249,
+      "confidence": 72.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "START"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "(@)sTART",
+      "y": 1341,
+      "confidence": 39.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "START"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "STD",
+      "y": 1446,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 44,
+      "pdf_page": 524,
+      "name_ocr": "STEP",
+      "y": 1536,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STEP",
+      "y": 258,
+      "confidence": 96.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STEQ",
+      "y": 411,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STIME",
+      "y": 549,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "(STK",
+      "y": 641,
+      "confidence": 48.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STK",
+      "y": 778,
+      "confidence": 12.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "—STK",
+      "y": 900,
+      "confidence": 75.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STO",
+      "y": 989,
+      "confidence": 92.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STOALARM",
+      "y": 1081,
+      "confidence": 91.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STOF",
+      "y": 1172,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STOKEYS",
+      "y": 1328,
+      "confidence": 92.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STO+",
+      "y": 1451,
+      "confidence": 88.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 45,
+      "pdf_page": 525,
+      "name_ocr": "STO~",
+      "y": 1573,
+      "confidence": 66.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "STO"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STOx",
+      "y": 260,
+      "confidence": 66.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "STO"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STO/",
+      "y": 382,
+      "confidence": 80.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STOL",
+      "y": 540,
+      "confidence": 60.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "STO"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "sTR=",
+      "y": 631,
+      "confidence": 37.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "—STR",
+      "y": 750,
+      "confidence": 71.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STREAM",
+      "y": 842,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STS",
+      "y": 1001,
+      "confidence": 89.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "STWS"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "STWS",
+      "y": 1154,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "SUB",
+      "y": 1245,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "SUB",
+      "y": 1539,
+      "confidence": 95.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 46,
+      "pdf_page": 526,
+      "name_ocr": "SUB",
+      "y": 1661,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "SVD",
+      "y": 271,
+      "confidence": 51.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "SVL",
+      "y": 395,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "SWAP",
+      "y": 519,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "SYM",
+      "y": 609,
+      "confidence": 95.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "SYSEVAL",
+      "y": 730,
+      "confidence": 90.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "-T",
+      "y": 849,
+      "confidence": 31.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "(@)-T",
+      "y": 931,
+      "confidence": 72.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "T=",
+      "y": 1058,
+      "confidence": 26.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "(@)T-",
+      "y": 1137,
+      "confidence": 42.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "AT",
+      "y": 1267,
+      "confidence": 83.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "—TAG",
+      "y": 1359,
+      "confidence": 44.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "TAN",
+      "y": 1484,
+      "confidence": 96.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 47,
+      "pdf_page": 527,
+      "name_ocr": "TAIL",
+      "y": 1574,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TANH",
+      "y": 244,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TANL",
+      "y": 336,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "TAN"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TAYLR",
+      "y": 492,
+      "confidence": 90.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TDELTA",
+      "y": 649,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TEACH",
+      "y": 836,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TEXT",
+      "y": 923,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "THEN",
+      "y": 1015,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TICKS",
+      "y": 1196,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TIME",
+      "y": 1325,
+      "confidence": 93.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "—TIME",
+      "y": 1446,
+      "confidence": 54.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "TIME",
+        "→TIME"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 48,
+      "pdf_page": 528,
+      "name_ocr": "TINC",
+      "y": 1569,
+      "confidence": 87.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TLINE",
+      "y": 258,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TLINE",
+      "y": 382,
+      "confidence": 91.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TMENU",
+      "y": 504,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TOT",
+      "y": 626,
+      "confidence": 96.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRACE",
+      "y": 715,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRACE",
+      "y": 841,
+      "confidence": 96.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRANSIO",
+      "y": 932,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRG*",
+      "y": 1054,
+      "confidence": 89.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "—TRG",
+      "y": 1176,
+      "confidence": 40.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRN",
+      "y": 1266,
+      "confidence": 92.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRNC",
+      "y": 1358,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TRUTH",
+      "y": 1483,
+      "confidence": 95.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 49,
+      "pdf_page": 529,
+      "name_ocr": "TSTR",
+      "y": 1573,
+      "confidence": 89.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TVARS",
+      "y": 242,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TVM",
+      "y": 366,
+      "confidence": 90.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TVMBEG",
+      "y": 457,
+      "confidence": 89.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TVMEND",
+      "y": 543,
+      "confidence": 90.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TVMROOT",
+      "y": 630,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TYPE",
+      "y": 754,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "TYPES",
+      "y": 892,
+      "confidence": 96.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "TYPE",
+        "VTYPE"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "UBASE",
+      "y": 1015,
+      "confidence": 92.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "UFACT",
+      "y": 1107,
+      "confidence": 89.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "—UNIT",
+      "y": 1230,
+      "confidence": 61.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→UNIT"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "UNTIL",
+      "y": 1402,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "UPDIR",
+      "y": 1492,
+      "confidence": 91.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 50,
+      "pdf_page": 530,
+      "name_ocr": "UTPC",
+      "y": 1582,
+      "confidence": 91.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "UTPF",
+      "y": 250,
+      "confidence": 91.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "UTPN",
+      "y": 437,
+      "confidence": 92.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "UTPT",
+      "y": 593,
+      "confidence": 89.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "UVAL",
+      "y": 749,
+      "confidence": 91.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VAR",
+      "y": 874,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VARS",
+      "y": 997,
+      "confidence": 96.7,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VEC",
+      "y": 1086,
+      "confidence": 96.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VIEW",
+      "y": 1176,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PVIEW"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "(@)",
+      "y": 1287,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VIEW",
+      "y": 1451,
+      "confidence": 95.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "PVIEW"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 51,
+      "pdf_page": 531,
+      "name_ocr": "VPAR",
+      "y": 1573,
+      "confidence": 89.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "VAR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "VTYPE",
+      "y": 251,
+      "confidence": 91.5,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "VZIN",
+      "y": 377,
+      "confidence": 92.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "VZOUT",
+      "y": 466,
+      "confidence": 90.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "—V2",
+      "y": 556,
+      "confidence": 47.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "V3",
+      "y": 681,
+      "confidence": 33.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "→V3"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "vo",
+      "y": 804,
+      "confidence": 66.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "xW",
+      "y": 959,
+      "confidence": 63.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "WAIT",
+      "y": 1051,
+      "confidence": 95.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "WHILE",
+      "y": 1174,
+      "confidence": 96.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "(4)",
+      "y": 1253,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "WID—",
+      "y": 1357,
+      "confidence": 89.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 52,
+      "pdf_page": 532,
+      "name_ocr": "+-WID",
+      "y": 1475,
+      "confidence": 21.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "WSLOG",
+      "y": 264,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "UX",
+      "y": 382,
+      "confidence": 52.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "EX42",
+      "y": 502,
+      "confidence": 70.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XCOL",
+      "y": 627,
+      "confidence": 92.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XMIT",
+      "y": 748,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XOR",
+      "y": 870,
+      "confidence": 93.0,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XPON",
+      "y": 1073,
+      "confidence": 90.8,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XRECV",
+      "y": 1164,
+      "confidence": 92.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XRNG",
+      "y": 1254,
+      "confidence": 91.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XROOT",
+      "y": 1379,
+      "confidence": 91.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XSEND",
+      "y": 1469,
+      "confidence": 91.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 53,
+      "pdf_page": 533,
+      "name_ocr": "XVOL",
+      "y": 1559,
+      "confidence": 90.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "XXRNG",
+      "y": 241,
+      "confidence": 90.9,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "UX*Y",
+      "y": 431,
+      "confidence": 22.4,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "(%Y)",
+      "y": 553,
+      "confidence": 77.8,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "X,Y",
+      "y": 723,
+      "confidence": 38.2,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "vy*2",
+      "y": 1045,
+      "confidence": 0.0,
+      "adjacent_description": false,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "YCOL",
+      "y": 1169,
+      "confidence": 92.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "YRNG",
+      "y": 1323,
+      "confidence": 88.3,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "YSLICE",
+      "y": 1447,
+      "confidence": 90.5,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 54,
+      "pdf_page": 534,
+      "name_ocr": "YVOL",
+      "y": 1569,
+      "confidence": 92.7,
+      "adjacent_description": false,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "YYRNG",
+      "y": 252,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZAUTO",
+      "y": 439,
+      "confidence": 91.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "AUTO"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZDECI",
+      "y": 529,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZDFLT",
+      "y": 682,
+      "confidence": 91.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZFACT",
+      "y": 773,
+      "confidence": 89.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [
+        "FACT",
+        "ZFACTOR"
+      ],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZFACTOR",
+      "y": 863,
+      "confidence": 79.1,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZIN",
+      "y": 1020,
+      "confidence": 90.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZINTG",
+      "y": 1109,
+      "confidence": 90.6,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZLAST",
+      "y": 1262,
+      "confidence": 90.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZOOM",
+      "y": 1385,
+      "confidence": 95.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZOUT",
+      "y": 1540,
+      "confidence": 93.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 55,
+      "pdf_page": 535,
+      "name_ocr": "ZSQR",
+      "y": 1630,
+      "confidence": 91.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "ZTRIG",
+      "y": 259,
+      "confidence": 92.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "ZVOL",
+      "y": 447,
+      "confidence": 89.4,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "+",
+      "y": 605,
+      "confidence": 96.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "+/-",
+      "y": 693,
+      "confidence": 74.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "41-1",
+      "y": 865,
+      "confidence": 71.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "-",
+      "y": 964,
+      "confidence": 63.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "-()",
+      "y": 1044,
+      "confidence": 83.1,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "*",
+      "y": 1176,
+      "confidence": 66.3,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "*y",
+      "y": 1259,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "/",
+      "y": 1349,
+      "confidence": 92.9,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "/1",
+      "y": 1487,
+      "confidence": 4.2,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "“",
+      "y": 1577,
+      "confidence": 74.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 56,
+      "pdf_page": 536,
+      "name_ocr": "Ay",
+      "y": 1669,
+      "confidence": 64.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "<",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "≤",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": ">",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "≥",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "=",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "==",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "≠",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "!",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "∫",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "∂",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "%",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "π",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 57,
+      "pdf_page": 537,
+      "name_ocr": "Σ",
+      "y": null,
+      "confidence": null,
+      "adjacent_description": null,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "INDEX_TEXT_TRANSCRIPTION_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "B+",
+      "y": 250,
+      "confidence": 47.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "r-",
+      "y": 342,
+      "confidence": 12.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "JV",
+      "y": 428,
+      "confidence": 67.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "1/0)",
+      "y": 649,
+      "confidence": 77.7,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "(())",
+      "y": 778,
+      "confidence": 56.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "(]",
+      "y": 870,
+      "confidence": 16.8,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "(=",
+      "y": 984,
+      "confidence": 40.9,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "=—-()",
+      "y": 1149,
+      "confidence": 2.3,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "—)",
+      "y": 1276,
+      "confidence": 84.4,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "()-)",
+      "y": 1387,
+      "confidence": 0.0,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "Catena",
+      "y": 1553,
+      "confidence": 0.5,
+      "adjacent_description": true,
+      "exact_rom_match": false,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    },
+    {
+      "g_page": 58,
+      "pdf_page": 538,
+      "name_ocr": "=",
+      "y": 1654,
+      "confidence": 78.6,
+      "adjacent_description": true,
+      "exact_rom_match": true,
+      "rom_match_suggestions": [],
+      "status": "OCR_UNVERIFIED"
+    }
+  ]
+}
