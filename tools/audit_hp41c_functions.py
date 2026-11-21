@@ -84,6 +84,23 @@ def check(inv, md):
         raise ValueError("Duplicate XROM ID")
     if len({r["position"] for r in keypad}) != len(keypad):
         raise ValueError("Duplicate keyboard position")
+    # Independent CAT-3 cross-check: 117 reconstructed vs 116 printed by Gosmann.
+    # The one documented Gosmann omission is X>Y?, confirmed by the HP original.
+    cat3 = inv["reconstructed_cat3"]["commands"]
+    gosmann = inv["gosmann_cat3_transcription"]
+    gosmann_names = gosmann["page9"] + gosmann["page10"] + gosmann["page11"]
+    cat3_errors = []
+    if len(cat3) != 117 or len(set(cat3)) != 117:
+        cat3_errors.append("Expected 117 unique reconstructed CAT-3 names")
+    if len(gosmann_names) != 116 or len(set(gosmann_names)) != 116:
+        cat3_errors.append("Expected 116 unique Gosmann source names")
+    if set(cat3) - set(gosmann_names) != {"X>Y?"}:
+        cat3_errors.append("Gosmann vs HP difference must be exactly X>Y?")
+    if set(gosmann_names) - set(cat3):
+        cat3_errors.append("Unexpected Gosmann-only names")
+    omitted_controls = set(inv["reconstructed_cat3"]["excluded_index_controls"])
+    if set(cat3) != {record["name"] for record in baseline} - omitted_controls:
+        cat3_errors.append("Reconstructed CAT-3 not consistent with main index")
     tokens = command_tokens(section(md, 2))
     missing_base = [r["name"] for r in baseline if not matched(r["aliases"], tokens)]
     xsections = {n: xrom_rows(section(md, n)) for n in (9, 10, 11)}
@@ -117,6 +134,7 @@ def check(inv, md):
         elif not key_equal(item["normal"], actual_keys[position - 1]):
             wrong_keys.append([position, item["normal"], actual_keys[position - 1]])
     problems = {
+        "cat3_reconciliation": cat3_errors,
         "missing_base": missing_base,
         "missing_xrom": missing_xrom,
         "wrong_xrom": wrong_xrom,
@@ -129,6 +147,8 @@ def check(inv, md):
     return {
         "status": "PASS" if passed else "FAIL",
         "scope": "Textual inventory ONLY; not a ROM, CAT 3 or behavioral test",
+        "cat3_reconstructed_count": len(cat3),
+        "gosmann_cat3_count": len(gosmann_names),
         "base_count": len(baseline),
         "key_count": len(keypad),
         "xrom_by_profile": dict(Counter(r["profile"] for r in xrom)),
@@ -150,7 +170,7 @@ def main():
         print(f"HP-41C textual inventory audit: {result['status']}")
         print(f"Baseline: {result['base_count']}; keypad: {result['key_count']}")
         print("XROM: " + ", ".join(f"{k}={v}" for k,v in result["xrom_by_profile"].items()))
-        for key in ("missing_base", "missing_xrom", "wrong_xrom", "duplicate_xrom",
+        for key in ("cat3_reconciliation", "missing_base", "missing_xrom", "wrong_xrom", "duplicate_xrom",
                     "unexpected_xrom", "missing_key_positions", "wrong_key_positions"):
             if result[key]:
                 print(f"ERROR {key}: {result[key]}")
