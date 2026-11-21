@@ -8,6 +8,8 @@
 
 These instructions apply to the whole repository. Read `README.md`, `ROADMAP.md`, `TASKS.md` and `docs/en/DECISIONS.md` before changing scope or architecture.
 
+**V1 implementation gate:** Before modifying Classic RPN stack/keyboard, numerics, persistence or native Swift bridge, consult the [V1 key/function candidate matrix](docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [four proposed V1 ADRs](docs/adr/README.md), and [V1 test/release plan](docs/de/V1-TEST-UND-FREIGABEPLAN.md). All new ADRs are **PROPOSED, not ACCEPTED**; do not infer binding behavior, claim completed tests or manufacture a historical key mapping from SVG concepts. A real iPhone XS run is required for the eventual release.
+
 ## Immutable priorities unless explicitly decided otherwise
 
 1. **First ship a dependable iPhone classic scientific UPN/RPN calculator (M1→M2)**: offline, no ads, no subscriptions, ideally free, tested including iPhone XS.

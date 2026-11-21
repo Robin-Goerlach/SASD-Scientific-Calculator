@@ -18,6 +18,8 @@ A real reference calculator photograph from project discussion shows more keys t
 - Keyboard/mouse shortcuts must map to the same canonical commands as mobile touches.
 - State is shared in semantics, not necessarily in per-device screen layout.
 
+**Concrete draft now available:** [German V1 function and key candidate matrix](../de/V1-FUNKTIONS-UND-TASTATURMATRIX.md). It defines proposed command IDs and tests, but **physical iPhone key slots, shifted/ALPHA mappings and approval remain TBD**. The next table remains the unsolved **physical layout mapping**, not an assertion that the function list is missing. Six soft-menu keys are only mandatory when explicitly required by the approved product mode.
+
 ## Required key coverage matrix (not yet populated)
 | Key / context | Primary action | Shift action | Alpha action | Core command | V1 required? | Unit/UI test |
 | --- | --- | --- | --- | --- | --- | --- |

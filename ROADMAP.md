@@ -317,6 +317,8 @@ Die WP-Kennungen stammen aus [Pflichtenheft Kapitel 22](docs/PFLICHTENHEFT.md); 
 
 ---
 
+**Dokumentationsfortschritt (21.11.2026):** Die [V1-Funktions-/Tastaturmatrix](docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), die vier [V1-ADRs](docs/adr/README.md) (Input, Numeric, State, API/iPhone XS) und der [V1-Test- und Freigabeplan](docs/de/V1-TEST-UND-FREIGABEPLAN.md) **wurden als Markdown-Entwürfe angelegt**. **Die Freigabe-, Geräte- und Implementierungs-Gates bleiben OFFEN.** „Dokument existiert“ bedeutet **nicht** „ADR ACCEPTED“ oder „Test PASS“.
+
 ## 11. Exakte Dokumente, die vor Codearbeit fällig sind
 
 Viele Grundlagen **existieren schon**. Es soll **keine** zweite große Roadmap, keine dritte Architekturbeschreibung und keine inhaltsgleiche neue Anforderungsmatrix entstehen.

@@ -2,6 +2,8 @@
 
 **This is a future acceptance gate, not a claim that the app exists.** A single unchecked P0 item blocks the V1 declaration.
 
+**Execution-ready draft test plan:** [V1 test and release plan](../de/V1-TEST-UND-FREIGABEPLAN.md), supported by the [proposed V1 ADRs](../adr/README.md) and [function/key candidate matrix](../de/V1-FUNKTIONS-UND-TASTATURMATRIX.md). **No test is marked PASS simply because these documents exist.**
+
 ## Calculator quality (P0)
 - [ ] Approved and complete V1 key/function inventory, with Shift/Alpha context verified.
 - [ ] Stack, registers, numeric domain, error semantics, angles and modes tested.

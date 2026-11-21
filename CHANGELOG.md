@@ -25,3 +25,11 @@ All notable product-visible changes should be recorded here once releases exist.
 - Reworked the **single** root `ROADMAP.md` as a German, release-first M0–M5 plan with work packages WP-00…WP-16, exit gates, independent ALG/RPL/Financial tracks and pre-implementation documents.
 - Linked the canonical architecture and roadmap from both READMEs, Pflichtenheft, legacy architecture summaries, tasking and coding-agent guidance.
 - No application, historical program support, iOS executable or numerical capability was implemented by this documentation-only change.
+
+## Unreleased – V1 implementation contracts and acceptance plan (2026-11-21)
+
+- Added `docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md`: candidate V1 scientific commands, stable proposed key IDs, tests, source/capability boundaries and explicitly undecided physical Shift/ALPHA layout.
+- Added four **PROPOSED** design records under `docs/adr/` (RPN stack/input, numeric accuracy, versioned state/recovery, C++/Swift ABI and iPhone XS Apple SDK/deployment checks), with `docs/adr/README.md` as a decision index.
+- Added `docs/de/V1-TEST-UND-FREIGABEPLAN.md`: all AC-V1-001…017, RPN/numeric/state/ABI/device tests, severity gates, explicit NO-GO before evidence, historical nonblocking tests.
+- Linked new drafts from architecture, specification, README, roadmap, tasking, decision and release documents.
+- No app feature, native iPhone binary, actual Stack/ABI/State implementation, historical compatibility or new test PASS was created by this docs-only change.

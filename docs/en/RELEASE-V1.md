@@ -2,6 +2,8 @@
 
 **Normative release priority:** classic, useful, trustworthy scientific RPN calculator first. The planned stand-alone ALG app and all deep historical compatibility do **not** gate this release. The V1.0 product is **not yet implemented or published**.
 
+**Design evidence under review:** [V1 function/key candidate matrix](../de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [ADR index](../adr/README.md), [test/release plan](../de/V1-TEST-UND-FREIGABEPLAN.md). These are proposals, not approved key/stack/numeric/iOS contracts. The actual M2 release criteria are unchanged.
+
 ## Release behavior
 
 - Native iPhone interface, usable on the iPhone XS target with validated Xcode deployment version, readable screen, responsive keypad, accurate tactile interaction and accessibility.

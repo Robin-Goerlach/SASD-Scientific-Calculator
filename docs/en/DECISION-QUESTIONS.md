@@ -2,6 +2,8 @@
 
 **Do not reopen whether full vintage emulation must block V1.0: it does not.** This register lists the *real* dependencies a developer must settle, and which questions are deliberately deferred.
 
+**V1 decision drafts now exist:** [candidate key/function matrix](../de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [four ADRs](../adr/README.md) and [V1 test/release plan](../de/V1-TEST-UND-FREIGABEPLAN.md). They are **PROPOSED (not ACCEPTED)**; missing signatures, exact key positions, numeric precision and real iPhone XS evidence remain open.
+
 ## Must decide before building the corresponding early component
 
 | Key | Scope | Required output |

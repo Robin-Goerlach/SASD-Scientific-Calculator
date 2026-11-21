@@ -61,6 +61,10 @@ Oben sind die beiden **aktuellen iPhone- und Desktop-Konzeptdarstellungen** sich
 - [V1-Abnahmekriterien](docs/en/RELEASE-V1.md), [Tests](docs/en/TEST-MATRIX.md), [Lernen/Hilfe](docs/en/LEARNING.md) und [offene Detailentscheidungen](docs/en/DECISION-QUESTIONS.md).
 
 
+## V1.0-Detailunterlagen – Entwürfe zur Freigabe
+
+Die konkreten Unterlagen sind jetzt vorhanden: [Funktions- und Tastaturmatrix](docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [UPN-/Stack-ADR](docs/adr/ADR-V1-INPUT.md), [Numerik-ADR](docs/adr/ADR-V1-NUM.md), [Persistenz-ADR](docs/adr/ADR-V1-STATE.md), [C++-/Swift- und iPhone-XS-ADR](docs/adr/ADR-V1-API.md) sowie [V1-Test- und Freigabeplan](docs/de/V1-TEST-UND-FREIGABEPLAN.md). Das [ADR-Register](docs/adr/README.md) dokumentiert ihre Fälligkeit. **Diese Dokumente sind ausgearbeitet, jedoch noch nicht fachlich freigegeben und nicht implementiert.**
+
 ## Verbindliche Reihenfolge
 
 | Meilenstein | Ziel |

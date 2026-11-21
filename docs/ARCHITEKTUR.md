@@ -675,6 +675,8 @@ Ein Modul ist erst „architektonisch sauber integriert“, wenn Verantwortlichk
 
 ---
 
+**Standnachtrag:** Die [V1-Tasten-/Funktionsmatrix](de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), vier [technischen V1-ADRs](adr/README.md) und der [V1-Test-/Freigabeplan](de/V1-TEST-UND-FREIGABEPLAN.md) sind nun als **prüfbare Entwürfe** vorhanden. Offen sind deren **inhaltliche Freigabe**, die tatsächlich verifizierte Tastatur-/Stacksemantik, NumericPolicy, das echte iPhone-XS-/Xcode-Ergebnis und die Durchführung der Tests. Die nachstehende Tabelle beschreibt **Freigabeschritte**, nicht weiterhin fehlende Dateinamen.
+
 ## 24. Dokumente, die wir **vor** dem nächsten Implementierungsschritt noch benötigen
 
 **Nicht** viele neue Rahmendokumente, sondern **einige kleine genehmigungsfähige technische Verträge**. Vorhandene Dateien wiederverwenden, statt dieselbe Wahrheit mehrfach abzuschreiben.

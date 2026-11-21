@@ -33,6 +33,8 @@ Decisions are ordered by priority. Dates refer to the 2026-11-19 to 2026-11-21 p
 The above records *extend*, not erase, D-001–D-012. Their detailed acceptance/source status is in [requirements](REQUIREMENTS-MATRIX.md) and [deferred decisions](DECISION-QUESTIONS.md).
 
 
+**Documentation-only status (2026-11-21):** Detailed [V1 ADR drafts](../adr/README.md), [function/key matrix](../de/V1-FUNKTIONS-UND-TASTATURMATRIX.md) and [test/release plan](../de/V1-TEST-UND-FREIGABEPLAN.md) exist. This entry does **not** accept the open decisions DQ-01…DQ-04 or LH-OD-001…007; each still requires a dated explicit decision.
+
 ## Explicitly open decisions
 - O-001: exact V1 keyboard/function matrix, mode model, numerical precision, ENTER/input semantics.
 - O-002: formal iOS minimum version and tested Xcode/iPhone XS build environment.

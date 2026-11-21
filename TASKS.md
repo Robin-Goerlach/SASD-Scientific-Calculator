@@ -2,6 +2,8 @@
 
 **Architectural source and dependencies:** [German system architecture](docs/ARCHITEKTUR.md) and the canonical [ROADMAP.md](ROADMAP.md). Use its WP-00…WP-16 and ADR gate mapping when opening work items; do not mark planned historic engines as implemented.
 
+**New documentation baselines (not yet signed off):** [V1 key/function matrix](docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [ADR index](docs/adr/README.md) and [V1 test/release plan](docs/de/V1-TEST-UND-FREIGABEPLAN.md). The named ADRs are **PROPOSED**, and actual iPhone/compatibility tests remain **TODO**.
+
 Maintain this as a lightweight, task-oriented overview. GitHub Issues may track implementation detail. **Order is deliberate**: the calculator's first usable iPhone release wins over compatibility research. Each issue/PR must link its scope, tests, dependencies and completion evidence.
 
 | ID | Priority | Milestone | Work package | Dependencies | Acceptance evidence | State |

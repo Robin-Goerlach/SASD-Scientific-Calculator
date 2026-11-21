@@ -67,6 +67,10 @@ The **iPhone portrait** and **desktop workspace** previews shown above are the r
 - [V1.0 release acceptance](docs/en/RELEASE-V1.md), [detailed test matrix](docs/en/TEST-MATRIX.md) and [deliberately deferred decisions](docs/en/DECISION-QUESTIONS.md).
 
 
+## Concrete V1 design drafts (pending approval)
+
+The [V1 function/key matrix](docs/de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [RPN/stack ADR](docs/adr/ADR-V1-INPUT.md), [numeric ADR](docs/adr/ADR-V1-NUM.md), [snapshot ADR](docs/adr/ADR-V1-STATE.md), [C++/Swift and iPhone XS ADR](docs/adr/ADR-V1-API.md), and [test/release plan](docs/de/V1-TEST-UND-FREIGABEPLAN.md) are now available in Markdown. **They are drafts, not ratified semantics or implemented features.** The [ADR index](docs/adr/README.md) tracks the required decision gates.
+
 ## First release — intentionally narrow
 
 Version 1.0 acceptance is driven by: fundamental and commonly used scientific functions; dependable stack and register operations; explicit error behavior; state restoration after app suspension/restart; reliable and accessible touch interaction; offline use; no advertisements or recurring subscription; tested on supported devices, including the iPhone XS target; and a discreet SASD link. The exact supported iOS versions and App Store entitlements must be verified during implementation. A version number alone is not evidence of release readiness.

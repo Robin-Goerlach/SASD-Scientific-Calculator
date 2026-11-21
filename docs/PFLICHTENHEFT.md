@@ -174,6 +174,8 @@ Vor Implementierung einer öffentlichen Funktion muss der Auftrag mindestens **A
 
 ---
 
+**Konkretisierung 21.11.2026:** Die [V1-Funktionsmatrix](de/V1-FUNKTIONS-UND-TASTATURMATRIX.md), [V1-ADRs](adr/README.md) und der [V1-Test-/Freigabeplan](de/V1-TEST-UND-FREIGABEPLAN.md) ergänzen dieses Pflichtenheft mit prüfbaren Lösungsentwürfen. **Sie sind PROPOSED, nicht bereits ACCEPTED oder implementiert.**
+
 ## 4. M0: verbindlich vorzubereitende Fachverträge
 
 M0 hat als technische Ergebnisse **nicht** bereits die historische Emulation, sondern für M1/M2 erforderliche Entscheidungen und Prüfungen. Ohne diese müssen Entwickler bewusst stoppen, anstatt historisches Verhalten zu erfinden.
