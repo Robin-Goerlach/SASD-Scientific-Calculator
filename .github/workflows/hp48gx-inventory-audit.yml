@@ -3,6 +3,10 @@ name: HP-48GX reference-inventory consistency
 on:
   push:
     paths:
+      - 'docs/reference/hp48gx-aur-command-index.json'
+      - 'docs/reference/hp48gx-historical-index-differences.json'
+      - 'docs/de/HP-48GX-QUELLENABGLEICH-PRUEFBERICHT.md'
+      - 'scripts/audit_hp48gx_three_sources.py'
       - 'docs/reference/hp48gx-operation-index-crosschecked-pages.json'
       - 'docs/de/HP-48GX-OPERATION-INDEX-VOLLKATALOG.md'
       - 'scripts/audit_hp48gx_operation_index.py'
@@ -13,6 +17,10 @@ on:
       - '.github/workflows/hp48gx-inventory-audit.yml'
   pull_request:
     paths:
+      - 'docs/reference/hp48gx-aur-command-index.json'
+      - 'docs/reference/hp48gx-historical-index-differences.json'
+      - 'docs/de/HP-48GX-QUELLENABGLEICH-PRUEFBERICHT.md'
+      - 'scripts/audit_hp48gx_three_sources.py'
       - 'docs/reference/hp48gx-operation-index-crosschecked-pages.json'
       - 'docs/de/HP-48GX-OPERATION-INDEX-VOLLKATALOG.md'
       - 'scripts/audit_hp48gx_operation_index.py'
@@ -36,3 +44,5 @@ jobs:
         run: python3 scripts/check_hp48gx_inventory.py
       - name: Verify all 57 source-index page inventories (not historic conformance)
         run: python3 scripts/audit_hp48gx_operation_index.py
+      - name: Verify three independent source index inventories and explicit exceptions
+        run: python3 scripts/audit_hp48gx_three_sources.py
