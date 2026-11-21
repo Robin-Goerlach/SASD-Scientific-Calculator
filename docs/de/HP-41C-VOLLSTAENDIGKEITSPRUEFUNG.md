@@ -12,6 +12,17 @@
 5. HP, *HP 82210A HP 41CV Emulator Application Card Owner's Manual*, **Anhang C, S. 139–140**: vollständig nummerierte XROM-Funktionen für Extended Functions, CX und Time. [Original-PDF](https://literature.hpcalc.org/community/hp82210a-om-en.pdf).
 6. Vier vom Projekt bereitgestellte deutschsprachige Quellen: Gosmann *Anwenderhandbuch HP-41C/CV* (1983); Dearing *Tricks, Tips und Routinen ...* (1984); Jarett *Erweiterte Funktionen ...* (1986); HP *HP-41C Standard-Programmsammlung* (1979). **Originaltexte, Listings und Barcodes werden wegen der Rechtevorbehalte nicht übernommen.**
 
+## Unabhängiger CAT-3-Quervergleich: **Gosmann übersieht X>Y?**
+
+Die drei Tabellen auf den gedruckten Seiten **9–11** des bereitgestellten Gosmann-Handbuchs (Datei `hp41-anwenderhandbuch.pdf`, **PDF-Seiten 19–21**) wurden einzeln gelesen und die dort genannten Mnemonics **unabhängig** vom bisherigen SASD-Katalog erfasst: **45 + 60 + 11 = 116 verschiedene Bezeichnungen**. Der ursprüngliche HP-41C-Schulungsband nennt **117 CAT-3-Einträge**. Die Differenz ist konkret identifiziert:
+
+- **Gosmann fehlt `X>Y?`** (auf PDF-Seite 21 in der alphabetischen Schlussgruppe). Die Funktion ist in **HP Owner's Handbook S. 171** und **HP Operating Manual S. 67** nachgewiesen.
+- Die vom Original-Funktionsindex abgeleiteten **125** normalisierten Einträge enthalten auch acht zusätzlich erfasste **Eingabe-/Editor-/Betriebstastenhandlungen**: `SHIFT`, `APPEND`, `EEX`, `GTO .`, `GTO ..`, `PRGM`, `USER`, `R/S`. Ohne diese erhalten wir **117** kanonische CAT-3-Befehlsnamen.
+- Die Differenz `117 minus 116 = 1` ist exakt **`X>Y?`**. Keine der 116 von Gosmann gelisteten Bezeichnungen liegt außerhalb unserer rekonstruierten 117er Menge.
+- Die transkribierten **nur sachlichen Befehlsnamen** (ohne Originaltexte/Programmlistings) liegen pro Seite nachvollziehbar in `docs/reference/hp41c-command-inventory.json` (`gosmann_cat3_transcription`). Der automatisch prüfbare 116/117-Abgleich ist in `tools/audit_hp41c_functions.py` integriert.
+
+**Bewertung:** Es liegt jetzt eine **gegen unabhängige Handbücher und die HP-Zählung abgeglichene 117er-Soll-Liste** vor. Das ist ein starker schriftlicher Vollständigkeitsnachweis. Es ist trotzdem kein unabhängiges Protokoll der **realen** CAT-3-Ausgabe eines bestimmten ROM-Standes; die gerätespezifische Abnahme bleibt offen.
+
 ## Gemessene Ergebnisse (gegen vorhandenes Markdown)
 
 | Prüfschritt | Beobachtung | Aussage |
@@ -52,6 +63,16 @@
 4. **Semantik pro Befehl:** Zulässige Argumentformen; physische Tasteneingabe; XEQ/ASN/Programmierung; Stack-Lift, LAST X, Flags, ALPHA, REGISTER; Fehlerfälle; numerische Grenzen und Präzision; Programmbyte-Länge; Quellenstellen.
 5. **Unabhängige Tests:** Charakteristische Referenzfälle auf Gerät oder unabhängig verifiziertem Emulator, reproduzierbare Testfixtures und Testbericht. Auf keinen Fall Gerätetreue aus einem Namen oder einer mathematisch korrekten Host-Berechnung ableiten.
 6. **Vier separate Freigaben:** (A) Grundinventar aus Originalindex, (B) tatsächlicher ROM-CAT-3-Dump, (C) belegte Modul- und Geräteprofile, (D) historische Verhaltenskonformität. **A ist dokumentarisch geprüft; B bis D sind offen.**
+
+## Wiederholbare automatische Prüfung
+
+Der Python-3-Checker `tools/audit_hp41c_functions.py` (nur Standardbibliothek) prüft bei Ausführung **125** Index-/Tastaturhandlungen, die **39** Tastenpositionen, alle **95** XROM-Kennungen über vier Profile sowie die unabhängige **116/117-CAT-3-Rekonstruktion**. Er bricht mit Fehler ab, wenn eine Befehlsbezeichnung fehlt, ein XROM-Eintrag vertauscht oder doppelt vergeben wird, sich eine Tastaturposition verschiebt oder die Gosmann-Differenz nicht mehr exakt erklärbar ist. Aufruf:
+
+```bash
+python3 tools/audit_hp41c_functions.py --json
+```
+
+Der Workflow `.github/workflows/hp41c-inventory-audit.yml` ist auf `main` eingerichtet. **Die grüne Ausführung dieses neuen GitHub-Actions-Workflows konnte bei Erstellung des Berichts nicht separat aus einem Run-Protokoll bestätigt werden; keine CI-Erfolgsmeldung wird vorgetäuscht.**
 
 ## Aktueller Entscheidungsstand
 
