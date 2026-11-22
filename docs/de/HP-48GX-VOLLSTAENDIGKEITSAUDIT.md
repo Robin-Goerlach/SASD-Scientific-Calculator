@@ -184,7 +184,7 @@ Die 57 Tabellenseiten (gedruckt G-2 bis G-58, PDF 482 bis 538) wurden aus dem **
 | `CLUSR` | User's Guide G-7 als programmierbar (C), neben `CLVAR` | Rom-Index führt `CLUSR` nicht gesondert; Alias/Entry-Point prüfen. Insbesondere **nicht** allein aufgrund des fehlenden ROM-Namens weglassen |
 | `CLS` / `CLΣ` | User's Guide G-7 verwendet `CLS`; andere Referenzen `CLΣ` | Darstellung/Typographie/Alias noch klären, nicht zwei zusätzliche Befehle erfinden |
 | `RULES` | User's Guide 20-19/20-20 (EquationWriter-Dialog); unabhängige historische HP-48-FAQ (undokumentierter gleichnamiger ROM-Easter-Egg-Befehl) | Beides existiert in unterschiedlichem Kontext; Menü und ROM-Namenseintrag getrennt halten |
-| `RSD` | User's Guide 14-17: für `AX=B` wird als Rest ausdrücklich `AX-B` beschrieben; saturnus-Referenz beschreibt dagegen `B-AZ` | **Quellenkonflikt!** Vor einer Nachimplementierung Original-AUR-Stackdiagramm sowie Hardware-Test mit asymmetrischen Werten prüfen, statt nur wegen einer Sekundärquelle das Vorzeichen zu ändern |
+| `RSD` | User's Guide G-40 nennt ausdrücklich die Befehlswirkung `z-y·x`, während Kap. 14-17 `A·X−B` als konzeptionelle Restgröße einer Lösung bespricht | **Zwei Vorzeichenkonventionen in unterschiedlichen Kontexten.** Für den Befehl ist G-40 maßgeblich; exakte AUR-Stackreihenfolge und Hardware-Test bleiben offen. [Nachprüfung](HP-48GX-SEMANTIK-NACHPRUEFUNG-01.md) |
 
 **Abgrenzung:** Für den Eintrag `GRAPH` liegt ein Original-AUR-/Operation-Index-Hinweis vor; eine unabhängige technische User-RPL/ROM-Identitätsprüfung bleibt offen. `CLU SR` ist **kein** typographischer Ersatz für `CLUSR`: Kein zusätzlicher Befehl wird ohne Beleg erfunden.
 
