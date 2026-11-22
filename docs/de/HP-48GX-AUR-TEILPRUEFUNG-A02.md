@@ -7,7 +7,7 @@
 ## Quellen
 
 - Hewlett-Packard, *HP 48G Series Advanced User's Reference*, 4. Auflage 1994, **Kapitel 3, S. 3-52–3-85**; gedruckte Referenzseiten aus dem AUR-Inhaltsverzeichnis: https://www.transnull.com/files/hp48/hp48gaur.pdf
-- James Donnelly, *HP 48G/GX Pocket Guide*, **Command Index, gedruckte S. 44, 46 und 48**. Textreproduktion mit teilweise deutlich beschädigten OCR-Glyphen: https://www.manualslib.com/manual/3743173/Hp-48g.html?page=46 ; https://www.manualslib.com/manual/3743173/Hp-48g.html?page=48 ; https://www.manualslib.com/manual/3743173/Hp-48g.html?page=50
+- Chris Coffin und Thomas Dick, *The HP 48G/GX Pocket Guide*, **Command Index, gedruckte S. 44, 46 und 48**. Textreproduktion mit teilweise deutlich beschädigten OCR-Glyphen: https://www.manualslib.com/manual/3743173/Hp-48g.html?page=46 ; https://www.manualslib.com/manual/3743173/Hp-48g.html?page=48 ; https://www.manualslib.com/manual/3743173/Hp-48g.html?page=50
 - Separat versionierte Namensinventare: [AUR](../reference/hp48gx-aur-command-index.json) und [ROM-Index](../reference/hp48gx-rom-index-baseline.json). Die Original-Romanzeichen und XLIB-Kennungen werden nicht aus fehlerhaften OCR-Glyphen neu definiert.
 
 **Quellenkritik:** Im Webseiten-Textbild sind beispielsweise `CLΣ` zu `CLE`, `COL→` zu `COL+` und `→DIAG` zu `+DIAG` verstümmelt. Die Spalte „Pocket-OCR“ ist **wörtlich der maschinelle Rohkandidat**, nicht die behauptete Druckvorlage. Abgleich bedeutet hier: plausible Stelle im unabhängigen Index anhand Nachbarbefehlen und Kurzbeschreibung identifiziert; **keine** visuelle Freigabe der tatsächlichen Glyphen. `DBUG` fehlt erwartungsgemäß im Pocket-Guide-Index programmierbarer Befehle, wird aber von AUR ausdrücklich aufgeführt.
@@ -102,3 +102,5 @@ Die nachfolgenden Beobachtungen stammen aus der **tatsächlich eingesehenen** Po
 - **OCR-Aufschriften** und die einzelnen AUR-Stackdiagramme **dürfen nicht** als visuell abgenommen gekennzeichnet werden. Besonders wichtig sind überladene Array-Funktionen, benutzerdefinierte Tastenbelegung und serielle Druckpufferwirkungen.
 
 **Abnahmestatus A02:** `AUR_TOC_POCKET_TEXT_COMPARISON_DONE` / `POCKET_ORIGINAL_SCAN_NOT_SIGNED_OFF` / `AUR_COMMAND_STACK_NOT_SIGNED_OFF`. Nächster Namensblock: **A03 (101–150)**. In der separaten Tiefenprüfung werden alle 50 Einzelreferenzen mit typabhängigen Stackdiagrammen und Fehlerfällen abgearbeitet.
+
+**Bibliographische Quellenkorrektur (22.11.2026):** Der tatsächlich verlinkte *HP 48G/GX Pocket Guide* wurde von **Chris Coffin und Thomas Dick** verfasst (Grapevine Publications, 1996); der früher irrtümlich genannte Autor James Donnelly ist bei diesem konkreten Buchtitel falsch. Korrigiert wurde ausschließlich der Quellennachweis, nicht der behauptete Status der historisch geprüften Befehle. Quelle: https://literature.hpcalc.org/items/1739 .
