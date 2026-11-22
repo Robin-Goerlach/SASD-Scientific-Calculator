@@ -993,7 +993,12 @@
         "name_first": "PVIEW",
         "name_last": "RR",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A07.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "50/50 direct ROM-XLIB names and 50 independent Pocket-Guide text matches on printed pages 60/62/64. 20 name glyphs differ in damaged web OCR (e.g. PWRFIT/PURFIT, RCLΣ/RCLE, RKFSTEP/REFSTER, ROW→/ROk); original scans and stack/flag/error/hardware semantics pending."
       },
       {
         "id": "A08",
@@ -1042,7 +1047,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 299
+    "pocket_guide_names_crosschecked": 349
   },
   "other_inventories": [
     {
@@ -1070,8 +1075,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A07_AUR_SOURCE_NAMES_301_TO_350",
+  "next_partition": "A08_AUR_SOURCE_NAMES_351_TO_400",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A06 300 AUR index positions compared to ROM/independent Pocket Guide text; 299/300 Pocket Guide position matches per checkpoint (DBUG missing from programmable index). A05 NEXT appears twice; A06 50 unique names, OCR NΣ/NZ and PROMPT/PRMPT not visually approved. Original scans, AUR stack semantics, equations, units and keyboard contexts pending. Next A07 301–350."
+  "notes_next": "A01–A07: 350/517 AUR TOC ordinal positions individually reported, 349 Pocket-Guide text matches (DBUG not in Pocket programmable command index). A05 contains duplicated NEXT. A07 50 distinct commands, 20 damaged OCR glyphs in independent Pocket text (not visually certified). Original scan page inspection, full AUR stacks, equation/units and user-interface contexts remain pending. Next A08 351–400."
 }
