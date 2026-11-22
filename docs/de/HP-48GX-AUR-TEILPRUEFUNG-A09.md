@@ -111,4 +111,4 @@
 - [ ] Stackdiagramme, Systemflags, numerische Genauigkeit, Ausnahmefälle und Gerätelaufzeit im Einzelverfahren vollständig prüfen.
 - [ ] AUR-Hilfsseite `SVD` als ungewöhnlichen Index-Locator mit Originalscan validieren.
 
-**A09-Namenscheckpoint:** `AUR_TOC_POCKET_TEXT_COMPARISON_DONE`; `ORIGINAL_SCAN_NOT_SIGNED_OFF`; `AUR_STACK_NOT_SIGNED_OFF`. **Nächster Block A10 (451–500: `UFACT` bis `→V3`).** Historischer Vollständigkeitsstatus weiterhin `HISTORICAL_COMPLETENESS_NOT_CERTIFIED` (nicht V1.0-blockierend).
+**A09-Namenscheckpoint:** `AUR_TOC_POCKET_TEXT_COMPARISON_DONE`; `ORIGINAL_SCAN_NOT_SIGNED_OFF`; `AUR_STACK_NOT_SIGNED_OFF`. **Nächster Block A10 (451–500: `UFACT` bis `≤`).** Historischer Vollständigkeitsstatus weiterhin `HISTORICAL_COMPLETENESS_NOT_CERTIFIED` (nicht V1.0-blockierend).
