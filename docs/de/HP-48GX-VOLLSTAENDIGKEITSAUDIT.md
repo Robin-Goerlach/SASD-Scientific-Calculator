@@ -203,3 +203,15 @@ Die drei unabhängigen Referenzen (User Guide mit **696** Indexzeilen, AUR-TOC m
 **Quellenkritischer Sonderfall `CLUSR` gegenüber `CLVAR`:** Das User's Guide nennt beide mit demselben vereinfachten Zweck. Die AUR weist aber eigene Referenzseiten zu und die Behandlung nichtleerer Unterverzeichnisse kann abweichen. **Bis die Einzelreferenz tatsächlich anhand des Originalscans kontrolliert ist, keine unumstrittene Alias-Semantik behaupten.**
 
 **Abnahmeentscheidung:** `SOURCE_NAME_INVENTORIES_COMPARABLE`, **`HISTORICAL_COMMAND_BEHAVIOR_NOT_CERTIFIED`**. Nicht abgeschlossen sind insbesondere Einzelreferenztexte und Stackdiagramme der AUR, Original-Scan-Sichtfreigabe aller Tabellenzeilen, komplette unabhängige Pocket-Guide-Prüfung, alle 315 Einzelgleichungen/396 Variablen, Einheitenfaktoren/Offsets, ROM-Revisionsvarianten und Testfälle am echten HP-48GX.
+
+## 14. Timeout-fester Etappenstand vom 22.11.2026
+
+**Quellenindex-Prüfung in kleinen, separat committed Reports:** Die 696 gespeicherten G-Indexzeilen sind über neun lückenlose Bereiche G01–G09 nach ROM- und AUR-TOC-Namen verglichen. Die einzelnen Zeilen sind in [neun Teilprüfungen (GitHub Issue #9)](https://github.com/Robin-Goerlach/SASD-Scientific-Calculator/issues/9) dokumentiert. **Keine der 58 gedruckten Seiten G-1–G-58 ist bisher durch eine originale Scan-Bildsichtprüfung vollständig abgenommen.** Insbesondere die 13 Glyphen von G-57 hatten keine unabhängigen exakten OCR-Funde.
+
+**AUR-Prüfung:** [A01, erste 50 von 517 AUR-TOC-Zeilen](HP-48GX-AUR-TEILPRUEFUNG-A01.md), gegen den unabhängigen HP-48G/GX-Pocket-Guide-Textindex geprüft; vier Typographie-/Glyphenabweichungen benannt. Dies **ersetzt nicht** die einzelnen AUR-Befehlstexte, die Stackschemata, Flags oder Fehlerfälle. Die weiteren Gruppen A02–A11 sind weiterhin offen.
+
+**Semantik-Nachtrag:** [RSD / CLUSR / LAST](HP-48GX-SEMANTIK-NACHPRUEFUNG-01.md) mit eigenständigem Quellen- und Risikostand. Der HP-Guide G-40 bezeichnet RSD als `z−y·x`; der unabhängige Pocket Guide bestätigt dokumentierte Aliasnamen `CLUSR/CLVAR` und `LAST/LASTARG`. Exakte AUR- und Hardware-Konformität bleibt offen.
+
+**Timeout-Recovery und technische Integrität:** Die [Fortschrittsdatei](../reference/hp48gx-audit-partitions.json) umfasst jede Seite und alle AUR-Gruppen mit Status und nächstem Abschnitt. [`scripts/audit_hp48gx_partitions.py`](../../scripts/audit_hp48gx_partitions.py) wird in GitHub Actions ausgeführt und prüft Vollständigkeit der **gespeicherten Tabellen**, Seiten-/Zeilenkontinuität, referenzierte Teilberichte und fehlende Scan-Belege bei behaupteter Freigabe. Es gibt **keine automatische Schlussfolgerung**, dass eine grüne CI-Prüfung die historische Funktionalität vollständig beweise.
+
+**Aktueller Gate-Status: `HISTORICAL_COMPLETENESS_NOT_CERTIFIED`. Nächste verifizierbare Arbeit: A02 (51–100), daneben Originalscan-Zeilen einschließlich G-1 und AUR-Stackdiagramme.** Die V1-iPhone-Entwicklung bleibt davon unabhängig.
