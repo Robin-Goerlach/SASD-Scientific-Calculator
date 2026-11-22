@@ -13,6 +13,9 @@ on:
       - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
       - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
       - 'docs/reference/hp48gx-rom-index-baseline.json'
+      - 'docs/reference/hp48gx-audit-partitions.json'
+      - 'docs/de/HP-48GX-TEILPRUEFUNG-G*.md'
+      - 'scripts/audit_hp48gx_partitions.py'
       - 'scripts/check_hp48gx_inventory.py'
       - '.github/workflows/hp48gx-inventory-audit.yml'
   pull_request:
@@ -27,6 +30,9 @@ on:
       - 'docs/de/HP-48GX-FUNKTIONSKATALOG.md'
       - 'docs/de/HP-48GX-BEFEHLSABGLEICH-MATRIX.md'
       - 'docs/reference/hp48gx-rom-index-baseline.json'
+      - 'docs/reference/hp48gx-audit-partitions.json'
+      - 'docs/de/HP-48GX-TEILPRUEFUNG-G*.md'
+      - 'scripts/audit_hp48gx_partitions.py'
       - 'scripts/check_hp48gx_inventory.py'
       - '.github/workflows/hp48gx-inventory-audit.yml'
   workflow_dispatch:
@@ -46,3 +52,5 @@ jobs:
         run: python3 scripts/audit_hp48gx_operation_index.py
       - name: Verify three independent source index inventories and explicit exceptions
         run: python3 scripts/audit_hp48gx_three_sources.py
+      - name: Verify resumable checkpoints and reject unsupported completion claims
+        run: python3 scripts/audit_hp48gx_partitions.py
