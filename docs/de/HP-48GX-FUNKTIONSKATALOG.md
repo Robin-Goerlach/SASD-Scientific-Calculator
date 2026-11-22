@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A11 (Befehle 501–517):** [AUR-Pocket-Guide-Teilprüfung A11](HP-48GX-AUR-TEILPRUEFUNG-A11.md); alle **517/517** AUR-Inhaltsindexpositionen sind nun als Textinventar in A01–A11 dokumentiert. A11: 17 ROM-Normalisierungstreffer, aber **nur 16** fachlich plausible unabhängige Pocket-Guide-Namenszuordnungen: **#515 `¯` → `NEG`** ist wegen eines widersprechenden Pocket-Guide-Einheitenanhangs **nicht freigegeben**. Weitere Unterschiede: `≡` im AUR-Quelltext vs. `==` im ROM; die Substitution `\|` vs. Einheitenanhang. Originalscans/Stacks bleiben offen.
+
 **A10 (Befehle 451–500):** [AUR-Pocket-Guide-Teilprüfung A10](HP-48GX-AUR-TEILPRUEFUNG-A10.md); 50 AUR-Quellpositionen, 50 direkte ROM-Namen/XLIB-Zuordnungen, 50 unabhängige Pocket-Guide-Textbelege (gedruckte S. 72/74/76). Sonderglyphen `*W`, Summensymbole, Pfeile und Operatoren bleiben bis Originalscan-Prüfung offen. Mehrere XLIB-IDs für `XROOT` und `+` bedeuten keine zusätzlichen Indexnamen.
 
 **A09 (Befehle 401–450):** [AUR-Pocket-Guide-Teilprüfung A09](HP-48GX-AUR-TEILPRUEFUNG-A09.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-Namen/XLIB-Belege, 50 Pocket-Guide-Textzuordnungen (gedruckte S. 68, 70, 72). OCR-Unterschiede u.a. `STOΣ`/`STOZ`, `STO/`/`ST0-`, `→TIME`/`+TIME`; Originalscan-/Stackprüfung weiter offen. 
@@ -391,7 +393,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `%CH` | Grundrechnen, elementare Funktionen und Zahlen | Prozentuale Änderung. | `2:126` | MTH REAL |
 | `%T` | Grundrechnen, elementare Funktionen und Zahlen | Prozentualer Anteil am Ganzen. | `2:125` | MTH REAL |
 | `^` | Grundrechnen, elementare Funktionen und Zahlen | Potenzierung. | `2:73` | ohne Menüeintrag |
-| `→` | Stack und User-RPL-Programmsteuerung | Lokale Variablen binden. | `1792:4, 1792:16` | ohne Menüeintrag |
+| `→` | Stack und User-RPL-Programmsteuerung | Stackobjekte an die nachfolgenden lokalen Variablennamen einer User-RPL-Struktur binden. | `1792:4, 1792:16` | ohne Menüeintrag |
 | `→ARRY` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Array aus Stackelementen bilden. | `2:170` | PRG TYPE |
 | `→COL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zerlegt ein Array in seine Spalten und liefert die Spaltenanzahl. | `171:67` | MTH MATRX COL |
 | `→DATE` | Zeit, Kalender, Wecker | Datum setzen. | `2:22` | MENU 94 |
@@ -412,16 +414,16 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `→V3` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Drei Komponenten zu einem 3D-Vektor im aktuellen Koordinatenmodus verbinden. | `2:182` | MTH VECTR |
 | `↑MATCH` | Symbolische Mathematik, Solver und Differentialgleichungen | Musterabgleich mit Ersetzung vom Teilausdruck aus. | `2:265` | MENU 93 |
 | `↓MATCH` | Symbolische Mathematik, Solver und Differentialgleichungen | Musterabgleich mit Ersetzung vom Gesamtausdruck aus. | `2:266` | MENU 93 |
-| `∂` | Symbolische Mathematik, Solver und Differentialgleichungen | Symbolische Differentiation. | `2:247, 2:248` | ohne Menüeintrag |
+| `∂` | Symbolische Mathematik, Solver und Differentialgleichungen | Symbolischen Ausdruck nach einer benannten Variablen ableiten. | `2:247, 2:248` | ohne Menüeintrag |
 | `+` | Grundrechnen, elementare Funktionen und Zahlen | Addition. | `2:68, 2:69` | ohne Menüeintrag |
 | `<` | Binärzahlen, Logik, Modi, Systemflags | Kleiner-Vergleich. | `2:235` | PRG TEST |
-| `=` | Binärzahlen, Logik, Modi, Systemflags | Algebraischer Gleichheitsoperator. | `2:59` | ohne Menüeintrag |
+| `=` | Binärzahlen, Logik, Modi, Systemflags | Symbolische Gleichung aus zwei Operanden bilden; kein boolescher Gleichheitstest (==). | `2:59` | ohne Menüeintrag |
 | `≠` | Binärzahlen, Logik, Modi, Systemflags | Ungleichheitsvergleich. | `2:234` | PRG TEST |
-| `==` | Binärzahlen, Logik, Modi, Systemflags | Gleichheitsvergleich. | `2:233` | PRG TEST |
+| `==` | Binärzahlen, Logik, Modi, Systemflags | Logische Gleichheit zweier Argumente testen (0 oder 1); AUR-Textglyph `≡` noch ohne Originalscanfreigabe. | `2:233` | PRG TEST |
 | `>` | Binärzahlen, Logik, Modi, Systemflags | Größer-Vergleich. | `2:236` | PRG TEST |
-| `\|` | Symbolische Mathematik, Solver und Differentialgleichungen | Algebraische Substitution unter einer Bedingung. | `2:255, 2:256` | MENU 93 |
+| `\|` | Symbolische Mathematik, Solver und Differentialgleichungen | Symbole bzw. benannte Teilausdrücke in einer algebraischen Formel ersetzen; nicht den gesonderten Einheitenanhang. | `2:255, 2:256` | MENU 93 |
 | `√` | Grundrechnen, elementare Funktionen und Zahlen | Quadratwurzel. | `2:79` | ohne Menüeintrag |
-| `∫` | Symbolische Mathematik, Solver und Differentialgleichungen | Integration. | `2:252, 2:253` | ohne Menüeintrag |
+| `∫` | Symbolische Mathematik, Solver und Differentialgleichungen | Integrand zwischen zwei Grenzen nach einer Variablen integrieren, je nach Flag-/Auswertungslage symbolisch oder numerisch. | `2:252, 2:253` | ohne Menüeintrag |
 | `≤` | Binärzahlen, Logik, Modi, Systemflags | Kleiner-gleich-Vergleich. | `2:237` | PRG TEST |
 | `≥` | Binärzahlen, Logik, Modi, Systemflags | Größer-gleich-Vergleich. | `2:238` | PRG TEST |
 | `ABS` | Grundrechnen, elementare Funktionen und Zahlen | Betrag beziehungsweise Norm. | `2:61` | MTH VECTR; MTH MATRX NORM; MTH REAL; MTH CMPLX |
@@ -885,8 +887,8 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `π` | Grundrechnen, elementare Funktionen und Zahlen | Symbolische Kreiszahl. | `2:63` | MTH CONST |
 | `ΠLIST` | Listen, Strings, Objektkonversion | Liste multiplizieren. | `171:106` | MTH LIST |
 | `Σ` | Symbolische Mathematik, Solver und Differentialgleichungen | Summation einer Folge. | `2:254` | ohne Menüeintrag |
-| `Σ-` | Statistik, Verteilungen und Regression | Punkt aus Statistikdatensatz entfernen. | `2:287` | MENU 87 DATA; MENU 96 DATA |
-| `Σ+` | Statistik, Verteilungen und Regression | Statistischen Datensatz um einen Punkt ergänzen. | `2:286` | MENU 87 DATA; MENU 96 DATA |
+| `Σ-` | Statistik, Verteilungen und Regression | Zuletzt mit Σ+ hinzugefügten Datenpunkt aus ΣDAT entfernen; nicht arithmetische Subtraktion. | `2:287` | MENU 87 DATA; MENU 96 DATA |
+| `Σ+` | Statistik, Verteilungen und Regression | Einen oder mehrere neue Statistikdatenpunkte an ΣDAT anhängen. | `2:286` | MENU 87 DATA; MENU 96 DATA |
 | `ΣLINE` | Statistik, Verteilungen und Regression | Ausgleichsfunktion der Statistikdaten für das aktuell gewählte Fit-Modell ermitteln. | `2:314` | MENU 96 FIT |
 | `ΣLIST` | Listen, Strings, Objektkonversion | Liste aufsummieren. | `171:104` | MTH LIST |
 | `ΣX` | Statistik, Verteilungen und Regression | Werte der unabhängigen Statistikspalte in ΣDAT summieren. | `2:291` | MENU 96 SUMS |
@@ -925,6 +927,8 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `EDIT` | Kontextabhängige Editieraktion | Objekt oder Teilausdruck bearbeiten | G-14 und AUR-Verweise |
 | `←A`, `A→`, `AF`, `←D`, `D→`, `←T`, `T→`, `TRG*`, `→TRG`, `1/()` | Nichtprogrammierbare EquationWriter-Regeln | Algebraische Umformungen mit ausgewähltem Teilausdruck | G-2, G-10, G-47, G-49, G-57 |
 | `BOXZ`, `ZIN`, `ZOUT`, `ZLAST`, `SLOPE`, `ISECT`, `SHADE`, Plot-`TRACE` | Interaktive PICTURE-/Plotaktionen | Zoom, grafische Analyse und Kurvenverfolgung | G-5, G-22, G-41, G-49, G-54 |
+
+**A11-Quellenkonflikt – noch keine Abnahme:** Die im AUR-Textindex auf Position **515** als `¯` erfasste Glyphe wurde in der JSON-Normalisierung auf `NEG` (`2:60`) bezogen. Der unabhängig zugängliche Pocket Guide nennt dort hingegen das **Anhängen eines Einheitenobjekts an einen Realwert**, nicht den Vorzeichenwechsel. Die Originaldruckglyphe ist unklar; daher **weder** `¯` als bestätigtes `NEG`-Alias dokumentieren **noch** einen zusätzlichen Unit-Befehl erfinden. [Einzelfallbericht A11](HP-48GX-AUR-TEILPRUEFUNG-A11.md). Auch die AUR-Textschreibweise `≡` gegenüber ROM `==` sowie `\|`/Einheitenanhang bedürfen der Sichtprüfung.
 
 **Prüfstatus:** `LAST` ist auf Namens- und Kurzfunktionsebene als Alias zu `LASTARG` unabhängig belegt; Detailfehlerfälle bleiben offen. Diese Handbucheinträge **erweitern die Referenz**, ohne die 517 technischen ROM-Namen stillschweigend umzubenennen. Ob `GRAPH`, `LAST`, `SCLS` oder die Variablenzugriffe tatsächlich als unabhängige User-RPL-Programmelemente gelten, ist mit Einzelreferenz, realem Gerät oder unabhängigem Emulator zu verifizieren. Die G-Seiten sind handbuchbezogene Fundstellen, nicht behauptete komplette AUR-Stackdiagramme.
 
