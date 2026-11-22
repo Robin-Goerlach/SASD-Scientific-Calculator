@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A10 (Befehle 451–500):** [AUR-Pocket-Guide-Teilprüfung A10](HP-48GX-AUR-TEILPRUEFUNG-A10.md); 50 AUR-Quellpositionen, 50 direkte ROM-Namen/XLIB-Zuordnungen, 50 unabhängige Pocket-Guide-Textbelege (gedruckte S. 72/74/76). Sonderglyphen `*W`, Summensymbole, Pfeile und Operatoren bleiben bis Originalscan-Prüfung offen. Mehrere XLIB-IDs für `XROOT` und `+` bedeuten keine zusätzlichen Indexnamen.
+
 **A09 (Befehle 401–450):** [AUR-Pocket-Guide-Teilprüfung A09](HP-48GX-AUR-TEILPRUEFUNG-A09.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-Namen/XLIB-Belege, 50 Pocket-Guide-Textzuordnungen (gedruckte S. 68, 70, 72). OCR-Unterschiede u.a. `STOΣ`/`STOZ`, `STO/`/`ST0-`, `→TIME`/`+TIME`; Originalscan-/Stackprüfung weiter offen. 
 
 **A08 (Befehle 351–400):** [AUR-Pocket-Guide-Teilprüfung A08](HP-48GX-AUR-TEILPRUEFUNG-A08.md); 50 AUR-Namen, 47 direkte ROM-Namen, `SIMU`, `SST`, `SST↓` als Sonderfälle. `SCLΣ`/`SCLS`/`SCLZ`, `RSWP`/`RSVP` und `SCATR PLOT`/`SCATRPLOT` als offene Text-/Scanfragen dokumentiert; Stack-/Originalbildprüfung weiterhin offen.
@@ -383,7 +385,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `»` | Stack und User-RPL-Programmsteuerung | RPL-Programmobjekt beenden. | `1792:17, 1792:19` | ohne Menüeintrag |
 | `*` | Grundrechnen, elementare Funktionen und Zahlen | Multiplikation. | `2:71` | ohne Menüeintrag |
 | `*H` | Grafik, Diagramme und Plotparameter | Vertikale Plot-Skalierung ändern. | `2:189` | ohne Menüeintrag |
-| `*W` | Grafik, Diagramme und Plotparameter | Horizontale Plot-Skalierung ändern. | `2:190` | ohne Menüeintrag |
+| `*W` | Grafik, Diagramme und Plotparameter | Horizontale Plot-Skalierung vergrößern; historische Schreibglyphe noch am AUR-Originalscan prüfen. | `2:190` | ohne Menüeintrag |
 | `/` | Grundrechnen, elementare Funktionen und Zahlen | Division. | `2:72` | MENU 74 SYS |
 | `%` | Grundrechnen, elementare Funktionen und Zahlen | Prozentwert. | `2:124` | MTH REAL |
 | `%CH` | Grundrechnen, elementare Funktionen und Zahlen | Prozentuale Änderung. | `2:126` | MTH REAL |
@@ -405,9 +407,9 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `→STR` | Listen, Strings, Objektkonversion | Objekt in Text umwandeln. | `2:162` | PRG TYPE; MENU 62 |
 | `→TAG` | Listen, Strings, Objektkonversion | Objekt mit Text-Tag versehen. | `2:383` | PRG TYPE |
 | `→TIME` | Zeit, Kalender, Wecker | Uhrzeit setzen. | `2:23` | MENU 94 |
-| `→UNIT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zahlenwert mit Einheit verbinden. | `2:13` | PRG TYPE; MENU 59 |
-| `→V2` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zweidimensionalen Vektor aufbauen. | `2:181` | MTH VECTR |
-| `→V3` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Dreidimensionalen Vektor aufbauen. | `2:182` | MTH VECTR |
+| `→UNIT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zahlenwert mit dem Einheitenteil eines anderen Einheitenobjekts verbinden. | `2:13` | PRG TYPE; MENU 59 |
+| `→V2` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zwei Komponenten zu komplexem Objekt oder 2D-Vektor im aktuellen Koordinatenmodus verbinden. | `2:181` | MTH VECTR |
+| `→V3` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Drei Komponenten zu einem 3D-Vektor im aktuellen Koordinatenmodus verbinden. | `2:182` | MTH VECTR |
 | `↑MATCH` | Symbolische Mathematik, Solver und Differentialgleichungen | Musterabgleich mit Ersetzung vom Teilausdruck aus. | `2:265` | MENU 93 |
 | `↓MATCH` | Symbolische Mathematik, Solver und Differentialgleichungen | Musterabgleich mit Ersetzung vom Gesamtausdruck aus. | `2:266` | MENU 93 |
 | `∂` | Symbolische Mathematik, Solver und Differentialgleichungen | Symbolische Differentiation. | `2:247, 2:248` | ohne Menüeintrag |
@@ -845,40 +847,40 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `TVMROOT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | TVM-Unbekannte bestimmen. | `171:88` | MENU 74 TVM |
 | `TYPE` | Listen, Strings, Objektkonversion | Objekttyp abfragen. | `2:166` | PRG TEST; PRG TYPE |
 | `UBASE` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheitenobjekt in äquivalente SI-Basiseinheiten umwandeln. | `2:14` | MENU 59 |
-| `UFACT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheitenausdruck faktorisieren. | `2:15` | MENU 59 |
+| `UFACT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheitenobjekt so umformen, dass eine vorgegebene zweite Einheit als Faktor auftritt; nicht mit UBASE verwechseln. | `2:15` | MENU 59 |
 | `UNTIL` | Stack und User-RPL-Programmsteuerung | DO-Schleifenbedingung. | `1792:8` | PRG BRCH DO |
 | `UPDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | In übergeordnetes Verzeichnis wechseln. | `2:35` | ohne Menüeintrag |
-| `UTPC` | Statistik, Verteilungen und Regression | Chi-Quadrat-Verteilung: obere Verteilungswahrscheinlichkeit. | `2:308` | MTH PROB |
-| `UTPF` | Statistik, Verteilungen und Regression | F-Verteilung: obere Verteilungswahrscheinlichkeit. | `2:310` | MTH PROB |
-| `UTPN` | Statistik, Verteilungen und Regression | Normalverteilung: obere Verteilungswahrscheinlichkeit. | `2:309` | MTH PROB |
-| `UTPT` | Statistik, Verteilungen und Regression | Student-t-Verteilung: obere Verteilungswahrscheinlichkeit. | `2:311` | MTH PROB |
+| `UTPC` | Statistik, Verteilungen und Regression | Obere χ²-Verteilungswahrscheinlichkeit aus Freiheitsgradzahl und Wert x. | `2:308` | MTH PROB |
+| `UTPF` | Statistik, Verteilungen und Regression | Obere F-Verteilungswahrscheinlichkeit aus Zähler-/Nennerfreiheitsgraden und x. | `2:310` | MTH PROB |
+| `UTPN` | Statistik, Verteilungen und Regression | Obere Normalverteilungswahrscheinlichkeit aus Mittelwert, Varianz und x (nicht Standardabweichung). | `2:309` | MTH PROB |
+| `UTPT` | Statistik, Verteilungen und Regression | Obere Student-t-Verteilungswahrscheinlichkeit aus Freiheitsgraden und x. | `2:311` | MTH PROB |
 | `UVAL` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zahlenwert aus Einheitenobjekt ermitteln. | `2:12` | MENU 59 |
-| `V→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Vektor in Komponenten zerlegen. | `2:180` | MTH VECTR |
-| `VAR` | Statistik, Verteilungen und Regression | Stichprobenvarianz. | `2:301` | MENU 96 1VAR |
-| `VARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen auflisten. | `2:36` | MENU 70 DIR |
-| `VERSION` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | ROM-Version anzeigen. | `171:15` | ohne Menüeintrag |
+| `V→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Vektor oder komplexes Objekt in Komponenten im aktiven Koordinatenmodus zerlegen. | `2:180` | MTH VECTR |
+| `VAR` | Statistik, Verteilungen und Regression | Stichprobenvarianzen der Statistikdaten-Spalten in ΣDAT berechnen; nicht VARS. | `2:301` | MENU 96 1VAR |
+| `VARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Liste der Variablennamen im aktuellen Verzeichnis zurückgeben; nicht VAR. | `2:36` | MENU 70 DIR |
+| `VERSION` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Historische ROM-Version und Copyrightmeldung des HP 48G/GX ausgeben. | `171:15` | ohne Menüeintrag |
 | `VTYPE` | Listen, Strings, Objektkonversion | Typ eines Variablenwertes abfragen. | `2:167` | PRG TYPE |
-| `WAIT` | Stack und User-RPL-Programmsteuerung | Auf Zeitablauf oder Taste warten. | `2:55` | PRG IN |
+| `WAIT` | Stack und User-RPL-Programmsteuerung | Für eine Zeitspanne oder bis Tastendruck auf Programmebene warten; UI-Blockierung vermeiden. | `2:55` | PRG IN |
 | `WHILE` | Stack und User-RPL-Programmsteuerung | WHILE-Schleife beginnen. | `1792:5` | PRG BRCH WHILE |
 | `WIREFRAME` | Grafik, Diagramme und Plotparameter | 3D-Drahtgitter aktivieren. | `171:8` | ohne Menüeintrag |
 | `WSLOG` | Zeit, Kalender, Wecker | Liefert Protokoll der letzten vier Warmstarts mit Zeitpunkt und Ursachenkennung. | `2:19` | ohne Menüeintrag |
 | `XCOL` | Statistik, Verteilungen und Regression | x-Datenspalte auswählen. | `2:306` | ohne Menüeintrag |
-| `XMIT` | Schnittstellen, Drucker, Display und Tastenbelegung | Daten seriell ohne Kermit senden. | `2:359` | MENU 104 SERIAL |
+| `XMIT` | Schnittstellen, Drucker, Display und Tastenbelegung | Text seriell ohne Kermit senden und ungesendeten Rest samt Erfolgsstatus zurückgeben. | `2:359` | MENU 104 SERIAL |
 | `XOR` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises exklusives ODER. | `2:232` | MTH BASE LOGIC; PRG TEST |
 | `XPON` | Grundrechnen, elementare Funktionen und Zahlen | Zehnerexponent einer Zahl. | `2:105` | MTH REAL |
 | `XRECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Datei via XModem empfangen. | `171:95` | MENU 104 |
-| `XRNG` | Grafik, Diagramme und Plotparameter | Horizontaler Wertebereich. | `2:218` | ohne Menüeintrag |
-| `XROOT` | Grundrechnen, elementare Funktionen und Zahlen | n-te Wurzel. | `2:74, 2:75` | ohne Menüeintrag |
+| `XRNG` | Grafik, Diagramme und Plotparameter | Grenzen der darzustellenden x-Achse in PPAR festlegen. | `2:218` | ohne Menüeintrag |
+| `XROOT` | Grundrechnen, elementare Funktionen und Zahlen | x-te Wurzel berechnen; zwei XLIB-Einstiegspunkte in der ROM-Baseline. | `2:74, 2:75` | ohne Menüeintrag |
 | `XSEND` | Schnittstellen, Drucker, Display und Tastenbelegung | Datei via XModem senden. | `171:94` | MENU 104 |
-| `XVOL` | Grafik, Diagramme und Plotparameter | 3D-Volumen: x-Bereich. | `171:0` | ohne Menüeintrag |
-| `XXRNG` | Grafik, Diagramme und Plotparameter | 3D-x-Bereich einstellen. | `171:3` | ohne Menüeintrag |
+| `XVOL` | Grafik, Diagramme und Plotparameter | Breite des 3D-Betrachtungsvolumens in VPAR festlegen. | `171:0` | ohne Menüeintrag |
+| `XXRNG` | Grafik, Diagramme und Plotparameter | x-Bereich der 3D-Eingabeebene in VPAR festlegen, nicht XRNG in PPAR. | `171:3` | ohne Menüeintrag |
 | `YCOL` | Statistik, Verteilungen und Regression | y-Datenspalte auswählen. | `2:307` | ohne Menüeintrag |
-| `YRNG` | Grafik, Diagramme und Plotparameter | Vertikaler Wertebereich. | `2:219` | ohne Menüeintrag |
+| `YRNG` | Grafik, Diagramme und Plotparameter | Grenzen der darzustellenden y-Achse in PPAR festlegen. | `2:219` | ohne Menüeintrag |
 | `YSLICE` | Grafik, Diagramme und Plotparameter | Y-Schnitt-Plot aktivieren. | `171:11` | ohne Menüeintrag |
-| `YVOL` | Grafik, Diagramme und Plotparameter | 3D-Volumen: y-Bereich. | `171:1` | ohne Menüeintrag |
-| `YYRNG` | Grafik, Diagramme und Plotparameter | 3D-y-Bereich einstellen. | `171:4` | ohne Menüeintrag |
+| `YVOL` | Grafik, Diagramme und Plotparameter | Tiefe des 3D-Betrachtungsvolumens in VPAR festlegen. | `171:1` | ohne Menüeintrag |
+| `YYRNG` | Grafik, Diagramme und Plotparameter | y-Bereich der 3D-Eingabeebene in VPAR festlegen, nicht YRNG in PPAR. | `171:4` | ohne Menüeintrag |
 | `ZFACTOR` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Berechnet den Realgas-Kompressibilitätsfaktor Z aus reduzierter Temperatur und reduziertem Druck. | `171:118` | MENU 113 UTILS |
-| `ZVOL` | Grafik, Diagramme und Plotparameter | 3D-Volumen: z-Bereich. | `171:2` | ohne Menüeintrag |
+| `ZVOL` | Grafik, Diagramme und Plotparameter | Höhe des 3D-Betrachtungsvolumens in VPAR festlegen. | `171:2` | ohne Menüeintrag |
 | `ΔLIST` | Listen, Strings, Objektkonversion | Differenzen benachbarter Listenelemente. | `171:100` | MTH LIST |
 | `π` | Grundrechnen, elementare Funktionen und Zahlen | Symbolische Kreiszahl. | `2:63` | MTH CONST |
 | `ΠLIST` | Listen, Strings, Objektkonversion | Liste multiplizieren. | `171:106` | MTH LIST |
@@ -887,11 +889,11 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `Σ+` | Statistik, Verteilungen und Regression | Statistischen Datensatz um einen Punkt ergänzen. | `2:286` | MENU 87 DATA; MENU 96 DATA |
 | `ΣLINE` | Statistik, Verteilungen und Regression | Ausgleichsfunktion der Statistikdaten für das aktuell gewählte Fit-Modell ermitteln. | `2:314` | MENU 96 FIT |
 | `ΣLIST` | Listen, Strings, Objektkonversion | Liste aufsummieren. | `171:104` | MTH LIST |
-| `ΣX` | Statistik, Verteilungen und Regression | Summe der x-Werte. | `2:291` | MENU 96 SUMS |
-| `ΣX*Y` | Statistik, Verteilungen und Regression | Summe der Produkte x mal y. | `2:295` | MENU 96 SUMS |
-| `ΣX^2` | Statistik, Verteilungen und Regression | Summe der x-Quadrate. | `2:293` | MENU 96 SUMS |
-| `ΣY` | Statistik, Verteilungen und Regression | Summe der y-Werte. | `2:292` | MENU 96 SUMS |
-| `ΣY^2` | Statistik, Verteilungen und Regression | Summe der y-Quadrate. | `2:294` | MENU 96 SUMS |
+| `ΣX` | Statistik, Verteilungen und Regression | Werte der unabhängigen Statistikspalte in ΣDAT summieren. | `2:291` | MENU 96 SUMS |
+| `ΣX*Y` | Statistik, Verteilungen und Regression | Produkte der unabhängigen und abhängigen ΣDAT-Spalten summieren. | `2:295` | MENU 96 SUMS |
+| `ΣX^2` | Statistik, Verteilungen und Regression | Quadrate der Werte der unabhängigen ΣDAT-Spalte summieren. | `2:293` | MENU 96 SUMS |
+| `ΣY` | Statistik, Verteilungen und Regression | Werte der abhängigen Statistikspalte in ΣDAT summieren. | `2:292` | MENU 96 SUMS |
+| `ΣY^2` | Statistik, Verteilungen und Regression | Quadrate der Werte der abhängigen ΣDAT-Spalte summieren. | `2:294` | MENU 96 SUMS |
 
 
 **Korrektur anhand der Originalquelle (21.11.2026):** `PVARS` ist **keine** Auflistung der Variablen des Elternverzeichnisses. Nach dem *User's Guide*, 28-4, liest `PVARS` die Backup-/Bibliotheksobjekte **eines Speicherports** und meldet dessen Speicherstatus. `SCLΣ` verändert dagegen die **Plotparameter** für statistische Daten, nicht die Datensätze. In beiden Fällen ist das vereinfachte frühere Beschreibungsmuster potenziell irreführend. Exakte Stack-Typen und Fehlervarianten sind noch gesondert zu prüfen.
