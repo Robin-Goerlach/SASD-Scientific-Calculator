@@ -911,7 +911,14 @@
         "name_first": "CLΣ",
         "name_last": "→DIAG",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A02.md",
+        "pocket_guide_names_crosschecked": 49,
+        "pocket_guide_missing_names": [
+          "DBUG"
+        ],
+        "notes": "50 AUR names checked; 48 names directly in 517-ROM index, CLUSR & DBUG special; 49 matched Pocket Guide OCR, nonprogrammable DBUG absent"
       },
       {
         "id": "A03",
@@ -1015,7 +1022,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 50
+    "pocket_guide_names_crosschecked": 99
   },
   "other_inventories": [
     {
@@ -1043,8 +1050,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A02_INDIVIDUAL_COMMAND_REFERENCE",
+  "next_partition": "A03_AUR_SOURCE_NAMES_101_TO_150",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "All 57 G pages cross-indexed (not scanned/visual signed off), AUR A01 first 50 source names also compared to independent Pocket Guide text. Next A02 (51–100) then A03; original AUR per-command stack diagrams remain outstanding. G-57 glyph page remains high-priority scan risk."
+  "notes_next": "A01+A02 names individually compared with independent Pocket Guide text (99 matches for 100 AUR printed names, DBUG not listed as programmable); individual AUR stack diagrams and original scan visual review are still open. Next A03 101–150."
 }
