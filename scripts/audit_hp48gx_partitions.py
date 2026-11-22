@@ -126,7 +126,8 @@ def check() -> int:
         if [n for n, _ in numbered] != list(range(first, last + 1)):
             errors.append(f'{part["id"]}: AUR command names have missing/duplicate ordinals')
         expected_names = [r["printed_name"] for r in aur["rows"][first-1:last]]
-        actual_names = [cells[1].strip("`").replace(r"\\|","|") for _, cells in numbered]
+        # A Markdown table must escape a literal pipe as \|; reverse exactly that escape.
+        actual_names = [cells[1].strip("`").replace(r"\|","|") for _, cells in numbered]
         if actual_names != expected_names:
             errors.append(f'{part["id"]}: Pocket Guide report not aligned with AUR source names')
         matched = [(n, cells) for n, cells in numbered if len(cells) > 4 and cells[4].strip().isdigit()]
