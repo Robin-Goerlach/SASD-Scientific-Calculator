@@ -853,7 +853,11 @@
       56,
       57,
       58
-    ]
+    ],
+    "preface_page_g1": {
+      "status": "PENDING_VISUAL_CHECK",
+      "purpose": "Index legend and C/F/A/O classification (not counted among 57 tabular pages)"
+    }
   },
   "advanced_reference": {
     "toc_index_rows": 517,
@@ -893,7 +897,10 @@
         "name_first": "ABS",
         "name_last": "CLOSEIO",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A01.md",
+        "pocket_guide_names_crosschecked": 50
       },
       {
         "id": "A02",
@@ -1007,7 +1014,8 @@
       }
     ],
     "scan_visually_certified_contents_pages": 0,
-    "individual_command_semantics_certified": 0
+    "individual_command_semantics_certified": 0,
+    "pocket_guide_names_crosschecked": 50
   },
   "other_inventories": [
     {
@@ -1035,8 +1043,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A01_INDVIDUAL_COMMAND_REFERENCE",
+  "next_partition": "A02_INDIVIDUAL_COMMAND_REFERENCE",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "All G2–G58 source-text labels compared to ROM/AUR and preserved in nine reports. Next: 50-command AUR individual-reference review A01; original scanned visual sign-off for all G pages remains separately pending, especially G-57."
+  "notes_next": "All 57 G pages cross-indexed (not scanned/visual signed off), AUR A01 first 50 source names also compared to independent Pocket Guide text. Next A02 (51–100) then A03; original AUR per-command stack diagrams remain outstanding. G-57 glyph page remains high-priority scan risk."
 }
