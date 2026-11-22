@@ -21,7 +21,7 @@
     ],
     "source_rows": 696,
     "scan_visually_certified_pages": 0,
-    "source_text_cross_index_checked_pages": 7,
+    "source_text_cross_index_checked_pages": 14,
     "groups": [
       {
         "id": "G01",
@@ -46,10 +46,10 @@
         ],
         "rows": 92,
         "exact_ocr_token_hits": 68,
-        "cross_index_status": "PENDING",
+        "cross_index_status": "CHECKED_AGAINST_AUR_ROM_NO_SCAN",
         "scan_visual_status": "PENDING",
         "semantic_review_status": "PENDING",
-        "report": null
+        "report": "docs/de/HP-48GX-TEILPRUEFUNG-G09-G15.md"
       },
       {
         "id": "G03",
@@ -243,7 +243,7 @@
         "ocr_token_hits": 13,
         "ocr_without_exact_token": 1,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "NORMAL",
@@ -255,7 +255,7 @@
         "ocr_token_hits": 6,
         "ocr_without_exact_token": 7,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "HIGH_OCR_GAP",
@@ -267,7 +267,7 @@
         "ocr_token_hits": 9,
         "ocr_without_exact_token": 4,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "NORMAL",
@@ -279,7 +279,7 @@
         "ocr_token_hits": 8,
         "ocr_without_exact_token": 6,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "HIGH_OCR_GAP",
@@ -291,7 +291,7 @@
         "ocr_token_hits": 12,
         "ocr_without_exact_token": 2,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "NORMAL",
@@ -303,7 +303,7 @@
         "ocr_token_hits": 11,
         "ocr_without_exact_token": 2,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "NORMAL",
@@ -315,7 +315,7 @@
         "ocr_token_hits": 9,
         "ocr_without_exact_token": 2,
         "index_recorded": true,
-        "cross_index_checked": false,
+        "cross_index_checked": true,
         "original_scan_visually_checked": false,
         "stack_semantics_checked": false,
         "priority": "NORMAL",
@@ -1021,7 +1021,7 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "G09",
+  "next_partition": "G03",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release"
 }
