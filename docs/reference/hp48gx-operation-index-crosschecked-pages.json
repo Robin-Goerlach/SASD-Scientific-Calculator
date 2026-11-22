@@ -63,7 +63,7 @@
     58
   ],
   "method": "Original digitally indexed source text; names and operation classes checked against individual index table rows, but original scanned pages not visually certified; manually supplemented G-57 entries are NOT counted as independent OCR confirmations",
-  "limitations": "Only nine selected G pages, not the complete 57-page command index. Multiple contexts with the same printed name appear as separate rows. Row for CASE covers three suboperations in one printed cell.",
+  "limitations": "All 57 printed Appendix G table pages G-2..G-58 are represented as 696 source-index text rows. Original scanned pages have NOT been individually visually signed off; OCR-token matches are only supporting hints, not full-row validation. One printed CASE cell covers a C/O/O combination and G-57 symbol rows require special visual review.",
   "source_rows": 696,
   "items": [
     {
