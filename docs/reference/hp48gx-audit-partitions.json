@@ -1060,12 +1060,42 @@
         "name_first": ">",
         "name_last": "→",
         "count": 17,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A11.md",
+        "pocket_guide_names_crosschecked": 16,
+        "pocket_guide_missing_names": [
+          "¯"
+        ],
+        "open_source_discrepancies": [
+          {
+            "ordinal": 515,
+            "aur_text_name": "¯",
+            "rom_normalized_candidate": "NEG",
+            "source_conflict": "Pocket Guide Command Index printed p.76 at the corresponding position describes UNIT ATTACHMENT, not NEG (unary negation). The AUR index OCR glyph and identity require a visual check; do not accept current normalization as semantically correct.",
+            "resolution_status": "OPEN_ORIGINAL_SCAN_REQUIRED"
+          },
+          {
+            "ordinal": 504,
+            "aur_text_name": "≡",
+            "rom_normalized_candidate": "==",
+            "source_conflict": "AUR text glyph ≡ differs from ROM and Pocket ==. Semantic match is logical equality; original glyph not visually verified.",
+            "resolution_status": "PENDING_GLYPH_SCAN"
+          },
+          {
+            "ordinal": 516,
+            "aur_text_name": "|",
+            "rom_normalized_candidate": "|",
+            "source_conflict": "Pocket text has both a unit-attachment glyph and a substitution glyph; ROM | maps to substitution. Distinguish from #515 with original scans.",
+            "resolution_status": "PENDING_GLYPH_SCAN"
+          }
+        ],
+        "notes": "A11 final AUR #501–517: 17/17 mechanically matching ROM-normalized names; 16/17 independent Pocket Guide Command Index text correspondences, #515 ¯ falsely or ambiguously normalized NEG (HP 48GX Pocket Guide p.76 describes unit attachment). ≡ maps to ROM == (logical equality), distinct from = (equation formation); | substitution distinct from unit attachment; Σ- removes last statistical point. Original glyph scans and all detailed stack behavior not approved. ALL AUR 517 ordinal rows documented, not certified."
       }
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 497
+    "pocket_guide_names_crosschecked": 513
   },
   "other_inventories": [
     {
@@ -1093,8 +1123,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A11_AUR_SOURCE_NAMES_501_TO_517",
+  "next_partition": "S01_OPERATION_INDEX_G1_TO_G7_ORIGINAL_SCAN",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A10 500/517 AUR printed-source ordinal rows individually reported; 497 independent Pocket Guide Command Index text matches (DBUG, SST, SST↓ not there; debugger/UI documented elsewhere). A10 50/50 direct ROM XLIB and 50 text matches; heavily damaged OCR special glyphs remain scan-pending. Next A11 501–517: > through → (17 operator/control-symbol positions). Historical original scans, detailed AUR stack/flags/error types, equations, units, UI menus remain pending."
+  "notes_next": "All 517/517 AUR chapter-3 contents text index positions documented in A01–A11, 513 Pocket Guide Command Index text correspondences. Four missing/unresolved independent index comparisons: DBUG (#A02), SST and SST↓ (#A08), and ¯ (#A11-515, current ROM normalization NEG conflicts with unit attachment in Pocket p.76). Historical completeness not certified: visual G-page scans 0/58, AUR A01–A11 scans pending, individual stack/behavior approved 0, equations/units/keyboard/menu and F reconciliation remain pending. Next S01: HP 48GX Operation Index original scan G-1 through approximately G-7; if source image inaccessible, record BLOCKED_SOURCE_IMAGE_ACCESS instead of PASS."
 }
