@@ -25,14 +25,14 @@
     {
       "name": "CLUSR",
       "aur_printed_page": "3-52",
-      "description": "Eigenständiger dokumentierter historischer Name; mögliche Unterschiede zu CLVAR bei Verzeichnissen prüfen",
-      "classification": "ALIAS_ODER_EIGENER_BEFEHL_NOCH_PRUEFEN",
-      "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
+      "description": "HP 48G/GX Pocket Guide, Command Index S. 44: als gleiche Kurzfunktion wie CLVAR dokumentiert; exakte AUR-Lösch-/Fehlerfälle offen.",
+      "classification": "COMPATIBILITY_ALIAS_DOCUMENTED_POCKET_GUIDE",
+      "verification": "AUR_TOC_AND_POCKET_GUIDE_TEXT_SUPPORT_NAME_ALIAS; STACK_AND_SCAN_REVIEW_OPEN"
     },
     {
       "name": "DBUG",
       "aur_printed_page": "3-74",
-      "description": "Debugger-Aktivierung, interaktiver Zustand statt gewöhnlicher Rechenfunktion",
+      "description": "In AUR 3-74 vorhanden, jedoch nicht im programmierbaren Pocket-Guide-Kommandonamenindex; interaktive Debuggeroperation.",
       "classification": "INTERAKTIVE_DEBUGGER_OPERATION",
       "verification": "ORIGINAL_TOC_INDEX_SUPPORTED; SEMANTICS_REVIEW_OPEN"
     },
