@@ -1028,7 +1028,12 @@
         "name_first": "STEQ",
         "name_last": "UBASE",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A09.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "AUR #401–450 50/50 unique names and 50/50 direct ROM XLIB names; 50 Pocket Guide Command Index contextual text matches (printed pp.68,70,72). 26 OCR name forms differ, including STOΣ/STOZ, STO−/STO/ duplicate 'ST0-', TSTR, TVMROOT, UBASE. AUR SVD PDF hint 18 suspicious; original scans, full stacks and host-hardware correctness pending."
       },
       {
         "id": "A10",
@@ -1055,7 +1060,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 397
+    "pocket_guide_names_crosschecked": 447
   },
   "other_inventories": [
     {
@@ -1083,8 +1088,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A09_AUR_SOURCE_NAMES_401_TO_450",
+  "next_partition": "A10_AUR_SOURCE_NAMES_451_TO_500",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A08 AUR 400/517 ordinal positions documented. 397 have independent Pocket Guide Command Index text cross-references (DBUG, SST, SST↓ absent there; latter 2 in debugger UI/prose). A08 47 direct ROM names, three special SIMU/SST/SST↓, SCLΣ/SCLS/SCLZ glyph conflict unresolved. Original scans, AUR stack/flags/error, equation and units data remain pending. Next A09 401–450."
+  "notes_next": "A01–A09 450 AUR command-index ordinal rows documented; 447 independent Pocket Guide Command Index text position matches (DBUG, SST, SST↓ not there; UI/debug context documented). A09 all 50 unique ROM names matched; 26 damaged independent OCR glyphs; SVD AUR PDF locator 18 suspect and pending visual verification. Original scans, AUR stacks/flags/exceptions and equations/units still pending. Next A10 451–500."
 }
