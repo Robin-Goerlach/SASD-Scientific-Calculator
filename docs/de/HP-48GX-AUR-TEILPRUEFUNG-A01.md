@@ -2,7 +2,7 @@
 
 **Prüfstand:** 22.11.2026 · **Abgrenzung:** Namens-/Kurzsemantik-Prüfung gegen *HP 48G/GX Pocket Guide*, **kein** Ersatz für die einzelnen AUR-Stackdiagramme.  
 **Original-AUR-Bezug:** *HP 48G Series Advanced User's Reference*, Edition 4, 1994, Befehlsverzeichnis `Contents-3` bis `Contents-5`; [gespeichertes AUR-Inventar](../reference/hp48gx-aur-command-index.json).  
-**Unabhängige Zusatzquelle:** James Donnelly, *The HP 48G/GX Pocket Guide*, Command Index, gedruckte S. **41 und 43** (S. 42/44 Stackdiagrammseiten): https://literature.hpcalc.org/community/hp48g-pg-en.pdf  
+**Unabhängige Zusatzquelle:** Chris Coffin und Thomas Dick, *The HP 48G/GX Pocket Guide*, Command Index, gedruckte S. **41 und 43** (S. 42/44 Stackdiagrammseiten): https://literature.hpcalc.org/community/hp48g-pg-en.pdf  
 **Status:** 50 AUR-Befehlsnamen gegen ROM und die lesbare *Pocket-Guide-Texttranskription* überprüft. Pocket-Guide-Originalscan **nicht** visuell abgenommen, individuelle AUR-Seiten/Stackdiagramme **nicht** abgeschlossen. **Keine** historische Vollständigkeitsfreigabe.
 
 ## 1. Vollständiger Name-zu-Name-Abgleich dieses Abschnitts
@@ -87,3 +87,5 @@
 **`A01` = 50/50 AUR-TOC-Namen mit ROM/Pocket-Index verglichen, Kurzsemantik-Mehrwert für sieben Befehle dokumentiert.** Einzelne AUR-Referenzseiten (Stack-Ein/Ausgaben, Objekttypen, Flags, Fehlerverhalten) sind **nicht** abgenommen. Nächster AUR-Block: **A02, Einträge 51–100**. Separat bleibt die vollständige visuelle Original-G-Index-Prüfung offen.
 
 **Rechte/Methodik:** Keine übernommenen Handbuchseiten oder vollständigen längeren Originalbeschreibungen im SASD-Repository; die Bedeutungen sind eigene deutsche Kurzfassungen. Der Pocket-Guide-Text ist eine zusätzliche Quelle, keine autoritative Simulation des Originalgeräts.
+
+**Bibliographische Quellenkorrektur (22.11.2026):** Der tatsächlich verlinkte *HP 48G/GX Pocket Guide* wurde von **Chris Coffin und Thomas Dick** verfasst (Grapevine Publications, 1996); der früher irrtümlich genannte Autor James Donnelly ist bei diesem konkreten Buchtitel falsch. Korrigiert wurde ausschließlich der Quellennachweis, nicht der behauptete Status der historisch geprüften Befehle. Quelle: https://literature.hpcalc.org/items/1739 .
