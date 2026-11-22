@@ -74,56 +74,56 @@
 
 | AUR # | Normierter Name | Funktionskurzbeschreibung |
 | ---: | --- | --- |
-| 101 | `DIFFEQ` | Aktiviert den Plottyp für Differentialgleichungen. |
-| 102 | `DISP` | Zeigt ein Objekt in einer angegebenen Displayzeile. |
-| 103 | `DO` | Beginn einer DO-Schleife in User-RPL. |
-| 104 | `DOERR` | Erzeugt einen Fehler mit Nummer oder benutzerdefiniertem Text. |
-| 105 | `DOLIST` | Wendet ein Programm elementweise auf eine oder mehrere Listen an. |
-| 106 | `DOSUBS` | Wendet ein Programm auf aufeinanderfolgende Teilfolgen einer Liste an. |
-| 107 | `DOT` | Berechnet das Skalarprodukt zweier Vektoren/Arrays. |
-| 108 | `DRAW` | Zeichnet den eingerichteten Plot in PICT. |
-| 109 | `DRAX` | Zeichnet die Achsen im Grafikbild. |
-| 110 | `DROP` | Entfernt oberstes Stackobjekt. |
-| 111 | `DROPN` | Entfernt n Stackobjekte und das zugehörige n-Argument vom Stack. |
-| 112 | `DROP2` | Entfernt die zwei obersten Stackobjekte. |
-| 113 | `DTAG` | Entfernt den Benennungs-Tag eines getaggten Objekts. |
-| 114 | `DUP` | Kopiert das oberste Stackobjekt. |
-| 115 | `DUPN` | Kopiert n oberste Stackobjekte; das n-Argument wird verbraucht. |
-| 116 | `DUP2` | Kopiert die zwei obersten Stackobjekte. |
-| 117 | `D→R` | Wandelt Winkel von Grad in Radiant um. |
-| 118 | `e` | Symbolische Eulersche Zahl. |
-| 119 | `EGV` | Ermittelt Eigenwerte und rechte Eigenvektoren einer quadratischen Matrix. |
-| 120 | `EGVL` | Ermittelt Eigenwerte einer quadratischen Matrix. |
-| 121 | `ELSE` | Kennzeichnet den alternativen Zweig einer Verzweigung. |
-| 122 | `END` | Beendet eine passende RPL-Kontrollstruktur. |
-| 123 | `ENDSUB` | Liefert im DOSUBS-Kontext die Gesamtzahl der Teilfolgen/Durchläufe. |
-| 124 | `ENG` | Stellt die Engineering-Zahlenanzeige ein. |
-| 125 | `EQ→` | Zerlegt eine Gleichung in linke und rechte Seite. |
-| 126 | `EQNLIB` | Öffnet die eingebaute Gleichungsbibliothek. |
-| 127 | `ERASE` | Löscht den PICT-Bildinhalt unter Beibehaltung seiner Abmessungen. |
-| 128 | `ERRM` | Liefert den Text des letzten Fehlers. |
-| 129 | `ERRN` | Liefert die Nummer des letzten Fehlers. |
-| 130 | `ERR0` | Setzt die letzten Fehlerdaten zurück (primär Fehlernummer; genaue Nebenwirkungen separat prüfen). |
-| 131 | `EVAL` | Wertet ein Objekt bzw. einen Namen aus. |
-| 132 | `EXP` | Berechnet die Exponentialfunktion e hoch x. |
-| 133 | `EXPAN` | Expandiert einen algebraischen Ausdruck. |
-| 134 | `EXPFIT` | Wählt das exponentielle Regressionsmodell. |
-| 135 | `EXPM` | Berechnet exp(x) - 1 numerisch stabil für kleine x. |
-| 136 | `EYEPT` | Setzt den Betrachtungsstandpunkt für perspektivische 3D-Plots; speichert ihn in YPAR. |
-| 137 | `F0λ` | Berechnet den Anteil der Schwarzkörperstrahlung bis zu einer vorgegebenen Wellenlänge. |
-| 138 | `FACT` | Berechnet die Fakultätsfunktion. |
-| 139 | `FANNING` | Berechnet den Fanning-Reibungsfaktor aus Rauheit und Reynolds-Zahl. |
-| 140 | `FC?` | Prüft, ob ein Flag gelöscht ist. |
-| 141 | `FC?C` | Prüft und löscht ein Flag. |
-| 142 | `FFT` | Berechnet eine diskrete Fourier-Transformation. |
-| 143 | `FINDALARM` | Sucht den nächsten Alarm nach einer übergebenen Zeitangabe. |
-| 144 | `FINISH` | Beendet den Kermit-Servermodus. |
-| 145 | `FIX` | Stellt die Anzahl der angezeigten Dezimalstellen ein. |
-| 146 | `FLOOR` | Liefert die größte ganze Zahl kleiner oder gleich dem Argument. |
-| 147 | `FOR` | Beginn einer FOR-Zählschleife. |
-| 148 | `FP` | Liefert den Nachkommaanteil einer reellen Zahl. |
-| 149 | `FREE` | Trennt zuvor zusammengeführten Speicher von einem Port. |
-| 150 | `FREE1` | Trennt zuvor zusammengeführten Speicher von Port 1. |
+| A03-101 | `DIFFEQ` | Aktiviert den Plottyp für Differentialgleichungen. |
+| A03-102 | `DISP` | Zeigt ein Objekt in einer angegebenen Displayzeile. |
+| A03-103 | `DO` | Beginn einer DO-Schleife in User-RPL. |
+| A03-104 | `DOERR` | Erzeugt einen Fehler mit Nummer oder benutzerdefiniertem Text. |
+| A03-105 | `DOLIST` | Wendet ein Programm elementweise auf eine oder mehrere Listen an. |
+| A03-106 | `DOSUBS` | Wendet ein Programm auf aufeinanderfolgende Teilfolgen einer Liste an. |
+| A03-107 | `DOT` | Berechnet das Skalarprodukt zweier Vektoren/Arrays. |
+| A03-108 | `DRAW` | Zeichnet den eingerichteten Plot in PICT. |
+| A03-109 | `DRAX` | Zeichnet die Achsen im Grafikbild. |
+| A03-110 | `DROP` | Entfernt oberstes Stackobjekt. |
+| A03-111 | `DROPN` | Entfernt n Stackobjekte und das zugehörige n-Argument vom Stack. |
+| A03-112 | `DROP2` | Entfernt die zwei obersten Stackobjekte. |
+| A03-113 | `DTAG` | Entfernt den Benennungs-Tag eines getaggten Objekts. |
+| A03-114 | `DUP` | Kopiert das oberste Stackobjekt. |
+| A03-115 | `DUPN` | Kopiert n oberste Stackobjekte; das n-Argument wird verbraucht. |
+| A03-116 | `DUP2` | Kopiert die zwei obersten Stackobjekte. |
+| A03-117 | `D→R` | Wandelt Winkel von Grad in Radiant um. |
+| A03-118 | `e` | Symbolische Eulersche Zahl. |
+| A03-119 | `EGV` | Ermittelt Eigenwerte und rechte Eigenvektoren einer quadratischen Matrix. |
+| A03-120 | `EGVL` | Ermittelt Eigenwerte einer quadratischen Matrix. |
+| A03-121 | `ELSE` | Kennzeichnet den alternativen Zweig einer Verzweigung. |
+| A03-122 | `END` | Beendet eine passende RPL-Kontrollstruktur. |
+| A03-123 | `ENDSUB` | Liefert im DOSUBS-Kontext die Gesamtzahl der Teilfolgen/Durchläufe. |
+| A03-124 | `ENG` | Stellt die Engineering-Zahlenanzeige ein. |
+| A03-125 | `EQ→` | Zerlegt eine Gleichung in linke und rechte Seite. |
+| A03-126 | `EQNLIB` | Öffnet die eingebaute Gleichungsbibliothek. |
+| A03-127 | `ERASE` | Löscht den PICT-Bildinhalt unter Beibehaltung seiner Abmessungen. |
+| A03-128 | `ERRM` | Liefert den Text des letzten Fehlers. |
+| A03-129 | `ERRN` | Liefert die Nummer des letzten Fehlers. |
+| A03-130 | `ERR0` | Setzt die letzten Fehlerdaten zurück (primär Fehlernummer; genaue Nebenwirkungen separat prüfen). |
+| A03-131 | `EVAL` | Wertet ein Objekt bzw. einen Namen aus. |
+| A03-132 | `EXP` | Berechnet die Exponentialfunktion e hoch x. |
+| A03-133 | `EXPAN` | Expandiert einen algebraischen Ausdruck. |
+| A03-134 | `EXPFIT` | Wählt das exponentielle Regressionsmodell. |
+| A03-135 | `EXPM` | Berechnet exp(x) - 1 numerisch stabil für kleine x. |
+| A03-136 | `EYEPT` | Setzt den Betrachtungsstandpunkt für perspektivische 3D-Plots; speichert ihn in YPAR. |
+| A03-137 | `F0λ` | Berechnet den Anteil der Schwarzkörperstrahlung bis zu einer vorgegebenen Wellenlänge. |
+| A03-138 | `FACT` | Berechnet die Fakultätsfunktion. |
+| A03-139 | `FANNING` | Berechnet den Fanning-Reibungsfaktor aus Rauheit und Reynolds-Zahl. |
+| A03-140 | `FC?` | Prüft, ob ein Flag gelöscht ist. |
+| A03-141 | `FC?C` | Prüft und löscht ein Flag. |
+| A03-142 | `FFT` | Berechnet eine diskrete Fourier-Transformation. |
+| A03-143 | `FINDALARM` | Sucht den nächsten Alarm nach einer übergebenen Zeitangabe. |
+| A03-144 | `FINISH` | Beendet den Kermit-Servermodus. |
+| A03-145 | `FIX` | Stellt die Anzahl der angezeigten Dezimalstellen ein. |
+| A03-146 | `FLOOR` | Liefert die größte ganze Zahl kleiner oder gleich dem Argument. |
+| A03-147 | `FOR` | Beginn einer FOR-Zählschleife. |
+| A03-148 | `FP` | Liefert den Nachkommaanteil einer reellen Zahl. |
+| A03-149 | `FREE` | Trennt zuvor zusammengeführten Speicher von einem Port. |
+| A03-150 | `FREE1` | Trennt zuvor zusammengeführten Speicher von Port 1. |
 
 ## 3. Dokumentierte Differenzen und semantische Hinweise
 
