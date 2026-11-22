@@ -1044,7 +1044,12 @@
         "name_first": "UFACT",
         "name_last": "≤",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A10.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "A10 #451–500: all 50 unique AUR TOC names matched ROM normalized name + XLIB and independent Pocket Guide Command Index text on printed pages 72,74,76. Symbol-heavy names (*W, ΣX/Y, →V2, →V3, −, ≤) have severely distorted OCR; original scans, exact glyphs, object-specific stacks/flags/error cases not approved. XROOT and + each have two XLIB IDs under one name. Differentiated UFACT vs UBASE, XMIT vs XModem vs Kermit, PPAR vs VPAR, normal variance vs standard deviation."
       },
       {
         "id": "A11",
@@ -1060,7 +1065,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 447
+    "pocket_guide_names_crosschecked": 497
   },
   "other_inventories": [
     {
@@ -1088,8 +1093,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A10_AUR_SOURCE_NAMES_451_TO_500",
+  "next_partition": "A11_AUR_SOURCE_NAMES_501_TO_517",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A09 450 AUR command-index ordinal rows documented; 447 independent Pocket Guide Command Index text position matches (DBUG, SST, SST↓ not there; UI/debug context documented). A09 all 50 unique ROM names matched; 26 damaged independent OCR glyphs; SVD AUR PDF locator 18 suspect and pending visual verification. Original scans, AUR stacks/flags/exceptions and equations/units still pending. Next A10 451–500."
+  "notes_next": "A01–A10 500/517 AUR printed-source ordinal rows individually reported; 497 independent Pocket Guide Command Index text matches (DBUG, SST, SST↓ not there; debugger/UI documented elsewhere). A10 50/50 direct ROM XLIB and 50 text matches; heavily damaged OCR special glyphs remain scan-pending. Next A11 501–517: > through → (17 operator/control-symbol positions). Historical original scans, detailed AUR stack/flags/error types, equations, units, UI menus remain pending."
 }
