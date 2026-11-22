@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A09 (Befehle 401–450):** [AUR-Pocket-Guide-Teilprüfung A09](HP-48GX-AUR-TEILPRUEFUNG-A09.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-Namen/XLIB-Belege, 50 Pocket-Guide-Textzuordnungen (gedruckte S. 68, 70, 72). OCR-Unterschiede u.a. `STOΣ`/`STOZ`, `STO/`/`ST0-`, `→TIME`/`+TIME`; Originalscan-/Stackprüfung weiter offen. 
+
 **A08 (Befehle 351–400):** [AUR-Pocket-Guide-Teilprüfung A08](HP-48GX-AUR-TEILPRUEFUNG-A08.md); 50 AUR-Namen, 47 direkte ROM-Namen, `SIMU`, `SST`, `SST↓` als Sonderfälle. `SCLΣ`/`SCLS`/`SCLZ`, `RSWP`/`RSVP` und `SCATR PLOT`/`SCATRPLOT` als offene Text-/Scanfragen dokumentiert; Stack-/Originalbildprüfung weiterhin offen.
 
 **A07 (Befehle 301–350):** [AUR-Pocket-Guide-Teilprüfung A07](HP-48GX-AUR-TEILPRUEFUNG-A07.md); alle 50 AUR-Positionen mit eigenen ROM-Namen und unabhängigem Pocket-Guide-Textnachweis, OCR-Abweichungen bei u.a. `→Qπ`, `RCLΣ`, `RKFSTEP`, `RND`, `ROW→`. Originalscans und Stack-/Fehlerfälle bleiben offen.
@@ -798,51 +800,51 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `STD` | Binärzahlen, Logik, Modi, Systemflags | Standardformat. | `2:141` | MENU 63 FMT |
 | `STEP` | Stack und User-RPL-Programmsteuerung | Zählschleife mit Schrittweite wiederholen. | `1792:12` | PRG BRCH START; PRG BRCH FOR |
 | `STEQ` | Symbolische Mathematik, Solver und Differentialgleichungen | Gleichung EQ setzen. | `2:250` | MENU 74 ROOT; MENU 84 |
-| `STIME` | Schnittstellen, Drucker, Display und Tastenbelegung | I/O-Zeitlimit einstellen. | `2:375` | MENU 104 SERIAL |
+| `STIME` | Schnittstellen, Drucker, Display und Tastenbelegung | Zeitüberschreitung für SRECV und WAIT festlegen; keine Systemuhrfunktion. | `2:375` | MENU 104 SERIAL |
 | `STO` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Objekt unter Variablennamen speichern. | `2:341` | ohne Menüeintrag |
-| `STO-` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variable per Subtraktion aktualisieren. | `2:328` | MENU 70 ARITH |
-| `STO*` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variable per Multiplikation aktualisieren. | `2:330` | MENU 70 ARITH |
-| `STO/` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variable per Division aktualisieren. | `2:329` | MENU 70 ARITH |
-| `STO+` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variable per Addition aktualisieren. | `2:327` | MENU 70 ARITH |
+| `STO-` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannten Variableninhalt um ein Objekt vermindern und Ergebnis dort speichern. | `2:328` | MENU 70 ARITH |
+| `STO*` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannten Variableninhalt mit Objekt multiplizieren und Ergebnis dort speichern. | `2:330` | MENU 70 ARITH |
+| `STO/` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannten Variableninhalt mit Objekt dividieren und Ergebnis dort speichern. | `2:329` | MENU 70 ARITH |
+| `STO+` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannten Variableninhalt um ein Objekt erhöhen und Ergebnis dort speichern. | `2:327` | MENU 70 ARITH |
 | `STOALARM` | Zeit, Kalender, Wecker | Wecker speichern. | `2:25` | MENU 94 ALRM |
 | `STOF` | Binärzahlen, Logik, Modi, Systemflags | Flagsatz speichern. | `2:151` | MENU 63 FLAG |
 | `STOKEYS` | Schnittstellen, Drucker, Display und Tastenbelegung | Benutzer-Tastenbelegung speichern. | `2:380` | MENU 63 KEYS |
-| `STOΣ` | Statistik, Verteilungen und Regression | Statistikdatensatz speichern. | `2:283` | MENU 87 DATA; MENU 96 DATA |
+| `STOΣ` | Statistik, Verteilungen und Regression | Übergebene Statistikdaten in der reservierten Variablen ΣDAT speichern. | `2:283` | MENU 87 DATA; MENU 96 DATA |
 | `STR→` | Listen, Strings, Objektkonversion | Text als RPL-Objekt interpretieren. | `2:163` | ohne Menüeintrag |
-| `STREAM` | Listen, Strings, Objektkonversion | Sequenz von Listenelementen verarbeiten. | `171:103` | PRG LIST PROC |
+| `STREAM` | Listen, Strings, Objektkonversion | Listenelemente iterativ mit vorherigem Ergebnis als zweitem Argument verarbeiten; Start mit erstem Paar. | `171:103` | PRG LIST PROC |
 | `STWS` | Binärzahlen, Logik, Modi, Systemflags | Wortbreite binärer Ganzzahlen setzen. | `2:148` | MTH BASE |
 | `SUB` | Listen, Strings, Objektkonversion | Teilbereich extrahieren. | `2:156` | MTH MATRX MAKE; PRG LIST; PRG GROB; MENU 62 |
-| `SVD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Singulärwertzerlegung. | `171:57` | MTH MATRX FACTR |
-| `SVL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Singulärwerte. | `171:58` | MTH MATRX FACTR |
+| `SVD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Singulärwertzerlegung der Matrix mit Faktorobjekten einschließlich Singulärwerten durchführen. | `171:57` | MTH MATRX FACTR |
+| `SVL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Singulärwerte einer Matrix ermitteln, ohne vollständige SVD-Faktorzerlegung. | `171:58` | MTH MATRX FACTR |
 | `SWAP` | Stack und User-RPL-Programmsteuerung | Oberste Stackelemente vertauschen. | `2:271` | ohne Menüeintrag |
-| `SYSEVAL` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | System-Einstiegspunkt aufrufen. | `2:49` | ohne Menüeintrag |
-| `TAIL` | Listen, Strings, Objektkonversion | Restliste ohne erstes Element. | `171:97` | PRG LIST ELEM; MENU 62 |
+| `SYSEVAL` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Historischen System-Einstiegspunkt auf dem HP 48GX auswerten; in SASD nur isoliert emulieren, niemals Host-Code ausführen. | `2:49` | ohne Menüeintrag |
+| `TAIL` | Listen, Strings, Objektkonversion | Rest einer Liste oder Zeichenkette ohne erstes Element bzw. Zeichen liefern. | `171:97` | PRG LIST ELEM; MENU 62 |
 | `TAN` | Grundrechnen, elementare Funktionen und Zahlen | Tangens. | `2:83` | ohne Menüeintrag |
 | `TANH` | Grundrechnen, elementare Funktionen und Zahlen | Tangens hyperbolicus. | `2:86` | MTH HYP |
 | `TAYLR` | Symbolische Mathematik, Solver und Differentialgleichungen | Taylorpolynom berechnen. | `2:339` | MENU 93 |
-| `TDELTA` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Hilfsfunktion für Temperaturdifferenzen. | `171:123` | MENU 113 UTILS |
-| `TEACH` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Lehrbeispielobjekte laden. | `171:17` | ohne Menüeintrag |
+| `TDELTA` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Temperaturänderung aus zwei Temperaturwerten mit Einheiten bestimmen. | `171:123` | MENU 113 UTILS |
+| `TEACH` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Beispiel- und Lernobjekte in einem EXAMPLES-Unterverzeichnis anlegen. | `171:17` | ohne Menüeintrag |
 | `TEXT` | Schnittstellen, Drucker, Display und Tastenbelegung | Aktiviert die normale Stackdarstellung beim nächsten Display-Refresh. | `2:217` | PRG OUT |
 | `THEN` | Stack und User-RPL-Programmsteuerung | Wahr-Zweig beginnen. | `1792:1, 1792:24, 1792:26` | PRG BRCH IF; PRG BRCH CASE; PRG ERROR IFERR |
-| `TICKS` | Zeit, Kalender, Wecker | Interne Zeitbasis lesen. | `2:18` | MENU 94 |
+| `TICKS` | Zeit, Kalender, Wecker | Historische Systemzeit als Zähler mit 8192 Ticks je Sekunde lesen. | `2:18` | MENU 94 |
 | `TIME` | Zeit, Kalender, Wecker | Aktuelle Zeit lesen. | `2:16` | MENU 94 |
-| `TINC` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Hilfsfunktion für Temperaturänderungen. | `171:124` | MENU 113 UTILS |
-| `TLINE` | Grafik, Diagramme und Plotparameter | Linie invertierend zeichnen. | `2:207` | PRG PICT |
-| `TMENU` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Temporäres Menü erzeugen. | `2:347` | MENU 63 MENU |
-| `TOT` | Statistik, Verteilungen und Regression | Summe der statistischen Werte. | `2:300` | MENU 96 1VAR |
+| `TINC` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Neue Temperatur aus Anfangstemperatur und Temperaturdifferenz berechnen. | `171:124` | MENU 113 UTILS |
+| `TLINE` | Grafik, Diagramme und Plotparameter | Pixel entlang einer Linie in PICT einzeln umschalten (XOR-/Toggle-Wirkung). | `2:207` | PRG PICT |
+| `TMENU` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Angegebenes Menü vorübergehend anzeigen, ohne den Inhalt der Variablen CST zu ändern. | `2:347` | MENU 63 MENU |
+| `TOT` | Statistik, Verteilungen und Regression | Spaltensummen der Statistikdaten in ΣDAT berechnen. | `2:300` | MENU 96 1VAR |
 | `TRACE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet die Matrixspur als Summe der Diagonalelemente; nicht Grafik-TRACE. | `171:50` | MTH MATRX NORM |
-| `TRANSIO` | Schnittstellen, Drucker, Display und Tastenbelegung | I/O-Übertragungsart wählen. | `2:372` | ohne Menüeintrag |
+| `TRANSIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Zeichenübersetzungsmodus für serielle/IR-Kommunikation festlegen; nicht Schnittstelle umschalten. | `2:372` | ohne Menüeintrag |
 | `TRN` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrix transponieren. | `2:175` | MTH MATRX MAKE |
-| `TRNC` | Grundrechnen, elementare Funktionen und Zahlen | Schneidet einen Zahlenwert ab. | `2:109` | MTH REAL |
+| `TRNC` | Grundrechnen, elementare Funktionen und Zahlen | Zahlenwert je Parameter auf Dezimalstellen oder signifikante Stellen bzw. Anzeigeformat abschneiden; nicht runden. | `2:109` | MTH REAL |
 | `TRUTH` | Grafik, Diagramme und Plotparameter | Wahrheitswertplot aktivieren. | `2:224` | ohne Menüeintrag |
-| `TSTR` | Zeit, Kalender, Wecker | Zeit in Text formatieren. | `2:29` | MENU 94 |
-| `TVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen nach Typ auflisten. | `2:37` | MENU 70 DIR |
-| `TVM` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zeitwert-des-Geldes-Gleichungslöser. | `171:85` | ohne Menüeintrag |
+| `TSTR` | Zeit, Kalender, Wecker | Datum und Uhrzeit einschließlich zugehörigem Wochentag in eine Zeichenkette umwandeln. | `2:29` | MENU 94 |
+| `TVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen der angegebenen Objekttypen im aktuellen Verzeichnis auflisten. | `2:37` | MENU 70 DIR |
+| `TVM` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Menü des Time-Value-of-Money-Finanzsolvers öffnen; keine automatische Gleichungslösung. | `171:85` | ohne Menüeintrag |
 | `TVMBEG` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zahlungsmodus Periodenbeginn. | `171:86` | ohne Menüeintrag |
 | `TVMEND` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Zahlungsmodus Periodenende. | `171:87` | ohne Menüeintrag |
 | `TVMROOT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | TVM-Unbekannte bestimmen. | `171:88` | MENU 74 TVM |
 | `TYPE` | Listen, Strings, Objektkonversion | Objekttyp abfragen. | `2:166` | PRG TEST; PRG TYPE |
-| `UBASE` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheit in Basiseinheiten ausdrücken. | `2:14` | MENU 59 |
+| `UBASE` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheitenobjekt in äquivalente SI-Basiseinheiten umwandeln. | `2:14` | MENU 59 |
 | `UFACT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheitenausdruck faktorisieren. | `2:15` | MENU 59 |
 | `UNTIL` | Stack und User-RPL-Programmsteuerung | DO-Schleifenbedingung. | `1792:8` | PRG BRCH DO |
 | `UPDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | In übergeordnetes Verzeichnis wechseln. | `2:35` | ohne Menüeintrag |
