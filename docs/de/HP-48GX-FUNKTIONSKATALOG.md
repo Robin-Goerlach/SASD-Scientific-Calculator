@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A05 (Befehle 201–250):** [AUR-Pocket-Guide-Teilprüfung A05](HP-48GX-AUR-TEILPRUEFUNG-A05.md); 50 AUR-Positionen mit 49 verschiedenen Befehlsnamen (Doppelindex `NEXT`), alle normiert im ROM und im Pocket-Guide-Text zugeordnet. Glyphenkonflikte bei `↑MATCH`/`↓MATCH` und `→NUM`; Originalscan-/Stackabnahme offen.
+
 **A04 (Befehle 151–200):** [AUR-Pocket-Guide-Teilprüfung A04](HP-48GX-AUR-TEILPRUEFUNG-A04.md); 47 ROM-Namen, drei Sonderfälle `GRAPH`, `IR`, `LAST` und OCR-Differenzen bei `GRAD`, `GXOR`, Zeitkonvertierung. Kein Scan-/Stack-Abnahmestatus.
 
 **A03 (Befehle 101–150):** [AUR-Pocket-Guide-Teilprüfung A03](HP-48GX-AUR-TEILPRUEFUNG-A03.md); 50/50 normierte ROM-Namen und Pocket-Guide-Textbelege, `ERR0`-OCR-Abweichung erfasst, `ENDSUB`-Bedeutung korrigiert; Scan-/Stack-Abnahme weiterhin offen.
@@ -388,7 +390,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `→HMS` | Grundrechnen, elementare Funktionen und Zahlen | Dezimalzeit in Stunden-Minuten-Sekunden-Darstellung. | `2:114` | MENU 94 |
 | `→LCD` | Grafik, Diagramme und Plotparameter | Grafikobjekt auf LCD darstellen. | `2:214` | PRG GROB |
 | `→LIST` | Listen, Strings, Objektkonversion | Liste aus Stackobjekten erzeugen. | `2:152` | PRG TYPE; PRG LIST |
-| `→NUM` | Stack und User-RPL-Programmsteuerung | Numerische Auswertung erzwingen. | `2:53` | ohne Menüeintrag |
+| `→NUM` | Stack und User-RPL-Programmsteuerung | Numerische Auswertung eines symbolischen Objekts erzwingen; nicht Zeichencode wie NUM. | `2:53` | ohne Menüeintrag |
 | `→Q` | Symbolische Mathematik, Solver und Differentialgleichungen | Wandelt eine Zahl in einen äquivalenten rationalen Bruch um. | `2:263` | MENU 93 |
 | `→Qπ` | Symbolische Mathematik, Solver und Differentialgleichungen | Wählt zwischen einer rationalen Näherung der Zahl und einem rationalen Vielfachen von π nach kleinerem Nenner. | `2:264` | MENU 93 |
 | `→ROW` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zerlegt ein Array in seine Zeilen und liefert die Zeilenanzahl. | `171:65` | MTH MATRX ROW |
@@ -611,15 +613,15 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `LOG` | Grundrechnen, elementare Funktionen und Zahlen | Zehnerlogarithmus. | `2:95` | ohne Menüeintrag |
 | `LOGFIT` | Statistik, Verteilungen und Regression | Logarithmisches Fit-Modell wählen. | `2:320` | ohne Menüeintrag |
 | `LQ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | LQ-Faktorisierung. | `171:61` | MTH MATRX FACTR |
-| `LR` | Statistik, Verteilungen und Regression | Lineare Regression. | `2:302` | MENU 96 FIT |
+| `LR` | Statistik, Verteilungen und Regression | Regressionskoeffizienten des aktuell gewählten Fit-Modells berechnen. | `2:302` | MENU 96 FIT |
 | `LSQ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Ausgleichsrechnung nach kleinsten Quadraten. | `171:54` | MTH MATRX; MENU 74 SYS |
 | `LU` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | LU-Zerlegung. | `171:59` | MTH MATRX FACTR |
 | `MANT` | Grundrechnen, elementare Funktionen und Zahlen | Mantisse einer Zahl. | `2:111` | MTH REAL |
 | `MAX` | Grundrechnen, elementare Funktionen und Zahlen | Maximum zweier Zahlen. | `2:106` | MTH REAL |
 | `MAXR` | Grundrechnen, elementare Funktionen und Zahlen | Konstante: größter darstellbarer reeller Wert. | `2:64` | MTH CONST |
-| `MAXΣ` | Statistik, Verteilungen und Regression | Größter statistischer Datenwert. | `2:296` | MENU 96 1VAR |
+| `MAXΣ` | Statistik, Verteilungen und Regression | Spaltenmaxima der in ΣDAT gespeicherten Statistikdaten ermitteln. | `2:296` | MENU 96 1VAR |
 | `MCALC` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Solver-Variable zur Berechnung markieren. | `171:115` | MENU 113 MES |
-| `MEAN` | Statistik, Verteilungen und Regression | Mittelwert. | `2:297` | MENU 96 1VAR |
+| `MEAN` | Statistik, Verteilungen und Regression | Mittelwerte der Statistikspalten in ΣDAT ermitteln. | `2:297` | MENU 96 1VAR |
 | `MEM` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Freien Benutzerspeicher abfragen. | `2:344` | MENU 70 |
 | `MENU` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Menü auswählen. | `2:348` | MENU 63 MENU |
 | `MERGE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Kartenspeicher in Benutzerspeicher einbinden. | `2:354` | ohne Menüeintrag |
@@ -628,7 +630,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `MINEHUNT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Integriertes Minehunt-Spiel. | `171:117` | MENU 113 UTILS |
 | `MINIT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Mehrgleichungslöser initialisieren. | `171:112` | MENU 113 MES |
 | `MINR` | Grundrechnen, elementare Funktionen und Zahlen | Konstante: kleinster positiver reeller Wert. | `2:65` | MTH CONST |
-| `MINΣ` | Statistik, Verteilungen und Regression | Kleinster statistischer Datenwert. | `2:298` | MENU 96 1VAR |
+| `MINΣ` | Statistik, Verteilungen und Regression | Spaltenminima der in ΣDAT gespeicherten Statistikdaten ermitteln. | `2:298` | MENU 96 1VAR |
 | `MITM` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Titel und Menü des Mehrgleichungslösers anpassen. | `171:113` | MENU 113 MES |
 | `MOD` | Grundrechnen, elementare Funktionen und Zahlen | Modulo/Divisionsrest. | `2:110` | MTH REAL |
 | `MROOT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Solver-Unbekannte bestimmen. | `171:116` | MENU 113 MES |
@@ -642,7 +644,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `NOT` | Binärzahlen, Logik, Modi, Systemflags | Logische/bitweise Negation. | `2:231` | MTH BASE LOGIC; PRG TEST |
 | `NOVAL` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Wert fehlt/ist nicht festgelegt. | `171:91` | PRG IN |
 | `NSUB` | Listen, Strings, Objektkonversion | Liest den aktuellen Teilfolgenzähler im Kontext von DOSUBS. | `171:101` | PRG LIST PROC |
-| `NUM` | Listen, Strings, Objektkonversion | Zeichencode ermitteln. | `2:164` | PRG TYPE; MENU 62 |
+| `NUM` | Listen, Strings, Objektkonversion | Zeichencode des ersten Zeichens einer Zeichenkette ermitteln; nicht mit →NUM verwechseln. | `2:164` | PRG TYPE; MENU 62 |
 | `NUMX` | Grafik, Diagramme und Plotparameter | Rastergröße in x-Richtung. | `171:6` | ohne Menüeintrag |
 | `NUMY` | Grafik, Diagramme und Plotparameter | Rastergröße in y-Richtung. | `171:7` | ohne Menüeintrag |
 | `NΣ` | Statistik, Verteilungen und Regression | Zahl der Datenpunkte. | `2:288` | MENU 96 SUMS |
@@ -875,7 +877,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `Σ` | Symbolische Mathematik, Solver und Differentialgleichungen | Summation einer Folge. | `2:254` | ohne Menüeintrag |
 | `Σ-` | Statistik, Verteilungen und Regression | Punkt aus Statistikdatensatz entfernen. | `2:287` | MENU 87 DATA; MENU 96 DATA |
 | `Σ+` | Statistik, Verteilungen und Regression | Statistischen Datensatz um einen Punkt ergänzen. | `2:286` | MENU 87 DATA; MENU 96 DATA |
-| `ΣLINE` | Statistik, Verteilungen und Regression | Regressionsgerade aus Summendaten. | `2:314` | MENU 96 FIT |
+| `ΣLINE` | Statistik, Verteilungen und Regression | Ausgleichsfunktion der Statistikdaten für das aktuell gewählte Fit-Modell ermitteln. | `2:314` | MENU 96 FIT |
 | `ΣLIST` | Listen, Strings, Objektkonversion | Liste aufsummieren. | `171:104` | MTH LIST |
 | `ΣX` | Statistik, Verteilungen und Regression | Summe der x-Werte. | `2:291` | MENU 96 SUMS |
 | `ΣX*Y` | Statistik, Verteilungen und Regression | Summe der Produkte x mal y. | `2:295` | MENU 96 SUMS |
