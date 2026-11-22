@@ -21,7 +21,7 @@ https://www.manualsdir.com/manuals/631929/hp-48g-graphing-calculator-48gx-graphi
 **Zeitgenössische Erklärung:** Eine technische HP-28-zu-HP-48-Übersicht führt `CLUSR` als beibehaltene ältere Schreibweise auf, die in Programmen zu `CLVAR` übersetzt werde:
 https://groups.google.com/g/comp.sys.handhelds/c/W8SISptcdpY
 
-**Folgerung:** `CLUSR` ist **wahrscheinlich ein historischer Kompatibilitätsalias** von `CLVAR`; die alte Vermutung, er habe zwingend eigenständige Verzeichnis-Löschsemantik, ist nicht begründet. **Noch offen:** Wortlaut/Stackdiagramm beider AUR-Einträge am Scan, Status unter G/GX-ROM-Revisionen, Verzeichnisse/Fehler.
+**Unabhängiger Nachweis:** Der *HP 48G/GX Pocket Guide*, Command Index S. 43, bezeichnet `CLUSR` ausdrücklich als identisch mit `CLVAR`: https://literature.hpcalc.org/community/hp48g-pg-en.pdf . Damit ist die **dokumentierte Namensalias-Zuordnung** unabhängig bestätigt; ein separater Mathematikbefehl wird nicht daraus. Die alte Vermutung zwingend anderer Löschsemantik ist nicht begründet. **Noch offen:** Wortlaut/Stackdiagramm beider AUR-Einträge am Scan, Status unter G/GX-ROM-Revisionen, Verzeichnisse/Fehler.
 
 ## 3. LAST versus LASTARG
 
@@ -29,7 +29,9 @@ https://groups.google.com/g/comp.sys.handhelds/c/W8SISptcdpY
 
 Die oben genannte zeitgenössische HP-28/48-Übersicht erläutert, `LAST` sei in `LASTARG` umbenannt worden. Allerdings enthält der alte Text auch die Schreibweise `LASTARGS`, sodass **nicht ohne Gegenprüfung** das genaue Speicher-/Übersetzungsverhalten feststeht.
 
-**Folgerung:** Wahrscheinlicher Kompatibilitätsname, **aber** seine Flagabhängigkeit, Argumentrückgabe und Programmauswertung bleiben offen. Kein eigenständiger RPN-Rechenbefehl allein aus einem Inhaltsverzeichnis-Eintrag.
+**Unabhängiger Nachweis:** Der *HP 48G/GX Pocket Guide*, Command Index, führt den gemeinsamen Eintrag `LASTARG or LAST`. Dies stützt die dokumentierte Namensalias-Zuordnung. **Aber** Flagabhängigkeit, Argumentrückgabe, Programmauswertung und ROM-Einstiegspunkte bleiben am AUR/Hardware zu prüfen. Kein eigenständiger RPN-Rechenbefehl allein aus einem Inhaltsverzeichnis-Eintrag.
+
+**Nachtrag aus dem unabhängigen Pocket-Guide-Abgleich:** Die Quellenangabe ist ein Namens-/Kurzfunktionsbeleg, kein vollständiges Verhaltenszertifikat. Der 50-Namen-Abgleich ist unter [AUR A01](HP-48GX-AUR-TEILPRUEFUNG-A01.md) checkpointiert.
 
 ## 4. Provenienz- und Qualitätsgrenzen
 
