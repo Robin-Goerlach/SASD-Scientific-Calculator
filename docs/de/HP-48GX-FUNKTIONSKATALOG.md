@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A08 (Befehle 351–400):** [AUR-Pocket-Guide-Teilprüfung A08](HP-48GX-AUR-TEILPRUEFUNG-A08.md); 50 AUR-Namen, 47 direkte ROM-Namen, `SIMU`, `SST`, `SST↓` als Sonderfälle. `SCLΣ`/`SCLS`/`SCLZ`, `RSWP`/`RSVP` und `SCATR PLOT`/`SCATRPLOT` als offene Text-/Scanfragen dokumentiert; Stack-/Originalbildprüfung weiterhin offen.
+
 **A07 (Befehle 301–350):** [AUR-Pocket-Guide-Teilprüfung A07](HP-48GX-AUR-TEILPRUEFUNG-A07.md); alle 50 AUR-Positionen mit eigenen ROM-Namen und unabhängigem Pocket-Guide-Textnachweis, OCR-Abweichungen bei u.a. `→Qπ`, `RCLΣ`, `RKFSTEP`, `RND`, `ROW→`. Originalscans und Stack-/Fehlerfälle bleiben offen.
 
 **A06 (Befehle 251–300):** [AUR-Pocket-Guide-Teilprüfung A06](HP-48GX-AUR-TEILPRUEFUNG-A06.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-XLIB-Zuordnungen, 50 Pocket-Guide-Textbelege. Verwechslungen bei `NΣ`/`NZ`, `PROMPT`/`PRMPT`, `PREDV`/`PREDY`, `PVAR`/`PVARS` dokumentiert; Scan-/Stackabnahme weiterhin offen.
@@ -753,45 +755,45 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `RRB` | Binärzahlen, Logik, Modi, Systemflags | Bits um ein Byte nach rechts rotieren. | `2:4` | MTH BASE BYTE |
 | `RREF` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Reduzierte Zeilenstufenform. | `171:63` | MTH MATRX FACTR |
 | `RRK` | Symbolische Mathematik, Solver und Differentialgleichungen | Numerisches Verfahren für steife Differentialgleichungen. | `171:46` | MENU 74 DIFFEQ |
-| `RRKSTEP` | Symbolische Mathematik, Solver und Differentialgleichungen | Einzelschritt des Verfahrens für steife DGL. | `171:47` | MENU 74 DIFFEQ |
-| `RSBERR` | Symbolische Mathematik, Solver und Differentialgleichungen | Fehlerabschätzung für steife DGL. | `171:48` | MENU 74 DIFFEQ |
+| `RRKSTEP` | Symbolische Mathematik, Solver und Differentialgleichungen | Nächsten DGL-Lösungsschritt mit RKF-/RRK-Verfahrenswahl und Toleranz ermitteln. | `171:47` | MENU 74 DIFFEQ |
+| `RSBERR` | Symbolische Mathematik, Solver und Differentialgleichungen | Rosenbrock-Schrittkorrektur und absolute Fehlerabschätzung berechnen. | `171:48` | MENU 74 DIFFEQ |
 | `RSD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet laut HP Operation Index G-40 den Rest z−y·x aus drei Arrays; bei z=B, y=A, x=X entspricht das B−A·X. AUR-Stackreihenfolge noch nachzuprüfen. | `2:123` | MTH MATRX; MENU 74 SYS |
 | `RSWP` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeilen vertauschen. | `171:75` | MTH MATRX ROW |
 | `RULES` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Undokumentierter ROM-Eintrag mit historischem Entwickler-Namensrätsel; EQW-RULES ist ein separates Menü. | `2:335` | ohne Menüeintrag |
 | `SAME` | Binärzahlen, Logik, Modi, Systemflags | Vollständige Objektgleichheit prüfen. | `2:228` | PRG TEST |
 | `SBRK` | Schnittstellen, Drucker, Display und Tastenbelegung | Serielles Break-Signal senden. | `2:376` | MENU 104 SERIAL |
-| `SCALE` | Grafik, Diagramme und Plotparameter | Grafikmaßstab setzen. | `2:194` | ohne Menüeintrag |
+| `SCALE` | Grafik, Diagramme und Plotparameter | Horizontalen und vertikalen Plotmaßstab in den ersten PPAR-Parametern festlegen. | `2:194` | ohne Menüeintrag |
 | `SCATRPLOT` | Grafik, Diagramme und Plotparameter | Streudiagramm erstellen. | `2:318` | MENU 96 PLOT |
 | `SCATTER` | Grafik, Diagramme und Plotparameter | Streudiagramm aktivieren. | `2:225` | ohne Menüeintrag |
-| `SCHUR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Schur-Zerlegung. | `171:62` | MTH MATRX FACTR |
+| `SCHUR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Schur-Zerlegung einer quadratischen Matrix in Transformations- und Dreiecks-/Quasidreiecksform. | `171:62` | MTH MATRX FACTR |
 | `SCI` | Binärzahlen, Logik, Modi, Systemflags | Wissenschaftliches Format. | `2:139` | MENU 63 FMT |
 | `SCLΣ` | Statistik, Verteilungen und Regression | Passt den Plotbereich in PPAR an die Statistikdaten in ΣDAT an (nicht die Datenmatrix selbst verändern); AUR-Einzelprüfung offen. | `2:313` | ohne Menüeintrag |
 | `SCONJ` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Konjugiert den Inhalt einer benannten Variablen und speichert das Ergebnis dort. | `2:326` | MENU 70 ARITH |
 | `SDEV` | Statistik, Verteilungen und Regression | Stichprobenstandardabweichung. | `2:299` | MENU 96 1VAR |
 | `SEND` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Objekt senden. | `2:363` | MENU 104 |
-| `SEQ` | Listen, Strings, Objektkonversion | Folge generieren. | `171:98` | PRG LIST PROC |
+| `SEQ` | Listen, Strings, Objektkonversion | Liste durch wiederholte Objektauswertung über benannte Indexvariable, Grenzen und Schrittweite erzeugen. | `171:98` | PRG LIST PROC |
 | `SERVER` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Servermodus starten. | `2:368` | MENU 104 SRVR |
 | `SF` | Binärzahlen, Logik, Modi, Systemflags | Flag setzen. | `2:131` | PRG TEST; MENU 63 FLAG |
-| `SHOW` | Symbolische Mathematik, Solver und Differentialgleichungen | Symbolische Umformung anzeigen. | `2:338` | MENU 93 |
+| `SHOW` | Symbolische Mathematik, Solver und Differentialgleichungen | Implizite Vorkommen einer Variablen in einem symbolischen Ausdruck explizit darstellen. | `2:338` | MENU 93 |
 | `SIDENS` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Temperaturabhängige Dichte von Silizium berechnen. | `171:122` | MENU 113 UTILS |
 | `SIGN` | Grundrechnen, elementare Funktionen und Zahlen | Vorzeichenfunktion. | `2:78` | MTH REAL; MTH CMPLX |
 | `SIN` | Grundrechnen, elementare Funktionen und Zahlen | Sinus. | `2:81` | ohne Menüeintrag |
 | `SINH` | Grundrechnen, elementare Funktionen und Zahlen | Sinus hyperbolicus. | `2:84` | MTH HYP |
 | `SINV` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Ersetzt den Inhalt einer benannten Variablen durch dessen Inverses. | `2:324` | MENU 70 ARITH |
-| `SIZE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Größe/Dimension ermitteln. | `2:160` | MTH MATRX MAKE; PRG LIST ELEM; PRG GROB; MENU 62 |
+| `SIZE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Objekttypabhängig Größe, Dimensionen oder Elementanzahl ermitteln. | `2:160` | MTH MATRX MAKE; PRG LIST ELEM; PRG GROB; MENU 62 |
 | `SL` | Binärzahlen, Logik, Modi, Systemflags | Bitverschiebung nach links. | `2:5` | MTH BASE BIT |
 | `SLB` | Binärzahlen, Logik, Modi, Systemflags | Byteverschiebung nach links. | `2:6` | MTH BASE BYTE |
 | `SLOPEFIELD` | Grafik, Diagramme und Plotparameter | Richtungsfeld aktivieren. | `171:12` | ohne Menüeintrag |
 | `SNEG` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Negiert den Inhalt einer benannten Variablen und speichert das Ergebnis dort. | `2:325` | MENU 70 ARITH |
 | `SNRM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet die Spektralnorm eines Arrays. | `171:52` | MTH MATRX NORM |
-| `SOLVEQN` | Symbolische Mathematik, Solver und Differentialgleichungen | Gleichung aus der Equation Library lösen. | `171:35` | MENU 113 EQLIB |
+| `SOLVEQN` | Symbolische Mathematik, Solver und Differentialgleichungen | Equation-Library-Gleichung über Themen-/Gleichungsnummer starten, optional Abbildung in PICT. | `171:35` | MENU 113 EQLIB |
 | `SORT` | Listen, Strings, Objektkonversion | Liste sortieren. | `171:110` | MTH LIST; PRG LIST PROC |
 | `SPHERE` | Binärzahlen, Logik, Modi, Systemflags | Sphärischer Koordinatenmodus. | `171:21` | MTH VECTR; MENU 63 ANGLE |
 | `SQ` | Grundrechnen, elementare Funktionen und Zahlen | Quadrat. | `2:80` | ohne Menüeintrag |
 | `SR` | Binärzahlen, Logik, Modi, Systemflags | Bitverschiebung nach rechts. | `2:7` | MTH BASE BIT |
 | `SRAD` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet den Spektralradius einer quadratischen Matrix. | `171:51` | MTH MATRX NORM |
 | `SRB` | Binärzahlen, Logik, Modi, Systemflags | Byteverschiebung nach rechts. | `2:8` | MTH BASE BYTE |
-| `SRECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Seriellen Empfang steuern. | `2:360` | MENU 104 SERIAL |
+| `SRECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Zeichenfolge bis zur angeforderten Länge aus seriellem Empfangspuffer lesen, mit Statusinformation. | `2:360` | MENU 104 SERIAL |
 | `START` | Stack und User-RPL-Programmsteuerung | Zählschleife ohne benannte Zählvariable. | `1792:9` | PRG BRCH START |
 | `STD` | Binärzahlen, Logik, Modi, Systemflags | Standardformat. | `2:141` | MENU 63 FMT |
 | `STEP` | Stack und User-RPL-Programmsteuerung | Zählschleife mit Schrittweite wiederholen. | `1792:12` | PRG BRCH START; PRG BRCH FOR |
@@ -905,7 +907,8 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `GRAPH` | Historischer programmierbarer Befehlszugang, separat nachzuprüfen | Aktiviert die Grafik-Umgebung; dokumentierter älterer Zugang neben `PICTURE` | User's Guide G-18/19, AUR Command Reference / Index |
 | `IR` | Dokumentierte I/O-Bedienoperation ohne separate ROM-Namenskennung | Übertragungsweg zwischen Infrarot und serieller Schnittstelle umschalten | AUR Index, Pocket Guide Command Index S. 54, A04 |
 | `LAST` | Historischer Kompatibilitätsalias ohne eigene ROM-Namenskennung | Entspricht `LASTARG`: Argumente des zuletzt ausgeführten Befehls wiederherstellen; nicht LASTSTACK | User's Guide G-23, AUR Index |
-| `SCLS` | Im Operation Index als `C` geführt, AUR-Abgleich offen | Statistische Plot-Skalierung | User's Guide G-41 |
+| `SIMU` | Interaktive PLOT-FLAG-Aktion ohne eigene ROM-XLIB-Namenskennung | Gleichzeitiges Zeichnen mehrerer Kurven ein-/ausschalten; genaue Flagsemantik offen | AUR-Index 378, Pocket Guide S. 68, A08 |
+| `SCLS` | HP-User's-Guide-Textform; AUR/ROM `SCLΣ`, Pocket-OCR `SCLZ` – Originalglyphen offen | PPAR-Plotgrenzen an ΣDAT-Streudiagramm anpassen; tatsächliche Eingabeschreibweise noch nicht visuell freigegeben | User's Guide G-41 |
 | `CST` | Reservierter Variablenname | Benutzerdefiniertes Menüobjekt | G-9 |
 | `ΣDAT` | Reservierter Variablenname | Statistikdatenmatrix | G-10 |
 | `IOPAR` | Reservierter Variablenname | Parameter der Ein-/Ausgabe | G-22 |
