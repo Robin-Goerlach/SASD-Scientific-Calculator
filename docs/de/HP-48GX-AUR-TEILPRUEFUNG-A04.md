@@ -8,7 +8,7 @@
 
 - Hewlett-Packard: *HP 48G Series Advanced User's Reference*, 4. Auflage 1994, Kapitel 3 und Inhaltsverzeichnis `Contents-7/8`, https://literature.hpcalc.org/community/hp48g-aur-en.pdf . Der festgeschriebene Quelltextindex steht in [hp48gx-aur-command-index.json](../reference/hp48gx-aur-command-index.json).
 - Aus dem 48GX-ROM ausgelesener und versionierter [Namens- und XLIB-Index](../reference/hp48gx-rom-index-baseline.json). Ein ROM-Namensindex ist nicht die vollständige Menge der interaktiven Bedienoperationen oder historischen Kompatibilitätsnamen.
-- James Donnelly: *The HP 48G/GX Pocket Guide*, Command Index, gedruckte S. 52 und 54, https://literature.hpcalc.org/community/hp48g-pg-en.pdf ; ergänzende Textansichten https://www.manualslib.com/manual/3743173/Hp-48g.html?page=54 und https://www.manualslib.com/manual/3743173/Hp-48g.html?page=56 .
+- Chris Coffin und Thomas Dick: *The HP 48G/GX Pocket Guide*, Command Index, gedruckte S. 52 und 54, https://literature.hpcalc.org/community/hp48g-pg-en.pdf ; ergänzende Textansichten https://www.manualslib.com/manual/3743173/Hp-48g.html?page=54 und https://www.manualslib.com/manual/3743173/Hp-48g.html?page=56 .
 - Unabhängige 48GX-Grafikmenüübersicht für den Fall `GXOR`: https://finseth.com/hpdata/hp48gx.php .
 
 Die Pocket-Guide-PDF ist in der Webansicht nur **textuell** auslesbar; der Versuch, Originalbildseiten abzurufen, scheiterte an der Dateigröße. Alle aus dem PDF-Text erkannten Druckglyphen bleiben **nicht visuell freigegeben**. Die Kurzbeschreibungen sind eigene Zusammenfassungen des Pocket-Texts oder Arbeitsbeschreibungen des bestehenden Hauptkatalogs; sie ersetzen keine verifizierten AUR-Befehlsspezifikationen.
@@ -101,3 +101,5 @@ Die Pocket-Guide-PDF ist in der Webansicht nur **textuell** auslesbar; der Versu
 - [ ] AUR-Stackdiagramme, Objekttypen, Flags, Fehlerfälle und Hardwareausführung einzeln belegen.
 
 **A04-Abschlussstatus:** `AUR_TOC_POCKET_TEXT_COMPARISON_DONE` / `ORIGINAL_SCAN_NOT_SIGNED_OFF` / `AUR_STACK_NOT_SIGNED_OFF`. Nächste AUR-Namen-Tranche **A05 (201–250: `LINE` bis `→NUM`)**. Gesamt-Vollständigkeitsfreigabe weiterhin `HISTORICAL_COMPLETENESS_NOT_CERTIFIED`.
+
+**Bibliographische Quellenkorrektur (22.11.2026):** Der tatsächlich verlinkte *HP 48G/GX Pocket Guide* wurde von **Chris Coffin und Thomas Dick** verfasst (Grapevine Publications, 1996); der früher irrtümlich genannte Autor James Donnelly ist bei diesem konkreten Buchtitel falsch. Korrigiert wurde ausschließlich der Quellennachweis, nicht der behauptete Status der historisch geprüften Befehle. Quelle: https://literature.hpcalc.org/items/1739 .
