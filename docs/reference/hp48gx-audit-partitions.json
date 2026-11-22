@@ -961,7 +961,12 @@
         "name_first": "LINE",
         "name_last": "→NUM",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A05.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "50 AUR TOC ordinal positions but 49 distinct command names because NEXT appears at both #244 and #245. All 50 positions align with normalized ROM and independent Pocket Guide text, with one shared Pocket NEXT entry. OCR ↑MATCH/↓MATCH reads MMATCH twice, ΔLIST glyph differs, →NUM OCR +NUM; original scans and command stacks pending. Correct bibliographic authors of Pocket Guide are Chris Coffin & Thomas Dick (1996)."
       },
       {
         "id": "A06",
@@ -1032,7 +1037,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 199
+    "pocket_guide_names_crosschecked": 249
   },
   "other_inventories": [
     {
@@ -1060,8 +1065,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A05_AUR_SOURCE_NAMES_201_TO_250",
+  "next_partition": "A06_AUR_SOURCE_NAMES_251_TO_300",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A04 names checked: 200/517 AUR TOC positions, 199/200 independent Pocket Guide text positions per checkpoint (DBUG omitted). Original PDF page screenshots, detailed AUR stack diagrams, individual equation/unit datasets remain pending. Next A05 201–250."
+  "notes_next": "A01–A05 named-source crosschecks documented: 250 AUR TOC ordinal rows, 249 independent Pocket Guide text rows mapped under report-audit rules (DBUG no Pocket entry); A05 has a duplicated NEXT TOC row, so 49 unique names in 50 ordinal rows. Historical scans, stack details, 315 equation entries, units still pending. Next A06 251–300."
 }
