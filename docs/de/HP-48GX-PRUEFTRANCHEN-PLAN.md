@@ -14,15 +14,15 @@
 
 | Serie | Ziel | Aufteilung | Restliche Prüfpakete zum Stand 22.11.2026 | Wichtigste Freigabe |
 | --- | --- | --- | ---: | --- |
-| A10–A11 | AUR-Namensindex + unabhängiger Pocket-Guide-Kurznachweis | Je 50 AUR-Positionen, letzter Block 17 | **2** | Alle 517 AUR-TOC-Einträge in den Einzelberichten, Abweichungen kategorisiert |
+| A11 | AUR-Namensindex + unabhängiger Pocket-Guide-Kurznachweis | Letzter Block mit 17 Operator-/Kontrollsymbolen | **1** | Alle 517 AUR-TOC-Einträge in den Einzelberichten, Abweichungen kategorisiert |
 | S01–S09 | **Originalscan-Bildprüfung** des HP-Operation-Index, einschließlich Legende G-1 | Je etwa sieben Originalseiten | **9** | Jede der 58 gedruckten Seiten visuell, Zeile für Zeile, mit Quellenhash/Scanbeleg |
 | E01–E13 | Jede der **315** original eingebauten Equation-Library-Formeln als Funktions-Metadatensatz | Ca. 25 Formeln je Paket | **13** | Nummerierung/Formeln/Variablen inkl. 396 Variablen gezählt und nachvollziehbar referenziert; lizenzgerechte Beschreibung |
 | U01–U06 | Einheitenkatalog, inklusive Aufklärung des Widerspruchs »147« vs. »9+141« | Ca. 25 Definitionen pro Paket | **6** | Alle tatsächlichen Unit-IDs, Dimensionen und nötigen Umrechnungen erfasst |
 | K01–K04 | 49 Tasten, alle Shift-/Alpha-/User-Kontexte; Menüs/Editoren, Flags, reservierte Variablen, Ports/ROM-Profile | Vier getrennte Themenpakete | **4** | Explizite Kontext-/Erreichbarkeitsliste und Modell-/Revisionsfilter |
 | F01–F02 | Dreiquellen-Bilanz, Lückenbereinigung, Quellen-Sichtfreigabe, Finalreport | Zwei Integrationspakete | **2** | Null unbegründete Deltas, dokumentiertes Abnahmesiegel für **I** oder offener Mangelbericht |
-| **Summe I** | **Vollständigkeit der Funktionsliste und eingebauten Daten** | | **36 weitere kleine Prüfpakete** | Kein geschönter 100-%-Status |
+| **Summe I** | **Vollständigkeit der Funktionsliste und eingebauten Daten** | | **35 weitere kleine Prüfpakete** | Kein geschönter 100-%-Status |
 | V01–V21 | Einzelne AUR-Befehlsreferenzen, Objekttypen/Stack, Flags, Fehler- und Sonderfälle | Ca. 25 der 517 AUR-Namenseinträge je Paket | **zusätzlich 21** | AUR-Stackdiagramme je Befehl mit Quellenbeleg, gegebenenfalls Originalgerät/Emulator |
-| **Summe I + V** | **Katalog plus technische Verhaltens-/Konformitätsreferenz** | | **ca. 57 weitere Prüfpakete** | Jeweils getrennte Freigaben |
+| **Summe I + V** | **Katalog plus technische Verhaltens-/Konformitätsreferenz** | | **ca. 56 weitere Prüfpakete** | Jeweils getrennte Freigaben |
 
 **Wichtig:** Das sind **Planungsgrößen, keine zugesagten Ausführungszeiten**. Je Chat können mehrere Pakete abgeschlossen werden; bei komplexen Scans auch nur eins. Die Paketanzahl kann bei neuen Quellwidersprüchen steigen oder durch Zusammenlegen leichter Teile sinken.
 
@@ -38,12 +38,13 @@
 - **A07:** AUR-Positionen 301–350 (`PVIEW` bis `RR`), 50 verschiedene Namen, 50/50 direkte ROM-XLIB-Namenszuordnungen und 50/50 Kontextbelege aus dem unabhängigen Pocket-Guide-Text (gedruckte S. 60, 62, 64). OCR-Abweichungen bei Pfeilen, Sigma, `RKFSTEP` und Zeilenoperatoren; Beschreibungen u.a. von `QR`, `QUAD`, `PVIEW`, `RND`, `ROLL`, `ROLLD`, `ROW-` im Hauptkatalog präzisiert. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A07.md).
 - **A08:** 351–400 (`RRB`–`STEP`), 50 AUR-Positionen, **47 direkte ROM-Namenseinträge**, drei UI-/Debugger-Sonderfälle `SIMU`, `SST`, `SST↓`. **48/50** im unabhängigen Pocket-Guide-Command-Index-Text; `SST` und `SST↓` nur in RUN-Menü/Debugger-Darstellung. Quellenkonflikt `SCLΣ`/`SCLS`/`SCLZ` sowie `SCATR PLOT`/`SCATRPLOT` und `SST↓`/`SST+` offen. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A08.md).
 - **A09:** 401–450 (`STEQ`–`UBASE`), 50 unterschiedliche AUR-Namen, 50/50 ROM-Namensentsprechungen und 50/50 unabhängige Pocket-Guide-Textpositionen (gedruckte S. 68, 70 und 72). Starke OCR-Fehlformen besonders bei `STO/`, `STOΣ`, `SVD`, `→TAG`, `→TIME`, `TSTR`, `TVMROOT`, `UBASE`; gedruckte Glyphen nicht visuell geprüft. Hauptkatalog bei `STREAM`, `TEACH`, `TICKS`, `TMENU`, `TVM`, Zeit-, Einheiten- und Statistikfunktionen präzisiert. AUR-PDF-Suchseitenhinweis `SVD=18` als Auffälligkeit offen. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A09.md).
-- Insgesamt **450 AUR-Indexpositionen** aus A01–A09 dokumentiert; **447** mit unabhängigem Pocket-Guide-Command-Index-Textnachweis (`DBUG`, `SST`, `SST↓` nicht dort). Originalscan- und vollständige AUR-Stackfreigaben weiterhin 0.
+- **A10:** Positionen 451–500 (`UFACT` bis `≤`): 50 verschiedene AUR-Namen, **50 direkte ROM-Namen** mit XLIBs und **50** unabhängige Pocket-Guide-Textzuordnungen (gedruckte S. 72, 74, 76). Starke OCR-Symbolabweichungen insbesondere bei `→V2`, `→V3`, `*W`, Σ-Summen, `XROOT` und den Vergleichsoperatoren. `XROOT` und `+` besitzen jeweils zwei XLIB-Kennungen, aber je nur einen Namen. Hauptkatalog bei 28 Einheiten-, Vektor-, Statistik- und 3D-Plotfunktionen präzisiert. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A10.md).
+- Insgesamt **500 AUR-Indexpositionen** aus A01–A10 dokumentiert; **497** davon im unabhängigen Pocket-Guide-Command-Index-Text belegt (`DBUG`, `SST`, `SST↓` nicht dort). Originalscan- und vollständige AUR-Stackfreigaben weiterhin 0.
 - Kurzbeschreibungen aus A02 für `CLVAR`, `CLΣ`, `COL±`, `CON`, `CONJ`, `CR`, `CROSS`, `CSWP`, `DATE`, `DELAY` und `DELKEYS` im Hauptkatalog präzisiert.
 
 ## 4. Priorisierung und Übergabe bei Zeitüberschreitung
 
-1. **Nächste Tranche:** **A10 (451–500)**. Vorher immer neu die [Fortschrittsdatei](../reference/hp48gx-audit-partitions.json) lesen, nicht auf Chattext verlassen.
+1. **Nächste Tranche:** **A11 (501–517)**. Vorher immer neu die [Fortschrittsdatei](../reference/hp48gx-audit-partitions.json) lesen, nicht auf Chattext verlassen.
 2. Vor jedem Commit alle Quelllabels und Sonderfälle in einer Einzeltabelle vollständig erfassen; nicht nur Trefferquoten speichern.
 3. Bei jeder Tranche **zuerst Bericht speichern**, anschließend **Fortschritts-JSON aktualisieren**, danach GitHub Actions Ergebnis prüfen. Ohne erfolgreichen Bericht keine `CHECKED`-Markierung.
 4. **Quellensperre:** Eine visuelle Abnahme des Originalscans darf erst nach tatsächlicher Bildsichtprüfung mit verifizierbarer PDF-Seite/Hash und dokumentierter Zeile erfolgen. Der online durchsuchbare PDF-Text oder eine Tesseract-Zeile reicht dafür nicht. Falls Web-/Download-Zugriff auf Originalbilder zu groß oder blockiert ist: diese Teilprüfung bleibt `BLOCKED_SOURCE_IMAGE_ACCESS`; niemals `PASS` vortäuschen.
