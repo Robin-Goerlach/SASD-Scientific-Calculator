@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A03 (Befehle 101–150):** [AUR-Pocket-Guide-Teilprüfung A03](HP-48GX-AUR-TEILPRUEFUNG-A03.md); 50/50 normierte ROM-Namen und Pocket-Guide-Textbelege, `ERR0`-OCR-Abweichung erfasst, `ENDSUB`-Bedeutung korrigiert; Scan-/Stack-Abnahme weiterhin offen.
+
 **A02 (Befehle 51–100):** [AUR-Pocket-Guide-Teilprüfung A02](HP-48GX-AUR-TEILPRUEFUNG-A02.md); Kurzbeschreibungen von 12 belegten Befehlen präzisiert, Scan-/Stack-Verhalten noch offen.
 
 **Unabhängiger Pocket-Guide-Abgleich:** [AUR-Teilprüfung A01 (erste 50 Befehle)](HP-48GX-AUR-TEILPRUEFUNG-A01.md); weitere AUR-Detailprüfungen bleiben offen.
@@ -525,7 +527,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `EGVL` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Eigenwerte. | `171:56` | MTH MATRX |
 | `ELSE` | Stack und User-RPL-Programmsteuerung | Alternativzweig beginnen. | `1792:2` | PRG BRCH IF; PRG ERROR IFERR |
 | `END` | Stack und User-RPL-Programmsteuerung | Kontrollstruktur abschließen. | `1792:3, 1792:22, 1792:23` | PRG BRCH IF; PRG BRCH CASE; PRG BRCH DO; PRG BRCH WHILE; PRG ERROR IFERR |
-| `ENDSUB` | Listen, Strings, Objektkonversion | Liefert die Anzahl noch verbleibender Teilfolgen-Durchläufe im DOSUBS-Kontext. | `171:102` | PRG LIST PROC |
+| `ENDSUB` | Listen, Strings, Objektkonversion | Liefert im DOSUBS-Kontext die Gesamtzahl der Teilfolgen/Durchläufe (nicht die verbleibende Anzahl). | `171:102` | PRG LIST PROC |
 | `ENG` | Binärzahlen, Logik, Modi, Systemflags | Technisches Format. | `2:140` | MENU 63 FMT |
 | `EQ→` | Listen, Strings, Objektkonversion | Zerlegt eine Gleichung in die linke und rechte Seite. | `2:168` | PRG TYPE |
 | `EQNLIB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Eingebaute Gleichungsbibliothek öffnen. | `171:34` | MENU 113 EQLIB |
