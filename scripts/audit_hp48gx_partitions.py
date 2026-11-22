@@ -77,7 +77,7 @@ def check() -> int:
                     errors.append(f'{group["id"]}: missing report {report_path}')
                 else:
                     lines = target.read_text(encoding="utf-8").splitlines()
-                    actual = sum(bool(re.match(r"^\\| G-\\d+:(?:\\d+)", line)) for line in lines)
+                    actual = sum(bool(re.match(r"^\| G-\d+:(?:\d+)", line)) for line in lines)
                     if actual != group["rows"]:
                         errors.append(f'{group["id"]}: report has {actual} vs {group["rows"]} operation rows')
         elif group["cross_index_status"] == "PENDING":
