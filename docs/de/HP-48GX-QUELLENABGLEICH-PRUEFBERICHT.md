@@ -110,7 +110,7 @@ Die **179 rein als O klassifizierten Originalindexzeilen** umfassen **143 unters
 - Matrixzerlegungen `→COL/COL→`, `→ROW/ROW→`, `→DIAG/DIAG→` wurden in der Übersetzung korrigiert; eine individuelle Stackvariantenprüfung bleibt offen.
 - Die Kapitel-10-Zahlen des User's Guide zu eingebauten Einheiten sind intern uneinheitlich (**147** gegenüber **9 plus 141**). Kein numerischer Einheitenabnahmestempel, bis die einzelnen Definitionen verglichen wurden.
 - Für die Equation Library bestätigt Anhang F **315 Gleichungen, 396 Variablen, 15 Fachgebiete**. Diese **Kontrollsummen** sind geklärt, nicht die Ausführungssemantik aller einzelnen Gleichungen.
-- `RSD` (Restvektor) benötigt weiterhin eine exakte Vorzeichen- und Parameterreihenfolgenprüfung anhand der AUR und unabhängiger Tests.
+- `RSD`: Der offizielle Operation Index G-40 spezifiziert `z−y·x`, anders als die konzeptionelle Fehlergröße `A·X−B` in Kap. 14-17. Die Kurzbeschreibung wurde auf G-40 korrigiert; AUR-Stackbelegung und unabhängiger Ausführungstest bleiben ausstehend. Siehe [Semantik-Nachprüfung 01](HP-48GX-SEMANTIK-NACHPRUEFUNG-01.md).
 
 ## 8. Konformität, maschinelle Tests und Abnahme
 
