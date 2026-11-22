@@ -15,58 +15,58 @@
 
 ## 2. AUR-Quellpositionen mit unabhängigem Namen-/Textabgleich
 
-| AUR # | AUR-Quelltextname | AUR-TOC-Seite | AUR-PDF-Hinweis (ungeprüft) | ROM-Name / XLIB | Pocket-Druckseite | Pocket-Web-OCR-Text | Textstatus | Funktionsbeschreibung (eigene Formulierung) |
+| AUR # | AUR-Quelltextname | AUR-TOC-Seite | ROM-Name / XLIB | Pocket-Druckseite | AUR-PDF-Hinweis (ungeprüft) | Pocket-Web-OCR-Text | Textstatus | Funktionsbeschreibung (eigene Formulierung) |
 | ---: | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 401 | `STEQ` | Contents-13 | 488 | `STEQ` / `2:250` | 68 | `STER` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Legt ein Objekt als aktuell zu verwendende Gleichung in der reservierten Variable EQ ab. |
-| 402 | `STIME` | Contents-13 | 488 | `STIME` / `2:375` | 68 | `STIME` | KONTEXTUELLER_POCKET_TREFFER | Stellt die Zeitüberschreitung für SRECV und WAIT ein; keine Einstellung der Systemuhr. |
-| 403 | `STO` | Contents-13 | 489 | `STO` / `2:341` | 68 | `STO` | KONTEXTUELLER_POCKET_TREFFER | Speichert ein Objekt unter dem angegebenen Variablennamen. |
-| 404 | `STOALARM` | Contents-13 | 490 | `STOALARM` / `2:25` | 68 | `STORLARM` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Speichert einen Alarm mit Zeitpunkt und zugehöriger Aktion. |
-| 405 | `STOF` | Contents-13 | 491 | `STOF` / `2:151` | 68 | `STOF` | KONTEXTUELLER_POCKET_TREFFER | Stellt einen vollständigen Flagsatz aus dem übergebenen Objekt wieder her. |
-| 406 | `STOKEYS` | Contents-13 | 492 | `STOKEYS` / `2:380` | 68 | `STOKEYS` | KONTEXTUELLER_POCKET_TREFFER | Legt benutzerdefinierte Tastenbelegungen fest. |
-| 407 | `STO+` | Contents-13 | 493 | `STO+` / `2:327` | 68 | `ST+` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Addiert zu einem benannten Variablenwert ein Objekt und speichert das Ergebnis zurück. |
-| 408 | `STO−` | Contents-13 | 494 | `STO-` / `2:328` | 68 | `ST0-` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Subtrahiert ein Objekt vom benannten Wert (oder umgekehrte Operandform) und speichert das Ergebnis. |
-| 409 | `STO*` | Contents-13 | — | `STO*` / `2:330` | 68 | `5T0#` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Multipliziert einen benannten Variablenwert mit dem Objekt und speichert das Ergebnis. |
-| 410 | `STO/` | Contents-13 | 495 | `STO/` / `2:329` | 68 | `ST0-` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Dividiert den benannten Wert durch ein Objekt (oder umgekehrte Operandform) und speichert das Ergebnis. |
-| 411 | `STOΣ` | Contents-13 | — | `STOΣ` / `2:283` | 68 | `STOZ` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Speichert das übergebene Objekt als Statistikdaten in ΣDAT. |
-| 412 | `STREAM` | Contents-13 | 497 | `STREAM` / `171:103` | 70 | `STREAM` | KONTEXTUELLER_POCKET_TREFFER | Reduziert eine Liste schrittweise: wertet ein Programm mit aktuellem Listenelement und vorherigem Ergebnis aus; am Anfang mit den ersten zwei Listenelementen. |
-| 413 | `STR→` | Contents-13 | 497 | `STR→` / `2:163` | 70 | `5TRE+` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Parst eine Zeichenkette als Objekt; der Pocket Guide vergleicht das Ergebnis mit OBJ→ auf einer Zeichenkette. |
-| 414 | `→STR` | Contents-13 | 498 | `→STR` / `2:162` | 70 | `+5TR` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Wandelt ein Objekt in seine textuelle Zeichenkettendarstellung um. |
-| 415 | `STWS` | Contents-13 | 499 | `STWS` / `2:148` | 70 | `STHS` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Setzt die aktive Binärwortbreite in Bits. |
-| 416 | `SUB` | Contents-13 | — | `SUB` / `2:156` | 70 | `SUB` | KONTEXTUELLER_POCKET_TREFFER | Extrahiert einen Abschnitt aus Liste, Zeichenkette oder GROB anhand Start- und Endposition. |
-| 417 | `SVD` | Contents-14 | 18 | `SVD` / `171:57` | 70 | `S0` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Führt eine Singulärwertzerlegung einer Matrix durch und liefert zugehörige Faktoren einschließlich Singulärwerten. |
-| 418 | `SVL` | Contents-14 | 502 | `SVL` / `171:58` | 70 | `SVL` | KONTEXTUELLER_POCKET_TREFFER | Liefert die Singulärwerte einer Matrix; nicht die gesamte SVD-Zerlegung. |
-| 419 | `SWAP` | Contents-14 | 502 | `SWAP` / `2:271` | 70 | `ShAP` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Vertauscht die beiden obersten Stackobjekte. |
-| 420 | `SYSEVAL` | Contents-14 | 503 | `SYSEVAL` / `2:49` | 70 | `SYSEVAL` | KONTEXTUELLER_POCKET_TREFFER | Wertet einen System-Einstiegspunkt des historischen HP-Betriebssystems aus; nur in sicherer historischer Emulation, nie als Host-Codeaufruf. |
-| 421 | `%T` | Contents-14 | 503 | `%T` / `2:125` | 70 | `&1` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet, wie viel Prozent der erste Zahlenwert durch den zweiten repräsentiert wird. |
-| 422 | `→TAG` | Contents-14 | 505 | `→TAG` / `2:383` | 70 | `+TAG` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Erzeugt ein markiertes Objekt aus Inhalt und angegebenem Tag-/Namenstext. |
-| 423 | `TAIL` | Contents-14 | 505 | `TAIL` / `171:97` | 70 | `TRIL` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Liefert Liste oder Zeichenkette ohne das erste Element bzw. Zeichen. |
-| 424 | `TAN` | Contents-14 | 506 | `TAN` / `2:83` | 70 | `THAN` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet den Tangens im eingestellten Winkelmodus. |
-| 425 | `TANH` | Contents-14 | 507 | `TANH` / `2:86` | 70 | `THMH` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet den hyperbolischen Tangens. |
-| 426 | `TAYLR` | Contents-14 | 507 | `TAYLR` / `2:339` | 70 | `TAYLR` | KONTEXTUELLER_POCKET_TREFFER | Berechnet das Taylorpolynom der angegebenen Ordnung eines algebraischen Ausdrucks in einer Variablen. |
-| 427 | `TDELTA` | Contents-14 | 508 | `TDELTA` / `171:123` | 70 | `TOELTA` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet eine Temperaturdifferenz aus zwei Temperaturwerten. |
-| 428 | `TEACH` | Contents-14 | 509 | `TEACH` / `171:17` | 70 | `TEACH` | KONTEXTUELLER_POCKET_TREFFER | Erzeugt ein EXAMPLES-Unterverzeichnis mit Lehr-/Beispielobjekten. |
-| 429 | `TEXT` | Contents-14 | 509 | `TEXT` / `2:217` | 70 | `TEXT` | KONTEXTUELLER_POCKET_TREFFER | Schaltet bei der nächsten Aktualisierung zur normalen Stackdarstellung zurück. |
-| 430 | `THEN` | Contents-14 | 510 | `THEN` / `1792:1, 1792:24, 1792:26` | 70 | `THEN` | KONTEXTUELLER_POCKET_TREFFER | Beginnt den Wahr-Zweig in einer IF-/CASE-/IFERR-Kontrollstruktur je Kontext. |
-| 431 | `TICKS` | Contents-14 | 510 | `TICKS` / `2:18` | 70 | `TICKS` | KONTEXTUELLER_POCKET_TREFFER | Liefert die interne Systemzeit in Einheiten von 1/8192 Sekunde. |
-| 432 | `TIME` | Contents-14 | 511 | `TIME` / `2:16` | 70 | `TIME` | KONTEXTUELLER_POCKET_TREFFER | Liest die aktuelle Systemuhrzeit im Format HH.MMSSs. |
-| 433 | `→TIME` | Contents-14 | 511 | `→TIME` / `2:23` | 70 | `+TIME` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Stellt die Systemuhr anhand einer Uhrzeit im Format HH.MMSSs. |
-| 434 | `TINC` | Contents-14 | 512 | `TINC` / `171:124` | 70 | `TINC` | KONTEXTUELLER_POCKET_TREFFER | Berechnet neue Temperatur aus Ausgangstemperatur und Temperaturänderung. |
-| 435 | `TLINE` | Contents-14 | 513 | `TLINE` / `2:207` | 70 | `TLINE` | KONTEXTUELLER_POCKET_TREFFER | Invertiert sämtliche Pixel entlang einer Linie zwischen zwei Koordinaten im Grafikobjekt PICT. |
-| 436 | `TMENU` | Contents-14 | 514 | `TMENU` / `2:347` | 70 | `THENLU` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Zeigt ein angegebenes Menü vorübergehend, ohne den Inhalt der reservierten Menüvariable CST zu verändern. |
-| 437 | `TOT` | Contents-14 | 515 | `TOT` / `2:300` | 70 | `T0T` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet Summen je Spalte der Statistikdaten in ΣDAT. |
-| 438 | `TRACE` | Contents-14 | 515 | `TRACE` / `171:50` | 70 | `TRACE` | KONTEXTUELLER_POCKET_TREFFER | Berechnet die Matrixspur als Summe der Hauptdiagonale; nicht das interaktive Nachfahren einer Plotkurve. |
-| 439 | `TRANSIO` | Contents-14 | 516 | `TRANSIO` / `2:372` | 70 | `TRANSIO` | KONTEXTUELLER_POCKET_TREFFER | Wählt die Zeichenübersetzung bei I/O-Übertragung; nicht die physische Schnittstelle. |
-| 440 | `TRN` | Contents-14 | 517 | `TRN` / `2:175` | 70 | `TRN` | KONTEXTUELLER_POCKET_TREFFER | Transponiert eine Matrix. |
-| 441 | `TRNC` | Contents-14 | 517 | `TRNC` / `2:109` | 70 | `TRNC` | KONTEXTUELLER_POCKET_TREFFER | Schneidet eine reelle Zahl abhängig vom Parameter auf Dezimalstellen, signifikante Stellen oder aktuelle Anzeigevorgabe ab. |
-| 442 | `TRUTH` | Contents-14 | 519 | `TRUTH` / `2:224` | 70 | `TRUTH` | KONTEXTUELLER_POCKET_TREFFER | Aktiviert einen Plottyp zur Darstellung wahrer/falscher Bedingungen. |
-| 443 | `TSTR` | Contents-14 | 520 | `TSTR` / `2:29` | 72 | `TSTR` | KONTEXTUELLER_POCKET_TREFFER | Erzeugt aus Datums- und Uhrzeitwerten einen String einschließlich Wochentagsangabe. |
-| 444 | `TVARS` | Contents-14 | 521 | `TVARS` / `2:37` | 72 | `TYARS` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Listet Variablen der angegebenen Objekttypen aus dem aktuellen Verzeichnis auf. |
-| 445 | `TVM` | Contents-14 | 521 | `TVM` / `171:85` | 72 | `TVM` | KONTEXTUELLER_POCKET_TREFFER | Öffnet das Menü des Time-Value-of-Money-Finanzsolvers; löst nicht automatisch eine Unbekannte. |
-| 446 | `TVMBEG` | Contents-14 | 522 | `TVMBEG` / `171:86` | 72 | `TYMBEG` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Aktiviert Zahlungszeitpunkte am Anfang einer Zahlungsperiode. |
-| 447 | `TVMEND` | Contents-14 | 522 | `TVMEND` / `171:87` | 72 | `TYMEND` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Aktiviert Zahlungszeitpunkte am Ende einer Zahlungsperiode. |
-| 448 | `TVMROOT` | Contents-14 | 522 | `TVMROOT` / `171:88` | 72 | `TWMROOT` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet die gesuchte Variable des TVM-Solvers. |
-| 449 | `TYPE` | Contents-14 | 523 | `TYPE` / `2:166` | 72 | `TYPE` | KONTEXTUELLER_POCKET_TREFFER | Gibt die numerische Typkennung eines Objekts zurück. |
-| 450 | `UBASE` | Contents-14 | 524 | `UBASE` / `2:14` | 72 | `LEASE` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Wandelt ein Einheitenobjekt in entsprechende SI-Basiseinheiten um. |
+| 401 | `STEQ` | Contents-13 | `STEQ` / `2:250` | 68 | 488 | `STER` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Legt ein Objekt als aktuell zu verwendende Gleichung in der reservierten Variable EQ ab. |
+| 402 | `STIME` | Contents-13 | `STIME` / `2:375` | 68 | 488 | `STIME` | KONTEXTUELLER_POCKET_TREFFER | Stellt die Zeitüberschreitung für SRECV und WAIT ein; keine Einstellung der Systemuhr. |
+| 403 | `STO` | Contents-13 | `STO` / `2:341` | 68 | 489 | `STO` | KONTEXTUELLER_POCKET_TREFFER | Speichert ein Objekt unter dem angegebenen Variablennamen. |
+| 404 | `STOALARM` | Contents-13 | `STOALARM` / `2:25` | 68 | 490 | `STORLARM` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Speichert einen Alarm mit Zeitpunkt und zugehöriger Aktion. |
+| 405 | `STOF` | Contents-13 | `STOF` / `2:151` | 68 | 491 | `STOF` | KONTEXTUELLER_POCKET_TREFFER | Stellt einen vollständigen Flagsatz aus dem übergebenen Objekt wieder her. |
+| 406 | `STOKEYS` | Contents-13 | `STOKEYS` / `2:380` | 68 | 492 | `STOKEYS` | KONTEXTUELLER_POCKET_TREFFER | Legt benutzerdefinierte Tastenbelegungen fest. |
+| 407 | `STO+` | Contents-13 | `STO+` / `2:327` | 68 | 493 | `ST+` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Addiert zu einem benannten Variablenwert ein Objekt und speichert das Ergebnis zurück. |
+| 408 | `STO−` | Contents-13 | `STO-` / `2:328` | 68 | 494 | `ST0-` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Subtrahiert ein Objekt vom benannten Wert (oder umgekehrte Operandform) und speichert das Ergebnis. |
+| 409 | `STO*` | Contents-13 | `STO*` / `2:330` | 68 | — | `5T0#` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Multipliziert einen benannten Variablenwert mit dem Objekt und speichert das Ergebnis. |
+| 410 | `STO/` | Contents-13 | `STO/` / `2:329` | 68 | 495 | `ST0-` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Dividiert den benannten Wert durch ein Objekt (oder umgekehrte Operandform) und speichert das Ergebnis. |
+| 411 | `STOΣ` | Contents-13 | `STOΣ` / `2:283` | 68 | — | `STOZ` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Speichert das übergebene Objekt als Statistikdaten in ΣDAT. |
+| 412 | `STREAM` | Contents-13 | `STREAM` / `171:103` | 70 | 497 | `STREAM` | KONTEXTUELLER_POCKET_TREFFER | Reduziert eine Liste schrittweise: wertet ein Programm mit aktuellem Listenelement und vorherigem Ergebnis aus; am Anfang mit den ersten zwei Listenelementen. |
+| 413 | `STR→` | Contents-13 | `STR→` / `2:163` | 70 | 497 | `5TRE+` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Parst eine Zeichenkette als Objekt; der Pocket Guide vergleicht das Ergebnis mit OBJ→ auf einer Zeichenkette. |
+| 414 | `→STR` | Contents-13 | `→STR` / `2:162` | 70 | 498 | `+5TR` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Wandelt ein Objekt in seine textuelle Zeichenkettendarstellung um. |
+| 415 | `STWS` | Contents-13 | `STWS` / `2:148` | 70 | 499 | `STHS` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Setzt die aktive Binärwortbreite in Bits. |
+| 416 | `SUB` | Contents-13 | `SUB` / `2:156` | 70 | — | `SUB` | KONTEXTUELLER_POCKET_TREFFER | Extrahiert einen Abschnitt aus Liste, Zeichenkette oder GROB anhand Start- und Endposition. |
+| 417 | `SVD` | Contents-14 | `SVD` / `171:57` | 70 | 18 | `S0` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Führt eine Singulärwertzerlegung einer Matrix durch und liefert zugehörige Faktoren einschließlich Singulärwerten. |
+| 418 | `SVL` | Contents-14 | `SVL` / `171:58` | 70 | 502 | `SVL` | KONTEXTUELLER_POCKET_TREFFER | Liefert die Singulärwerte einer Matrix; nicht die gesamte SVD-Zerlegung. |
+| 419 | `SWAP` | Contents-14 | `SWAP` / `2:271` | 70 | 502 | `ShAP` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Vertauscht die beiden obersten Stackobjekte. |
+| 420 | `SYSEVAL` | Contents-14 | `SYSEVAL` / `2:49` | 70 | 503 | `SYSEVAL` | KONTEXTUELLER_POCKET_TREFFER | Wertet einen System-Einstiegspunkt des historischen HP-Betriebssystems aus; nur in sicherer historischer Emulation, nie als Host-Codeaufruf. |
+| 421 | `%T` | Contents-14 | `%T` / `2:125` | 70 | 503 | `&1` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet, wie viel Prozent der erste Zahlenwert durch den zweiten repräsentiert wird. |
+| 422 | `→TAG` | Contents-14 | `→TAG` / `2:383` | 70 | 505 | `+TAG` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Erzeugt ein markiertes Objekt aus Inhalt und angegebenem Tag-/Namenstext. |
+| 423 | `TAIL` | Contents-14 | `TAIL` / `171:97` | 70 | 505 | `TRIL` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Liefert Liste oder Zeichenkette ohne das erste Element bzw. Zeichen. |
+| 424 | `TAN` | Contents-14 | `TAN` / `2:83` | 70 | 506 | `THAN` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet den Tangens im eingestellten Winkelmodus. |
+| 425 | `TANH` | Contents-14 | `TANH` / `2:86` | 70 | 507 | `THMH` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet den hyperbolischen Tangens. |
+| 426 | `TAYLR` | Contents-14 | `TAYLR` / `2:339` | 70 | 507 | `TAYLR` | KONTEXTUELLER_POCKET_TREFFER | Berechnet das Taylorpolynom der angegebenen Ordnung eines algebraischen Ausdrucks in einer Variablen. |
+| 427 | `TDELTA` | Contents-14 | `TDELTA` / `171:123` | 70 | 508 | `TOELTA` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet eine Temperaturdifferenz aus zwei Temperaturwerten. |
+| 428 | `TEACH` | Contents-14 | `TEACH` / `171:17` | 70 | 509 | `TEACH` | KONTEXTUELLER_POCKET_TREFFER | Erzeugt ein EXAMPLES-Unterverzeichnis mit Lehr-/Beispielobjekten. |
+| 429 | `TEXT` | Contents-14 | `TEXT` / `2:217` | 70 | 509 | `TEXT` | KONTEXTUELLER_POCKET_TREFFER | Schaltet bei der nächsten Aktualisierung zur normalen Stackdarstellung zurück. |
+| 430 | `THEN` | Contents-14 | `THEN` / `1792:1, 1792:24, 1792:26` | 70 | 510 | `THEN` | KONTEXTUELLER_POCKET_TREFFER | Beginnt den Wahr-Zweig in einer IF-/CASE-/IFERR-Kontrollstruktur je Kontext. |
+| 431 | `TICKS` | Contents-14 | `TICKS` / `2:18` | 70 | 510 | `TICKS` | KONTEXTUELLER_POCKET_TREFFER | Liefert die interne Systemzeit in Einheiten von 1/8192 Sekunde. |
+| 432 | `TIME` | Contents-14 | `TIME` / `2:16` | 70 | 511 | `TIME` | KONTEXTUELLER_POCKET_TREFFER | Liest die aktuelle Systemuhrzeit im Format HH.MMSSs. |
+| 433 | `→TIME` | Contents-14 | `→TIME` / `2:23` | 70 | 511 | `+TIME` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Stellt die Systemuhr anhand einer Uhrzeit im Format HH.MMSSs. |
+| 434 | `TINC` | Contents-14 | `TINC` / `171:124` | 70 | 512 | `TINC` | KONTEXTUELLER_POCKET_TREFFER | Berechnet neue Temperatur aus Ausgangstemperatur und Temperaturänderung. |
+| 435 | `TLINE` | Contents-14 | `TLINE` / `2:207` | 70 | 513 | `TLINE` | KONTEXTUELLER_POCKET_TREFFER | Invertiert sämtliche Pixel entlang einer Linie zwischen zwei Koordinaten im Grafikobjekt PICT. |
+| 436 | `TMENU` | Contents-14 | `TMENU` / `2:347` | 70 | 514 | `THENLU` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Zeigt ein angegebenes Menü vorübergehend, ohne den Inhalt der reservierten Menüvariable CST zu verändern. |
+| 437 | `TOT` | Contents-14 | `TOT` / `2:300` | 70 | 515 | `T0T` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet Summen je Spalte der Statistikdaten in ΣDAT. |
+| 438 | `TRACE` | Contents-14 | `TRACE` / `171:50` | 70 | 515 | `TRACE` | KONTEXTUELLER_POCKET_TREFFER | Berechnet die Matrixspur als Summe der Hauptdiagonale; nicht das interaktive Nachfahren einer Plotkurve. |
+| 439 | `TRANSIO` | Contents-14 | `TRANSIO` / `2:372` | 70 | 516 | `TRANSIO` | KONTEXTUELLER_POCKET_TREFFER | Wählt die Zeichenübersetzung bei I/O-Übertragung; nicht die physische Schnittstelle. |
+| 440 | `TRN` | Contents-14 | `TRN` / `2:175` | 70 | 517 | `TRN` | KONTEXTUELLER_POCKET_TREFFER | Transponiert eine Matrix. |
+| 441 | `TRNC` | Contents-14 | `TRNC` / `2:109` | 70 | 517 | `TRNC` | KONTEXTUELLER_POCKET_TREFFER | Schneidet eine reelle Zahl abhängig vom Parameter auf Dezimalstellen, signifikante Stellen oder aktuelle Anzeigevorgabe ab. |
+| 442 | `TRUTH` | Contents-14 | `TRUTH` / `2:224` | 70 | 519 | `TRUTH` | KONTEXTUELLER_POCKET_TREFFER | Aktiviert einen Plottyp zur Darstellung wahrer/falscher Bedingungen. |
+| 443 | `TSTR` | Contents-14 | `TSTR` / `2:29` | 72 | 520 | `TSTR` | KONTEXTUELLER_POCKET_TREFFER | Erzeugt aus Datums- und Uhrzeitwerten einen String einschließlich Wochentagsangabe. |
+| 444 | `TVARS` | Contents-14 | `TVARS` / `2:37` | 72 | 521 | `TYARS` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Listet Variablen der angegebenen Objekttypen aus dem aktuellen Verzeichnis auf. |
+| 445 | `TVM` | Contents-14 | `TVM` / `171:85` | 72 | 521 | `TVM` | KONTEXTUELLER_POCKET_TREFFER | Öffnet das Menü des Time-Value-of-Money-Finanzsolvers; löst nicht automatisch eine Unbekannte. |
+| 446 | `TVMBEG` | Contents-14 | `TVMBEG` / `171:86` | 72 | 522 | `TYMBEG` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Aktiviert Zahlungszeitpunkte am Anfang einer Zahlungsperiode. |
+| 447 | `TVMEND` | Contents-14 | `TVMEND` / `171:87` | 72 | 522 | `TYMEND` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Aktiviert Zahlungszeitpunkte am Ende einer Zahlungsperiode. |
+| 448 | `TVMROOT` | Contents-14 | `TVMROOT` / `171:88` | 72 | 522 | `TWMROOT` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Berechnet die gesuchte Variable des TVM-Solvers. |
+| 449 | `TYPE` | Contents-14 | `TYPE` / `2:166` | 72 | 523 | `TYPE` | KONTEXTUELLER_POCKET_TREFFER | Gibt die numerische Typkennung eines Objekts zurück. |
+| 450 | `UBASE` | Contents-14 | `UBASE` / `2:14` | 72 | 524 | `LEASE` | OCR-FORM_ABWEICHEND_SCAN_OFFEN | Wandelt ein Einheitenobjekt in entsprechende SI-Basiseinheiten um. |
 
 **Zählbilanz:** **50/50** individuelle AUR-TOC-Positionen, **50/50** unterschiedliche AUR-Namen, **50/50** direkte ROM-Namenszuordnungen, **50/50** kontextuelle unabhängige Pocket-Guide-Textbelege. Mehrere Texte sind OCR-beschädigt; die numerischen Fundseiten dienen dem Textabgleich und nicht als Originalscan-Abnahme. `THEN` hat im ROM-Inventar **mehrere XLIB-Kennungen** (`1792:1`, `1792:24`, `1792:26`) für unterschiedliche Kontrollkontexte, **nicht mehrere verschiedene Namen**.
 
