@@ -103,9 +103,43 @@ def check() -> int:
         errors.append("AUR contents index partitions have coverage gaps")
     if sum(x["count"] for x in details) != len(aur["rows"]):
         errors.append("AUR detailed-command partitions have gaps")
+    pocket_checked = 0
+    for part in details:
+        mode = part.get("independent_pocket_guide_name_check")
+        if mode is None:
+            continue
+        if mode != "TEXT_INDEX_COMPARED_NOT_SCAN":
+            errors.append(f'{part["id"]}: unsupported Pocket Guide status {mode}')
+            continue
+        expected = part["count"]
+        report = part.get("independent_pocket_guide_report")
+        if not report or not (ROOT / report).is_file():
+            errors.append(f'{part["id"]}: missing Pocket Guide checkpoint report')
+            continue
+        report_lines = (ROOT / report).read_text(encoding="utf-8").splitlines()
+        numbered = []
+        for line in report_lines:
+            cells = line.split(" | ")
+            if line.startswith("| ") and cells[0][2:].isdigit():
+                numbered.append((int(cells[0][2:]), cells))
+        first, last = part["ordinal_range"]
+        if [n for n, _ in numbered] != list(range(first, last + 1)):
+            errors.append(f'{part["id"]}: AUR command names have missing/duplicate ordinals')
+        expected_names = [r["printed_name"] for r in aur["rows"][first-1:last]]
+        actual_names = [cells[1].strip("`").replace(r"\\|","|") for _, cells in numbered]
+        if actual_names != expected_names:
+            errors.append(f'{part["id"]}: Pocket Guide report not aligned with AUR source names')
+        if part.get("pocket_guide_names_crosschecked") != expected:
+            errors.append(f'{part["id"]}: wrong checkpoint name count')
+        pocket_checked += len(numbered)
+    if pocket_checked != manifest["advanced_reference"].get("pocket_guide_names_crosschecked", 0):
+        errors.append("Global independent Pocket Guide crosscheck count not supported")
+
     ordinals = [n for x in details for n in range(x["ordinal_range"][0], x["ordinal_range"][1]+1)]
     if ordinals != list(range(1, len(aur["rows"])+1)):
         errors.append("AUR detailed-command ordinal ranges overlap or leave gaps")
+    if manifest["operation_index"].get("preface_page_g1", {}).get("status") != "PENDING_VISUAL_CHECK":
+        errors.append("G-1 legend/preface original scan must remain visibly pending")
     if manifest["release_gate"] != "HISTORICAL_COMPLETENESS_NOT_CERTIFIED":
         errors.append("Gate must remain NOT CERTIFIED until separately signed off")
     if not known_rom or not known_aur:
@@ -113,7 +147,7 @@ def check() -> int:
 
     print(f"G pages indexed={len(pages)}; cross-index compared={len(reviewed_pages)}; "
           f"original scans signed off={manifest['operation_index']['scan_visually_certified_pages']}")
-    print(f"Operation rows={len(all_items)}; AUR TOC rows={len(aur['rows'])}; ROM names={len(rom['entries'])}")
+    print(f"Operation rows={len(all_items)}; AUR TOC rows={len(aur['rows'])}; ROM names={len(rom['entries'])}; independent Pocket Guide text names={pocket_checked}")
     if errors:
         for error in errors:
             print("FAIL:", error, file=sys.stderr)
