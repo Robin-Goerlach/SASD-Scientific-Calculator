@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**Unabhängiger Pocket-Guide-Abgleich:** [AUR-Teilprüfung A01 (erste 50 Befehle)](HP-48GX-AUR-TEILPRUEFUNG-A01.md); weitere AUR-Detailprüfungen bleiben offen.
+
 **Etappierte Prüfung:** [Prüfstand/Teilaufgaben G-2 bis G-8](HP-48GX-TEILPRUEFUNG-G02-G08.md), [G-9 bis G-15](HP-48GX-TEILPRUEFUNG-G09-G15.md), [Semantik-Nachprüfung 01](HP-48GX-SEMANTIK-NACHPRUEFUNG-01.md) und [maschinenlesbare Fortschrittsmatrix](../reference/hp48gx-audit-partitions.json). Die Originalscan- und AUR-Stack-Freigabe ist weiterhin offen.
 
 **Verbindlicher Vollständigkeitsnachweis:** [HP-48GX-VOLLSTAENDIGKEITSAUDIT.md](HP-48GX-VOLLSTAENDIGKEITSAUDIT.md) – Abgleich mit Appendix G des Originalhandbuchs, AUR-Kommandoreferenz, ROM-Index, Tastatur, Menüs und eingebauten Datentabellen. **Quellen- und Befehlsmatrix:** [HP-48GX-BEFEHLSABGLEICH-MATRIX.md](HP-48GX-BEFEHLSABGLEICH-MATRIX.md); dort werden alle 517 ROM-Namen mit möglichen Fundstellen, offenen Fällen und ersten gegen Anhang G geprüften Bedienoperationen erfasst. Bis dessen Kriterien erfüllt sind, gilt dieses Dokument als **Arbeitsinventar**.
@@ -409,7 +411,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `ACKALL` | Zeit, Kalender, Wecker | Alle fälligen Alarme quittieren. | `2:20` | MENU 94 ALRM |
 | `ACOS` | Grundrechnen, elementare Funktionen und Zahlen | Arkuskosinus. | `2:88` | ohne Menüeintrag |
 | `ACOSH` | Grundrechnen, elementare Funktionen und Zahlen | Inverser Cosinus hyperbolicus. | `2:91` | MTH HYP |
-| `ADD` | Listen, Strings, Objektkonversion | Addiert zwei gleich strukturierte Listen elementweise; + konkateniert Listen. | `171:108` | MTH LIST |
+| `ADD` | Listen, Strings, Objektkonversion | Addiert Listenelemente paarweise oder einen Einzelwert zu jedem Listenelement; dies ist von der typabhängigen Operation `+` zu unterscheiden. | `171:108` | MTH LIST |
 | `ALOG` | Grundrechnen, elementare Funktionen und Zahlen | 10 hoch x. | `2:96` | ohne Menüeintrag |
 | `AMORT` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Tilgungsrechnung. | `171:89` | MENU 74 TVM; MENU 74 TVM SOLVR |
 | `AND` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises UND. | `2:229` | MTH BASE LOGIC; PRG TEST |
@@ -428,18 +430,18 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `ATICK` | Grafik, Diagramme und Plotparameter | Achsenticks festlegen. | `171:16` | ohne Menüeintrag |
 | `ATTACH` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Bibliothek anhängen. | `2:357` | MENU 110 |
 | `AUTO` | Grafik, Diagramme und Plotparameter | Plotbereich automatisch bestimmen. | `2:192` | ohne Menüeintrag |
-| `AXES` | Grafik, Diagramme und Plotparameter | Position der Plotachsen festlegen. | `2:186` | ohne Menüeintrag |
+| `AXES` | Grafik, Diagramme und Plotparameter | Legt Ursprung, Achsenmarkierungen und Achsenbeschriftungen im Plotparameterobjekt fest. | `2:186` | ohne Menüeintrag |
 | `B→R` | Binärzahlen, Logik, Modi, Systemflags | Binäre Ganzzahl nach reell. | `2:10` | MTH BASE |
 | `BAR` | Grafik, Diagramme und Plotparameter | Balkendiagramm aktivieren. | `2:227` | ohne Menüeintrag |
 | `BARPLOT` | Grafik, Diagramme und Plotparameter | Balkendiagramm erstellen. | `2:316` | MENU 96 PLOT |
 | `BAUD` | Schnittstellen, Drucker, Display und Tastenbelegung | Baudrate konfigurieren. | `2:370` | ohne Menüeintrag |
-| `BEEP` | Schnittstellen, Drucker, Display und Tastenbelegung | Ton erzeugen. | `2:52` | PRG OUT |
+| `BEEP` | Schnittstellen, Drucker, Display und Tastenbelegung | Gibt einen Ton mit vorgegebener Frequenz und Dauer aus. | `2:52` | PRG OUT |
 | `BESTFIT` | Statistik, Verteilungen und Regression | Bestes Fit-Modell auswählen. | `2:323` | ohne Menüeintrag |
 | `BIN` | Binärzahlen, Logik, Modi, Systemflags | Binäre Anzeigeform. | `2:144` | MTH BASE |
 | `BINS` | Statistik, Verteilungen und Regression | Daten für Histogramm klassieren. | `2:315` | MENU 96 1VAR |
 | `BLANK` | Grafik, Diagramme und Plotparameter | Leeres Grafikobjekt erzeugen. | `2:209` | PRG GROB |
 | `BOX` | Grafik, Diagramme und Plotparameter | Rechteck zeichnen. | `2:208` | PRG PICT |
-| `BUFLEN` | Schnittstellen, Drucker, Display und Tastenbelegung | Liefert die Zahl der Zeichen im seriellen Empfangspuffer. | `2:374` | MENU 104 SERIAL |
+| `BUFLEN` | Schnittstellen, Drucker, Display und Tastenbelegung | Bestimmt die Zeichenanzahl im seriellen Empfangspuffer und einen Status der Empfangsdaten (Stackdetails noch AUR-prüfpflichtig). | `2:374` | MENU 104 SERIAL |
 | `BYTES` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Speichergröße und Prüfsumme eines Objekts ermitteln. | `2:38` | MENU 70 |
 | `C→PX` | Grafik, Diagramme und Plotparameter | Benutzerkoordinaten in Pixelkoordinaten wandeln. | `2:199` | PRG PICT |
 | `C→R` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Komplexe Zahl in Komponenten zerlegen. | `2:159` | MTH CMPLX; PRG TYPE |
@@ -453,7 +455,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `CLEAR` | Stack und User-RPL-Programmsteuerung | Stack leeren. | `2:282` | ohne Menüeintrag |
 | `CLKADJ` | Zeit, Kalender, Wecker | Uhrengang anpassen. | `2:24` | MENU 94 |
 | `CLLCD` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Inhalt löschen. | `2:56` | PRG OUT |
-| `CLOSEIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Ein-/Ausgabe schließen. | `2:362` | MENU 104 |
+| `CLOSEIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Schließt die seriellen/IR-Schnittstellen und löscht den Eingangspuffer sowie Kermit-Fehlerinformationen. | `2:362` | MENU 104 |
 | `CLTEACH` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Lehrbeispielobjekte entfernen. | `171:18` | ohne Menüeintrag |
 | `CLVAR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen löschen. | `2:346` | ohne Menüeintrag |
 | `CLΣ` | Statistik, Verteilungen und Regression | Statistische Daten löschen. | `2:284` | MENU 87 DATA; MENU 96 DATA |
@@ -884,7 +886,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 
 | Name | Typ / Status | Bedeutung | Originalfundstelle |
 | --- | --- | --- | --- |
-| `CLUSR` | Im offiziellen Operation Index ausdrücklich als programmierbares `C` dokumentiert; ROM-Zuordnung offen | Löscht alle Benutzervariablen des aktuellen Verzeichnisses, ebenso laut Index `CLVAR` – Alias-/Identitätsprüfung nötig | User's Guide G-7 |
+| `CLUSR` | Im offiziellen Operation Index ausdrücklich als programmierbares `C` dokumentiert; ROM-Zuordnung offen | Historischer Kompatibilitätsname für `CLVAR` (Pocket Guide S. 43 nennt dieselbe Funktion); genaue AUR-Stackdetails und ROM-Revisionsunterschiede noch zu prüfen. | User's Guide G-7 |
 | `ECHO` | Nichtprogrammierbare Stack-Browser-Aktion `O` | Kopiert markiertes Stackobjekt in die Eingabezeile | User's Guide G-14 |
 | `DINV` | Nichtprogrammierbare EquationWriter-Regel `O` | Doppelte Invertierung als Umformungsregel | User's Guide 20-20 / Operation Index G-12 |
 | `EXTR` | Nichtprogrammierbare Grafik-Analyseaktion `O` | Extremum in der Grafik suchen | User's Guide, G-16 / Kapitel 22 |
