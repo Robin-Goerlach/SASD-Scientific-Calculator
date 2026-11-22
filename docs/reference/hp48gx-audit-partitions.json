@@ -929,7 +929,12 @@
         "name_first": "DIFFEQ",
         "name_last": "FREE1",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A03.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "50/50 normalized ROM, Pocket index combined 50/50; one HTML-OCR omission ENDSUB confirmed through Pocket PDF text; AUR TOC ERRO OCR vs ROM ERR0 glyph unresolved until original scan."
       },
       {
         "id": "A04",
@@ -1022,7 +1027,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 99
+    "pocket_guide_names_crosschecked": 149
   },
   "other_inventories": [
     {
@@ -1050,8 +1055,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A03_AUR_SOURCE_NAMES_101_TO_150",
+  "next_partition": "A04_AUR_SOURCE_NAMES_151_TO_200",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01+A02 names individually compared with independent Pocket Guide text (99 matches for 100 AUR printed names, DBUG not listed as programmable); individual AUR stack diagrams and original scan visual review are still open. Next A03 101–150."
+  "notes_next": "A01–A03 names checked; Pocket Guide 149/150 by HTML OCR alone (one ENDSUB omission) plus Pocket PDF text for ENDSUB. Original scans and AUR stack diagrams pending. Next A04 151–200."
 }
