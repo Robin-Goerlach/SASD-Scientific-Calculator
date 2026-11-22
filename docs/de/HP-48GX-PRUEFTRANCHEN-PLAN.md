@@ -14,15 +14,15 @@
 
 | Serie | Ziel | Aufteilung | Restliche Prüfpakete zum Stand 22.11.2026 | Wichtigste Freigabe |
 | --- | --- | --- | ---: | --- |
-| A04–A11 | AUR-Namensindex + unabhängiger Pocket-Guide-Kurznachweis | Je 50 Befehle, letzter Block 17 | **8** | Alle 517 AUR-TOC-Einträge in den Einzelberichten, Abweichungen kategorisiert |
+| A05–A11 | AUR-Namensindex + unabhängiger Pocket-Guide-Kurznachweis | Je 50 Befehle, letzter Block 17 | **7** | Alle 517 AUR-TOC-Einträge in den Einzelberichten, Abweichungen kategorisiert |
 | S01–S09 | **Originalscan-Bildprüfung** des HP-Operation-Index, einschließlich Legende G-1 | Je etwa sieben Originalseiten | **9** | Jede der 58 gedruckten Seiten visuell, Zeile für Zeile, mit Quellenhash/Scanbeleg |
 | E01–E13 | Jede der **315** original eingebauten Equation-Library-Formeln als Funktions-Metadatensatz | Ca. 25 Formeln je Paket | **13** | Nummerierung/Formeln/Variablen inkl. 396 Variablen gezählt und nachvollziehbar referenziert; lizenzgerechte Beschreibung |
 | U01–U06 | Einheitenkatalog, inklusive Aufklärung des Widerspruchs »147« vs. »9+141« | Ca. 25 Definitionen pro Paket | **6** | Alle tatsächlichen Unit-IDs, Dimensionen und nötigen Umrechnungen erfasst |
 | K01–K04 | 49 Tasten, alle Shift-/Alpha-/User-Kontexte; Menüs/Editoren, Flags, reservierte Variablen, Ports/ROM-Profile | Vier getrennte Themenpakete | **4** | Explizite Kontext-/Erreichbarkeitsliste und Modell-/Revisionsfilter |
 | F01–F02 | Dreiquellen-Bilanz, Lückenbereinigung, Quellen-Sichtfreigabe, Finalreport | Zwei Integrationspakete | **2** | Null unbegründete Deltas, dokumentiertes Abnahmesiegel für **I** oder offener Mangelbericht |
-| **Summe I** | **Vollständigkeit der Funktionsliste und eingebauten Daten** | | **42 weitere kleine Prüfpakete** | Kein geschönter 100-%-Status |
+| **Summe I** | **Vollständigkeit der Funktionsliste und eingebauten Daten** | | **41 weitere kleine Prüfpakete** | Kein geschönter 100-%-Status |
 | V01–V21 | Einzelne AUR-Befehlsreferenzen, Objekttypen/Stack, Flags, Fehler- und Sonderfälle | Ca. 25 der 517 AUR-Namenseinträge je Paket | **zusätzlich 21** | AUR-Stackdiagramme je Befehl mit Quellenbeleg, gegebenenfalls Originalgerät/Emulator |
-| **Summe I + V** | **Katalog plus technische Verhaltens-/Konformitätsreferenz** | | **ca. 63 weitere Prüfpakete** | Jeweils getrennte Freigaben |
+| **Summe I + V** | **Katalog plus technische Verhaltens-/Konformitätsreferenz** | | **ca. 62 weitere Prüfpakete** | Jeweils getrennte Freigaben |
 
 **Wichtig:** Das sind **Planungsgrößen, keine zugesagten Ausführungszeiten**. Je Chat können mehrere Pakete abgeschlossen werden; bei komplexen Scans auch nur eins. Die Paketanzahl kann bei neuen Quellwidersprüchen steigen oder durch Zusammenlegen leichter Teile sinken.
 
@@ -32,12 +32,13 @@
 - **A01:** AUR-Namen 1–50; unabhängiger Pocket-Guide-Textabgleich dokumentiert.
 - **A02:** AUR-Namen **51–100**; 48 direkte ROM-Namenszuordnungen, zwei Sonderfälle (`CLUSR` und `DBUG`), **49** Zuordnungen im unabhängigen Pocket-Guide-Textindex, Debugger-Bedienaktion `DBUG` dort nicht enthalten. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A02.md).
 - **A03:** AUR-Namen **101–150**, alle 50 normierten ROM-Namen zugeordnet. **50/50** Pocket-Guide-Nachweise in kombinierter Web-OCR/PDF-Textsicht; `ENDSUB` fehlt in Web-OCR, ist im PDF-Text nachgewiesen. `ERRO` versus `ERR0` bleibt ein OCR-Glyphenfall; `ENDSUB`-Kurzbeschreibung auf Gesamtzahl berichtigt. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A03.md).
-- Insgesamt **150 AUR-Namenseinträge** aus A01–A03 gesondert dokumentiert; **149** unabhängige Pocket-Guide-Zuordnungen gemäß Checkpoint (100% A03, 49/50 A02) — keine Originalscan-Freigabe.
+- **A04:** 151–200, 47 direkte ROM-Namen, drei separate Sonderfälle (`GRAPH`, `IR`, `LAST`). 50/50 Kontexttreffer im Pocket-Guide-Text; OCR-Deltas bei `GRAD`, `GXOR`, `HMS→`/`→HMS` und Minuszeichen. [Bericht](HP-48GX-AUR-TEILPRUEFUNG-A04.md).
+- Insgesamt **200 AUR-Namenseinträge** aus A01–A04 dokumentiert; **199** unabhängige Pocket-Guide-Textzuordnungen im Checkpoint (einzig `DBUG` nicht im Programmierindex); weiterhin 0 Originalscan- und 0 vollständige AUR-Stackfreigaben.
 - Kurzbeschreibungen aus A02 für `CLVAR`, `CLΣ`, `COL±`, `CON`, `CONJ`, `CR`, `CROSS`, `CSWP`, `DATE`, `DELAY` und `DELKEYS` im Hauptkatalog präzisiert.
 
 ## 4. Priorisierung und Übergabe bei Zeitüberschreitung
 
-1. **Nächste Tranche:** **A04 (151–200)**. Vorher immer neu die [Fortschrittsdatei](../reference/hp48gx-audit-partitions.json) lesen, nicht auf Chattext verlassen.
+1. **Nächste Tranche:** **A05 (201–250)**. Vorher immer neu die [Fortschrittsdatei](../reference/hp48gx-audit-partitions.json) lesen, nicht auf Chattext verlassen.
 2. Vor jedem Commit alle Quelllabels und Sonderfälle in einer Einzeltabelle vollständig erfassen; nicht nur Trefferquoten speichern.
 3. Bei jeder Tranche **zuerst Bericht speichern**, anschließend **Fortschritts-JSON aktualisieren**, danach GitHub Actions Ergebnis prüfen. Ohne erfolgreichen Bericht keine `CHECKED`-Markierung.
 4. **Quellensperre:** Eine visuelle Abnahme des Originalscans darf erst nach tatsächlicher Bildsichtprüfung mit verifizierbarer PDF-Seite/Hash und dokumentierter Zeile erfolgen. Der online durchsuchbare PDF-Text oder eine Tesseract-Zeile reicht dafür nicht. Falls Web-/Download-Zugriff auf Originalbilder zu groß oder blockiert ist: diese Teilprüfung bleibt `BLOCKED_SOURCE_IMAGE_ACCESS`; niemals `PASS` vortäuschen.
