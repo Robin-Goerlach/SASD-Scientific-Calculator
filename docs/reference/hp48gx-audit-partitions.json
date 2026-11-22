@@ -945,7 +945,12 @@
         "name_first": "FREEZE",
         "name_last": "LIBS",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A04.md",
+        "pocket_guide_names_crosschecked": 50,
+        "pocket_guide_missing_names": [],
+        "notes": "AUR 151–200: 47 direct ROM-XLIB names, GRAPH/IR/LAST special non-XLIB or alias names; 50 contextual Pocket PDF-text matches; GRAD/GROB, GXOR/GYOR, HMS arrows OCR ambiguities, no image visual sign-off."
       },
       {
         "id": "A05",
@@ -1027,7 +1032,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 149
+    "pocket_guide_names_crosschecked": 199
   },
   "other_inventories": [
     {
@@ -1055,8 +1060,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A04_AUR_SOURCE_NAMES_151_TO_200",
+  "next_partition": "A05_AUR_SOURCE_NAMES_201_TO_250",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A03 names checked; Pocket Guide 149/150 by HTML OCR alone (one ENDSUB omission) plus Pocket PDF text for ENDSUB. Original scans and AUR stack diagrams pending. Next A04 151–200."
+  "notes_next": "A01–A04 names checked: 200/517 AUR TOC positions, 199/200 independent Pocket Guide text positions per checkpoint (DBUG omitted). Original PDF page screenshots, detailed AUR stack diagrams, individual equation/unit datasets remain pending. Next A05 201–250."
 }
