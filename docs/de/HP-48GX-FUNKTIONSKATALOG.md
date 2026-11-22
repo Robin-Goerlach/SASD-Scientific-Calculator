@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A02 (Befehle 51–100):** [AUR-Pocket-Guide-Teilprüfung A02](HP-48GX-AUR-TEILPRUEFUNG-A02.md); Kurzbeschreibungen von 12 belegten Befehlen präzisiert, Scan-/Stack-Verhalten noch offen.
+
 **Unabhängiger Pocket-Guide-Abgleich:** [AUR-Teilprüfung A01 (erste 50 Befehle)](HP-48GX-AUR-TEILPRUEFUNG-A01.md); weitere AUR-Detailprüfungen bleiben offen.
 
 **Etappierte Prüfung:** [Prüfstand/Teilaufgaben G-2 bis G-8](HP-48GX-TEILPRUEFUNG-G02-G08.md), [G-9 bis G-15](HP-48GX-TEILPRUEFUNG-G09-G15.md), [Semantik-Nachprüfung 01](HP-48GX-SEMANTIK-NACHPRUEFUNG-01.md) und [maschinenlesbare Fortschrittsmatrix](../reference/hp48gx-audit-partitions.json). Die Originalscan- und AUR-Stack-Freigabe ist weiterhin offen.
@@ -457,19 +459,19 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `CLLCD` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Inhalt löschen. | `2:56` | PRG OUT |
 | `CLOSEIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Schließt die seriellen/IR-Schnittstellen und löscht den Eingangspuffer sowie Kermit-Fehlerinformationen. | `2:362` | MENU 104 |
 | `CLTEACH` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Lehrbeispielobjekte entfernen. | `171:18` | ohne Menüeintrag |
-| `CLVAR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variablen löschen. | `2:346` | ohne Menüeintrag |
-| `CLΣ` | Statistik, Verteilungen und Regression | Statistische Daten löschen. | `2:284` | MENU 87 DATA; MENU 96 DATA |
+| `CLVAR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Löscht die Variablen und leeren Unterverzeichnisse im aktuellen Verzeichnis; Fehlerverhalten bei nichtleeren Unterverzeichnissen noch gegen die AUR prüfen. | `2:346` | ohne Menüeintrag |
+| `CLΣ` | Statistik, Verteilungen und Regression | Löscht den in `ΣDAT` gespeicherten Statistikdatensatz. | `2:284` | MENU 87 DATA; MENU 96 DATA |
 | `CNRM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spaltennorm einer Matrix. | `2:119` | MTH MATRX NORM |
-| `COL-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalte entfernen. | `171:73` | MTH MATRX COL |
+| `COL-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Entfernt eine Spalte bzw. bei Vektoren ein Element an einer angegebenen Position. | `171:73` | MTH MATRX COL |
 | `COL→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Bildet ein Array aus vorliegenden Spaltenobjekten. | `171:68` | MTH MATRX COL |
-| `COL+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalte einfügen. | `171:74` | MTH MATRX COL |
+| `COL+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Fügt eine oder mehrere Spalten bzw. bei Vektoren Elemente an einer angegebenen Position ein. | `171:74` | MTH MATRX COL |
 | `COLCT` | Symbolische Mathematik, Solver und Differentialgleichungen | Algebraischen Ausdruck zusammenfassen. | `2:333` | MENU 93 |
 | `COLΣ` | Statistik, Verteilungen und Regression | Wählt abhängige und unabhängige Datenspalten in `ΣDAT` (HP User's Guide G-8 / H-4); keine Spaltensumme. | `2:312` | ohne Menüeintrag |
 | `COMB` | Grundrechnen, elementare Funktionen und Zahlen | Kombinationen berechnen. | `2:129` | MTH PROB |
-| `CON` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Mit einem konstanten Wert gefülltes Array bilden. | `2:173` | MTH MATRX MAKE |
+| `CON` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Erzeugt ein Array der angegebenen Dimensionen mit einem konstanten Wert; die Dimension kann auch als Array vorliegen. | `2:173` | MTH MATRX MAKE |
 | `COND` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Konditionszahl bestimmen. | `171:49` | MTH MATRX NORM |
 | `CONIC` | Grafik, Diagramme und Plotparameter | Kegelschnittplot aktivieren. | `2:221` | ohne Menüeintrag |
-| `CONJ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Komplexe Konjugation. | `2:62` | MTH CMPLX |
+| `CONJ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Konjugiert eine komplexe Zahl oder ein komplexes Array. | `2:62` | MTH CMPLX |
 | `CONLIB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Konstantenbibliothek starten. | `171:32` | MENU 113 COLIB |
 | `CONST` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Physikalische Konstante auswählen. | `171:33` | MENU 113 COLIB |
 | `CONT` | Stack und User-RPL-Programmsteuerung | Angehaltenes Programm fortsetzen. | `2:58` | ohne Menüeintrag |
@@ -478,14 +480,14 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `COS` | Grundrechnen, elementare Funktionen und Zahlen | Kosinus. | `2:82` | ohne Menüeintrag |
 | `COSH` | Grundrechnen, elementare Funktionen und Zahlen | Cosinus hyperbolicus. | `2:85` | MTH HYP |
 | `COV` | Statistik, Verteilungen und Regression | Stichprobenkovarianz. | `2:290` | MENU 96 FIT |
-| `CR` | Schnittstellen, Drucker, Display und Tastenbelegung | Zeilenumbruch beim Drucken. | `2:243` | MENU 104 PRINT |
+| `CR` | Schnittstellen, Drucker, Display und Tastenbelegung | Gibt den Inhalt des Druckerpuffers aus; nicht lediglich ein Zeilenumbruch. | `2:243` | MENU 104 PRINT |
 | `CRDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Unterverzeichnis erstellen. | `2:32` | MENU 70 DIR |
-| `CROSS` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Kreuzprodukt. | `2:122` | MTH VECTR |
-| `CSWP` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Spalten vertauschen. | `171:76` | MTH MATRX COL |
+| `CROSS` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Berechnet das Kreuzprodukt geeigneter zwei- oder dreidimensionaler Vektoren; Ergebnisform je Dimension noch AUR-prüfpflichtig. | `2:122` | MTH VECTR |
+| `CSWP` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Vertauscht ausgewählte Spalten einer Matrix bzw. Elemente eines Vektors. | `171:76` | MTH MATRX COL |
 | `CYLIN` | Binärzahlen, Logik, Modi, Systemflags | Zylindrischer Koordinatenmodus. | `171:20` | MTH VECTR; MENU 63 ANGLE |
 | `D→R` | Grundrechnen, elementare Funktionen und Zahlen | Gradmaß nach Bogenmaß umrechnen. | `2:112` | MTH REAL |
 | `DARCY` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Darcy-Reibungsbeiwert berechnen. | `171:120` | MENU 113 UTILS |
-| `DATE` | Zeit, Kalender, Wecker | Aktuelles Datum lesen. | `2:17` | MENU 94 |
+| `DATE` | Zeit, Kalender, Wecker | Liefert das Systemdatum; dessen Darstellung hängt vom Datumsformat/Systemflag −42 ab. | `2:17` | MENU 94 |
 | `DATE+` | Zeit, Kalender, Wecker | Tage zu Datum addieren. | `2:31` | MENU 94 |
 | `dB` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Dezibel-Hilfsfunktion. | `171:128` | MENU 113 UTILS |
 | `DDAYS` | Zeit, Kalender, Wecker | Tage zwischen Daten ermitteln. | `2:30` | MENU 94 |
@@ -494,8 +496,8 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `DEFINE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benutzerdefinierte Funktion definieren. | `2:342` | ohne Menüeintrag |
 | `DEG` | Binärzahlen, Logik, Modi, Systemflags | Winkelmodus Grad. | `2:135` | MENU 63 ANGLE |
 | `DELALARM` | Zeit, Kalender, Wecker | Wecker löschen. | `2:28` | MENU 94 ALRM |
-| `DELAY` | Schnittstellen, Drucker, Display und Tastenbelegung | Druckverzögerung einstellen. | `2:245` | ohne Menüeintrag |
-| `DELKEYS` | Schnittstellen, Drucker, Display und Tastenbelegung | Benutzer-Tastenbelegung entfernen. | `2:381` | MENU 63 KEYS |
+| `DELAY` | Schnittstellen, Drucker, Display und Tastenbelegung | Legt die Zeitverzögerung in Sekunden nach jeder an den Drucker übertragenen Zeile fest. | `2:245` | ohne Menüeintrag |
+| `DELKEYS` | Schnittstellen, Drucker, Display und Tastenbelegung | Entfernt einzelne oder mehrere benutzerdefinierte Tastenbelegungen; genaue Argumentstruktur AUR-prüfpflichtig. | `2:381` | MENU 63 KEYS |
 | `DEPND` | Grafik, Diagramme und Plotparameter | Abhängige Plotvariable festlegen. | `2:196` | ohne Menüeintrag |
 | `DEPTH` | Stack und User-RPL-Programmsteuerung | Stacktiefe lesen. | `2:276` | MENU 73 |
 | `DET` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Determinante. | `2:120` | MTH MATRX NORM |
