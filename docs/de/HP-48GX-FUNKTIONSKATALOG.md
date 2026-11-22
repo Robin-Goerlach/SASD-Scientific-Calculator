@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A04 (Befehle 151–200):** [AUR-Pocket-Guide-Teilprüfung A04](HP-48GX-AUR-TEILPRUEFUNG-A04.md); 47 ROM-Namen, drei Sonderfälle `GRAPH`, `IR`, `LAST` und OCR-Differenzen bei `GRAD`, `GXOR`, Zeitkonvertierung. Kein Scan-/Stack-Abnahmestatus.
+
 **A03 (Befehle 101–150):** [AUR-Pocket-Guide-Teilprüfung A03](HP-48GX-AUR-TEILPRUEFUNG-A03.md); 50/50 normierte ROM-Namen und Pocket-Guide-Textbelege, `ERR0`-OCR-Abweichung erfasst, `ENDSUB`-Bedeutung korrigiert; Scan-/Stack-Abnahme weiterhin offen.
 
 **A02 (Befehle 51–100):** [AUR-Pocket-Guide-Teilprüfung A02](HP-48GX-AUR-TEILPRUEFUNG-A02.md); Kurzbeschreibungen von 12 belegten Befehlen präzisiert, Scan-/Stack-Verhalten noch offen.
@@ -555,12 +557,12 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `FP` | Grundrechnen, elementare Funktionen und Zahlen | Gebrochener Anteil. | `2:102` | MTH REAL |
 | `FREE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Eingebundenen Kartenspeicher freigeben. | `2:355` | ohne Menüeintrag |
 | `FREE1` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Eingebundenen Port-1-Speicher freigeben. | `171:23` | MENU 110 |
-| `FREEZE` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Bereiche einfrieren. | `2:51` | PRG OUT |
+| `FREEZE` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Statusbereich (1), Stack/Eingabe (2), Softkeys (4) per Bitmaske einfrieren. | `2:51` | PRG OUT |
 | `FS?` | Binärzahlen, Logik, Modi, Systemflags | Testen ob Flag gesetzt ist. | `2:133` | PRG TEST; MENU 63 FLAG |
 | `FS?C` | Binärzahlen, Logik, Modi, Systemflags | Flag testen und löschen. | `2:142` | PRG TEST; MENU 63 FLAG |
 | `FUNCTION` | Grafik, Diagramme und Plotparameter | Funktionsplot aktivieren. | `2:220` | ohne Menüeintrag |
 | `GET` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element an einer Position lesen. | `2:178` | MTH MATRX MAKE; PRG LIST ELEM |
-| `GETI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element lesen und Index erhöhen. | `2:179` | MTH MATRX MAKE; PRG LIST ELEM |
+| `GETI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element lesen; auch Container und weitergeschalteten Index zurückgeben. | `2:179` | MTH MATRX MAKE; PRG LIST ELEM |
 | `gmol` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Mol-Einheit auf Gramm-Basis. | `171:125` | MENU 113 UTILS |
 | `GOR` | Grafik, Diagramme und Plotparameter | Grafikobjekte per OR überlagern. | `2:211` | PRG GROB |
 | `GRAD` | Binärzahlen, Logik, Modi, Systemflags | Winkelmodus Gon. | `2:137` | MENU 63 ANGLE |
@@ -599,7 +601,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `lbmol` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Mol-Einheit auf Pfund-Basis. | `171:126` | MENU 113 UTILS |
 | `LCD→` | Grafik, Diagramme und Plotparameter | LCD-Daten als Grafikobjekt lesen. | `2:213` | PRG GROB |
 | `LIBEVAL` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Bibliotheksfunktion per XLIB-ID ausführen. | `171:30` | ohne Menüeintrag |
-| `LIBS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Bibliotheken auflisten. | `2:356` | MENU 110 |
+| `LIBS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Dem aktuellen Verzeichnis angehängte Bibliotheken auflisten. | `2:356` | MENU 110 |
 | `LINE` | Grafik, Diagramme und Plotparameter | Linie zeichnen. | `2:206` | PRG PICT |
 | `LINFIT` | Statistik, Verteilungen und Regression | Lineares Fit-Modell wählen. | `2:319` | ohne Menüeintrag |
 | `LININ` | Symbolische Mathematik, Solver und Differentialgleichungen | Prüft, ob ein algebraischer Ausdruck hinsichtlich einer angegebenen Variablen linear ist. | `171:28` | PRG TEST |
@@ -895,7 +897,8 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `DINV` | Nichtprogrammierbare EquationWriter-Regel `O` | Doppelte Invertierung als Umformungsregel | User's Guide 20-20 / Operation Index G-12 |
 | `EXTR` | Nichtprogrammierbare Grafik-Analyseaktion `O` | Extremum in der Grafik suchen | User's Guide, G-16 / Kapitel 22 |
 | `GRAPH` | Historischer programmierbarer Befehlszugang, separat nachzuprüfen | Aktiviert die Grafik-Umgebung; dokumentierter älterer Zugang neben `PICTURE` | User's Guide G-18/19, AUR Command Reference / Index |
-| `LAST` | AUR-/User-Guide-Eintrag; genaue Aliaswirkung prüfen | Letzte Argumente beziehungsweise vorheriger Stackzustand je Kontext | User's Guide G-23, AUR Index |
+| `IR` | Dokumentierte I/O-Bedienoperation ohne separate ROM-Namenskennung | Übertragungsweg zwischen Infrarot und serieller Schnittstelle umschalten | AUR Index, Pocket Guide Command Index S. 54, A04 |
+| `LAST` | Historischer Kompatibilitätsalias ohne eigene ROM-Namenskennung | Entspricht `LASTARG`: Argumente des zuletzt ausgeführten Befehls wiederherstellen; nicht LASTSTACK | User's Guide G-23, AUR Index |
 | `SCLS` | Im Operation Index als `C` geführt, AUR-Abgleich offen | Statistische Plot-Skalierung | User's Guide G-41 |
 | `CST` | Reservierter Variablenname | Benutzerdefiniertes Menüobjekt | G-9 |
 | `ΣDAT` | Reservierter Variablenname | Statistikdatenmatrix | G-10 |
@@ -910,7 +913,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `←A`, `A→`, `AF`, `←D`, `D→`, `←T`, `T→`, `TRG*`, `→TRG`, `1/()` | Nichtprogrammierbare EquationWriter-Regeln | Algebraische Umformungen mit ausgewähltem Teilausdruck | G-2, G-10, G-47, G-49, G-57 |
 | `BOXZ`, `ZIN`, `ZOUT`, `ZLAST`, `SLOPE`, `ISECT`, `SHADE`, Plot-`TRACE` | Interaktive PICTURE-/Plotaktionen | Zoom, grafische Analyse und Kurvenverfolgung | G-5, G-22, G-41, G-49, G-54 |
 
-**Prüfstatus:** Diese Handbucheinträge **erweitern die Referenz**, ohne die 517 technischen ROM-Namen stillschweigend umzubenennen. Ob `GRAPH`, `LAST`, `SCLS` oder die Variablenzugriffe tatsächlich als unabhängige User-RPL-Programmelemente gelten, ist mit Einzelreferenz, realem Gerät oder unabhängigem Emulator zu verifizieren. Die G-Seiten sind handbuchbezogene Fundstellen, nicht behauptete komplette AUR-Stackdiagramme.
+**Prüfstatus:** `LAST` ist auf Namens- und Kurzfunktionsebene als Alias zu `LASTARG` unabhängig belegt; Detailfehlerfälle bleiben offen. Diese Handbucheinträge **erweitern die Referenz**, ohne die 517 technischen ROM-Namen stillschweigend umzubenennen. Ob `GRAPH`, `LAST`, `SCLS` oder die Variablenzugriffe tatsächlich als unabhängige User-RPL-Programmelemente gelten, ist mit Einzelreferenz, realem Gerät oder unabhängigem Emulator zu verifizieren. Die G-Seiten sind handbuchbezogene Fundstellen, nicht behauptete komplette AUR-Stackdiagramme.
 
 ## 4. Was nicht fälschlich mitgezählt werden darf
 
