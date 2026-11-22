@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A07 (Befehle 301–350):** [AUR-Pocket-Guide-Teilprüfung A07](HP-48GX-AUR-TEILPRUEFUNG-A07.md); alle 50 AUR-Positionen mit eigenen ROM-Namen und unabhängigem Pocket-Guide-Textnachweis, OCR-Abweichungen bei u.a. `→Qπ`, `RCLΣ`, `RKFSTEP`, `RND`, `ROW→`. Originalscans und Stack-/Fehlerfälle bleiben offen.
+
 **A06 (Befehle 251–300):** [AUR-Pocket-Guide-Teilprüfung A06](HP-48GX-AUR-TEILPRUEFUNG-A06.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-XLIB-Zuordnungen, 50 Pocket-Guide-Textbelege. Verwechslungen bei `NΣ`/`NZ`, `PROMPT`/`PRMPT`, `PREDV`/`PREDY`, `PVAR`/`PVARS` dokumentiert; Scan-/Stackabnahme weiterhin offen.
 
 **A05 (Befehle 201–250):** [AUR-Pocket-Guide-Teilprüfung A05](HP-48GX-AUR-TEILPRUEFUNG-A05.md); 50 AUR-Positionen mit 49 verschiedenen Befehlsnamen (Doppelindex `NEXT`), alle normiert im ROM und im Pocket-Guide-Text zugeordnet. Glyphenkonflikte bei `↑MATCH`/`↓MATCH` und `→NUM`; Originalscan-/Stackabnahme offen.
@@ -697,11 +699,11 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `PUTI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element ersetzen, Container/Namensbezug und weitergeschaltete Position zurückgeben. | `2:177` | MTH MATRX MAKE; PRG LIST ELEM |
 | `PVAR` | Statistik, Verteilungen und Regression | Populationsvarianz. | `171:41` | MENU 96 1VAR |
 | `PVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Listet Backupobjekte und Bibliotheken eines Speicherports; gibt zusätzlich dessen Speicherart oder freien Speicher zurück (User's Guide 28-4). | `2:350` | MENU 110 |
-| `PVIEW` | Grafik, Diagramme und Plotparameter | Grafikbereich anzeigen. | `2:202` | PRG PICT; PRG OUT |
+| `PVIEW` | Grafik, Diagramme und Plotparameter | PICT mit einer angegebenen Benutzerkoordinate in der linken oberen Ecke anzeigen. | `2:202` | PRG PICT; PRG OUT |
 | `PWRFIT` | Statistik, Verteilungen und Regression | Potenz-Fit-Modell wählen. | `2:322` | ohne Menüeintrag |
 | `PX→C` | Grafik, Diagramme und Plotparameter | Pixelkoordinaten in Benutzerkoordinaten wandeln. | `2:198` | PRG PICT |
-| `QR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | QR-Faktorisierung. | `171:60` | MTH MATRX FACTR |
-| `QUAD` | Symbolische Mathematik, Solver und Differentialgleichungen | Quadratische Gleichung bearbeiten. | `2:337` | MENU 93 |
+| `QR` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | QR-Zerlegung mit Permutationsmatrix: A·P = Q·R (drei Ergebnisarrays). | `171:60` | MTH MATRX FACTR |
+| `QUAD` | Symbolische Mathematik, Solver und Differentialgleichungen | Ausdruck nach einer Variablen über quadratische Taylorentwicklung zweiter Ordnung lösen. | `2:337` | MENU 93 |
 | `QUOTE` | Symbolische Mathematik, Solver und Differentialgleichungen | Verhindert unmittelbare Auswertung. | `2:257` | MENU 93 |
 | `R→B` | Binärzahlen, Logik, Modi, Systemflags | Reelle Zahl nach binärer Ganzzahl. | `2:9` | MTH BASE |
 | `R→C` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Aus zwei reellen Komponenten komplexe Zahl bilden. | `2:153` | MTH CMPLX; PRG TYPE |
@@ -710,25 +712,25 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `RAND` | Grundrechnen, elementare Funktionen und Zahlen | Pseudozufallszahl erzeugen. | `2:127` | MTH PROB |
 | `RANK` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Matrixrang ermitteln. | `171:53` | MTH MATRX NORM |
 | `RANM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zufallsmatrix erzeugen. | `171:64` | MTH MATRX MAKE |
-| `RATIO` | Symbolische Mathematik, Solver und Differentialgleichungen | Interne Präfixform des Divisionsoperators in EquationWriter. | `2:268` | ohne Menüeintrag |
+| `RATIO` | Symbolische Mathematik, Solver und Differentialgleichungen | Algebraische Darstellung des Divisionsoperators in symbolischen Ausdrücken. | `2:268` | ohne Menüeintrag |
 | `RCEQ` | Symbolische Mathematik, Solver und Differentialgleichungen | Gespeicherte Gleichung EQ abrufen. | `2:249` | MENU 74 ROOT; MENU 84 |
 | `RCI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile mit Faktor multiplizieren. | `171:77` | MTH MATRX ROW |
 | `RCIJ` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Vielfaches einer Zeile zu anderer Zeile addieren. | `171:78` | MTH MATRX ROW |
 | `RCL` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Variable in Stack zurückrufen. | `2:340` | ohne Menüeintrag |
-| `RCLALARM` | Zeit, Kalender, Wecker | Wecker abrufen. | `2:26` | MENU 94 ALRM |
+| `RCLALARM` | Zeit, Kalender, Wecker | Alarm einschließlich Aktion und Zeit-/Intervallangaben abrufen. | `2:26` | MENU 94 ALRM |
 | `RCLF` | Binärzahlen, Logik, Modi, Systemflags | Flagsatz lesen. | `2:150` | MENU 63 FLAG |
 | `RCLKEYS` | Schnittstellen, Drucker, Display und Tastenbelegung | Benutzer-Tastenbelegung lesen. | `2:382` | MENU 63 KEYS |
 | `RCLMENU` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Aktuelles Menü lesen. | `2:349` | MENU 63 MENU |
 | `RCLΣ` | Statistik, Verteilungen und Regression | Statistikdatensatz zurückrufen. | `2:285` | MENU 87 DATA; MENU 96 DATA |
 | `RCWS` | Binärzahlen, Logik, Modi, Systemflags | Wortbreite binärer Ganzzahlen abfragen. | `2:149` | MTH BASE |
-| `RDM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Dimension eines Arrays ändern. | `2:172` | MTH MATRX MAKE |
+| `RDM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Array redimensionieren; benannte Arrays ggf. direkt verändern statt zurückzugeben. | `2:172` | MTH MATRX MAKE |
 | `RDZ` | Grundrechnen, elementare Funktionen und Zahlen | Zufallsgenerator initialisieren. | `2:128` | MTH PROB |
 | `RE` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Realteil. | `2:154` | MTH CMPLX |
 | `RECN` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Datei empfangen und benennen. | `2:365` | MENU 104 |
 | `RECT` | Binärzahlen, Logik, Modi, Systemflags | Kartesischer Koordinatenmodus. | `171:19` | MTH VECTR; MENU 63 ANGLE |
-| `RECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Kermit-Objekt empfangen. | `2:366` | MENU 104 |
+| `RECV` | Schnittstellen, Drucker, Display und Tastenbelegung | Bereits benannte Daten/Datei über Kermit empfangen; von RECN unterscheiden. | `2:366` | MENU 104 |
 | `REPEAT` | Stack und User-RPL-Programmsteuerung | Wiederholung in WHILE-Schleife. | `1792:6` | PRG BRCH WHILE |
-| `REPL` | Listen, Strings, Objektkonversion | Teilbereich ersetzen. | `2:157` | MTH MATRX MAKE; PRG LIST; PRG GROB; MENU 62 |
+| `REPL` | Listen, Strings, Objektkonversion | Teilbereich eines Strings, Arrays, einer Liste oder eines Grafikobjekts ersetzen. | `2:157` | MTH MATRX MAKE; PRG LIST; PRG GROB; MENU 62 |
 | `RES` | Grafik, Diagramme und Plotparameter | Plotauflösung einstellen. | `2:188` | ohne Menüeintrag |
 | `RESTORE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Backup wiederherstellen. | `2:353` | MENU 70 |
 | `REVLIST` | Listen, Strings, Objektkonversion | Liste umkehren. | `171:109` | MTH LIST; PRG LIST PROC |
@@ -737,13 +739,13 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `RKFSTEP` | Symbolische Mathematik, Solver und Differentialgleichungen | Runge-Kutta-Fehlberg-Einzelschritt. | `171:44` | MENU 74 DIFFEQ |
 | `RL` | Binärzahlen, Logik, Modi, Systemflags | Bits nach links rotieren. | `2:1` | MTH BASE BIT |
 | `RLB` | Binärzahlen, Logik, Modi, Systemflags | Bits um ein Byte nach links rotieren. | `2:2` | MTH BASE BYTE |
-| `RND` | Grundrechnen, elementare Funktionen und Zahlen | Rundet einen Zahlenwert. | `2:108` | MTH REAL |
+| `RND` | Grundrechnen, elementare Funktionen und Zahlen | Auf Dezimalstellen, signifikante Stellen oder aktuelles Anzeigeformat runden (je Parameter). | `2:108` | MTH REAL |
 | `RNRM` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeilennorm einer Matrix. | `2:118` | MTH MATRX NORM |
-| `ROLL` | Stack und User-RPL-Programmsteuerung | Stackelement nach oben rollen. | `2:280` | MENU 73 |
-| `ROLLD` | Stack und User-RPL-Programmsteuerung | Stackelement nach unten rollen. | `2:281` | MENU 73 |
+| `ROLL` | Stack und User-RPL-Programmsteuerung | Oberste n Stackobjekte um eine Position nach oben rotieren; n wird verbraucht. | `2:280` | MENU 73 |
+| `ROLLD` | Stack und User-RPL-Programmsteuerung | Oberste n Stackobjekte um eine Position nach unten rotieren; n wird verbraucht. | `2:281` | MENU 73 |
 | `ROOT` | Symbolische Mathematik, Solver und Differentialgleichungen | Numerische Nullstelle bestimmen. | `2:251` | MENU 74 ROOT |
 | `ROT` | Stack und User-RPL-Programmsteuerung | Drei Stackelemente rotieren. | `2:274` | MENU 73 |
-| `ROW-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile entfernen. | `171:71` | MTH MATRX ROW |
+| `ROW-` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Gewählte Arrayzeile entfernen und reduzierte Matrix sowie entfernte Zeile zurückgeben. | `171:71` | MTH MATRX ROW |
 | `ROW→` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Bildet ein Array aus vorliegenden Zeilenobjekten. | `171:66` | MTH MATRX ROW |
 | `ROW+` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Zeile einfügen. | `171:72` | MTH MATRX ROW |
 | `rpm` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Einheit Umdrehungen je Minute. | `171:127` | MENU 113 UTILS |
