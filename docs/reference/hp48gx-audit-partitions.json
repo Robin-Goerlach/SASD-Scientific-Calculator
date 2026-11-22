@@ -1,0 +1,1027 @@
+{
+  "schema": 1,
+  "created_on": "2026-11-22",
+  "model": "HP 48GX stock hardware / without third-party cards",
+  "baseline_files": [
+    "docs/reference/hp48gx-operation-index-crosschecked-pages.json",
+    "docs/reference/hp48gx-aur-command-index.json",
+    "docs/reference/hp48gx-rom-index-baseline.json"
+  ],
+  "meaning": "Checkpoint records for independently resumable audit partitions. None of the pages is original-scan visually certified.",
+  "status_values": {
+    "index": "Recorded source-text transcription with row IDs; not proof of visual accuracy",
+    "cross_index": "Compared with separate AUR TOC and ROM inventories; not original scan inspection",
+    "scan": "PENDING until original scanned page compared row-by-row",
+    "semantics": "PENDING until AUR command detail and Stack/error behavior compared"
+  },
+  "operation_index": {
+    "page_range": [
+      2,
+      58
+    ],
+    "source_rows": 696,
+    "scan_visually_certified_pages": 0,
+    "source_text_cross_index_checked_pages": 7,
+    "groups": [
+      {
+        "id": "G01",
+        "printed_pages": "G-2..G-8",
+        "range": [
+          2,
+          8
+        ],
+        "rows": 85,
+        "exact_ocr_token_hits": 65,
+        "cross_index_status": "CHECKED_AGAINST_AUR_ROM_NO_SCAN",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": "docs/de/HP-48GX-TEILPRUEFUNG-G02-G08.md"
+      },
+      {
+        "id": "G02",
+        "printed_pages": "G-9..G-15",
+        "range": [
+          9,
+          15
+        ],
+        "rows": 92,
+        "exact_ocr_token_hits": 68,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G03",
+        "printed_pages": "G-16..G-22",
+        "range": [
+          16,
+          22
+        ],
+        "rows": 89,
+        "exact_ocr_token_hits": 69,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G04",
+        "printed_pages": "G-23..G-29",
+        "range": [
+          23,
+          29
+        ],
+        "rows": 84,
+        "exact_ocr_token_hits": 60,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G05",
+        "printed_pages": "G-30..G-36",
+        "range": [
+          30,
+          36
+        ],
+        "rows": 86,
+        "exact_ocr_token_hits": 72,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G06",
+        "printed_pages": "G-37..G-43",
+        "range": [
+          37,
+          43
+        ],
+        "rows": 76,
+        "exact_ocr_token_hits": 64,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G07",
+        "printed_pages": "G-44..G-50",
+        "range": [
+          44,
+          50
+        ],
+        "rows": 87,
+        "exact_ocr_token_hits": 67,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G08",
+        "printed_pages": "G-51..G-57",
+        "range": [
+          51,
+          57
+        ],
+        "rows": 84,
+        "exact_ocr_token_hits": 48,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      },
+      {
+        "id": "G09",
+        "printed_pages": "G-58..G-58",
+        "range": [
+          58,
+          58
+        ],
+        "rows": 13,
+        "exact_ocr_token_hits": 1,
+        "cross_index_status": "PENDING",
+        "scan_visual_status": "PENDING",
+        "semantic_review_status": "PENDING",
+        "report": null
+      }
+    ],
+    "pages": [
+      {
+        "g_page": 2,
+        "source_rows": 13,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 3,
+        "source_rows": 10,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 4,
+        "source_rows": 14,
+        "ocr_token_hits": 13,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 5,
+        "source_rows": 12,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 6,
+        "source_rows": 10,
+        "ocr_token_hits": 4,
+        "ocr_without_exact_token": 6,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": [
+          "Multi-operation CASE printed as one combined index row; split contexts during semantic audit."
+        ]
+      },
+      {
+        "g_page": 7,
+        "source_rows": 14,
+        "ocr_token_hits": 13,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 8,
+        "source_rows": 12,
+        "ocr_token_hits": 7,
+        "ocr_without_exact_token": 5,
+        "index_recorded": true,
+        "cross_index_checked": true,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 9,
+        "source_rows": 14,
+        "ocr_token_hits": 13,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 10,
+        "source_rows": 13,
+        "ocr_token_hits": 6,
+        "ocr_without_exact_token": 7,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 11,
+        "source_rows": 13,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 12,
+        "source_rows": 14,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 6,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 13,
+        "source_rows": 14,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 14,
+        "source_rows": 13,
+        "ocr_token_hits": 11,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 15,
+        "source_rows": 11,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 16,
+        "source_rows": 14,
+        "ocr_token_hits": 13,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 17,
+        "source_rows": 13,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 3,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 18,
+        "source_rows": 13,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 3,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 19,
+        "source_rows": 12,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 20,
+        "source_rows": 15,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 6,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 21,
+        "source_rows": 10,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 22,
+        "source_rows": 12,
+        "ocr_token_hits": 11,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 23,
+        "source_rows": 14,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 24,
+        "source_rows": 13,
+        "ocr_token_hits": 5,
+        "ocr_without_exact_token": 8,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 25,
+        "source_rows": 12,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 26,
+        "source_rows": 11,
+        "ocr_token_hits": 7,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 27,
+        "source_rows": 12,
+        "ocr_token_hits": 11,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 28,
+        "source_rows": 11,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 29,
+        "source_rows": 11,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 30,
+        "source_rows": 12,
+        "ocr_token_hits": 6,
+        "ocr_without_exact_token": 6,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 31,
+        "source_rows": 12,
+        "ocr_token_hits": 11,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 32,
+        "source_rows": 13,
+        "ocr_token_hits": 13,
+        "ocr_without_exact_token": 0,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 33,
+        "source_rows": 12,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 0,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 34,
+        "source_rows": 12,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 35,
+        "source_rows": 12,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 36,
+        "source_rows": 13,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 37,
+        "source_rows": 10,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 0,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 38,
+        "source_rows": 9,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 39,
+        "source_rows": 12,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 40,
+        "source_rows": 8,
+        "ocr_token_hits": 7,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 41,
+        "source_rows": 13,
+        "ocr_token_hits": 9,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 42,
+        "source_rows": 12,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 0,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 43,
+        "source_rows": 12,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 44,
+        "source_rows": 14,
+        "ocr_token_hits": 11,
+        "ocr_without_exact_token": 3,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 45,
+        "source_rows": 12,
+        "ocr_token_hits": 8,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 46,
+        "source_rows": 11,
+        "ocr_token_hits": 7,
+        "ocr_without_exact_token": 4,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 47,
+        "source_rows": 13,
+        "ocr_token_hits": 7,
+        "ocr_without_exact_token": 6,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 48,
+        "source_rows": 11,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 49,
+        "source_rows": 13,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 50,
+        "source_rows": 13,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 51,
+        "source_rows": 11,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 1,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 52,
+        "source_rows": 13,
+        "ocr_token_hits": 5,
+        "ocr_without_exact_token": 8,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 53,
+        "source_rows": 12,
+        "ocr_token_hits": 10,
+        "ocr_without_exact_token": 2,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 54,
+        "source_rows": 10,
+        "ocr_token_hits": 5,
+        "ocr_without_exact_token": 5,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 55,
+        "source_rows": 12,
+        "ocr_token_hits": 12,
+        "ocr_without_exact_token": 0,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "NORMAL",
+        "issues": []
+      },
+      {
+        "g_page": 56,
+        "source_rows": 13,
+        "ocr_token_hits": 6,
+        "ocr_without_exact_token": 7,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      },
+      {
+        "g_page": 57,
+        "source_rows": 13,
+        "ocr_token_hits": 0,
+        "ocr_without_exact_token": 13,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "CRITICAL_SYMBOLS",
+        "issues": [
+          "No independent exact OCR names; transcribed operator-only page requires visual source verification."
+        ]
+      },
+      {
+        "g_page": 58,
+        "source_rows": 13,
+        "ocr_token_hits": 1,
+        "ocr_without_exact_token": 12,
+        "index_recorded": true,
+        "cross_index_checked": false,
+        "original_scan_visually_checked": false,
+        "stack_semantics_checked": false,
+        "priority": "HIGH_OCR_GAP",
+        "issues": []
+      }
+    ]
+  },
+  "advanced_reference": {
+    "toc_index_rows": 517,
+    "toc_groups": [
+      {
+        "id": "T01",
+        "contents_pages": "Contents-3..Contents-6",
+        "rows": 129,
+        "scan_visual_status": "PENDING"
+      },
+      {
+        "id": "T02",
+        "contents_pages": "Contents-7..Contents-10",
+        "rows": 164,
+        "scan_visual_status": "PENDING"
+      },
+      {
+        "id": "T03",
+        "contents_pages": "Contents-11..Contents-14",
+        "rows": 164,
+        "scan_visual_status": "PENDING"
+      },
+      {
+        "id": "T04",
+        "contents_pages": "Contents-15..Contents-16",
+        "rows": 60,
+        "scan_visual_status": "PENDING"
+      }
+    ],
+    "individual_command_groups": [
+      {
+        "id": "A01",
+        "ordinal_range": [
+          1,
+          50
+        ],
+        "name_first": "ABS",
+        "name_last": "CLOSEIO",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A02",
+        "ordinal_range": [
+          51,
+          100
+        ],
+        "name_first": "CLΣ",
+        "name_last": "→DIAG",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A03",
+        "ordinal_range": [
+          101,
+          150
+        ],
+        "name_first": "DIFFEQ",
+        "name_last": "FREE1",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A04",
+        "ordinal_range": [
+          151,
+          200
+        ],
+        "name_first": "FREEZE",
+        "name_last": "LIBS",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A05",
+        "ordinal_range": [
+          201,
+          250
+        ],
+        "name_first": "LINE",
+        "name_last": "→NUM",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A06",
+        "ordinal_range": [
+          251,
+          300
+        ],
+        "name_first": "NUMX",
+        "name_last": "PVARS",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A07",
+        "ordinal_range": [
+          301,
+          350
+        ],
+        "name_first": "PVIEW",
+        "name_last": "RR",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A08",
+        "ordinal_range": [
+          351,
+          400
+        ],
+        "name_first": "RRB",
+        "name_last": "STEP",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A09",
+        "ordinal_range": [
+          401,
+          450
+        ],
+        "name_first": "STEQ",
+        "name_last": "UBASE",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A10",
+        "ordinal_range": [
+          451,
+          500
+        ],
+        "name_first": "UFACT",
+        "name_last": "≤",
+        "count": 50,
+        "individual_reference_and_stack_status": "PENDING"
+      },
+      {
+        "id": "A11",
+        "ordinal_range": [
+          501,
+          517
+        ],
+        "name_first": ">",
+        "name_last": "→",
+        "count": 17,
+        "individual_reference_and_stack_status": "PENDING"
+      }
+    ],
+    "scan_visually_certified_contents_pages": 0,
+    "individual_command_semantics_certified": 0
+  },
+  "other_inventories": [
+    {
+      "id": "EQUATIONS",
+      "expected_from_guide": 315,
+      "status": "PENDING_EACH_FORMULA_AND_VARIABLE"
+    },
+    {
+      "id": "VARIABLES_IN_EQUATION_LIBRARY",
+      "expected_from_guide": 396,
+      "status": "PENDING"
+    },
+    {
+      "id": "UNITS",
+      "expected_from_guide": "contradictory totals in HP manual (147 vs 9+141)",
+      "status": "PENDING_DEFINITION_BY_DEFINITION"
+    },
+    {
+      "id": "KEYBOARD",
+      "physical_keys": 49,
+      "status": "PHYSICAL_KEY_LABELS_RECORDED_CONTEXT_MATRIX_NOT_FULLY_VERIFIED"
+    },
+    {
+      "id": "PORTS_AND_ROM_REVISIONS",
+      "status": "PENDING"
+    }
+  ],
+  "next_partition": "G09",
+  "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
+  "v1_scope": "Not a blocker for first iPhone classic RPN release"
+}
