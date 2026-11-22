@@ -1009,7 +1009,15 @@
         "name_first": "RRB",
         "name_last": "STEP",
         "count": 50,
-        "individual_reference_and_stack_status": "PENDING"
+        "individual_reference_and_stack_status": "PENDING",
+        "independent_pocket_guide_name_check": "TEXT_INDEX_COMPARED_NOT_SCAN",
+        "independent_pocket_guide_report": "docs/de/HP-48GX-AUR-TEILPRUEFUNG-A08.md",
+        "pocket_guide_names_crosschecked": 48,
+        "pocket_guide_missing_names": [
+          "SST",
+          "SST↓"
+        ],
+        "notes": "50 AUR positions, 47 direct ROM names, 3 UI/debug names (SIMU, SST, SST↓). 48 independent Pocket Guide Command Index text positions; SST and SST↓ appear only via debugger/run menu/prose, SST+ glyph differs. SCLΣ ROM versus User Guide SCLS versus Pocket OCR SCLZ; SCATR PLOT versus SCATRPLOT; scans and all stack semantics pending."
       },
       {
         "id": "A09",
@@ -1047,7 +1055,7 @@
     ],
     "scan_visually_certified_contents_pages": 0,
     "individual_command_semantics_certified": 0,
-    "pocket_guide_names_crosschecked": 349
+    "pocket_guide_names_crosschecked": 397
   },
   "other_inventories": [
     {
@@ -1075,8 +1083,8 @@
       "status": "PENDING"
     }
   ],
-  "next_partition": "A08_AUR_SOURCE_NAMES_351_TO_400",
+  "next_partition": "A09_AUR_SOURCE_NAMES_401_TO_450",
   "release_gate": "HISTORICAL_COMPLETENESS_NOT_CERTIFIED",
   "v1_scope": "Not a blocker for first iPhone classic RPN release",
-  "notes_next": "A01–A07: 350/517 AUR TOC ordinal positions individually reported, 349 Pocket-Guide text matches (DBUG not in Pocket programmable command index). A05 contains duplicated NEXT. A07 50 distinct commands, 20 damaged OCR glyphs in independent Pocket text (not visually certified). Original scan page inspection, full AUR stacks, equation/units and user-interface contexts remain pending. Next A08 351–400."
+  "notes_next": "A01–A08 AUR 400/517 ordinal positions documented. 397 have independent Pocket Guide Command Index text cross-references (DBUG, SST, SST↓ absent there; latter 2 in debugger UI/prose). A08 47 direct ROM names, three special SIMU/SST/SST↓, SCLΣ/SCLS/SCLZ glyph conflict unresolved. Original scans, AUR stack/flags/error, equation and units data remain pending. Next A09 401–450."
 }
