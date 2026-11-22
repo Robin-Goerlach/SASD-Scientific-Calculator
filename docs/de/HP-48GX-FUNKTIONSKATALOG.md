@@ -6,6 +6,8 @@
 
 **Neu: vollständiges zeilenbezogenes Originalindex-Inventar:** [HP-48GX-OPERATION-INDEX-VOLLKATALOG.md](HP-48GX-OPERATION-INDEX-VOLLKATALOG.md) – **alle 57 Tabellenseiten G-2 bis G-58**, **696 Originalindex-Zeilen**, inklusive `O/C/F/A`, Fundseite und getrennten Bedienkontexten. Daraus ergeben sich **661 unterschiedliche Drucknamen**, **179 reine O-Zeilen** und **517 Zeilen mit mindestens einer programmierbaren Funktion/Befehlsklasse**. Das ist **nicht** identisch mit 517 verschiedenen ROM-Namen, sondern eine unabhängig strukturierte Quellenmenge. Sonderzeichen und unklare Aliase bleiben in der Datei ausdrücklich gekennzeichnet. Eine vollständige AUR- und Semantikabnahme ist weiterhin offen.
 
+**A06 (Befehle 251–300):** [AUR-Pocket-Guide-Teilprüfung A06](HP-48GX-AUR-TEILPRUEFUNG-A06.md); 50 unterschiedliche AUR-Namen, 50 direkte ROM-XLIB-Zuordnungen, 50 Pocket-Guide-Textbelege. Verwechslungen bei `NΣ`/`NZ`, `PROMPT`/`PRMPT`, `PREDV`/`PREDY`, `PVAR`/`PVARS` dokumentiert; Scan-/Stackabnahme weiterhin offen.
+
 **A05 (Befehle 201–250):** [AUR-Pocket-Guide-Teilprüfung A05](HP-48GX-AUR-TEILPRUEFUNG-A05.md); 50 AUR-Positionen mit 49 verschiedenen Befehlsnamen (Doppelindex `NEXT`), alle normiert im ROM und im Pocket-Guide-Text zugeordnet. Glyphenkonflikte bei `↑MATCH`/`↓MATCH` und `→NUM`; Originalscan-/Stackabnahme offen.
 
 **A04 (Befehle 151–200):** [AUR-Pocket-Guide-Teilprüfung A04](HP-48GX-AUR-TEILPRUEFUNG-A04.md); 47 ROM-Namen, drei Sonderfälle `GRAPH`, `IR`, `LAST` und OCR-Differenzen bei `GRAD`, `GXOR`, Zeitkonvertierung. Kein Scan-/Stack-Abnahmestatus.
@@ -645,14 +647,14 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `NOVAL` | Einheiten, Equation Library, Anwendungen und Sonderbefehle | Wert fehlt/ist nicht festgelegt. | `171:91` | PRG IN |
 | `NSUB` | Listen, Strings, Objektkonversion | Liest den aktuellen Teilfolgenzähler im Kontext von DOSUBS. | `171:101` | PRG LIST PROC |
 | `NUM` | Listen, Strings, Objektkonversion | Zeichencode des ersten Zeichens einer Zeichenkette ermitteln; nicht mit →NUM verwechseln. | `2:164` | PRG TYPE; MENU 62 |
-| `NUMX` | Grafik, Diagramme und Plotparameter | Rastergröße in x-Richtung. | `171:6` | ohne Menüeintrag |
-| `NUMY` | Grafik, Diagramme und Plotparameter | Rastergröße in y-Richtung. | `171:7` | ohne Menüeintrag |
-| `NΣ` | Statistik, Verteilungen und Regression | Zahl der Datenpunkte. | `2:288` | MENU 96 SUMS |
+| `NUMX` | Grafik, Diagramme und Plotparameter | Anzahl der x-Schritte je y-Schritt für perspektivische 3D-Plots einstellen. | `171:6` | ohne Menüeintrag |
+| `NUMY` | Grafik, Diagramme und Plotparameter | Anzahl der y-Schritte im 3D-Betrachtungsvolumen einstellen. | `171:7` | ohne Menüeintrag |
+| `NΣ` | Statistik, Verteilungen und Regression | Anzahl der Datenzeilen der Statistikdaten in ΣDAT ermitteln. | `2:288` | MENU 96 SUMS |
 | `OBJ→` | Listen, Strings, Objektkonversion | Objekt zerlegen. | `2:169` | PRG TYPE; PRG LIST; MENU 62 |
 | `OCT` | Binärzahlen, Logik, Modi, Systemflags | Oktale Anzeigeform. | `2:147` | MTH BASE |
 | `OFF` | Schnittstellen, Drucker, Display und Tastenbelegung | Gerät ausschalten. | `2:41` | PRG RUN |
-| `OLDPRT` | Schnittstellen, Drucker, Display und Tastenbelegung | Alten Druckermodus auswählen. | `2:239` | ohne Menüeintrag |
-| `OPENIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Ein-/Ausgabe initialisieren. | `2:361` | MENU 104 SERIAL |
+| `OLDPRT` | Schnittstellen, Drucker, Display und Tastenbelegung | Druckparameter PRTPAR für ältere Infrarotdrucker vorbereiten. | `2:239` | ohne Menüeintrag |
+| `OPENIO` | Schnittstellen, Drucker, Display und Tastenbelegung | Serielle oder Infrarot-I/O-Verbindung öffnen. | `2:361` | MENU 104 SERIAL |
 | `OR` | Binärzahlen, Logik, Modi, Systemflags | Logisches/bitweises ODER. | `2:230` | MTH BASE LOGIC; PRG TEST |
 | `ORDER` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Reihenfolge im Variablenmenü festlegen. | `2:345` | MENU 70 DIR |
 | `OVER` | Stack und User-RPL-Programmsteuerung | Zweites Stackelement kopieren. | `2:275` | MENU 73 |
@@ -663,7 +665,7 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `PCOEF` | Symbolische Mathematik, Solver und Differentialgleichungen | Polynomkoeffizienten aus Nullstellen bestimmen. | `171:83` | MENU 74 POLY |
 | `PCONTOUR` | Grafik, Diagramme und Plotparameter | Pseudokontur-Plot aktivieren. | `171:13` | ohne Menüeintrag |
 | `PCOV` | Statistik, Verteilungen und Regression | Populationskovarianz. | `171:42` | MENU 96 FIT |
-| `PDIM` | Grafik, Diagramme und Plotparameter | Bildspeicher/Plotbereich dimensionieren. | `2:195` | PRG PICT |
+| `PDIM` | Grafik, Diagramme und Plotparameter | Leeres GROB vorgegebener Dimensionen erzeugen und in PICT ablegen. | `2:195` | PRG PICT |
 | `PERM` | Grundrechnen, elementare Funktionen und Zahlen | Permutationen/Variationen berechnen. | `2:130` | MTH PROB |
 | `PEVAL` | Symbolische Mathematik, Solver und Differentialgleichungen | Polynom aus Koeffizienten auswerten. | `171:84` | MENU 74 POLY |
 | `PGDIR` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Löscht (purge) ein Verzeichnis; nicht mit UPDIR/Elternverzeichniswechsel verwechseln. | `2:351` | MENU 70 DIR |
@@ -675,24 +677,24 @@ Nach der Originaltabelle in *HP 48G Series User's Guide*, Anhang F, F-1 bis F-3,
 | `PIXOFF` | Grafik, Diagramme und Plotparameter | Pixel löschen. | `2:204` | PRG PICT |
 | `PIXON` | Grafik, Diagramme und Plotparameter | Pixel setzen. | `2:203` | PRG PICT |
 | `PKT` | Schnittstellen, Drucker, Display und Tastenbelegung | Ein-/Ausgabepaket verarbeiten. | `2:377` | MENU 104 SRVR |
-| `PMAX` | Grafik, Diagramme und Plotparameter | Obere Plotgrenze. | `2:185` | ohne Menüeintrag |
-| `PMIN` | Grafik, Diagramme und Plotparameter | Untere Plotgrenze. | `2:184` | ohne Menüeintrag |
+| `PMAX` | Grafik, Diagramme und Plotparameter | Obere rechte Grenze des PICT-Koordinatenraums festlegen. | `2:185` | ohne Menüeintrag |
+| `PMIN` | Grafik, Diagramme und Plotparameter | Untere linke Grenze des PICT-Koordinatenraums festlegen. | `2:184` | ohne Menüeintrag |
 | `POLAR` | Grafik, Diagramme und Plotparameter | Polarplot aktivieren. | `2:222` | ohne Menüeintrag |
 | `POS` | Listen, Strings, Objektkonversion | Position eines Teilobjekts suchen. | `2:161` | PRG LIST ELEM; MENU 62 |
-| `PR1` | Schnittstellen, Drucker, Display und Tastenbelegung | Druckt ein Objekt. | `2:240` | MENU 104; MENU 104 PRINT |
-| `PREDV` | Statistik, Verteilungen und Regression | Regressionswert vorhersagen. | `2:303` | ohne Menüeintrag |
+| `PR1` | Schnittstellen, Drucker, Display und Tastenbelegung | Objekt im mehrzeiligen Format drucken. | `2:240` | MENU 104; MENU 104 PRINT |
+| `PREDV` | Statistik, Verteilungen und Regression | Vorhersage von y aus x wie PREDY (historisch funktionsgleicher Name mit eigener XLIB-Kennung). | `2:303` | ohne Menüeintrag |
 | `PREDX` | Statistik, Verteilungen und Regression | x-Wert mittels Regression vorhersagen. | `2:305` | MENU 96 FIT |
 | `PREDY` | Statistik, Verteilungen und Regression | y-Wert mittels Regression vorhersagen. | `2:304` | MENU 96 FIT |
 | `PRLCD` | Schnittstellen, Drucker, Display und Tastenbelegung | LCD-Anzeige drucken. | `2:246` | MENU 104 PRINT |
-| `PROMPT` | Stack und User-RPL-Programmsteuerung | Benutzereingabe anfordern. | `1792:28` | PRG IN |
+| `PROMPT` | Stack und User-RPL-Programmsteuerung | Hinweistext im Statusbereich anzeigen und laufendes Programm anhalten, keine direkte Eingabe wie INPUT. | `1792:28` | PRG IN |
 | `PROOT` | Symbolische Mathematik, Solver und Differentialgleichungen | Nullstellen eines Polynoms. | `171:82` | MENU 74 POLY |
 | `PRST` | Schnittstellen, Drucker, Display und Tastenbelegung | Stack drucken. | `2:242` | MENU 104 PRINT |
-| `PRSTC` | Schnittstellen, Drucker, Display und Tastenbelegung | Stack mit erweitertem Inhalt drucken. | `2:241` | MENU 104 PRINT |
+| `PRSTC` | Schnittstellen, Drucker, Display und Tastenbelegung | Stack in kompaktem Format ausdrucken (Gegenstück zu PRST). | `2:241` | MENU 104 PRINT |
 | `PRVAR` | Schnittstellen, Drucker, Display und Tastenbelegung | Variablen drucken. | `2:244` | MENU 104 PRINT |
 | `PSDEV` | Statistik, Verteilungen und Regression | Standardabweichung der Grundgesamtheit. | `171:40` | MENU 96 1VAR |
-| `PURGE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannte Objekte löschen. | `2:343` | ohne Menüeintrag |
+| `PURGE` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Benannte Variablen und leere Verzeichnisse löschen; für Verzeichnisinhalte PGDIR unterscheiden. | `2:343` | ohne Menüeintrag |
 | `PUT` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element an einer Position ersetzen. | `2:176` | MTH MATRX MAKE; PRG LIST ELEM |
-| `PUTI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element ersetzen und Index erhöhen. | `2:177` | MTH MATRX MAKE; PRG LIST ELEM |
+| `PUTI` | Komplexe Zahlen, Vektoren, Matrizen und Transformationen | Element ersetzen, Container/Namensbezug und weitergeschaltete Position zurückgeben. | `2:177` | MTH MATRX MAKE; PRG LIST ELEM |
 | `PVAR` | Statistik, Verteilungen und Regression | Populationsvarianz. | `171:41` | MENU 96 1VAR |
 | `PVARS` | Variable, Verzeichnisse, RAM und ROM-Bibliotheken | Listet Backupobjekte und Bibliotheken eines Speicherports; gibt zusätzlich dessen Speicherart oder freien Speicher zurück (User's Guide 28-4). | `2:350` | MENU 110 |
 | `PVIEW` | Grafik, Diagramme und Plotparameter | Grafikbereich anzeigen. | `2:202` | PRG PICT; PRG OUT |
