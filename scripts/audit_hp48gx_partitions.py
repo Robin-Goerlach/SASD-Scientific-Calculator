@@ -129,9 +129,16 @@ def check() -> int:
         actual_names = [cells[1].strip("`").replace(r"\\|","|") for _, cells in numbered]
         if actual_names != expected_names:
             errors.append(f'{part["id"]}: Pocket Guide report not aligned with AUR source names')
-        if part.get("pocket_guide_names_crosschecked") != expected:
-            errors.append(f'{part["id"]}: wrong checkpoint name count')
-        pocket_checked += len(numbered)
+        matched = [(n, cells) for n, cells in numbered if len(cells) > 4 and cells[4].strip().isdigit()]
+        not_matched = [
+            cells[1].strip("`") for n, cells in numbered
+            if len(cells) > 4 and not cells[4].strip().isdigit()
+        ]
+        if not_matched != part.get("pocket_guide_missing_names", []):
+            errors.append(f'{part["id"]}: Pocket Guide missing-name list inconsistent')
+        if part.get("pocket_guide_names_crosschecked") != len(matched):
+            errors.append(f'{part["id"]}: wrong independent Pocket Guide name count')
+        pocket_checked += len(matched)
     if pocket_checked != manifest["advanced_reference"].get("pocket_guide_names_crosschecked", 0):
         errors.append("Global independent Pocket Guide crosscheck count not supported")
 
