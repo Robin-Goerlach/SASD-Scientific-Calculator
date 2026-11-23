@@ -1,6 +1,7 @@
 # HP-41C – vollständiger Katalog der Grundfunktionen und Bedienmöglichkeiten
 
 **Erweiterungsmodul (gesonderte Referenz):** [HP-41C Stat Pac – 24 dokumentierte XEQ-Aufrufe, Bedienabläufe, Formeln und Nachbildungsplan](HP-41C-STAT-PAC.md). Der vorliegende Katalog behandelt nur das Grundgerät ohne Steckmodule.
+**Time-Module-Erweiterung (separat):** [HP 82182A Time Module – 29 XROM-Befehle, Stoppuhr, Alarmmodi, Zustandsmodell und Testplan](HP-41C-TIME-MODULE.md).
 
 **Projekt:** SASD Scientific Calculator · **Recherche-/Dokumentationsstand:** 2026-11-21  
 **Historisches Referenzmodell:** HP-41C (ab 1979), ohne eingesteckte Funktionsmodule.  
