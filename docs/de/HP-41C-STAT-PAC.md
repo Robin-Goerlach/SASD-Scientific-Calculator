@@ -86,7 +86,7 @@ Für die Implementierungsfreigabe je Aufruf sind aus **HP-ST-EN und HP-ST-DE** n
 | ST-23 | Normalverteilung | `ΣNORMD` | Dichte, obere Restwahrscheinlichkeit, Quantil | 019 |
 | ST-24 | Chi-Quadrat-Verteilung | `ΣCHISQD` | Dichte und untere Verteilungsfunktion | 007 |
 
-**Prüfsumme des Inventars:** 2 + 2 + 1 + 1 + 1 + 4 + 2 + 2 + 2 + 2 + 1 + 1 + 1 = **24 Aufrufe in 14 Gruppen**.
+**Prüfsumme des Inventars:** 2 + 2 + 1 + 1 + 1 + 4 + 2 + 2 + 2 + 2 + 2 + 1 + 1 + 1 = **24 Aufrufe in 14 Gruppen**.
 
 ### 3.1 Bedeutung von `SIZE`
 
