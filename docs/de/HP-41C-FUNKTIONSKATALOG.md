@@ -1,5 +1,7 @@
 # HP-41C – vollständiger Katalog der Grundfunktionen und Bedienmöglichkeiten
 
+**Erweiterungsmodul (gesonderte Referenz):** [HP-41C Stat Pac – 24 dokumentierte XEQ-Aufrufe, Bedienabläufe, Formeln und Nachbildungsplan](HP-41C-STAT-PAC.md). Der vorliegende Katalog behandelt nur das Grundgerät ohne Steckmodule.
+
 **Projekt:** SASD Scientific Calculator · **Recherche-/Dokumentationsstand:** 2026-11-21  
 **Historisches Referenzmodell:** HP-41C (ab 1979), ohne eingesteckte Funktionsmodule.  
 **Dokumentstatus:** recherchierte **Spezifikation/Referenz**, keine Behauptung über bereits implementierte SASD-Funktionen.
